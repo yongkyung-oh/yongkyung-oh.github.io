@@ -18,7 +18,7 @@ minimal_mistakes_skin    : # "air", "aqua", "contrast", "dark", "dirt", "neon", 
 locale                   : "en-US"
 title                    : "YongKyung Oh"
 title_separator          : "-"
-subtitle                 : "YongKyung Oh" # site tagline that appears below site title in masthead
+subtitle                 : "Portfolio published by YongKyung Oh" # site tagline that appears below site title in masthead
 name                     : "YongKyung Oh"
 description              : "Ph.D. candidate at UNIST"
 url                      : https://yongkyung-oh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
