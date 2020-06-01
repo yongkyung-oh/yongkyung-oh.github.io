@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "About me   "
+    url: /about/
+  - title: "Research   "
+    url: http://analytics.unist.ac.kr/
+  - title: "Development"
+    url: /portfolio-dev/
+  - title: "Management "
+    url: /portfolio-mgt/
