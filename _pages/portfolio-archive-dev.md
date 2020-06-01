@@ -1,5 +1,5 @@
 ---
-title: Research & Development Project Portfolio
+title: Research & Development Portfolio
 layout: collection
 author_profile: true
 permalink: /portfolio-dev/
