@@ -25,4 +25,6 @@ Business model development of Umbrella company, Fundraising business and consult
 
 Senior consultant of <a href="https://www.linkedin.com/company/international-consulting-network---icon/" class="no-uline"> ICON </a> team. The team consists of students from UNIST (Korea), UIUC (US), KTH (Sweden), LIU Post (US), and SLUAF (China).
 
-This project is a part of ICON, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. Due to NDA, detailed information of the project is not described in this article.
+This project is a part of ICON, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. 
+
+Under the NDA, detailed information of the project is not described in this article.

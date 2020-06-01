@@ -32,4 +32,6 @@ Blockchain is important for John Deere's strategy, in the perspective of serviti
   <li> Fram-to-Table strategy with a stage level approach </li>
 </ul>
 
-This project is a part of UNISCA, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. Due to NDA, detailed information of the project is not described in this article.
+This project is a part of UNISCA, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. 
+
+Under the NDA, detailed information of the project is not described in this article.

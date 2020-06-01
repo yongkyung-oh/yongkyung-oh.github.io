@@ -32,4 +32,6 @@ Korean market research, Entry Strategy Development, Explore potential partners.
   <li> Suggested Exportation Strategy or Entry Mode </li>
 </ul>
 
-This project is a part of UNISCA, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. Due to NDA, detailed information of the project is not described in this article.
+This project is a part of UNISCA, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. 
+
+Under the NDA, detailed information of the project is not described in this article.

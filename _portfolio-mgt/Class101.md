@@ -29,4 +29,6 @@ Peadaling / Class101 team launched a new service, <a href="https://class101.net/
   <li> <a href="http://www.theinvestor.co.kr/view.php?ud=20190411000771" class="no-uline"> (2019) Class101 fetches W12b round investment led by SoftBank Ventures Asia. </a> </li> 
 </ul>
 
-This project is a part of UNISCA, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. Due to NDA, detailed information of the project is not described in this article.
+This project is a part of UNISCA, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. 
+
+Under the NDA, detailed information of the project is not described in this article.

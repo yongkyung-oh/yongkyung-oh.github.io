@@ -29,4 +29,6 @@ Main goal of this project is developing a competitive business model in the area
 <a href="https://www.linkedin.com/company/innovation-immersion-program/" class="no-uline"> IIP (Innovation Immersion Program) </a> is former name of <a href="https://www.linkedin.com/company/international-consulting-network---icon/" class="no-uline"> ICON </a> program. 
 Project manager of IIP team. The team consists of students from UNIST (Korea), UIUC (US), KTH (Sweden), IDC (Israel), and NTU (Singapore).
 
-This project is a part of IIP, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. Due to NDA, detailed information of the project is not described in this article.
+This project is a part of IIP, which is a student-run, global consultancy that bridges interdisciplinary gaps to connect students to technology and entrepreneurial companies, creating international networks for lifelong bonds. 
+
+Under the NDA, detailed information of the project is not described in this article.
