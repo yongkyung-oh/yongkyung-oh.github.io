@@ -302,3 +302,5 @@ collections:
         values:
           layout: single
           author_profile: false
+
+theme: jekyll-theme-cayman
