@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "KIC Innoenergy: Applicable field research related to energy technology"
 header:

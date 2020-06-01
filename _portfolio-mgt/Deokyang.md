@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "DEOKYANG Co.,LTD.: Analysis of graphene technology feasibility in the application."
 header:

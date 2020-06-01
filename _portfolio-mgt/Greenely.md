@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "Greenely: Energy management Software App & Service"
 header:

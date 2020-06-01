@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "Lalubema Sistemas: Condominium Management App & Service"
 header:

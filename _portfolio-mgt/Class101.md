@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "Class101: BM development for newley-launched service"
 header:

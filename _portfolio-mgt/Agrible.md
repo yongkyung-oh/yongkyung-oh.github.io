@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "Agrible, Inc.: Analysis for market expansion and entry to the agriculture industry"
 header:

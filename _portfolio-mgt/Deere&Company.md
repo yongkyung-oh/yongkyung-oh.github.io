@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "Deere & Company: Blockchain based servitization and precision agriculture"
 header:

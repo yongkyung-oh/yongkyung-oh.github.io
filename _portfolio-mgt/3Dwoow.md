@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "3DWooW: 3D Medical Imaging, Endoscopy Device"
 header:

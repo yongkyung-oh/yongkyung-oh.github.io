@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "Bayside Brewery: Entry Strategy Development for US startup"
 header:

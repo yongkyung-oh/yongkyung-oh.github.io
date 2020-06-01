@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "DaeWoong Pharmaceutical co. ltd & BID-AGE"
 header:

@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 
 title: "IBM: A study on Blockchain impact on insurance industry"
 header:
