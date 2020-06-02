@@ -11,8 +11,7 @@ classes: wide
 <ul>
   <li> Ph.D. candidate, majoring in Management Engineering at UNIST, 2018 ~ </li>
     <ul>
-      <li> Data Analytics Lab </li> 
-      <li> Advisor: SungIl Kim </li>
+      <li> Data Analytics Lab (Advisor: SungIl Kim)
     </ul>  
   <li> M.S. in Technology and Innovation Management at UNIST, 2017 </li>
   <li> B.S. in Natural science at UNIST, 2015</li>
