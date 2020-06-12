@@ -6,7 +6,7 @@ classes: wide
 title: "IBM: A study on Blockchain impact on insurance industry"
 header:
   image: /assets/images/mgt/ibmblockchain.jpg
-  teaser: /assets/images/mgt/ibmblockchain-th.jpg
+  teaser: /assets/images/mgt/ibmblockchain-th.png
 sidebar:
   - title: "Organization"
     text: "UNISCA with BIG"

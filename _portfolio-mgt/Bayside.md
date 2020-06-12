@@ -6,7 +6,7 @@ classes: wide
 title: "Bayside Brewery: Entry Strategy Development for US startup"
 header:
   image: /assets/images/mgt/bayside.jpg
-  teaser: /assets/images/mgt/bayside-th.jpg
+  teaser: /assets/images/mgt/bayside-th.png
 sidebar:
   - title: "Organization"
     text: "UNISCA"

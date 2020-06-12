@@ -6,7 +6,7 @@ classes: wide
 title: "Deere & Company: Blockchain based servitization and precision agriculture"
 header:
   image: /assets/images/mgt/john_deere.jpg
-  teaser: /assets/images/mgt/john_deere-th.jpg
+  teaser: /assets/images/mgt/john_deere-th.png
 sidebar:
   - title: "Organization"
     text: "UNISCA with BIG"

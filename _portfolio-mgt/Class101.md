@@ -6,7 +6,7 @@ classes: wide
 title: "Class101: BM development for newley-launched service"
 header:
   image: /assets/images/mgt/class101.jpg
-  teaser: /assets/images/mgt/class101-th.jpg
+  teaser: /assets/images/mgt/class101-th.png
 sidebar:
   - title: "Organization"
     text: "UNISCA"
