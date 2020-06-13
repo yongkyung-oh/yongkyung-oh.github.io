@@ -13,7 +13,7 @@ sidebar:
   - title: "Role"
     text: "Consultant"
   - title: "Responsibilities"
-    text: "IIP project team member" 
+    text: "Participating project as IIP team member" 
   - title: "Period"
     text: "Jun.2015 - Aug.2016"
   - title: "Location"

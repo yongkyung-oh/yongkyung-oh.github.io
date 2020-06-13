@@ -13,7 +13,7 @@ sidebar:
   - title: "Role"
     text: "Senior Consultant"
   - title: "Responsibilities"
-    text: "ICON project member" 
+    text: "Participating project as ICON team member" 
   - title: "Period"
     text: "Sep.2017 - Jan.2018"
   - title: "Location"
