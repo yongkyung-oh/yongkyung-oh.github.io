@@ -202,7 +202,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  #- jekyll-feed
+  - jekyll-feed
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -210,7 +210,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  #- jekyll-feed
+  - jekyll-feed
   - jekyll-include-cache
 
 
