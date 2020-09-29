@@ -46,14 +46,14 @@ PD: Product Developer & ME: Mechanical Engineer
 <br>
 <div class="notice">
   <h4>Language & Technology Specification</h4>
-  <i class="fab fa-fw fa-github" ></i> Github |
-  <i class="fas fa-fw fa-database" ></i> MySQL |
-  <i class="fab fa-fw fa-python"></i> Python |
-  <i class="fas fa-fw fa-server"></i> Django |
-  <i class="fab fa-fw fa-js"></i> Javascript |
-  <i class="fab fa-fw fa-bootstrap"></i> Bootstrap |
-  <i class="fab fa-fw fa-html5"></i> HTML |
-  <i class="fab fa-fw fa-css3"></i> CSS |
+  <i class="fab fa-fw fa-github" ></i> Github | 
+  <i class="fas fa-fw fa-database" ></i> MySQL | 
+  <i class="fab fa-fw fa-python"></i> Python | 
+  <i class="fas fa-fw fa-server"></i> Django | 
+  <i class="fab fa-fw fa-js"></i> Javascript | 
+  <i class="fab fa-fw fa-bootstrap"></i> Bootstrap | 
+  <i class="fab fa-fw fa-html5"></i> HTML | 
+  <i class="fab fa-fw fa-css3"></i> CSS | 
 </div>
 {: .text-center}
 
