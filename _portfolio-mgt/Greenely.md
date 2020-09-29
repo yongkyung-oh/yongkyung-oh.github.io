@@ -8,6 +8,9 @@ header:
 #  image: /assets/images/mgt/greenely.png
   teaser: /assets/images/mgt/greenely-th.png
   og_image: /assets/images/unsplash-image.jpg
+images_gallery:
+  - url: /assets/images/mgt/greenely.png
+    image_path: /assets/images/mgt/greenely.png
 sidebar:
   - title: "Organization"
     text: "ICON"
@@ -23,7 +26,7 @@ sidebar:
 
 Potential Market Analysis, Development of Entry Strategy, Business Model Development.
 
-![img]({{"/assets/images/mgt/greenely.png"}})
+{% include gallery id="images_gallery" %}
 
 <a href="https://www.greenely.se/" class="no-uline"> Greenely </a> was founded through a master thesis spinoff at KTH, Royal Institute of Technology in Stockholm, Sweden. The company was incorporated during February 2014 and works today with several utilities in Sweden and are starting its first pilot project in California during march 2017 together with Stanford University.
 

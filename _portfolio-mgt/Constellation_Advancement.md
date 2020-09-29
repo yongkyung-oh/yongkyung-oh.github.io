@@ -8,6 +8,9 @@ header:
 #  image: /assets/images/mgt/constellation.png
   teaser: /assets/images/mgt/constellation-th.png
   og_image: /assets/images/unsplash-image.jpg
+images_gallery:
+  - url: /assets/images/mgt/constellation.png
+    image_path: /assets/images/mgt/constellation.png
 sidebar:
   - title: "Organization"
     text: "ICON"
@@ -23,7 +26,7 @@ sidebar:
 
 Business model development of Umbrella company, Fundraising business and consulting industry.
 
-![img]({{"/assets/images/mgt/constellation.png"}})
+{% include gallery id="images_gallery" %}
 
 <a href="https://constellationadvancement.com/" class="no-uline"> Constellation Advancement </a>  is a boutique consultancy that provides fundraising counsel for your non-profit organization. The people at Constellation are former vice presidents from non-profit institutional advancement organizations in the northeastern US. The idea that brought us together was to provide a consultant business that connects non-profit organizations with greater fundraising potential. We are specialists in finding the means to help non-profits to do more in service of their mission.
 

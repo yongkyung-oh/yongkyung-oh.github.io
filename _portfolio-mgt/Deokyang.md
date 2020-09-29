@@ -8,6 +8,9 @@ header:
 #  image: /assets/images/mgt/deokyang.png
   teaser: /assets/images/mgt/deokyang-th.png
   og_image: /assets/images/unsplash-image.jpg
+images_gallery:
+  - url: /assets/images/mgt/deokyang.png
+    image_path: /assets/images/mgt/deokyang.png
 sidebar:
   - title: "Organization"
     text: "IIP"
@@ -23,7 +26,7 @@ sidebar:
 
 Industry analysis and research for applicable products. Company benchmark based on quantitative criteria.
 
-![img]({{"/assets/images/mgt/deokyang.png"}})
+{% include gallery id="images_gallery" %}
 
 <a href="http://www.deokyang.com/eng/" class="no-uline"> DEOKYANG Co.,LTD. </a> is engaged in producing and supplies industrial gases. Since its founding in 1964 over 50 years ago, Deokyang has grown up with Korea’s industrial development to be a solid medium-size enterprise, supplying industrial gases to major plants all over the country.
 

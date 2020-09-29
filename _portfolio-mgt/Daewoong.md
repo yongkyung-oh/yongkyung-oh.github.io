@@ -8,6 +8,9 @@ header:
 #  image: /assets/images/mgt/bioage.png
   teaser: /assets/images/mgt/bioage-th.png
   og_image: /assets/images/unsplash-image.jpg
+images_gallery:
+  - url: /assets/images/mgt/bioage.png
+    image_path: /assets/images/mgt/bioage.png
 sidebar:
   - title: "Organization"
     text: "IIP"
@@ -23,7 +26,7 @@ sidebar:
 
 Developing Business model with genetic testing service, Market research & Competitor analysis in domestic / international market.
 
-![img]({{"/assets/images/mgt/bioage.png"}})
+{% include gallery id="images_gallery" %}
 
 <a href="https://m.daewoong.co.kr/en/main/index" class="no-uline"> Daewoong Pharmaceutical Co., Ltd </a> is a Seoul, South Korea-based bioengineering company operating as a subsidiary of Daewoong Co., Ltd., a global health care group. 
 <a href="http://www.bio-age.co.kr/" class="no-uline"> BIO-AGE </a> is established in 2002. Became a subsidiary of Daewoong in 2007. Core service is measuring Biological data. Specialized in Analysis of Biological Age.

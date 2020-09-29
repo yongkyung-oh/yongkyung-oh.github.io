@@ -8,6 +8,9 @@ header:
 #  image: /assets/images/mgt/ibmblockchain.jpg
   teaser: /assets/images/mgt/ibmblockchain-th.png
   og_image: /assets/images/unsplash-image.jpg
+images_gallery:
+  - url: /assets/images/mgt/ibmblockchain.jpg
+    image_path: /assets/images/mgt/ibmblockchain.jpg
 sidebar:
   - title: "Organization"
     text: "UNISCA with BIG"
@@ -23,7 +26,7 @@ sidebar:
 
 In-depth project on blockchain technology and its impact on the insurance industry. 
 
-![img]({{"/assets/images/mgt/ibmblockchain.jpg"}})
+{% include gallery id="images_gallery" %}
 
 The project is conducted by <a href="http://www.unisca.or.kr" class="no-uline"> UNISCA (at UNIST) </a>  and BIG (at UIUC). The purpose of project is understanding the potential impact of blockhain on insurance industry. UNISCA team focused on recommendation for IBM to consider the road to sustainable blockchain leadership in the insurance industry. 
 

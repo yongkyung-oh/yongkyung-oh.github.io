@@ -8,6 +8,9 @@ header:
 #  image: /assets/images/mgt/john_deere.jpg
   teaser: /assets/images/mgt/john_deere-th.png
   og_image: /assets/images/unsplash-image.jpg
+images_gallery:
+  - url: /assets/images/mgt/john_deere.jpg
+    image_path: /assets/images/mgt/john_deere.jpg
 sidebar:
   - title: "Organization"
     text: "UNISCA with BIG"
@@ -23,7 +26,7 @@ sidebar:
 
 Blockchain implementation strategy for Servitization and Precision agriculture.
 
-![img]({{"/assets/images/mgt/john_deere.jpg"}})
+{% include gallery id="images_gallery" %}
 
 The project is conducted by <a href="http://www.unisca.or.kr" class="no-uline"> UNISCA (at UNIST) </a>  and BIG (at UIUC). The project objectives mainly include testing potential role of blockchain for <a href="https://www.deere.com/en/our-company/about-john-deere/" class="no-uline"> John Deere / Deere & Company </a> and identifying potential competitors. 
 

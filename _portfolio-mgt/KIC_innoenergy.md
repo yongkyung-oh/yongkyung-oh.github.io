@@ -8,6 +8,9 @@ header:
 #  image: /assets/images/mgt/innoenergy.png
   teaser: /assets/images/mgt/innoenergy-th.png
   og_image: /assets/images/unsplash-image.jpg
+images_gallery:
+  - url: /assets/images/mgt/innoenergy.png
+    image_path: /assets/images/mgt/innoenergy.png
 sidebar:
   - title: "Organization"
     text: "IIP"
@@ -23,7 +26,7 @@ sidebar:
 
 Market research based on technology and feasibility study.
 
-![img]({{"/assets/images/mgt/innoenergy.png"}})
+{% include gallery id="images_gallery" %}
 
 <a href="https://www.innoenergy.com/" class="no-uline"> KIC InnoEnergy SE </a> is a European company dedicated to promoting innovation, entrepreneurship and education in the sustainable energy field by bringing together academics, business and research institutes. KIC InnoEnergy is financially supported by the European Institute of Innovation and Technology (EIT) and, while a profit-oriented company, has a “not for dividend” financial strategy, reinvesting all its profits back into the organisation’s activities.
 

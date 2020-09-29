@@ -8,6 +8,9 @@ header:
 #  image: /assets/images/mgt/agrible.jpg
   teaser: /assets/images/mgt/agrible-th.png
   og_image: /assets/images/unsplash-image.jpg
+images_gallery:
+  - url: /assets/images/mgt/agrible.jpg
+    image_path: /assets/images/mgt/agrible.jpg
 sidebar:
   - title: "Organization"
     text: "IIP"
@@ -23,7 +26,7 @@ sidebar:
 
 Market research using comparison based on statistical data, government regulation, political situation and so on.
 
-![img]({{"/assets/images/mgt/agrible.jpg"}})
+{% include gallery id="images_gallery" %}
 
 <a href="https://www.agrible.com/" class="no-uline"> Agrible, Inc. </a> formed in 2012 as a merger between Spatial Rainfall Consulting, Inc. (formed in 2007) and a group of scientist-investors independently providing ag data to growers and traders since 1997. Agrible develops products and analytical tools that deliver field-specific data to help with decision making in the agriculture industry.
 
