@@ -20,7 +20,7 @@ title                    : "YongKyung Oh"
 title_separator          : "-"
 subtitle                 : "YongKyung Oh" # site tagline that appears below site title in masthead
 name                     : "YongKyung Oh"
-description              : "Ph.D. candidate at UNIST"
+description              : " "
 url                      : https://yongkyung-oh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : yongkyung-oh/yongkyung-oh.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -224,12 +224,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
