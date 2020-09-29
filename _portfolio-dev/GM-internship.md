@@ -40,12 +40,8 @@ The objective of this project is to develop a user-friendly software tool to rep
 PD: Product Developer & ME: Mechanical Engineer
 
 <br>
-<b>Demo video</b>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z8hetHABj9M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
+<b>Programming Language & Technology Specification</b>
 <div class="notice">
-  <h4>Language & Technology Specification</h4>
   <i class="fab fa-fw fa-github" ></i> Github | 
   <i class="fas fa-fw fa-database" ></i> MySQL | 
   <i class="fab fa-fw fa-python"></i> Python | 
@@ -56,6 +52,10 @@ PD: Product Developer & ME: Mechanical Engineer
   <i class="fab fa-fw fa-css3"></i> CSS | 
 </div>
 {: .text-center}
+
+<br>
+<b>Demo video</b>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z8hetHABj9M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 <a href="https://youtu.be/z8hetHABj9M" class="btn btn--danger" style="width: 10em"> <i class="fab fa-fw fa-youtube" ></i> Youtube </a>

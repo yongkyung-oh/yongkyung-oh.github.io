@@ -43,12 +43,8 @@ This project is part of High-Potential Individuals Global Training Program suppo
 </ul>
 
 <br>
-<b>Demo video</b>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e33-9wViLc4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
+<b>Programming Language & Technology Specification</b>
 <div class="notice">
-  <h4>Language & Technology Specification</h4>
   <i class="fab fa-fw fa-github" ></i> Github | 
   <i class="fab fa-fw fa-aws" ></i> AWS | 
   <i class="fab fa-fw fa-python"></i> Python | 
@@ -58,6 +54,10 @@ This project is part of High-Potential Individuals Global Training Program suppo
   <i class="fab fa-fw fa-css3"></i> CSS | 
 </div>
 {: .text-center}
+
+<br>
+<b>Demo video</b>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e33-9wViLc4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 <a href="https://github.com/yongkyung-oh/CMU-Studio-Project" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
