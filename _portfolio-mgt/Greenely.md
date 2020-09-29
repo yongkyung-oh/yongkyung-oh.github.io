@@ -5,8 +5,9 @@ classes: wide
 
 title: "Greenely: Energy management Software App & Service"
 header:
-  image: /assets/images/mgt/greenely.png
+#  image: /assets/images/mgt/greenely.png
   teaser: /assets/images/mgt/greenely-th.png
+  og_image: /assets/images/unsplash-image.jpg
 sidebar:
   - title: "Organization"
     text: "ICON"
@@ -21,6 +22,8 @@ sidebar:
 ---
 
 Potential Market Analysis, Development of Entry Strategy, Business Model Development.
+
+![img]({{"/assets/images/mgt/greenely.png"}})
 
 <a href="https://www.greenely.se/" class="no-uline"> Greenely </a> was founded through a master thesis spinoff at KTH, Royal Institute of Technology in Stockholm, Sweden. The company was incorporated during February 2014 and works today with several utilities in Sweden and are starting its first pilot project in California during march 2017 together with Stanford University.
 

@@ -5,8 +5,9 @@ classes: wide
 
 title: "Bayside Brewery: Entry Strategy Development for US startup"
 header:
-  image: /assets/images/mgt/bayside.jpg
+#  image: /assets/images/mgt/bayside.jpg
   teaser: /assets/images/mgt/bayside-th.png
+  og_image: /assets/images/unsplash-image.jpg
 sidebar:
   - title: "Organization"
     text: "UNISCA"
@@ -21,6 +22,8 @@ sidebar:
 ---
 
 Korean market research, Entry Strategy Development, Explore potential partners. 
+
+![img]({{"/assets/images/mgt/bayside.jpg"}})
 
 <a href="https://www.thebaysidebrewery.com/" class="no-uline"> Bayside Brewery </a> was founded by BrewMaster Anthony LoSardo in 2012. Bayside Brewery is a craft brewery start-up that aims to manufacture beer for the global market. Key question for this project is "What can be the best market expansion strategy to Korean market?"
 

@@ -5,8 +5,9 @@ classes: wide
 
 title: "Lalubema Sistemas: Condominium Management App & Service"
 header:
-  image: /assets/images/mgt/lalubema.png
+#  image: /assets/images/mgt/lalubema.png
   teaser: /assets/images/mgt/lalubema-th.png
+  og_image: /assets/images/unsplash-image.jpg
 sidebar:
   - title: "Organization"
     text: "ICON"
@@ -21,6 +22,8 @@ sidebar:
 ---
 
 Market Research, Business Model Development, Strategy after M&A.
+
+![img]({{"/assets/images/mgt/lalubema.png"}})
 
 <a href="http://www.lalubema.com/" class="no-uline"> Lalubema </a> is a company that develops products that make intensive use of mobile platforms a way of providing cutting-edge technology to the end user. Lalubema was founded by Rodrigo Mascarenhas, who created the largest administrative software company in Brazil years ago - RM Sistemas.
 

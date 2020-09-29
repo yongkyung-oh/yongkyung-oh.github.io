@@ -5,8 +5,9 @@ classes: wide
 
 title: "Class101: BM development for newley-launched service"
 header:
-  image: /assets/images/mgt/class101.jpg
+#  image: /assets/images/mgt/class101.jpg
   teaser: /assets/images/mgt/class101-th.png
+  og_image: /assets/images/unsplash-image.jpg
 sidebar:
   - title: "Organization"
     text: "UNISCA"
@@ -21,6 +22,8 @@ sidebar:
 ---
 
 Business model development, Market Research, Benchmark and Strategy for Startup. 
+
+![img]({{"/assets/images/mgt/class101.jpg"}})
 
 Peadaling / Class101 team launched a new service, <a href="https://class101.net/" class="no-uline"> "Class101" </a>, which is a hobby class service platform. The service provides not only professional video lecture but also pre-prepared materials for the customer to learn more about the class. Class101 pursue a platform and ecosystem that everyone can do something they love. 
 
