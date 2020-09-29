@@ -4,8 +4,9 @@ layout: single
 permalink: /archieve/
 author_profile: true
 classes: wide
-image:
-  path: /assets/images/unsplash-image.jpg
+header:
+#  image: /assets/images/unsplash-image.jpg
+  teaser: /assets/images/unsplash-image.jpg
 ---
 
 --------------------
