@@ -1,8 +1,11 @@
 ---
+title: Archieve
 layout: single
 permalink: /archieve/
 author_profile: true
 classes: wide
+header:
+  teaser: /assets/images/unsplash-image.jpg
 ---
 
 --------------------

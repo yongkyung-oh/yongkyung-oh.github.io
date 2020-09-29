@@ -1,16 +1,19 @@
 ---
+title: About me
 layout: single
 permalink: /about/
 author_profile: true
 classes: wide
+header:
+  teaser: /assets/images/unsplash-image.jpg
 ---
 
 --------------------
 
-<h3> &#10003; Acacdemic Backgroud </h3>
+<h3> &#10003; Academic Backgroud </h3>
 
 <div class="notice--primary">
-  <h4>Ph.D. candidate, majoring in Management Engineering at UNIST, 2018 ~</h4>
+  <h4>Ph.D. candidate, majoring in Industrial Engineering at UNIST, 2018 ~</h4>
   <ul>
   <li> Graduate researcher at <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> </li>
   <li> Advisor: <a href="https://scholar.google.com/citations?user=BISaBGoAAAAJ&hl">SungIl Kim</a> </li>
@@ -74,7 +77,8 @@ classes: wide
 </div>
 
 <div class="notice">
-  <h4>UNIST - GM Internship Fellowship & FISITA Travel Bursary Scholarship, 2017</h4>
+  <h4>UNIST - GM Internship Fellowship, UNIST, General Motors, 2017</h4>
+  <h4>FISITA Travel Bursary Scholarship, FISITA - International Federation of Automotive Engineering Societies, 2017</h4>
 </div>
 
 <div class="notice">
