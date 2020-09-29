@@ -4,8 +4,8 @@ layout: single
 permalink: /research/
 author_profile: true
 classes: wide
-header:
-  teaser: /assets/images/unsplash-image.jpg
+image:
+  path: /assets/images/unsplash-image.jpg
 ---
 
 --------------------
