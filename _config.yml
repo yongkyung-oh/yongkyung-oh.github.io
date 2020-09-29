@@ -264,6 +264,9 @@ defaults:
       comments: false
       share: false
       related: false
+      header:
+        teaser: /assets/images/unsplash-image.jpg
+        og_image: /assets/images/unsplash-image.jpg
 
 defaults:
   # _pages
@@ -277,6 +280,9 @@ defaults:
       comments: false
       share: false
       related: false
+      header:
+        teaser: /assets/images/unsplash-image.jpg
+        og_image: /assets/images/unsplash-image.jpg
 
 # Collections
 collections:
@@ -291,6 +297,9 @@ collections:
         values:
           layout: single
           author_profile: false
+          header:
+            teaser: /assets/images/unsplash-image.jpg
+            og_image: /assets/images/unsplash-image.jpg
   portfolio-dev:
     output: true
     permalink: /:collection/:path/
@@ -302,3 +311,6 @@ collections:
         values:
           layout: single
           author_profile: false
+          header:
+            teaser: /assets/images/unsplash-image.jpg
+            og_image: /assets/images/unsplash-image.jpg
