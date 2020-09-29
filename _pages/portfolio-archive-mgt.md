@@ -1,5 +1,5 @@
 ---
-title: Management & Consulting Portfolio
+title: Management & Consulting Works
 layout: collection
 author_profile: true
 permalink: /portfolio-mgt/
