@@ -4,6 +4,9 @@ layout: single
 permalink: /about/
 author_profile: true
 classes: wide
+header:
+  teaser: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/unsplash-image.jpg
 ---
 
 --------------------
