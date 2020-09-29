@@ -5,9 +5,9 @@ classes: wide
 
 title: "3DWooW: 3D Medical Imaging, Endoscopy Device"
 header:
-  og_image: /assets/images/unsplash-image.jpg
 #  image: /assets/images/mgt/3dwoow.jpg
   teaser: /assets/images/mgt/3dwoow-th.png
+  og_image: /assets/images/unsplash-image.jpg
 sidebar:
   - title: "Organization"
     text: "ICON"
