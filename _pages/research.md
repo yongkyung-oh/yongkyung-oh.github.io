@@ -36,7 +36,7 @@ header:
 --------------------
 <h3> &#10003; International Conferences </h3>
 <ul>
-  <li> YongKyung Oh, SungIl Kim. (2019), <b>Exploiting logistics anomaly detection using maritime bigdata</b>, IISE Annual Conference & Expo 2019  </li>
+  <li> YongKyung Oh, SungIl Kim. (2019), <b>Exploiting Logistics Anomaly Detection using Maritime Big Data</b>, IISE Annual Conference & Expo 2019  </li>
 </ul>
 
 --------------------
