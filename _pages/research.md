@@ -57,7 +57,7 @@ YongKyung Oh, SungIl Kim. (2020), <b>Logistics Anomaly Detection with Maritime 
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, SungIl Kim. (2018), <b>Research Trends on Odor problem: Focusing on E-nose and classification models</b>, IE Magazine, 25(3), 45-51. KIIE (Korean Institute of Industrial Engineers)
+YongKyung Oh, SungIl Kim. (2018), <b>Research Trends on Odor problem: Focusing on E-nose and classification models</b>, IE Magazine, 25(3), 45-51. KIIE (Korean Institute of Industrial Engineers), [Written in Korean]
 </div>
 
 <div class="notice"> 
@@ -91,9 +91,14 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
 <h3> &#10003; Others </h3>
 
 <div class="notice"> 
-<b>Suggestion for Smart Port in industry 4.0</b>, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries, 2019
+<b>Suggestion for Smart Port in industry 4.0</b>, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries, 2019, [Written in Korean]
 </div>
 
 <div class="notice"> 
-<b>Strategy for Maritime Startup Ecosystem</b>, Graduate Student Academic paper competition, Ulsan Development Institute, 2019
+<b>Strategy for Maritime Startup Ecosystem</b>, Graduate Student Academic paper competition, Ulsan Development Institute, 2019, [Written in Korean]
 </div>
+
+<div class="notice"> 
+<b>Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution</b>, 2017, [Written in Korean]
+</div>
+
