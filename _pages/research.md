@@ -57,7 +57,7 @@ YongKyung Oh, SungIl Kim. (2020), <b>Logistics Anomaly Detection with Maritime 
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, SungIl Kim. (2018), <b>Research Trend on Odor problem: Focusing on E-nose and classification models</b>, IE Magazine, 25(3), 45-51. KIIE (Korean Institute of Industrial Engineers)
+YongKyung Oh, SungIl Kim. (2018), <b>Research Trends on Odor problem: Focusing on E-nose and classification models</b>, IE Magazine, 25(3), 45-51. KIIE (Korean Institute of Industrial Engineers)
 </div>
 
 <div class="notice"> 
