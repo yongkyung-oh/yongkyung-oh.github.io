@@ -29,7 +29,7 @@ header:
 </div>
 
 <div class="notice">
-  <h4>Related Working domain</h4>
+  <h4>Related Working domains</h4>
   <ul>
   <li>Maritime surveillance</li>
   <li>Shipping Logistics</li>
