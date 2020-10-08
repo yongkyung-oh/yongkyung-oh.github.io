@@ -24,7 +24,7 @@ header:
 <div class="notice">
   <h4>M.S. in Technology and Innovation Management at UNIST, 2017</h4>
   <ul>
-  <li> Graduation Paper (Capstone Project): Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution </li>
+  <li> Dissertation Paper (Capstone Project): Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution </li>
   </ul>
 </div>
 
