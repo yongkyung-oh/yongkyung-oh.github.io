@@ -71,7 +71,7 @@ YongKyung Oh, SungIl Kim. (2018), <b>Research Trends on Odor problem: Focusing
 <h3> &#10003; Conference papers (To be updated)</h3>
 
 <div class="notice--info"> <!--International-->
-YongKyung Oh, SungIl Kim. (2019), <b>Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach</b>, IISE Annual Conference & Expo 2020
+YongKyung Oh, SungIl Kim. (2020), <b>Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach</b>, IISE Annual Conference & Expo 2020
 </div>
 
 <div class="notice--info"> <!--International-->
