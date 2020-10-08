@@ -112,7 +112,7 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
   <li>Participation Period: 2019.06. ~ 2019.12.</li>
     <ul>
     <li>Implement optimization preprocess and solve algorithm</li>
-    <li>Develop pipeline for lare-size optimization problem</li>
+    <li>Develop pipeline for lare-size optimization problem using open source solvers (e.g. CBC)</li>
     </ul>
   </ul>
 </div>
@@ -124,7 +124,7 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
   <li>Topic: Traffic prediction and congestion modeling</li>
   <li>Participation Period: 2020.09 ~ </li>
     <ul>
-    <li>Develop traffic prediction model using histrical / real-time data</li>
+    <li>Develop traffic prediction model using histric & real-time data</li>
     </ul>
   </ul>
 </div>
