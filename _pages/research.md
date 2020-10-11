@@ -91,15 +91,12 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
 <h3> &#10003; Industry Cooperation Projects</h3>
 
 <div class="notice--success">
-  <h4>Taesung Environmental Research Institute</h4>
+  <h4>Naver</h4>
   <ul>
-  <li>Topic: Development of predictive models for sensor data analysis</li>
-  <li>Participation Period: 2018.07. ~ 2019.03.</li>
+  <li>Topic: Traffic prediction and congestion modeling</li>
+  <li>Participation Period: 2020.09 ~ </li>
     <ul>
-    <li>Construct research setup and develop pipeline including DB setup</li>
-    <li>Phase 1. Develop linear predictive model (e.g. Generalized Linear Model)</li>
-    <li>Phase 2. Develop non-linear predictive model (e.g. SVM, RF, XGBOOST)</li>
-    <li>Phase 3. Develop multi-layer model</li>
+    <li>Develop traffic prediction model using histric & real-time data</li>
     </ul>
   </ul>
 </div>
@@ -119,12 +116,15 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
 
 
 <div class="notice--success">
-  <h4>Naver</h4>
+  <h4>Taesung Environmental Research Institute</h4>
   <ul>
-  <li>Topic: Traffic prediction and congestion modeling</li>
-  <li>Participation Period: 2020.09 ~ </li>
+  <li>Topic: Development of predictive models for sensor data analysis</li>
+  <li>Participation Period: 2018.07. ~ 2019.03.</li>
     <ul>
-    <li>Develop traffic prediction model using histric & real-time data</li>
+    <li>Construct research setup and develop pipeline including DB setup</li>
+    <li>Phase 1. Develop linear predictive model (e.g. Generalized Linear Model)</li>
+    <li>Phase 2. Develop non-linear predictive model (e.g. SVM, RF, XGBOOST)</li>
+    <li>Phase 3. Develop multi-layer model</li>
     </ul>
   </ul>
 </div>
