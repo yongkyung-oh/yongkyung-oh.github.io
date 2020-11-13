@@ -9,8 +9,8 @@ header:
   teaser: /assets/images/dev/lsmm/deepfake_research_cover-th.png
   og_image: /assets/images/unsplash-image.jpg
 images_gallery:
-#  - url: /assets/images/dev/lsmm/deepfake_research_cover.png
-#    image_path: /assets/images/dev/lsmm/deepfake_research_cover.png
+  - url: /assets/images/dev/lsmm/deepfake_research_cover.png
+    image_path: /assets/images/dev/lsmm/deepfake_research_cover.png
   - url: /assets/images/dev/lsmm/deepfake_research_1.png
     image_path: /assets/images/dev/lsmm/deepfake_research_1.png
   - url: /assets/images/dev/lsmm/deepfake_research_2.png
@@ -55,7 +55,6 @@ This project is part of High-Potential Individuals Global Training Program suppo
 </div>
 {: .text-center}
 
-<br>
 <a href="https://github.com/yongkyung-oh/" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
 {: .text-center}
 
