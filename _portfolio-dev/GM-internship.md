@@ -5,14 +5,14 @@ classes: wide
 
 title: "GM Internship Project: Battery Laser Welding Advisor"
 header:
-#  image: /assets/images/dev/GM_demo.png
-  teaser: /assets/images/dev/GM_demo-th.png
+#  image: /assets/images/dev/GM/GM_demo.png
+  teaser: /assets/images/dev/GM/GM_demo-th.png
   og_image: /assets/images/unsplash-image.jpg
 images_gallery:
-#  - url: /assets/images/dev/GM_demo.png
-#    image_path: /assets/images/dev/GM_demo.png
-  - url: /assets/images/dev/GM_architecture.jpg
-    image_path: /assets/images/dev/GM_architecture.jpg
+#  - url: /assets/images/dev/GM/GM_demo.png
+#    image_path: /assets/images/dev/GM/GM_demo.png
+  - url: /assets/images/dev/GM/GM_architecture.jpg
+    image_path: /assets/images/dev/GM/GM_architecture.jpg
 sidebar:
   - title: "Organization"
     text: "GM"
