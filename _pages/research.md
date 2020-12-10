@@ -55,15 +55,15 @@ header:
 <h3> &#10003; Publications (To be updated)</h3>
 
 <div class="notice--info"> <!--International-->
-YongKyung Oh, SungIl Kim. (2020), <b>Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach</b>, (Working)
+YongKyung Oh, SungIl Kim. (Working), <b>Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach</b>, 
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, Hanjoo Kim, Deokjung Lee, Sungil Kim. (2020), <b>Simulation-based Anomaly Detection in Nuclear Reactors</b>, (Working) (Written in Korean)
+YongKyung Oh, Hanjoo Kim, Deokjung Lee, Sungil Kim. (Working), <b>Simulation-based Anomaly Detection in Nuclear Reactors</b>, (Written in Korean)
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, SungIl Kim. (2020), <b>Transfer Learning based approach for mixture gas classification</b>, (Working) (Written in Korean)
+YongKyung Oh, Namu Kim, Sungil Kim. (Working), <b>Transfer Learning based approach for mixture gas classification</b>, (Written in Korean)
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
