@@ -116,7 +116,7 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
     <li>Traffic congestion propagation algorithm</li>
     </ul>
   </ul>
-  <li>Technology Stack: Python, Spark, Graph based machine learning & deep learning</li>
+  <li>Technology Stack: Python, SQL, Spark, Graph based machine learning & deep learning</li>
 </div>
 
 
