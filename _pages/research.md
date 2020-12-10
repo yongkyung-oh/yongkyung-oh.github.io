@@ -34,8 +34,8 @@ header:
   <li>Maritime surveillance</li>
   <li>Shipping Logistics & Stowage Planning</li>
   <li>Urban traffic and accident congestion propagation</li>
-  <li>Gas sensor array and electronic Nose</li>
-  <li>Nuclear reactor operation</li>
+  <li>Gas sensor array and Electronic Nose</li>
+  <li>Nuclear reactor operation and Anomaly detection</li>
   </ul>
 </div>
 
