@@ -23,8 +23,8 @@ header:
 <h3> &#10003; Research Interests </h3>
 <div class="notice--primary">
   <ul>
-  <li> Data Analytics using statistical approaches based on physical / engineering models </li>
-  <li> Implementation of state-of-art Machine Learning and Deep Learning techniques to industrial data </li>
+  <li> Data Analytics using statistical approaches based on physical / engineering models</li>
+  <li> Implementation of state-of-art Machine Learning and Deep Learning techniques to industrial data</li>
   </ul>
 </div>
 
@@ -45,6 +45,8 @@ header:
   <li>Physical / Engineering Model & Simulation</li>
   <li>Anomaly Detection using machine learning</li>
   <li>Transfer learning with domain knowledge</li>
+  <li>Multivariate Time-series analysis</li>
+  <li>Graph Neural Network</li>
   </ul>
 </div>
 
@@ -57,13 +59,15 @@ YongKyung Oh, SungIl Kim. (2020), <b>Logistics Anomaly Detection with Maritime 
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
+YongKyung Oh, Hanjoo Kim, Deokjung Lee, Sungil Kim. (2020), <b>Simulation-based Anomaly Detection in Nuclear Reactors</b>, (Working) (Written in Korean)
+</div>
+
+<div class="notice--danger"> <!--Domestic-->
+YongKyung Oh, SungIl Kim. (2020), <b>Transfer Learning based approach for mixture gas classification</b>, (Working) (Written in Korean)
+</div>
+
+<div class="notice--danger"> <!--Domestic-->
 YongKyung Oh, SungIl Kim. (2018), <b>Research Trends on Odor problem: Focusing on E-nose and classification models</b>, IE Magazine, 25(3), 45-51. KIIE (Korean Institute of Industrial Engineers), (Written in Korean)
-</div>
-
-<div class="notice"> 
-</div>
-
-<div class="notice"> 
 </div>
 
 
@@ -72,6 +76,18 @@ YongKyung Oh, SungIl Kim. (2018), <b>Research Trends on Odor problem: Focusing
 
 <div class="notice--info"> <!--International-->
 YongKyung Oh, SungIl Kim. (2020), <b>Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach</b>, IISE Annual Conference & Expo 2020
+</div>
+
+<div class="notice--danger"> <!--Domestic-->
+YongKyung Oh, Hanjoo Kim, Deokjung Lee, Sungil Kim. (2020), <b>Simulation-based Anomaly Detection in Nuclear Reactors</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020
+</div>
+
+<div class="notice--danger"> <!--Domestic-->
+YongKyung Oh, JuYeong Lee, JiIn Kwak, Sungil Kim. (2020), <b>Congestion propagation modeling with Graph Neural Network (GNN)</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020
+</div>
+
+<div class="notice--danger"> <!--Domestic-->
+YongKyung Oh, Namu Kim, Sungil Kim. (2020), <b>Transfer-Learning based approach for mixture gas classification</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020
 </div>
 
 <div class="notice--info"> <!--International-->
@@ -96,9 +112,11 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
   <li>Topic: Traffic prediction and congestion modeling</li>
   <li>Participation Period: 2020.09 ~ </li>
     <ul>
-    <li>Develop traffic prediction model using histric & real-time data</li>
+    <li>Develop traffic prediction model using historic & real-time data</li>
+    <li>Traffic congestion propagation algorithm</li>
     </ul>
   </ul>
+  <li>Technology Stack: Python, Spark, Graph based machine learning & deep learning</li>
 </div>
 
 
@@ -112,6 +130,7 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
     <li>Develop pipeline for lare-size optimization problem using open source solvers (e.g. CBC)</li>
     </ul>
   </ul>
+  <li>Technology Stack: Python, R, CPLEX, CBC</li>
 </div>
 
 
@@ -127,6 +146,7 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
     <li>Phase 3. Develop multi-layer model</li>
     </ul>
   </ul>
+  <li>Technology Stack: Python, R, MySQL, H2O AI library</li>
 </div>
 
 
