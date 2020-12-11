@@ -66,7 +66,11 @@ header:
 
 <h3> &#10003; Honors and Rewards </h3>
 <div class="notice">
-  <h4>High-Potential Individuals Global Training Program, fully supported by IITP and Ministry of Science, ICT and Future Planning, 2020</h4>
+  <h4>1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020</h4>
+</div>
+
+<div class="notice">
+  <h4>High-Potential Individuals Global Training Program, fully supported by IITP & Ministry of Science, ICT and Future Planning, 2020</h4>
 </div>
 
 <div class="notice">
