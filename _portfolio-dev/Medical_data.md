@@ -36,7 +36,7 @@ This project is a part of Professional Training for Medical Data Analysis hosted
 
 {% include gallery id="images_gallery" %}
 
-This program is consist of 10 week intense course to deal with public healthcare data, EMR data, lifelog, medical imaging and so on. Our team analysis EMR data for breast cancer.
+This program is consist of 10 week intense course to deal with public healthcare data, EMR data, lifelog, medical imaging and so on. Our team analysis EMR data for breast cancer. Our team is 1st place out of 5 teams. 
 
 <ul>
   <li>EMR data for ultransonic examination and  mammography within 50 days prior to breast cancer surgery</li>
