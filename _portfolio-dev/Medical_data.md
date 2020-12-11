@@ -19,6 +19,8 @@ images_gallery:
     image_path: /assets/images/dev/nlp_for_emr/nlp_for_emr_3.png
   - url: /assets/images/dev/nlp_for_emr/nlp_for_emr_4.png
     image_path: /assets/images/dev/nlp_for_emr/nlp_for_emr_4.png
+  - url: /assets/images/dev/nlp_for_emr/nlp_for_emr_5.png
+    image_path: /assets/images/dev/nlp_for_emr/nlp_for_emr_5.png
 sidebar:
   - title: "Organization"
     text: "Asan Medical Center"
