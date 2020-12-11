@@ -27,7 +27,7 @@ sidebar:
   - title: "Role"
     text: "Training Program Participants"
   - title: "Responsibilities"
-    text: "Participate in 10 weeks program for medical data analysis. Develop NLP model for EMR data" 
+    text: "Participate in 10 weeks program for medical data analysis. Develop NLP model for EMR data." 
   - title: "Period"
     text: "Sep.2020 - Nov.2020"
   - title: "Location"
