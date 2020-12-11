@@ -41,7 +41,7 @@ This project is a part of Professional Training for Medical Data Analysis hosted
 This program is consist of 10 week intense course to deal with public healthcare data, EMR data, lifelog, medical imaging and so on. Our team analysis EMR data for breast cancer. Our team is 1st place out of 5 teams. 
 
 <ul>
-  <li>EMR data for ultransonic examination and  mammography within 50 days prior to breast cancer surgery</li>
+  <li>EMR data for ultransonic examination and mammography within 50 days prior to breast cancer surgery</li>
   <li>Develop prediction model using natural language in the examination results. NLP techniques are implemented to predict patient's status</li>
   <li>Suggested approach can predict the patient who needs re-operation for breast cancer, with 82% true-positive rate</li>
 </ul>
