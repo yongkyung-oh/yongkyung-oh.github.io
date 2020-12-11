@@ -44,7 +44,7 @@ This project is part of High-Potential Individuals Global Training Program suppo
 
 <br>
 <b>Programming Language & Technology Specification</b>
-<div class="notice">
+<div class="notice">| 
   <i class="fab fa-fw fa-github" ></i> Github | 
   <i class="fab fa-fw fa-aws" ></i> AWS | 
   <i class="fab fa-fw fa-python"></i> Python | 

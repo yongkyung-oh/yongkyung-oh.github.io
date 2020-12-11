@@ -41,7 +41,7 @@ PD: Product Developer & ME: Mechanical Engineer
 
 <br>
 <b>Programming Language & Technology Specification</b>
-<div class="notice">
+<div class="notice">| 
   <i class="fab fa-fw fa-github" ></i> Github | 
   <i class="fas fa-fw fa-database" ></i> MySQL | 
   <i class="fab fa-fw fa-python"></i> Python | 

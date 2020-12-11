@@ -48,9 +48,9 @@ This program is consist of 10 week intense course to deal with public healthcare
 
 <br>
 <b>Programming Language & Technology Specification</b>
-<div class="notice">
+<div class="notice">| 
   <i class="fab fa-fw fa-github" ></i> Github | 
-  <i class="fab fa-fw fa-python"></i> Python | 
+  <i class="fab fa-fw fa-python"></i> Python |
 </div>
 {: .text-center}
 
