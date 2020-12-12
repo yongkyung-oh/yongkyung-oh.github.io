@@ -46,19 +46,19 @@ header:
 </div>
 
 <div class="notice">
-  <h4>CMU (Pittsburgh, US): Visting Researcher, 2020</h4>
+  CMU (Pittsburgh, US): Visting Researcher, 2020
 </div>
 
 <div class="notice">
-  <h4>General Motors Global Technology Center (Detroit, US): Visting Researcher, 2017</h4>
+  General Motors Global Technology Center (Detroit, US): Visting Researcher, 2017
 </div>
 
 <div class="notice">
-  <h4>Accenture Korea (Seoul, Korea): Research Assistant, 2016</h4>
+  Accenture Korea (Seoul, Korea): Research Assistant, 2016
 </div>
 
 <div class="notice">
-  <h4>Institute of Theoretical Physics and Astrophysics (ITAP), CAU, (Kiel, Germany): IAESTE Research Intern, 2014</h4>
+  Institute of Theoretical Physics and Astrophysics (ITAP), CAU, (Kiel, Germany): IAESTE Research Intern, 2014
 </div>
 
 
@@ -66,26 +66,26 @@ header:
 
 <h3> &#10003; Honors and Rewards </h3>
 <div class="notice">
-  <h4>1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020</h4>
+  1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020
 </div>
 
 <div class="notice">
-  <h4>High-Potential Individuals Global Training Program, fully supported by IITP & Ministry of Science, ICT and Future Planning, 2020</h4>
+  High-Potential Individuals Global Training Program, fully supported by IITP & Ministry of Science, ICT and Future Planning, 2020
 </div>
 
 <div class="notice">
-  <h4>2nd place in the Medical Startup Festa, Center for Creative Economy and Innovation, Ulsan, 2018</h4>
+  2nd place in the Medical Startup Festa, Center for Creative Economy and Innovation, Ulsan, 2018
 </div>
 
 <div class="notice">
-  <h4>1st place (Minister Award) in the Korea R&D Festival – KOREA MOTIE, KIAT, Ministry of Trade, Industry and Energy, 2017</h4>
+  1st place (Minister Award) in the Korea R&D Festival – KOREA MOTIE, KIAT, Ministry of Trade, Industry and Energy, 2017
 </div>
 
 <div class="notice">
-  <h4>UNIST - GM Internship Fellowship, UNIST, General Motors, 2017</h4>
-  <h4>FISITA Travel Bursary Scholarship, FISITA - International Federation of Automotive Engineering Societies, 2017</h4>
+  UNIST - GM Internship Fellowship, UNIST, General Motors, 2017
+  FISITA Travel Bursary Scholarship, FISITA - International Federation of Automotive Engineering Societies, 2017
 </div>
 
 <div class="notice">
-  <h4>Valedictorian at the class of 2015 commencement, UNIST, 2015</h4>
+  Valedictorian at the class of 2015 commencement, UNIST, 2015
 </div>
