@@ -108,35 +108,30 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
 
 <div class="notice--success">
   <h4>Naver</h4>
-  <ul>
   <li>Topic: Traffic prediction and congestion modeling</li>
   <li>Participation Period: 2020.09 ~ </li>
     <ul>
     <li>Develop traffic prediction model using historic & real-time data</li>
     <li>Traffic congestion propagation algorithm</li>
     </ul>
-  </ul>
   <li>Technology Stack: Python, SQL, Spark, Graph based machine learning & deep learning</li>
 </div>
 
 
 <div class="notice--success">
   <h4>CyberLogitec</h4>
-  <ul>
   <li>Topic: Development of optimization algorithm and solver for large-size problems</li>
   <li>Participation Period: 2019.06. ~ 2019.12.</li>
     <ul>
     <li>Implement optimization preprocess and solve algorithm</li>
     <li>Develop pipeline for lare-size optimization problem using open source solvers (e.g. CBC)</li>
     </ul>
-  </ul>
   <li>Technology Stack: Python, R, CPLEX, CBC</li>
 </div>
 
 
 <div class="notice--success">
   <h4>Taesung Environmental Research Institute</h4>
-  <ul>
   <li>Topic: Development of predictive models for sensor data analysis</li>
   <li>Participation Period: 2018.07. ~ 2019.03.</li>
     <ul>
@@ -145,7 +140,6 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
     <li>Phase 2. Develop non-linear predictive model (e.g. SVM, RF, XGBOOST)</li>
     <li>Phase 3. Develop multi-layer model</li>
     </ul>
-  </ul>
   <li>Technology Stack: Python, R, MySQL, H2O AI library</li>
 </div>
 
