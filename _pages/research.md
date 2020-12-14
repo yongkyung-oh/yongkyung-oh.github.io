@@ -55,19 +55,19 @@ header:
 <h3> &#10003; Publications (To be updated)</h3>
 
 <div class="notice--info"> <!--International-->
-YongKyung Oh, SungIl Kim. (Working), <b>Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach</b>, 
+<u>YongKyung Oh</u>, SungIl Kim. (Working), <b>Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach</b>, 
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, Hanjoo Kim, Deokjung Lee, Sungil Kim. (Working), <b>Simulation-based Anomaly Detection in Nuclear Reactors</b>, (Written in Korean)
+<u>YongKyung Oh</u>, Hanjoo Kim, Deokjung Lee, Sungil Kim. (Working), <b>Simulation-based Anomaly Detection in Nuclear Reactors</b>, (Written in Korean)
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, Namu Kim, Sungil Kim. (Working), <b>Transfer Learning based approach for mixture gas classification</b>, (Written in Korean)
+<u>YongKyung Oh</u>, Namu Kim, Sungil Kim. (Working), <b>Transfer Learning based approach for mixture gas classification</b>, (Written in Korean)
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, SungIl Kim. (2018), <b>Research Trends on Odor problem: Focusing on E-nose and classification models</b>, IE Magazine, 25(3), 45-51. KIIE (Korean Institute of Industrial Engineers), (Written in Korean)
+<u>YongKyung Oh</u>, SungIl Kim. (2018), <b>Research Trends on Odor problem: Focusing on E-nose and classification models</b>, IE Magazine, 25(3), 45-51. KIIE (Korean Institute of Industrial Engineers), (Written in Korean)
 </div>
 
 
@@ -75,31 +75,31 @@ YongKyung Oh, SungIl Kim. (2018), <b>Research Trends on Odor problem: Focusing
 <h3> &#10003; Conference papers (To be updated)</h3>
 
 <div class="notice--info"> <!--International-->
-YongKyung Oh, SungIl Kim. (2020), <b>Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach</b>, IISE Annual Conference & Expo 2020
+<u>YongKyung Oh</u>, SungIl Kim. (2020), <b>Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach</b>, IISE Annual Conference & Expo 2020
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, Hanjoo Kim, Deokjung Lee, Sungil Kim. (2020), <b>Simulation-based Anomaly Detection in Nuclear Reactors</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020
+<u>YongKyung Oh</u>, Hanjoo Kim, Deokjung Lee, Sungil Kim. (2020), <b>Simulation-based Anomaly Detection in Nuclear Reactors</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, JuYeong Lee, JiIn Kwak, Sungil Kim. (2020), <b>Congestion propagation modeling with Graph Neural Network (GNN)</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020
+<u>YongKyung Oh</u>, JuYeong Lee, JiIn Kwak, Sungil Kim. (2020), <b>Congestion propagation modeling with Graph Neural Network (GNN)</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, Namu Kim, Sungil Kim. (2020), <b>Transfer-Learning based approach for mixture gas classification</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020
+<u>YongKyung Oh</u>, Namu Kim, Sungil Kim. (2020), <b>Transfer-Learning based approach for mixture gas classification</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020
 </div>
 
 <div class="notice--info"> <!--International-->
-YongKyung Oh, SungIl Kim. (2019), <b>Exploiting logistics anomaly detection using maritime bigdata</b>, IISE Annual Conference & Expo 2019
+<u>YongKyung Oh</u>, SungIl Kim. (2019), <b>Exploiting logistics anomaly detection using maritime bigdata</b>, IISE Annual Conference & Expo 2019
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, SungIl Kim. (2019), <b>Exploiting Logistics Anomaly Detection using Maritime Big Data</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2019
+<u>YongKyung Oh</u>, SungIl Kim. (2019), <b>Exploiting Logistics Anomaly Detection using Maritime Big Data</b>, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2019
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using local interpretation of complete model</b>, KIIE (Korean Institute of Industrial Engineers) Spring Conference 2019
+<u>YongKyung Oh</u>, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using local interpretation of complete model</b>, KIIE (Korean Institute of Industrial Engineers) Spring Conference 2019
 </div>
 
 
@@ -148,14 +148,14 @@ YongKyung Oh, SungIl Kim. (2019), <b>Feature Selection for imbalanced data using
 <h3> &#10003; Others </h3>
 
 <div class="notice"> 
-<b>Suggestion for Smart Port in industry 4.0</b>, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries, 2019, (Written in Korean)
+<u>YongKyung Oh</u>, JaeMin Park, DongCheol Lim, DongWhee Hong, JaeHyun Lee, <b>Suggestion for Smart Port in industry 4.0</b>, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries, 2019, (Written in Korean)
 </div>
 
 <div class="notice"> 
-<b>Strategy for Maritime Startup Ecosystem</b>, Graduate Student Academic paper competition, Ulsan Development Institute, 2019, (Written in Korean)
+<u>YongKyung Oh</u>, JaeMin Park, DongCheol Lim, DongWhee Hong, JaeHyun Lee, <b>Strategy for Maritime Startup Ecosystem</b>, Graduate Student Academic paper competition, Ulsan Development Institute, 2019, (Written in Korean)
 </div>
 
 <div class="notice"> 
-<b>Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution</b>, Dissertation paper, 2017, (Written in Korean)
+<u>YongKyung Oh</u>, KwangWook Gang, <b>Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution</b>, Dissertation paper, 2017, (Written in Korean)
 </div>
 
