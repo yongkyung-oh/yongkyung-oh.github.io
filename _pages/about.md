@@ -16,15 +16,16 @@ header:
 <div class="notice--primary">
   <h4>Ph.D. candidate, majoring in Industrial Engineering at UNIST, 2018 ~</h4>
   <ul>
-  <li> Graduate researcher at <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> </li>
-  <li> Advisor: <a href="https://scholar.google.com/citations?user=BISaBGoAAAAJ&hl">SungIl Kim</a> </li>
+    <li> Graduate researcher at <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> </li>
+    <li> Advisor: <a href="https://scholar.google.com/citations?user=BISaBGoAAAAJ&hl">SungIl Kim</a> </li>
   </ul>
 </div>
 
 <div class="notice">
   <h4>M.S. in Technology and Innovation Management at UNIST, 2017</h4>
   <ul>
-  <li> Dissertation Paper (Capstone Project): Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution </li>
+    <li> Management of Technology (MOT) degree, Association to Advance Collegiate Schools of Business (AACSB) certified </li>
+    <li> Dissertation Paper (Capstone Project): Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution (Advisor: KwangWook Gang)</li>
   </ul>
 </div>
 
@@ -32,7 +33,9 @@ header:
   <h4>B.S. in Natural science at UNIST, 2015</h4>
   <ul>
     <li> Major &#8211; Physics </li> 
-    <li> Minor &#8211; Mechanical Engieering & Advanced Material Science </li>
+    <li> Minor &#8211; Mechanical Engieering </li>
+    <li> Minor &#8211; Advanced Material Science </li>
+    <li> Valedictorian, Magna cum Laude, Accomplished total 181 credits</li>
   </ul>  
 </div>
 
