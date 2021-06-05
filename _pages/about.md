@@ -10,7 +10,6 @@ header:
 ---
 
 --------------------
-
 <h3> &#10003; Academic Backgroud </h3>
 
 <div class="notice--primary">
@@ -41,7 +40,6 @@ header:
 
 
 --------------------
-
 <h3> &#10003; Work Experiencecs </h3>
 
 <div class="notice--primary">
@@ -66,8 +64,7 @@ header:
 
 
 --------------------
-
-<h3> &#10003; Honors and Rewards </h3>
+<h3> &#10003; Honors and Fellowships </h3>
 <div class="notice">
   1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020
 </div>
@@ -92,3 +89,8 @@ header:
 <div class="notice">
   Valedictorian at the class of 2015 commencement, UNIST, 2015
 </div>
+
+<div class="notice">
+  Academic Excellence Scholarship, UNIST, 2011-2014
+</div>
+

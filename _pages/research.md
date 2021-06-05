@@ -141,7 +141,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Honors & Awards </h3>
+<h3> &#10003; Honors & Research Awards </h3>
 
 <div class="notice--warning"> 
     <ul>
