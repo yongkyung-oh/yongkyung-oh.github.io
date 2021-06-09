@@ -88,9 +88,9 @@ header:
 <h4>Domestic Conferences (Oral Presentation)</h4>
   <ul>
   <li><u>YongKyung Oh</u>, Sungil Kim. (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE (Korean Institute of Industrial Engineers) Spring Conference 2021</li>
-  <li><u>YongKyung Oh</u>, JuHui Lee, Sungil Kim. (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE (Korean Institute of Industrial Engineers) Spring Conference 2021</li>
+  <li><u>YongKyung Oh</u>, Juhui Lee, Sungil Kim. (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE (Korean Institute of Industrial Engineers) Spring Conference 2021</li>
   <li><u>YongKyung Oh</u>, Hanjoo Kim, Deokjung Lee, Sungil Kim. (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020</li>
-  <li><u>YongKyung Oh</u>, JuYeong Lee, JiIn Kwak, Sungil Kim. (2020), Congestion propagation modeling with Graph Neural Network (GNN), KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020</li>
+  <li><u>YongKyung Oh</u>, Juyeong Lee, Jiin Kwak, Sungil Kim. (2020), Congestion propagation modeling with Graph Neural Network (GNN), KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020</li>
   <li><u>YongKyung Oh</u>, Namu Kim, Sungil Kim. (2020), Transfer-Learning based approach for mixture gas classification, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020</li>
   <li><u>YongKyung Oh</u>, Sungil Kim. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2019</li>
   <li><u>YongKyung Oh</u>, Sungil Kim. (2019), Feature Selection for imbalanced data using local interpretation of complete model, KIIE (Korean Institute of Industrial Engineers) Spring Conference 2019</li>
