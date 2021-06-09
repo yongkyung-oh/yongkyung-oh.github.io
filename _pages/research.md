@@ -132,9 +132,11 @@ header:
     <ul>
     <li>Construct research setup and develop pipeline including DB setup</li>
     <li>Proposed algorithm is implemented to LG H&A(Home Appliance & Air Solution)</li>
+    <ul>
     <li>Phase 1. Develop linear predictive model (e.g. Generalized Linear Model)</li>
     <li>Phase 2. Develop non-linear predictive model (e.g. SVM, RF, XGBOOST)</li>
     <li>Phase 3. Develop multi-layer model</li>
+    </ul>
     </ul>
   <li>Technology Stack: Python, R, MySQL, H2O AI library</li>
 </div>
