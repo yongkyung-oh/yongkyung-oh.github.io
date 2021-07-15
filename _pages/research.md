@@ -64,8 +64,8 @@ header:
 
 <div class="notice--danger"> <!--Domestic-->
   <ul>
-  <li><u>YongKyung Oh</u>, Hanjoo Kim, Deokjung Lee, Sungil Kim. (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143.(Written in Korean)</li>
-  <li><u>YongKyung Oh</u>, Namu Kim, Sungil Kim. (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159.(Written in Korean)</li>
+  <li><u>YongKyung Oh</u>, Hanjoo Kim, Deokjung Lee, Sungil Kim. (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143. (Written in Korean)</li>
+  <li><u>YongKyung Oh</u>, Namu Kim, Sungil Kim. (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159. (Written in Korean)</li>
   <li><u>YongKyung Oh</u>, Sungil Kim. (2018), Research Trends on Odor problem: Focusing on E-nose and classification models, IE Magazine of Korean Institute of Industrial Engineers, 25(3), 45-51. (Written in Korean)</li>
   </ul>
 </div>
@@ -161,6 +161,6 @@ header:
 <h3> &#10003; Others </h3>
 
 <div class="notice"> 
-<u>YongKyung Oh</u>, KwangWook Gang. (2017), Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution, Dissertation paper, 2017, (Written in Korean)
+<u>YongKyung Oh</u>, KwangWook Gang. (2017), Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution, Dissertation paper, 2017. (Written in Korean)
 </div>
 
