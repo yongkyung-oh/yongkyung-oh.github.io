@@ -75,7 +75,7 @@ header:
 <h3> &#10003; Conference papers</h3>
 
 <div class="notice--info"> <!--International-->
-<h4>International Conferences (Oral Presentation)</h4>
+<h4>International Conferences</h4>
   <ul>
   <li><u>YongKyung Oh</u>, Sungil Kim. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo 2021</li>
   <li><u>YongKyung Oh</u>, Sungil Kim. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo 2021</li>
@@ -85,8 +85,9 @@ header:
 </div>
 
 <div class="notice--danger"> <!--Domestic-->
-<h4>Domestic Conferences (Oral Presentation)</h4>
+<h4>Domestic Conferences</h4>
   <ul>
+  <li><u>YongKyung Oh</u>, Sungil Kim. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, CKAIA 2021</li>
   <li><u>YongKyung Oh</u>, Sungil Kim. (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE (Korean Institute of Industrial Engineers) Spring Conference 2021</li>
   <li><u>YongKyung Oh</u>, Juhui Lee, Sungil Kim. (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE (Korean Institute of Industrial Engineers) Spring Conference 2021</li>
   <li><u>YongKyung Oh</u>, Hanjoo Kim, Deokjung Lee, Sungil Kim. (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE (Korean Institute of Industrial Engineers) Fall Conference 2020</li>
@@ -147,8 +148,8 @@ header:
 
 <div class="notice--warning"> 
     <ul>
-    <li><b>LSC track Best Paper Award</b><br> 
-    <u>YongKyung Oh</u>, Sungil Kim. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo 2021, Logistics & Supply Chain Division</li>
+    <li><b>IISE LSC track Best Paper Award</b><br> 
+    <u>YongKyung Oh</u>, Sungil Kim. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo 2021, Logistics & Supply Chain Division</li> [<a href="https://news.unist.ac.kr/unist-announces-2021-winners-of-iise-lsc-division-best-paper-award/?fbclid=IwAR2frIPxwtFoN78yz35CZom9Kxo7f8qBL22qekEE3IyiAPl_D8CE5v8c8rQ">news</a>]
     <li><b>Featured Paper</b><br> 
     <u>YongKyung Oh</u>, JaeMin Park, DongCheol Lim, DongWhee Hong, JaeHyun Lee. (2019), Suggestion for Smart Port in industry 4.0, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries, 2019, (Written in Korean)</li>
     <li><b>Featured Paper</b><br> 
