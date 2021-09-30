@@ -10,7 +10,7 @@ header:
 ---
 
 --------------------
-<h3> &#10003; Affiliation </h3>
+<h3> Affiliation </h3>
 <div class="notice--primary">
   <ul>
   <li> Graduate researcher at <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> </li>
@@ -20,7 +20,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Research Interests </h3>
+<h3> Research Interests </h3>
 <div class="notice--primary">
   <ul>
   <li> Industrial Artificial Intelligence</li>
@@ -55,7 +55,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Journal Papers or Refereed Conferences (Under Review) </h3>
+<h3> Journal Papers or Refereed Conferences (Under Review) </h3>
 
 <div class="notice--info"> <!--Under Review-->
   <ul>
@@ -68,7 +68,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Journal Papers </h3>
+<h3> Journal Papers </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
   <li><b>YongKyung Oh</b>, Hanjoo Kim, Deokjung Lee, and <u>Sungil Kim*</u> (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143.</li>
@@ -78,7 +78,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Refereed Conferences </h3>
+<h3> Refereed Conferences </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
   <li><b>YongKyung Oh</b>, and <u>Sungil Kim*</u> (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, The 4th Conference of Korean Artificial Intelligence Association</li>
@@ -89,7 +89,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Conference presentations </h3>
+<h3> Conference presentations </h3>
 
 <div class="notice--danger">
   <ul>
@@ -109,7 +109,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Industry Cooperation Projects </h3>
+<h3> Industry Cooperation Projects </h3>
 
 <div class="notice--success">
   <h4>THYROSCOPE Inc.</h4>
@@ -185,7 +185,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Research Awards and Honors </h3>
+<h3> Research Awards and Honors </h3>
 
 <div class="notice--warning"> 
   <ul>
@@ -200,7 +200,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Other Publications </h3>
+<h3> Other Publications </h3>
 
 <div class="notice"> 
   <ul>
