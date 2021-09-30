@@ -32,8 +32,7 @@ header:
   <h4>B.S. in Natural science at UNIST, 2015</h4>
   <ul>
     <li> Major &#8211; Physics </li> 
-    <li> Minor &#8211; Mechanical Engieering </li>
-    <li> Minor &#8211; Advanced Material Science </li>
+    <li> Double Minor &#8211; Mechanical Engieering & Advanced Material Science</li>
     <li> Valedictorian, Magna cum Laude, Accomplished total 181 credits</li>
   </ul>  
 </div>
