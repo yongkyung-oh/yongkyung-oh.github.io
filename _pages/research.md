@@ -102,7 +102,7 @@ header:
   <li><b>YongKyung Oh</b>, and Namu Kim, Sungil Kim (2020), Transfer-Learning based approach for mixture gas classification, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2020</li>
   <li><b>YongKyung Oh</b>, and Sungil Kim (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2020</li>
   <li><b>YongKyung Oh</b>, and Sungil Kim (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2019</li>
-  <li><b>YongKyung Oh</b>, and Sungil Kim (2019), Exploiting logistics anomaly detection using maritime bigdata, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2019</li>
+  <li><b>YongKyung Oh</b>, and Sungil Kim (2019), Exploiting logistics anomaly detection using Maritime Big Data, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2019</li>
   <li><b>YongKyung Oh</b>, and Sungil Kim (2019), Feature Selection for imbalanced data using local interpretation of complete model, Korean Institute of Industrial Engineers (KIIE) Spring Conference 2019</li>
   </ul>
 </div>
