@@ -112,7 +112,7 @@ header:
 <h3> &#10003; Industry Cooperation Projects </h3>
 
 <div class="notice--success">
-  <h4>Thyroscope</h4>
+  <h4>THYROSCOPE Inc.</h4>
   <ul>
   <li>Topic: Classification for Eye diseaese related to Thyroid illness</li>
   <li>Participation period: 2021.09 ~ </li>
@@ -125,7 +125,7 @@ header:
 </div>
 
 <div class="notice--success">
-  <h4>Thyroscope</h4>
+  <h4>THYROSCOPE Inc.</h4>
   <ul>
   <li>Topic: Thyroid hormone prediction with wearable device</li>
   <li>Participation period: 2021.09 ~ </li>
@@ -138,7 +138,7 @@ header:
 </div>
 
 <div class="notice--success">
-  <h4>Naver</h4>
+  <h4>NAVER maps</h4>
   <ul>
   <li>Topic: Traffic prediction and congestion modeling</li>
   <li>Participation period: 2020.09 ~ </li>
