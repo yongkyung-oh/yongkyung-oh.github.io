@@ -10,7 +10,7 @@ header:
 ---
 
 --------------------
-<h3> &#10003; Academic Backgroud </h3>
+<h3> Academic Backgroud </h3>
 
 <div class="notice--primary">
   <h4>Ph.D. candidate, majoring in Industrial Engineering at UNIST, 2018 ~</h4>
@@ -39,14 +39,14 @@ header:
 
 
 --------------------
-<h3> &#10003; Work Experiencecs </h3>
+<h3> Work Experiencecs </h3>
 
 <div class="notice--primary">
   <h4>UNIST Data Analytics Lab (Ulsan, Korea): Student Leader | Ph.D. Researcher, 2018 ~ </h4>
 </div>
 
 <div class="notice">
-  CMU (Pittsburgh, US): Visting Researcher, 2020
+  Carnegie Mellon University (Pittsburgh, US): Visting Researcher, 2020
 </div>
 
 <div class="notice">
@@ -63,7 +63,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Honors and Fellowships </h3>
+<h3> Honors and Fellowships </h3>
 <div class="notice">
   1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020
 </div>
