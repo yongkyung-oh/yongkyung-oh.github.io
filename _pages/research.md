@@ -55,7 +55,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Journal Paper or Refereed Conferences (Under Review) </h3>
+<h3> &#10003; Journal Papers or Refereed Conferences (Under Review) </h3>
 
 <div class="notice--info"> <!--Under Review-->
   <ul>
@@ -68,7 +68,7 @@ header:
 
 
 --------------------
-<h3> &#10003; Journal Paper </h3>
+<h3> &#10003; Journal Papers </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
   <li><b>YongKyung Oh</b>, Hanjoo Kim, Deokjung Lee, and <u>Sungil Kim*</u> (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143.</li>
@@ -205,7 +205,7 @@ header:
 <div class="notice"> 
   <ul>
   <li><b>YongKyung Oh</b>, Sungil Kim. (2018), Research Trends on Odor problem: Focusing on E-nose and classification models, IE Magazine of Korean Institute of Industrial Engineers, 25(3), 45-51.</li>
-  <b>YongKyung Oh</b>, KwangWook Gang. (2017), Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution, Dissertation paper.
+  <li><b>YongKyung Oh</b>, KwangWook Gang. (2017), Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution, Dissertation paper.</li>
   </ul>
 </div>
 
