@@ -59,13 +59,12 @@ header:
 
 <div class="notice--info"> <!--Under Review-->
   <ul>
-  <li><b>YongKyung Oh</b> and Sungil Kim*, Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review</li>
-  <li><b>YongKyung Oh</b> and Sungil Kim*, Multichannel Convolution Neural Network for Gas Mixture Classification, under review</li>
-  <li><b>YongKyung Oh</b>, JiIn Kwak, JuYeong Lee, and Sungil Kim*, Time delay estimation of traffic congestion propagation based on transfer entropy, under review</li>
-  <li>JuYeong Lee, JiIn Kwak, <b>YongKyung Oh</b>, and Sungil Kim*, Quantifying Incident Impacts and Identifying Influential Factors on Urban Traffic Networks, under review</li>
-
-  <li><b>YongKyung Oh</b> Juhui Lee, and Sungil Kim*, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, working</li>
-  <li>JuYeong Lee, JiIn Kwak, <b>YongKyung Oh</b>, and Sungil Kim*, A propagation prediction method for non-recurrent traffic congestion, working</li>
+  <li><b>YongKyung Oh</b> Sungil Kim*, Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review</li>
+  <li><b>YongKyung Oh</b> Sungil Kim*, Multichannel Convolution Neural Network for Gas Mixture Classification, under review</li>
+  <li><b>YongKyung Oh</b>, JiIn Kwak, JuYeong Lee, Sungil Kim*, Time delay estimation of traffic congestion propagation based on transfer entropy, under review</li>
+  <li>JuYeong Lee, JiIn Kwak, <b>YongKyung Oh</b>, Sungil Kim*, Quantifying Incident Impacts and Identifying Influential Factors on Urban Traffic Networks, under review</li>
+  <li><b>YongKyung Oh</b> Juhui Lee, Sungil Kim*, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, working</li>
+  <li>JuYeong Lee, JiIn Kwak, <b>YongKyung Oh</b>, Sungil Kim*, A propagation prediction method for non-recurrent traffic congestion, working</li>
   </ul>
 </div>
 
@@ -74,7 +73,7 @@ header:
 <h3> Journal Papers </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li><b>YongKyung Oh</b>, Hanjoo Kim, Deokjung Lee, and Sungil Kim* (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143.</li>
+  <li><b>YongKyung Oh</b>, Hanjoo Kim, Deokjung Lee, Sungil Kim* (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143.</li>
   <li><b>YongKyung Oh</b>, Namu Kim, Sungil Kim* (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159.</li>
   </ul>
 </div>
@@ -84,9 +83,9 @@ header:
 <h3> Refereed Conferences </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li><b>YongKyung Oh</b>, and Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, The 4th Conference of Korean Artificial Intelligence Association</li>
-  <li><b>YongKyung Oh</b>, and Sungil Kim* (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, Logistics & Supply Chain Division, <u>[IISE 2021 LSC track Best Paper Award]</u></li>
-  <li><b>YongKyung Oh</b>, and Sungil Kim* (2019). Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2019, Logistics & Supply Chain Division</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, ICDM 2021, Ph.D. Forum (Workshop), December, 2021</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, The 4th Conference of Korean Artificial Intelligence Association</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2019). Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Logistics & Supply Chain Division</li>
   </ul>
 </div>
 
@@ -96,17 +95,18 @@ header:
 
 <div class="notice--danger">
   <ul>
-  <li><b>YongKyung Oh</b>, and Sungil Kim (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021</li>
-  <li><b>YongKyung Oh</b>, and Sungil Kim (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021</li>
-  <li><b>YongKyung Oh</b>, and Sungil Kim (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, Korean Institute of Industrial Engineers (KIIE) Spring Conference 2021</li>
-  <li><b>YongKyung Oh</b>, Juhui Lee, and Sungil Kim (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, Korean Institute of Industrial Engineers (KIIE) Spring Conference 2021</li>
-  <li><b>YongKyung Oh</b>, Hanjoo Kim, Deokjung Lee, and Sungil Kim (2020), Simulation-based Anomaly Detection in Nuclear Reactors, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2020</li>
-  <li><b>YongKyung Oh</b>, and Juyeong Lee, Jiin Kwak, Sungil Kim (2020), Congestion propagation modeling with Graph Neural Network (GNN), Korean Institute of Industrial Engineers (KIIE) Fall Conference 2020</li>
-  <li><b>YongKyung Oh</b>, and Namu Kim, Sungil Kim (2020), Transfer-Learning based approach for mixture gas classification, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2020</li>
-  <li><b>YongKyung Oh</b>, and Sungil Kim (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2020</li>
-  <li><b>YongKyung Oh</b>, and Sungil Kim (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2019</li>
-  <li><b>YongKyung Oh</b>, and Sungil Kim (2019), Exploiting logistics anomaly detection using Maritime Big Data, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2019</li>
-  <li><b>YongKyung Oh</b>, and Sungil Kim (2019), Feature Selection for imbalanced data using local interpretation of complete model, Korean Institute of Industrial Engineers (KIIE) Spring Conference 2019</li>
+  <li>JuYeong Lee, JiIn Kwak, <b>YongKyung Oh</b>, Sungil Kim* (2021), A propagation prediction method for non-recurrent traffic congestion, INFORMS Annual Meeting, October 2021.</li>  
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021</li>
+  <li><b>YongKyung Oh</b>, Juhui Lee, Sungil Kim* (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE Spring Conference, May 2021</li>
+  <li><b>YongKyung Oh</b>, Hanjoo Kim, Deokjung Lee, Sungil Kim* (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE Fall Conference, November 2020</li>
+  <li><b>YongKyung Oh</b>, Juyeong Lee, Jiin Kwak, Sungil Kim* (2020), Congestion propagation modeling with Graph Neural Network (GNN), KIIE Fall Conference, November 2020</li>
+  <li><b>YongKyung Oh</b>, Namu Kim, Sungil Kim* (2020), Transfer-Learning based approach for mixture gas classification, KIIE Fall Conference, November 2020</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, November 2020</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, KIIE Fall Conference, November 2019</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2019), Exploiting logistics anomaly detection using Maritime Big Data, IISE Annual Conference & Expo, May 2019</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2019), Feature Selection for imbalanced data using local interpretation of complete model, KIIE Spring Conference, April 2019</li>
   </ul>
 </div>
 
@@ -207,8 +207,8 @@ header:
 
 <div class="notice"> 
   <ul>
-  <li><b>YongKyung Oh</b>, Sungil Kim. (2018), Research Trends on Odor problem: Focusing on E-nose and classification models, IE Magazine of Korean Institute of Industrial Engineers, 25(3), 45-51.</li>
-  <li><b>YongKyung Oh</b>, KwangWook Gang. (2017), Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution, Dissertation paper.</li>
+  <li><b>YongKyung Oh</b>, Sungil Kim (2018), Research Trends on Odor problem: Focusing on E-nose and classification models, IE Magazine of Korean Institute of Industrial Engineers, 25(3), 45-51.</li>
+  <li><b>YongKyung Oh</b>, KwangWook Gang (2017), Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution, Dissertation paper.</li>
   </ul>
 </div>
 
