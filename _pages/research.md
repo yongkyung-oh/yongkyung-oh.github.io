@@ -95,6 +95,7 @@ header:
 
 <div class="notice--danger">
   <ul>
+  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, ICDM 2021, Ph.D. Forum (Workshop), December, 2021</li>
   <li>JuYeong Lee, JiIn Kwak, <b>YongKyung Oh</b>, Sungil Kim* (2021), A propagation prediction method for non-recurrent traffic congestion, INFORMS Annual Meeting, October 2021.</li>  
   <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021</li>
   <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021</li>
