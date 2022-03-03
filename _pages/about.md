@@ -23,7 +23,7 @@ header:
   <h4>Ph.D. candidate, majoring in Industrial Engineering at UNIST, 2018 ~</h4>
   <ul>
     <li> Graduate researcher at <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> </li>
-    <li> Advisor: <a href="https://scholar.google.com/citations?user=BISaBGoAAAAJ&hl">SungIl Kim</a> </li>
+    <li> Advisor: <a href="https://scholar.google.com/citations?user=BISaBGoAAAAJ&hl">Sungil Kim</a> </li>
   </ul>
 </div>
 
@@ -49,7 +49,7 @@ header:
 <h3> Work Experiencecs </h3>
 
 <div class="notice--primary">
-  <h4>UNIST Data Analytics Lab (Ulsan, Korea): Student Leader | Ph.D. Researcher, 2018 ~ </h4>
+  <h4>UNIST Data Analytics Lab (Ulsan, Korea): Graduate researcher & Laboratory Leader, 2018 ~ </h4>
 </div>
 
 <div class="notice">
