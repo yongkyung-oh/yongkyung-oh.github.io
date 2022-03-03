@@ -59,12 +59,12 @@ header:
 
 <div class="notice--info"> <!--Under Review-->
   <ul>
-  <li><b>YongKyung Oh</b> Sungil Kim*, Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review</li>
-  <li><b>YongKyung Oh</b> Sungil Kim*, Multichannel Convolution Neural Network for Gas Mixture Classification, under review</li>
-  <li><b>YongKyung Oh</b>, JiIn Kwak, JuYeong Lee, Sungil Kim*, Time delay estimation of traffic congestion propagation based on transfer entropy, under review</li>
-  <li>JuYeong Lee, JiIn Kwak, <b>YongKyung Oh</b>, Sungil Kim*, Quantifying Incident Impacts and Identifying Influential Factors on Urban Traffic Networks, under review</li>
-  <li><b>YongKyung Oh</b> Juhui Lee, Sungil Kim*, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, working</li>
-  <li>JuYeong Lee, JiIn Kwak, <b>YongKyung Oh</b>, Sungil Kim*, A propagation prediction method for non-recurrent traffic congestion, working</li>
+  <li>Oh, Y., & Kim, S.* (2022). Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review</li>
+  <li>Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S.* (2022). Multichannel Convolution Neural Network for Gas Mixture Classification, under review</li>
+  <li>Lee, J., Oh, Y., Kwak, J., & Kim, S.* (2022). Quantifying Incident Impacts and Identifying Influential Factors on Urban Traffic Networks, under review</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S.* (2022). Time delay estimation of traffic congestion propagation based on transfer entropy, submitted</li>
+  <li>Oh, Y., Lee, J., & Kim, S.* (2022). Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, working</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S.* (2022). A propagation prediction method for non-recurrent traffic congestion, working</li>
   </ul>
 </div>
 
@@ -73,8 +73,8 @@ header:
 <h3> Journal Papers </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li><b>YongKyung Oh</b>, Hanjoo Kim, Deokjung Lee, Sungil Kim* (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143.</li>
-  <li><b>YongKyung Oh</b>, Namu Kim, Sungil Kim* (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159.</li>
+  <li>Oh, Y., Kim, H., Lee, D. & Kim, S.* (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143.</li>
+  <li>Oh, Y., Kim, N., & Kim, S.* (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159.</li>
   </ul>
 </div>
 
@@ -83,9 +83,11 @@ header:
 <h3> Refereed Conferences </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, ICDM 2021, Ph.D. Forum (Workshop), December, 2021</li>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, The 4th Conference of Korean Artificial Intelligence Association</li>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2019). Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Logistics & Supply Chain Division</li>
+  <li>Oh, Y., & Kim, S.* (2021, December). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE.</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S.* (2021, October). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS.</li>
+  <li>Oh, Y., & Kim, S.* (2021, July). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association.</li>
+  <li>Oh, Y., & Kim, S.* (2020, November). Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach. IISE.</li>
+  <li>Oh, Y., & Kim, S.* (2019). Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE).</li>
   </ul>
 </div>
 
@@ -93,29 +95,40 @@ header:
 --------------------
 <h3> Conference presentations </h3>
 
-<div class="notice--danger">
+<div class="notice--info"> <!--Presentation-->
   <ul>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, ICDM 2021, Ph.D. Forum (Workshop), December, 2021</li>
-  <li>JuYeong Lee, JiIn Kwak, <b>YongKyung Oh</b>, Sungil Kim* (2021), A propagation prediction method for non-recurrent traffic congestion, INFORMS Annual Meeting, October 2021.</li>  
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021</li>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021</li>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021</li>
-  <li><b>YongKyung Oh</b>, Juhui Lee, Sungil Kim* (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE Spring Conference, May 2021</li>
-  <li><b>YongKyung Oh</b>, Hanjoo Kim, Deokjung Lee, Sungil Kim* (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE Fall Conference, November 2020</li>
-  <li><b>YongKyung Oh</b>, Juyeong Lee, Jiin Kwak, Sungil Kim* (2020), Congestion propagation modeling with Graph Neural Network (GNN), KIIE Fall Conference, November 2020</li>
-  <li><b>YongKyung Oh</b>, Namu Kim, Sungil Kim* (2020), Transfer-Learning based approach for mixture gas classification, KIIE Fall Conference, November 2020</li>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, November 2020</li>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, KIIE Fall Conference, November 2019</li>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2019), Exploiting logistics anomaly detection using Maritime Big Data, IISE Annual Conference & Expo, May 2019</li>
-  <li><b>YongKyung Oh</b>, Sungil Kim* (2019), Feature Selection for imbalanced data using local interpretation of complete model, KIIE Spring Conference, April 2019</li>
+  <li>Oh, Y., & Kim, S.* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021</li>
+  <li>Oh, Y., & Kim, S.* (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021</li>
+  <li>Oh, Y., & Kim, S.* (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021</li>
+  <li>Oh, Y., Lee, J., & Kim, S.* (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE Spring Conference, May 2021</li>
+  <li>Oh, Y., Kim, H., Lee, D. & Kim, S.* (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE Fall Conference, November 2020</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S.* (2020), Congestion propagation modeling with Graph Neural Network (GNN), KIIE Fall Conference, November 2020</li>
+  <li>Oh, Y., Kim, N., & Kim, S.* (2020), Transfer-Learning based approach for mixture gas classification, KIIE Fall Conference, November 2020</li>
+  <li>Oh, Y., & Kim, S.* (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, November 2020</li>
+  <li>Oh, Y., & Kim, S.* (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, KIIE Fall Conference, November 2019</li>
+  <li>Oh, Y., & Kim, S.* (2019), Exploiting logistics anomaly detection using Maritime Big Data, IISE Annual Conference & Expo, May 2019</li>
+  <li>Oh, Y., & Kim, S.* (2019), Feature Selection for imbalanced data using local interpretation of complete model, KIIE Spring Conference, April 2019</li>
   </ul>
 </div>
 
 
 --------------------
+<h3> Patents </h3>
+
+<div class="notice--danger"> <!--Patent-->
+  <ul>
+  <li>Method, computer device, and computer program to predict road congestion propagation using pattern matching. (KR 10-2021-0120229, applied September 9, 2021).</li>
+  <li>Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy. (KR 10-2021-0119772, applied September 8, 2021).</li>
+  <li>Sensor Drift Compensation Method and Device. (PCT/KR2021/010729, applied August 12, 2021)(KR 10-2020-0101037, applied August 14, 2020).</li>
+  <li>Method and Apparatus for Determining Delay Possibility of Shipment. (10-2250354, granted May 4, 2021), (PCT/KR2020/015854, applied November 12, 2020).</li>
+  <li>Bayesian Bootstrap based anomaly detection of vessels. (KR 10-2020-0178651, applied December 18, 2020).</li>
+  </ul>
+</div>
+
+--------------------
 <h3> Industry Cooperation Projects </h3>
 
-<div class="notice--success">
+<div class="notice--success"> <!--Project-->
   <h4>THYROSCOPE Inc.</h4>
   <ul>
   <li>Topic: Classification for Eye diseaese related to Thyroid illness</li>
@@ -194,11 +207,11 @@ header:
 <div class="notice--warning"> 
   <ul>
   <li><b>IISE 2021 LSC track Best Paper Award</b><br> 
-  <b>YongKyung Oh</b>, Sungil Kim (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo 2021, Logistics & Supply Chain Division, [<a href="https://news.unist.ac.kr/unist-announces-2021-winners-of-iise-lsc-division-best-paper-award/?fbclid=IwAR2frIPxwtFoN78yz35CZom9Kxo7f8qBL22qekEE3IyiAPl_D8CE5v8c8rQ">news</a>]</li> 
+  Oh, Y., & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo 2021, Logistics & Supply Chain Division, [<a href="https://news.unist.ac.kr/unist-announces-2021-winners-of-iise-lsc-division-best-paper-award/?fbclid=IwAR2frIPxwtFoN78yz35CZom9Kxo7f8qBL22qekEE3IyiAPl_D8CE5v8c8rQ">news</a>]</li> 
   <li><b>Featured Paper</b><br> 
-  <b>YongKyung Oh</b>, JaeMin Park, DongCheol Lim, DongWhee Hong, JaeHyun Lee (2019), Suggestion for Smart Port in industry 4.0, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries.</li>
+  Oh, Y., Park, J., Lim, D., Hong, D., Lee, J. (2019), Suggestion for Smart Port in industry 4.0, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries.</li>
   <li><b>Featured Paper</b><br> 
-  <b>YongKyung Oh</b>, JaeMin Park, DongCheol Lim, DongWhee Hong, JaeHyun Lee (2019), Strategy for Maritime Startup Ecosystem, Graduate Student Academic paper competition, Ulsan Development Institute.</li>
+  Oh, Y., Park, J., Lim, D., Hong, D., Lee, J. (2019), Strategy for Maritime Startup Ecosystem, Graduate Student Academic paper competition, Ulsan Development Institute.</li>
   </ul>
 </div>
 
@@ -208,8 +221,8 @@ header:
 
 <div class="notice"> 
   <ul>
-  <li><b>YongKyung Oh</b>, Sungil Kim (2018), Research Trends on Odor problem: Focusing on E-nose and classification models, IE Magazine of Korean Institute of Industrial Engineers, 25(3), 45-51.</li>
-  <li><b>YongKyung Oh</b>, KwangWook Gang (2017), Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution, Dissertation paper.</li>
+  <li>Oh, Y., & Kim, S. (2018), Research Trends on Odor problem: Focusing on E-nose and classification models, IE Magazine of Korean Institute of Industrial Engineers, 25(3), 45-51.</li>
+  <li>Oh, Y., & KwangWook Gang, K. (2017), Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution, Dissertation paper.</li>
   </ul>
 </div>
 

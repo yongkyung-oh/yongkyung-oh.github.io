@@ -1,5 +1,5 @@
 ---
-title: Development Works
+title: Development & Research Works
 layout: collection
 author_profile: true
 permalink: /portfolio-dev/

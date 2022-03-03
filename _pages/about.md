@@ -10,9 +10,16 @@ header:
 ---
 
 --------------------
-<h3> Academic Backgroud </h3>
+<h3> Profile </h3>
 
 <div class="notice--primary">
+<b>YongKyung Oh</b> is a Ph.D. candidate majoring in industrial engineering at Ulsan National Institute of Science and Technology (UNIST), advised by Prof. Sungil Kim. YongKyung is received a Master’s in Technology and Innovation Management at UNIST and B.Sc. in Physics at UNIST. He has working experiences as a visiting researcher at CMU, GM R&D, and ITAP. Also, he participated in student-oriented consulting projects, working with a variety of companies including CSL Behring, IBM, and Deere & Company. He has expertise in domain-specific machine learning and deep learning. He can provide a practical view of the state-of-the-art AI techniques incorporating industrial characteristics. He is expected to graduate in February 2023. 
+</div>
+
+--------------------
+<h3> Academic Backgroud </h3>
+
+<div class="notice">
   <h4>Ph.D. candidate, majoring in Industrial Engineering at UNIST, 2018 ~</h4>
   <ul>
     <li> Graduate researcher at <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> </li>
@@ -65,31 +72,15 @@ header:
 --------------------
 <h3> Honors and Fellowships </h3>
 <div class="notice">
-  1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020
+  <ul>
+    <li> Best Paper Award, IISE Annual Conference & Expo, Logistics & Supply Chain Division, 2021 </li> 
+    <li> 1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020 </li> 
+    <li> High-Potential Individuals Global Training Program, fully supported by IITP & Ministry of Science, ICT and Future Planning, 2020</li>
+    <li> 2nd place in the Medical Startup Festa, Center for Creative Economy and Innovation, Ulsan, 2018</li>
+    <li> 1st place (Minister Award) in the Korea R&D Festival – KOREA MOTIE, KIAT, Ministry of Trade, Industry and Energy, 2017</li>
+    <li> UNIST - GM Internship Fellowship, UNIST, General Motors, 2017</li>
+    <li> FISITA Travel Bursary Scholarship, FISITA - International Federation of Automotive Engineering Societies, 2017</li>
+    <li> Valedictorian at the class of 2015 commencement, UNIST, 2015</li>
+    <li> Academic Excellence Scholarship, UNIST, 2011-2014</li>
+  </ul>  
 </div>
-
-<div class="notice">
-  High-Potential Individuals Global Training Program, fully supported by IITP & Ministry of Science, ICT and Future Planning, 2020
-</div>
-
-<div class="notice">
-  2nd place in the Medical Startup Festa, Center for Creative Economy and Innovation, Ulsan, 2018
-</div>
-
-<div class="notice">
-  1st place (Minister Award) in the Korea R&D Festival – KOREA MOTIE, KIAT, Ministry of Trade, Industry and Energy, 2017
-</div>
-
-<div class="notice">
-  UNIST - GM Internship Fellowship, UNIST, General Motors, 2017
-  FISITA Travel Bursary Scholarship, FISITA - International Federation of Automotive Engineering Societies, 2017
-</div>
-
-<div class="notice">
-  Valedictorian at the class of 2015 commencement, UNIST, 2015
-</div>
-
-<div class="notice">
-  Academic Excellence Scholarship, UNIST, 2011-2014
-</div>
-

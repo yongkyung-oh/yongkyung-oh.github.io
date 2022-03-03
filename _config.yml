@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 #theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes@4.21.0"
+remote_theme           : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -95,14 +95,20 @@ analytics:
 author:
   name             : "YongKyung Oh"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. candidate majoring in industrial engineering at UNIST"
+  bio              : "Ph.D. candidate majoring in industrial engineering at UNIST."
   location         : "UNIST"
-  email            : 
+
   links:
+    - label: "CV"
+      icon: "fas fa-fw fa-link"
+      url: "https://drive.google.com/file/d/12kr_OViGjSfBox5_kUnpnpop87liNlyV/view?usp=sharing"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YJ1L50YAAAAJ&hl=en"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:yongkyung-oh@outlook.com"
-    #- label: "Website"
+    # - label: "Website"
     #  icon: "fas fa-fw fa-link"
     #  url: "https://your-website.com"
     - label: "GitHub"
