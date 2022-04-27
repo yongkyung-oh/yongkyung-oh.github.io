@@ -55,16 +55,16 @@ header:
 
 
 --------------------
-<h3> Journal Papers or Refereed Conferences (Under Review) </h3>
+<h3> Working Paper </h3>
 
 <div class="notice--info"> <!--Under Review-->
   <ul>
-  <li>Oh, Y., & Kim, S.* (2022). Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review</li>
-  <li>Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S.* (2022). Multichannel Convolution Neural Network for Gas Mixture Classification, under review</li>
-  <li>Lee, J., Oh, Y., Kwak, J., & Kim, S.* (2022). Quantifying Incident Impacts and Identifying Influential Factors on Urban Traffic Networks, under review</li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S.* (2022). Time delay estimation of traffic congestion propagation based on transfer entropy, submitted</li>
-  <li>Oh, Y., Lee, J., & Kim, S.* (2022). Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, working</li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S.* (2022). A propagation prediction method for non-recurrent traffic congestion, working</li>
+  <li>Oh, Y., & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy, under review</li>
+  <li>Oh, Y., & Kim, S., MCTC: Multivariate time series classification using sparse feature extraction and transfer learning, working</li>
+  <li>Oh, Y., & Kim, S., Multi-model ensemble approach for human activity recognition, working</li>
+  <li>Oh, Y., Lee, J., & Kim, S, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, working</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion, working</li>
   </ul>
 </div>
 
@@ -73,8 +73,10 @@ header:
 <h3> Journal Papers </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li>Oh, Y., Kim, H., Lee, D. & Kim, S.* (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143.</li>
-  <li>Oh, Y., Kim, N., & Kim, S.* (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159.</li>
+  <li>Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S. (2022). Multichannel convolution neural network for gas mixture classification. Annals of Operations Research. <a href="https://doi.org/10.1007/s10479-022-04715-2">https://doi.org/10.1007/s10479-022-04715-2</a></li>
+  <li>Lee, J., Oh, Y., Kwak, J., & Kim, S. (2022). Quantifying incident impacts and identifying influential features in urban traffic networks. Transportmetrica B: Transport Dynamics (pp. 1–22). <a href="https://doi.org/10.1080/21680566.2022.2063205">https://doi.org/10.1080/21680566.2022.2063205</a></li>
+  <li>Oh, Y., Kim, H., Lee, D. & Kim, S. (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.130">https://doi.org/10.7232/JKIIE.2021.47.2.130</a></li>
+  <li>Oh, Y., Kim, N., & Kim, S. (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.144">https://doi.org/10.7232/JKIIE.2021.47.2.144</a></li>
   </ul>
 </div>
 
@@ -83,11 +85,11 @@ header:
 <h3> Refereed Conferences </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li>Oh, Y., & Kim, S.* (2021, December). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE.</li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S.* (2021, October). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS.</li>
-  <li>Oh, Y., & Kim, S.* (2021, July). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association.</li>
-  <li>Oh, Y., & Kim, S.* (2020, November). Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach. IISE.</li>
-  <li>Oh, Y., & Kim, S.* (2019). Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE).</li>
+  <li>Oh, Y., & Kim, S. (2021, December). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE.</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2021, October). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS.</li>
+  <li>Oh, Y., & Kim, S. (2021, July). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association.</li>
+  <li>Oh, Y., & Kim, S. (2020, November). Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach. IISE.</li>
+  <li>Oh, Y., & Kim, S. (2019). Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE).</li>
   </ul>
 </div>
 
@@ -97,17 +99,17 @@ header:
 
 <div class="notice--info"> <!--Presentation-->
   <ul>
-  <li>Oh, Y., & Kim, S.* (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021</li>
-  <li>Oh, Y., & Kim, S.* (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021</li>
-  <li>Oh, Y., & Kim, S.* (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021</li>
-  <li>Oh, Y., Lee, J., & Kim, S.* (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE Spring Conference, May 2021</li>
-  <li>Oh, Y., Kim, H., Lee, D. & Kim, S.* (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE Fall Conference, November 2020</li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S.* (2020), Congestion propagation modeling with Graph Neural Network (GNN), KIIE Fall Conference, November 2020</li>
-  <li>Oh, Y., Kim, N., & Kim, S.* (2020), Transfer-Learning based approach for mixture gas classification, KIIE Fall Conference, November 2020</li>
-  <li>Oh, Y., & Kim, S.* (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, November 2020</li>
-  <li>Oh, Y., & Kim, S.* (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, KIIE Fall Conference, November 2019</li>
-  <li>Oh, Y., & Kim, S.* (2019), Exploiting logistics anomaly detection using Maritime Big Data, IISE Annual Conference & Expo, May 2019</li>
-  <li>Oh, Y., & Kim, S.* (2019), Feature Selection for imbalanced data using local interpretation of complete model, KIIE Spring Conference, April 2019</li>
+  <li>Oh, Y., & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021</li>
+  <li>Oh, Y., & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021</li>
+  <li>Oh, Y., & Kim, S. (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021</li>
+  <li>Oh, Y., Lee, J., & Kim, S. (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE Spring Conference, May 2021</li>
+  <li>Oh, Y., Kim, H., Lee, D. & Kim, S. (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE Fall Conference, November 2020</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2020), Congestion propagation modeling with Graph Neural Network (GNN), KIIE Fall Conference, November 2020</li>
+  <li>Oh, Y., Kim, N., & Kim, S. (2020), Transfer-Learning based approach for mixture gas classification, KIIE Fall Conference, November 2020</li>
+  <li>Oh, Y., & Kim, S. (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, November 2020</li>
+  <li>Oh, Y., & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, KIIE Fall Conference, November 2019</li>
+  <li>Oh, Y., & Kim, S. (2019), Exploiting logistics anomaly detection using Maritime Big Data, IISE Annual Conference & Expo, May 2019</li>
+  <li>Oh, Y., & Kim, S. (2019), Feature Selection for imbalanced data using local interpretation of complete model, KIIE Spring Conference, April 2019</li>
   </ul>
 </div>
 
