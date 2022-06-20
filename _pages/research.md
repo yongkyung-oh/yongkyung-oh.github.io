@@ -85,7 +85,7 @@ header:
 <h3> Refereed Conferences </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li>Oh, Y., & Kim, S. (2021, December). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE.</li>
+  <li>Oh, Y., & Kim, S. (2021, December). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
   <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2021, October). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS.</li>
   <li>Oh, Y., & Kim, S. (2021, July). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association.</li>
   <li>Oh, Y., & Kim, S. (2020, November). Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach. IISE.</li>
@@ -99,6 +99,9 @@ header:
 
 <div class="notice--info"> <!--Presentation-->
   <ul>
+  <li>Oh, Y., & Kim, S. (2022), Multivariate time series classification using multi channel CNN classifier, KIIE Spring Conference, May 2022</li>
+  <li>Oh, Y., Lee, J., & Kim, S. (2022), Sensor Drift Compensation ​for Gas Mixture Classification in Batch Experiments​​, IISE Annual Conference & Expo, May 2022</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2022), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2022</li>
   <li>Oh, Y., & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021</li>
   <li>Oh, Y., & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021</li>
   <li>Oh, Y., & Kim, S. (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021</li>
