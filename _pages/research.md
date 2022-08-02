@@ -59,12 +59,13 @@ header:
 
 <div class="notice--info"> <!--Under Review-->
   <ul>
-  <li>Oh, Y., & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review</li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy, under review</li>
-  <li>Oh, Y., & Kim, S., MCTC: Multivariate time series classification using sparse feature extraction and transfer learning, working</li>
-  <li>Oh, Y., & Kim, S., Multi-model ensemble approach for human activity recognition, working</li>
-  <li>Oh, Y., Lee, J., & Kim, S, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, working</li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion, working</li>
+  <li>Oh, Y., & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap. </li>
+  <li>Oh, Y., Lee, J., & Kim, S, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments. </li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy. </li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion. </li>
+  <li>Oh, Y., Kim, H., & Kim, S., Sparse Multi-Channel Convolutional Neural Network for Multivariate Time Series Classification. </li>
+  <li>Oh, Y., & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data. </li>
+  <li>Oh, Y., & Kim, S., TAOD-Net: Near-Ophthalmologist Level Active Thyroid-Associated Orbitopathy Detection on Frontal Eye Photographs with Deep Learning</li>
   </ul>
 </div>
 
@@ -85,6 +86,7 @@ header:
 <h3> Refereed Conferences </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
+  <li>Oh, Y. (2022, July). Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, Doctoral Consortium. Pages 5865-5866. IJCAI. <a href="https://doi.org/10.24963/ijcai.2022/835">https://doi.org/10.24963/ijcai.2022/835</a></li>
   <li>Oh, Y., & Kim, S. (2021, December). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
   <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2021, October). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS.</li>
   <li>Oh, Y., & Kim, S. (2021, July). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association.</li>
