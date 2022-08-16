@@ -70,10 +70,30 @@ header:
 
 
 --------------------
+<h3> Teaching Experiences </h3>
+
+<div class="notice--warning"> 
+  <ul>
+  <li>(2021) Undergraduate Interdisciplinary Research Project | Teaching Assistant</li> 
+    <li>Research Topic: Data analytics and statistical modeling for traffic congestion propagation</li>
+    <li>Advise overall project and presentation. Featured undergraduate student research at KIIE Fall Conference</li>
+    <li>Yeo J., Seo H., and Shim S., "A Methodology for Predicting Traffic Accidents Using Road Network Structure", KIIE Fall Conference, November 2020</li>
+  <li>(Fall 2019) MGT205, Financial Accounting | Teaching Assistant</li> 
+  <li>(Fall 2019) MGT206, Managerial Accounting | Teaching Assistant</li> 
+  <li>(Fall, 2018) MGT206, Managerial Accounting | Teaching Assistant</li> 
+  <li>(Spring, 2018) MGE362, Quality Management | Teaching Assistant</li> 
+  <li>(Fall, 2017) TIM614, Integration of IT, Manufacturing, and Operational Systems | Teaching Assistant</li> 
+  <li>(Spring, 2016) MGT473, Entrepreneurship and Venture Management | Teaching Assistant</li> 
+  <li>(Fall, 2015) AHS230, Recent Trends in Science and Technology Business of Korea | Teaching Assistant</li> 
+  <li>(Spring, 2015) MGT410, Psychology, and Marketing | Teaching Assistant</li> 
+</div>
+
+
+--------------------
 <h3> Honors and Fellowships </h3>
 <div class="notice">
   <ul>
-    <li> Best Paper Award, IISE Annual Conference & Expo, Logistics & Supply Chain Division, 2021 </li> 
+    <!--<li> Best Paper Award, IISE Annual Conference & Expo, Logistics & Supply Chain Division, 2021 </li>-->
     <li> 1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020 </li> 
     <li> High-Potential Individuals Global Training Program, fully supported by IITP & Ministry of Science, ICT and Future Planning, 2020</li>
     <li> 2nd place in the Medical Startup Festa, Center for Creative Economy and Innovation, Ulsan, 2018</li>

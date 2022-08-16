@@ -118,19 +118,6 @@ header:
 
 
 --------------------
-<h3> Patents </h3>
-
-<div class="notice--danger"> <!--Patent-->
-  <ul>
-  <li>Method, computer device, and computer program to predict road congestion propagation using pattern matching. (KR 10-2021-0120229, applied September 9, 2021).</li>
-  <li>Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy. (KR 10-2021-0119772, applied September 8, 2021).</li>
-  <li>Sensor Drift Compensation Method and Device. (PCT/KR2021/010729, applied August 12, 2021)(KR 10-2020-0101037, applied August 14, 2020).</li>
-  <li>Method and Apparatus for Determining Delay Possibility of Shipment. (10-2250354, granted May 4, 2021), (PCT/KR2020/015854, applied November 12, 2020).</li>
-  <li>Bayesian Bootstrap based anomaly detection of vessels. (KR 10-2020-0178651, applied December 18, 2020).</li>
-  </ul>
-</div>
-
---------------------
 <h3> Industry Cooperation Projects </h3>
 
 <div class="notice--success"> <!--Project-->
@@ -202,6 +189,20 @@ header:
     <li>Proposed algorithm is implemented to products of LG H&A (Home Appliance & Air Solution)</li>
     </ul>
   <li>Technology Stack: Python, R, MySQL, H2O AI library</li>
+  </ul>
+</div>
+
+
+--------------------
+<h3> Patents </h3>
+
+<div class="notice--danger"> <!--Patent-->
+  <ul>
+  <li>Method, computer device, and computer program to predict road congestion propagation using pattern matching. (KR 10-2021-0120229, applied September 9, 2021) | Co-inventor</li>
+  <li>Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy. (KR 10-2021-0119772, applied September 8, 2021) | Co-inventor</li>
+  <li>Sensor Drift Compensation Method and Device. (PCT/KR2021/010729, applied August 12, 2021)(KR 10-2020-0101037, applied August 14, 2020) | Co-inventor</li>
+  <li>Method and Apparatus for Determining Delay Possibility of Shipment. (10-2250354, granted May 4, 2021), (PCT/KR2020/015854, applied November 12, 2020) | Co-inventor</li>
+  <li>Bayesian Bootstrap based anomaly detection of vessels. (KR 10-2020-0178651, applied December 18, 2020) | Co-inventor</li>
   </ul>
 </div>
 
