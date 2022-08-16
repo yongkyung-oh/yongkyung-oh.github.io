@@ -61,11 +61,11 @@ header:
   <ul>
   <li>Oh, Y., & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap. </li>
   <li>Oh, Y., Lee, J., & Kim, S, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments. </li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy. </li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion. </li>
+  <li>Oh, Y., Kwak, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy. </li>
+  <li>Oh, Y., Kwak, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion. </li>
   <li>Oh, Y., Kim, H., & Kim, S., Sparse Multi-Channel Convolutional Neural Network for Multivariate Time Series Classification. </li>
   <li>Oh, Y., & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data. </li>
-  <li>Oh, Y., & Kim, S., TAOD-Net: Near-Ophthalmologist Level Active Thyroid-Associated Orbitopathy Detection on Frontal Eye Photographs with Deep Learning</li>
+  <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J., & Kim, S., TAOD-Net: Near-Ophthalmologist Level Active Thyroid-Associated Orbitopathy Detection on Frontal Eye Photographs with Deep Learning/li>
   </ul>
 </div>
 
@@ -123,11 +123,11 @@ header:
 <div class="notice--success"> <!--Project-->
   <h4>THYROSCOPE Inc.</h4>
   <ul>
-  <li>Topic: Classification for Eye diseaese related to Thyroid illness</li>
+  <li>Topic: Classification for Eye disease related to Thyroid illness</li>
   <li>Participation period: 2021.09 ~ </li>
     <ul>
-    <li>Develop classification model for eye diseaese related to thyroid illness</li>
-    <li>Computer vision for dual image data</li>
+    <li>Develop a classification model for eye disease related to thyroid illness</li>
+    <li>Propose a visual symptom recognition model using a vision transformer (TAOD-Net)</li>
     </ul>
   <li>Technology Stack: Python, Deep learning, Computer Vision</li>
   </ul>
@@ -139,8 +139,8 @@ header:
   <li>Topic: Thyroid hormone prediction with wearable device</li>
   <li>Participation period: 2021.09 ~ </li>
     <ul>
-    <li>Develop prediction model for thyroid hormone using data collcted from wearable device</li>
-    <li>Sequence data modeling with different record frequency</li>
+    <li>Develop prediction model for thyroid hormone using data collected from wearable device</li>
+    <li>Sequence data modeling with different record frequencies and different modalities</li>
     </ul>
   <li>Technology Stack: Python, Sequential machine learning & deep learning</li>
   </ul>
@@ -152,8 +152,8 @@ header:
   <li>Topic: Traffic prediction and congestion modeling</li>
   <li>Participation period: 2020.09 ~ </li>
     <ul>
-    <li>Develop traffic prediction model using historic & real-time data</li>
-    <li>Traffic congestion propagation algorithm</li>
+    <li>Develop a traffic prediction model using historic & real-time data</li>
+    <li>Algorithm for predicting traffic congestion in quantitative and qualitative perspectives</li>
     </ul>
   <li>Technology Stack: Python, SQL, Spark, Graph based machine learning & deep learning</li>
   </ul>
@@ -166,10 +166,23 @@ header:
   <li>Topic: Development of optimization algorithm and solver for large-size problems</li>
   <li>Participation period: 2019.06. ~ 2019.12.</li>
     <ul>
-    <li>Implement optimization preprocess and solve algorithm</li>
-    <li>Develop pipeline for lare-size optimization problem using open source solvers (e.g. CBC)</li>
+    <li>Implement optimization preprocess and solve the algorithm</li>
+    <li>Develop a pipeline for large-size optimization problems using open source solvers including CBC</li>
     </ul>
   <li>Technology Stack: Python, R, CPLEX, CBC</li>
+  </ul>
+</div>
+
+
+<div class="notice--success">
+  <h4>Ulsan Port Authority</h4>
+  <ul>
+  <li>Topic: Development of smart port and logistics system</li>
+  <li>Participation period: 2019.01. ~ 2019.12.</li>
+    <ul>
+    <li>Analyze automatic identification system (AIS) data for maritime surveillance</li>
+    </ul>
+  <li>Technology Stack: Python, R</li>
   </ul>
 </div>
 
@@ -180,13 +193,13 @@ header:
   <li>Topic: Development of predictive models for sensor data analysis</li>
   <li>Participation period: 2018.07. ~ 2019.03.</li>
     <ul>
-    <li>Construct research setup and develop pipeline including DB setup</li>
+    <li>Construct research setup and develop pipeline including database setup to deployment</li>
     <ul>
     <li>Phase 1. Develop linear predictive model (e.g. Generalized Linear Model)</li>
     <li>Phase 2. Develop non-linear predictive model (e.g. SVM, RF, XGBOOST)</li>
     <li>Phase 3. Develop multi-layer model</li>
     </ul>
-    <li>Proposed algorithm is implemented to products of LG H&A (Home Appliance & Air Solution)</li>
+    <!--<li>Proposed algorithm is implemented to products of LG H&A (Home Appliance & Air Solution)</li>-->
     </ul>
   <li>Technology Stack: Python, R, MySQL, H2O AI library</li>
   </ul>
