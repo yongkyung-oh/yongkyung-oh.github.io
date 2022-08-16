@@ -86,10 +86,10 @@ header:
 <h3> Refereed Conferences </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li>Oh, Y. (2022, July). Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, Doctoral Consortium. Pages 5865-5866. IJCAI. <a href="https://doi.org/10.24963/ijcai.2022/835">https://doi.org/10.24963/ijcai.2022/835</a></li>
-  <li>Oh, Y., & Kim, S. (2021, December). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
+  <li>Oh, Y. (2022). Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, Doctoral Consortium. Pages 5865-5866. IJCAI. <a href="https://doi.org/10.24963/ijcai.2022/835">https://doi.org/10.24963/ijcai.2022/835</a></li>
+  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
   <!--<li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2021, October). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS.</li>-->
-  <li>Oh, Y., & Kim, S. (2021, July). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association.</li>
+  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association.</li>
   </ul>
 </div>
 
@@ -101,7 +101,7 @@ header:
   <ul>
   <li>Oh, Y., & Kim, S. (2022), Multivariate time series classification using multi channel CNN classifier, KIIE Spring Conference, May 2022</li>
   <li>Oh, Y., Lee, J., & Kim, S. (2022), Sensor Drift Compensation ​for Gas Mixture Classification in Batch Experiments​​, IISE Annual Conference & Expo, May 2022</li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2022), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2022</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2022), A Propagation Prediction Method for Non-recurrent Traffic Congestion, IISE Annual Conference & Expo, May 2022</li>
   <li>Oh, Y., & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021</li>
   <li>Oh, Y., & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021</li>
   <li>Oh, Y., & Kim, S. (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021</li>
@@ -126,7 +126,7 @@ header:
   <li>Topic: Classification for Eye disease related to Thyroid illness</li>
   <li>Participation period: 2021.09 ~ </li>
     <ul>
-    <li>Develop a classification model for eye disease related to thyroid illness</li>
+    <li>Develop a classification model for eye disease related to thyroid illness, using pictures taken by a DSLR camera</li>
     <li>Propose a visual symptom recognition model using a vision transformer (TAOD-Net)</li>
     </ul>
   <li>Technology Stack: Python, Deep learning, Computer Vision</li>
@@ -153,7 +153,8 @@ header:
   <li>Participation period: 2020.09 ~ </li>
     <ul>
     <li>Develop a traffic prediction model using historic & real-time data</li>
-    <li>Algorithm for predicting traffic congestion in quantitative and qualitative perspectives</li>
+    <li>Algorithm for predicting traffic congestion from quantitative and qualitative perspectives</li>
+    <li>•	Causal relationship analysis using traffic incident-oriented speed data</li>
     </ul>
   <li>Technology Stack: Python, SQL, Spark, Graph based machine learning & deep learning</li>
   </ul>
