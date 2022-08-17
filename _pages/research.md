@@ -55,26 +55,10 @@ header:
 
 
 --------------------
-<h3> Working Paper </h3>
-
-<div class="notice--info"> <!--Under Review-->
-  <ul>
-  <li>Oh, Y., & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap. </li>
-  <li>Oh, Y., Lee, J., & Kim, S, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments. </li>
-  <li>Oh, Y., Kwak, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy. </li>
-  <li>Oh, Y., Kwak, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion. </li>
-  <li>Oh, Y., Kim, H., & Kim, S., Sparse Multi-Channel Convolutional Neural Network for Multivariate Time Series Classification. </li>
-  <li>Oh, Y., & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data. </li>
-  <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J., & Kim, S., TAOD-Net: Near-Ophthalmologist Level Active Thyroid-Associated Orbitopathy Detection on Frontal Eye Photographs with Deep Learning/li>
-  </ul>
-</div>
-
-
---------------------
 <h3> Journal Papers </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li>Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S. (2022). Multichannel convolution neural network for gas mixture classification. Annals of Operations Research. <a href="https://doi.org/10.1007/s10479-022-04715-2">https://doi.org/10.1007/s10479-022-04715-2</a></li>
+  <li>Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S. (2022). Multichannel convolution neural network for gas mixture classification. Annals of Operations Research. <a href="https://doi.org/10.1007/s10479-022-04715-2">https://doi.org/10.1007/s10479-022-04715-2</a>.<a href="https://github.com/yongkyung-oh/Multichannel-CNN">[code]</a></li>
   <li>Lee, J., Oh, Y., Kwak, J., & Kim, S. (2022). Quantifying incident impacts and identifying influential features in urban traffic networks. Transportmetrica B: Transport Dynamics (pp. 1–22). <a href="https://doi.org/10.1080/21680566.2022.2063205">https://doi.org/10.1080/21680566.2022.2063205</a></li>
   <li>Oh, Y., Kim, H., Lee, D. & Kim, S. (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.130">https://doi.org/10.7232/JKIIE.2021.47.2.130</a></li>
   <li>Oh, Y., Kim, N., & Kim, S. (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.144">https://doi.org/10.7232/JKIIE.2021.47.2.144</a></li>
@@ -83,13 +67,29 @@ header:
 
 
 --------------------
+<h3> Working Paper </h3>
+
+<div class="notice--info"> <!--Under Review-->
+  <ul>
+  <li>Oh, Y., & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review. <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a></li>
+  <li>Oh, Y., Lee, J., & Kim, S, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, under review.</li>
+  <li>Oh, Y., Kwak, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy, under review. <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li>
+  <li>Oh, Y., Kwak, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion, under review.</li>
+  <li>Oh, Y., Kim, H., & Kim, S., Sparse Multi-Channel Convolutional Neural Network for Multivariate Time Series Classification, under review.</li>
+  <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J., & Kim, S., TAOD-Net: Near-Ophthalmologist Level Active Thyroid-Associated Orbitopathy Detection on Frontal Eye Photographs with Deep Learning, under review. </li>
+  <li>Oh, Y., & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data, working. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
+  </ul>
+</div>
+
+
+--------------------
 <h3> Refereed Conferences </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li>Oh, Y. (2022). Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, Doctoral Consortium. Pages 5865-5866. IJCAI. <a href="https://doi.org/10.24963/ijcai.2022/835">https://doi.org/10.24963/ijcai.2022/835</a></li>
-  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
+  <li>Oh, Y. (2022). Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, Doctoral Consortium. Pages 5865-5866. IJCAI., <a href="https://doi.org/10.24963/ijcai.2022/835">https://doi.org/10.24963/ijcai.2022/835</a></li>
+  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE., <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
   <!--<li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2021, October). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS.</li>-->
-  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association.</li>
+  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association., <a href="http://143.248.157.138/poster_center/bbs/board.php?bo_table=free&wr_id=20">[link]</a></li>
   </ul>
 </div>
 
@@ -99,20 +99,20 @@ header:
 
 <div class="notice--info"> <!--Presentation-->
   <ul>
-  <li>Oh, Y., & Kim, S. (2022), Multivariate time series classification using multi channel CNN classifier, KIIE Spring Conference, May 2022</li>
-  <li>Oh, Y., Lee, J., & Kim, S. (2022), Sensor Drift Compensation ​for Gas Mixture Classification in Batch Experiments​​, IISE Annual Conference & Expo, May 2022</li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2022), A Propagation Prediction Method for Non-recurrent Traffic Congestion, IISE Annual Conference & Expo, May 2022</li>
-  <li>Oh, Y., & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021</li>
-  <li>Oh, Y., & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021</li>
-  <li>Oh, Y., & Kim, S. (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021</li>
-  <li>Oh, Y., Lee, J., & Kim, S. (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE Spring Conference, May 2021</li>
-  <li>Oh, Y., Kim, H., Lee, D. & Kim, S. (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE Fall Conference, November 2020</li>
+  <li>Oh, Y., & Kim, S. (2022), Multivariate time series classification using multi channel CNN classifier, KIIE Spring Conference, May 2022. <a href="https://drive.google.com/file/d/1YK5M2vCHKcrYCDxX9c3e2S21MJVLu25f/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., Lee, J., & Kim, S. (2022), Sensor Drift Compensation ​for Gas Mixture Classification in Batch Experiments​​, IISE Annual Conference & Expo, May 2022. <a href="https://drive.google.com/file/d/1YEU6X1-Z-geBY50gJbP-rXwYKOA1Nrk6/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2022), A Propagation Prediction Method for Non-recurrent Traffic Congestion, IISE Annual Conference & Expo, May 2022. <a href="https://drive.google.com/file/d/1Y5_eHU7B9MyWKqeQ6W8rl6Bheo8PHY1H/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, IISE Annual Conference & Expo, May 2021. <a href="https://drive.google.com/file/d/1XZuBmtjhq0oCreSbYBmijMgO8YzZ2w3k/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, May 2021. <a href="https://drive.google.com/file/d/1XYEN0r6WFZokJ9l2pwohdE8m-0v3-hbB/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., & Kim, S. (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021. <a href="https://drive.google.com/file/d/1XflauYvc6Tgk_IFqV2ddAYJ4NcxaLaYP/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., Lee, J., & Kim, S. (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE Spring Conference, May 2021. <a href="https://drive.google.com/file/d/1XfZKDUEANyoGVJ-RMm4EQ0yis_RWShOr/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., Kim, H., Lee, D. & Kim, S. (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE Fall Conference, November 2020. <a href="https://drive.google.com/file/d/1XBg6K08rgUl-5GTDeQNsVUFJkrDZvEHS/view?usp=sharing">[slide]</li>
   <!--<li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2020), Congestion propagation modeling with Graph Neural Network (GNN), KIIE Fall Conference, November 2020</li>-->
-  <li>Oh, Y., Kim, N., & Kim, S. (2020), Transfer-Learning based approach for mixture gas classification, KIIE Fall Conference, November 2020</li>
-  <li>Oh, Y., & Kim, S. (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, November 2020</li>
-  <li>Oh, Y., & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, KIIE Fall Conference, November 2019</li>
-  <li>Oh, Y., & Kim, S. (2019), Exploiting logistics anomaly detection using Maritime Big Data, IISE Annual Conference & Expo, May 2019</li>
-  <li>Oh, Y., & Kim, S. (2019), Feature Selection for imbalanced data using local interpretation of complete model, KIIE Spring Conference, April 2019</li>
+  <li>Oh, Y., Kim, N., & Kim, S. (2020), Transfer-Learning based approach for mixture gas classification, KIIE Fall Conference, November 2020. <a href="https://drive.google.com/file/d/1XI7xI4yS-8_r0em64lhH32pEIklpyBC-/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., & Kim, S. (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, November 2020. <a href="https://drive.google.com/file/d/1WtpKVjKTbsRCp242_GQFuAVpO2U-7aAq/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, KIIE Fall Conference, November 2019. <a href="https://drive.google.com/file/d/1WVXyT8Qw4fDGH3uJM0hTgUglU_5tlc0v/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., & Kim, S. (2019), Exploiting logistics anomaly detection using Maritime Big Data, IISE Annual Conference & Expo, May 2019. <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC/view?usp=sharing">[slide]</li>
+  <li>Oh, Y., & Kim, S. (2019), Feature Selection for imbalanced data using local interpretation of complete model, KIIE Spring Conference, April 2019. <a href="https://drive.google.com/file/d/1WUHWfXpHrfmaNOgdBkQPiQHJzuE0GS8n/view?usp=sharing">[slide]</li>
   </ul>
 </div>
 

@@ -20,7 +20,7 @@ header:
 <h3> Academic Backgroud </h3>
 
 <div class="notice">
-  <h4>Ph.D. candidate, majoring in Industrial Engineering at UNIST, 2018 ~</h4>
+  <h4>Ph.D. candidate, majoring in Industrial Engineering at UNIST, 2023 (expected)</h4>
   <ul>
     <li> Graduate researcher at <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> </li>
     <li> Advisor: <a href="https://scholar.google.com/citations?user=BISaBGoAAAAJ&hl">Sungil Kim</a> </li>
@@ -50,22 +50,42 @@ header:
 
 <div class="notice--primary">
   <h4>UNIST Data Analytics Lab (Ulsan, Korea): Graduate researcher & Laboratory Leader, 2018 ~ </h4>
+  <ul>
+    <li>Advisor: Prof. Sungil Kim | Department of Industrial Engineering</li>
+  </ul> 
 </div>
 
 <div class="notice">
-  Carnegie Mellon University (Pittsburgh, US): Visting Researcher, 2020
+  <h4>Carnegie Mellon University (Pittsburgh, US): Visting Researcher, 2020</h4>
+  <ul>
+    <li>High-Potential Individuals Global Training Program fully supported by IITP and Korean Government.</li>
+    <li>Attend core courses and conduct project-based on IoT, machine learning, and deep learning.</li>
+    <li>CMU Studio Project: Conversational Chatbot. <a href="https://yongkyung-oh.github.io/portfolio-dev/CMU_studio_project/">[demo]</li>
+  </ul> 
 </div>
 
 <div class="notice">
-  General Motors Global Technology Center (Detroit, US): Visting Researcher, 2017
+  <h4>General Motors Global Technology Center (Detroit, US): Visting Researcher, 2017</h4>
+  <ul>
+    <li>Mentor: Dr. Wayne Cai / Research support for automotive manufacturing operation</li>
+    <li>Perform analytical analysis using experimental data. Develop a multi-platform welding simulation tool for GM internal users. <a href="https://yongkyung-oh.github.io/portfolio-dev/GM-internship/">[demo]</a></li>
+  </ul> 
 </div>
 
 <div class="notice">
-  Accenture Korea (Seoul, Korea): Research Assistant, 2016
+  <h4>Accenture Korea (Seoul, Korea): Research Assistant, 2016</h4>
+  <ul>
+    <li>Lotte Duty Free Shop – New Generation System Integration Project</li>
+    <li>Work support for the planning team, translation, and PMO (project management office)</li>
+  </ul> 
 </div>
 
 <div class="notice">
-  Institute of Theoretical Physics and Astrophysics (ITAP), CAU, (Kiel, Germany): IAESTE Research Intern, 2014
+  <h4>Institute of Theoretical Physics and Astrophysics (ITAP), CAU, (Kiel, Germany): IAESTE Research Intern, 2014</h4>
+  <ul>
+    <li>Mentor: Prof. Sebastian Wolf /  Astrophysics- Mechanism of Interstellar Dust Alignment</li>
+    <li>IAESTE internship / Conduct simulations and code analysis with C and Fortran</li>
+  </ul> 
 </div>
 
 
@@ -85,7 +105,7 @@ header:
   <li>(Fall, 2017) TIM614, Integration of IT, Manufacturing, and Operational Systems | Teaching Assistant</li> 
   <li>(Spring, 2016) MGT473, Entrepreneurship and Venture Management | Teaching Assistant</li> 
   <li>(Fall, 2015) AHS230, Recent Trends in Science and Technology Business of Korea | Teaching Assistant</li> 
-  <li>(Spring, 2015) MGT410, Psychology, and Marketing | Teaching Assistant</li> 
+  <li>(Spring, 2015) MGT410, Psychology and Marketing | Teaching Assistant</li> 
 </div>
 
 
