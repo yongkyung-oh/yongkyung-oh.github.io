@@ -60,7 +60,7 @@ header:
   <ul>
     <li>High-Potential Individuals Global Training Program fully supported by IITP and Korean Government.</li>
     <li>Attend core courses and conduct project-based on IoT, machine learning, and deep learning.</li>
-    <li>CMU Studio Project: Conversational Chatbot. <a href="https://yongkyung-oh.github.io/portfolio-dev/CMU_studio_project/">[demo]</li>
+    <li>CMU Studio Project: Conversational Chatbot. <a href="https://yongkyung-oh.github.io/portfolio-dev/CMU_studio_project/">[demo]</a></li>
   </ul> 
 </div>
 
