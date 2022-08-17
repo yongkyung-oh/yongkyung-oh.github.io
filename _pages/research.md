@@ -89,7 +89,7 @@ header:
   <li>Oh, Y. (2022). Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, Doctoral Consortium. Pages 5865-5866. IJCAI., <a href="https://doi.org/10.24963/ijcai.2022/835">https://doi.org/10.24963/ijcai.2022/835</a></li>
   <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE., <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
   <!--<li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2021, October). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS.</li>-->
-  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association., <a href="http://143.248.157.138/poster_center/bbs/board.php?bo_table=free&wr_id=20">[link]</a></li>
+  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association. <a href="http://143.248.157.138/poster_center/bbs/board.php?bo_table=free&wr_id=20">[link]</a></li>
   </ul>
 </div>
 
