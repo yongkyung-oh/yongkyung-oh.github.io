@@ -245,4 +245,3 @@ header:
   <li>Oh, Y., & Gang, K. (2017), Discussion of the meaning and components of the fourth industrial revolution, and recommendations for Korea to prepare for the fourth industrial revolution, Dissertation paper.</li>
   </ul>
 </div>
-

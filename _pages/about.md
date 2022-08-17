@@ -105,7 +105,8 @@ header:
   <li>(Fall, 2017) TIM614, Integration of IT, Manufacturing, and Operational Systems | Teaching Assistant</li> 
   <li>(Spring, 2016) MGT473, Entrepreneurship and Venture Management | Teaching Assistant</li> 
   <li>(Fall, 2015) AHS230, Recent Trends in Science and Technology Business of Korea | Teaching Assistant</li> 
-  <li>(Spring, 2015) MGT410, Psychology and Marketing | Teaching Assistant</li> 
+  <li>(Spring, 2015) MGT410, Psychology and Marketing | Teaching Assistant</li>
+  </ul>
 </div>
 
 
