@@ -94,10 +94,12 @@ header:
 
 <div class="notice--warning"> 
   <ul>
-  <li>(2021) Undergraduate Interdisciplinary Research Project | Teaching Assistant</li> 
+  <li>(Spring-Fall, 2021) Undergraduate Interdisciplinary Research Project | Teaching Assistant</li>
+    <ul>
     <li>Research Topic: Data analytics and statistical modeling for traffic congestion propagation</li>
     <li>Advise overall project and presentation. Featured undergraduate student research at KIIE Fall Conference</li>
     <li>Yeo J., Seo H., and Shim S., "A Methodology for Predicting Traffic Accidents Using Road Network Structure", KIIE Fall Conference, November 2021</li>
+    </ul>
   <li>(Fall 2019) MGT205, Financial Accounting | Teaching Assistant</li> 
   <li>(Fall 2019) MGT206, Managerial Accounting | Teaching Assistant</li> 
   <li>(Fall, 2018) MGT206, Managerial Accounting | Teaching Assistant</li> 
