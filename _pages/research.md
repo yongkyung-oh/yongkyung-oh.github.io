@@ -73,11 +73,11 @@ header:
   <ul>
   <li>Oh, Y., & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review. <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a></li>
   <li>Oh, Y., Lee, J., & Kim, S, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, under review.</li>
-  <li>Oh, Y., Kwak, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy, under review. <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li>
+  <li>Oh, Y., Kwak, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy, under review. <a href="https://arxiv.org/abs/2108.06717">[preprint]</a> <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li>
   <li>Oh, Y., Kwak, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion, under review.</li>
   <li>Oh, Y., Kim, H., & Kim, S., Sparse Multi-Channel Convolutional Neural Network for Multivariate Time Series Classification, under review.</li>
-  <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J., & Kim, S., TAOD-Net: Near-Ophthalmologist Level Active Thyroid-Associated Orbitopathy Detection on Frontal Eye Photographs with Deep Learning, under review. </li>
-  <li>Oh, Y., & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data, working. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
+  <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J., & Kim, S., TAOD-Net: Near-Ophthalmologist Level Active Thyroid-Associated Orbitopathy Detection on Frontal Eye Photographs with Deep Learning, under review. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
+  <li>Oh, Y., & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data, working. </li>
   </ul>
 </div>
 
