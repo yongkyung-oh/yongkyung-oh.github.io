@@ -1,7 +1,7 @@
 ---
-title: Archieve
+title: Archive
 layout: single
-permalink: /archieve/
+permalink: /archive/
 author_profile: true
 classes: wide
 header:

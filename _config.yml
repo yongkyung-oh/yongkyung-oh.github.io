@@ -113,7 +113,7 @@ author:
     #  url: "https://your-website.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yongkyung-oh/"
+      url: "https://github.com/yongkyung-oh"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "http://www.linkedin.com/in/yongkyung-oh"
