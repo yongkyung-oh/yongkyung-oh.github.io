@@ -95,7 +95,7 @@ header:
 
 
 --------------------
-<h3> Conference presentations </h3>
+<h3> Conference Presentations </h3>
 
 <div class="notice--info"> <!--Presentation-->
   <ul>
