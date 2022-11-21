@@ -86,10 +86,13 @@ header:
 <h3> Refereed Conferences </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
-  <li>Oh, Y. (2022). Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, Doctoral Consortium. Pages 5865-5866. IJCAI., <a href="https://doi.org/10.24963/ijcai.2022/835">https://doi.org/10.24963/ijcai.2022/835</a></li>
-  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE., <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
-  <!--<li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2021, October). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS.</li>-->
-  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association. <a href="http://143.248.157.138/poster_center/bbs/board.php?bo_table=free&wr_id=20">[link]</a></li>
+  <li>Oh, Y., & Kim, S. (2022). Irregularly sampled time series classification using neural stochastic differential equation, Conference of Korean Artificial Intelligence Association., November 2022. <a href="https://drive.google.com/file/d/1gR32rs9ffv8K8KGOdLzXwGMaJuuD_cDW/view?usp=share_link">[poster]</a></li>
+  <li>Oh, Y., Koh, G., Shin, K., Moon, J., & Kim, S. (2022). Real-Time Risk Assessment of Thyroid Function Abnormality using Irregularly-Sampled Heart Rate Records, Conference of Korean Artificial Intelligence Association., November 2022. <a href="https://drive.google.com/file/d/1gXutGnF1IG4_RgP5lhYZKqx-f08vkq2i/view?usp=share_link">[poster]</a></li>
+  <li>Oh, Y., Kwak, J., & Kim, S. (2022). Time Delay Estimation of Traffic Congestion Based on Statistical Causality, 3rd Workshop on Data-driven Intelligent Transportation (<a href="https://dit-workshop.github.io/">DIT 2022</a>), Held in conjunction with CIKM 2022, October 2022. <a href="https://drive.google.com/file/d/1gbCWyUTvVPoTVmisX6jTN19UT-t9rCoC/view?usp=sharing">[slide]</a></li>
+  <li>Oh, Y. (2022). Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, Doctoral Consortium. Pages 5865-5866. IJCAI., May 2022. <a href="https://doi.org/10.24963/ijcai.2022/835">https://doi.org/10.24963/ijcai.2022/835</a></li>
+  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE., December 2021. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
+  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2021). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS., October 2021. <a href="https://scholarworks.unist.ac.kr/handle/201301/56937">[link]</a></li>
+  <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association., July 2021. <a href="https://drive.google.com/file/d/1gP2ZNwqFP0Ny0nPHBjrWr9u_W8hlatMN/view?usp=share_link">[poster]</a></li>
   </ul>
 </div>
 
@@ -99,6 +102,8 @@ header:
 
 <div class="notice--info"> <!--Presentation-->
   <ul>
+  <li>Oh, Y., & Kim, S. (2022), Irregularly sampled time series classification using neural stochastic differential equation, KDMS Conference, November 2022. <a href="https://drive.google.com/file/d/1g_hEWKckpjpBnkH0hDsVht7_O86oPV2L/view?usp=share_link">[slide]</a></li>
+  <li>Oh, Y., & Kim, S. (2022), Irregularly sampled time series classification using neural stochastic differential equation, KIIE Fall Conference, November 2022. <a href="https://drive.google.com/file/d/1gYPLKhzrVSbZfcuO2UT3XKYhiAK23Ksz/view?usp=share_link">[slide]</a></li>
   <li>Oh, Y., & Kim, S. (2022), Multivariate time series classification using multi channel CNN classifier, KIIE Spring Conference, May 2022. <a href="https://drive.google.com/file/d/1YK5M2vCHKcrYCDxX9c3e2S21MJVLu25f/view?usp=sharing">[slide]</a></li>
   <li>Oh, Y., Lee, J., & Kim, S. (2022), Sensor Drift Compensation ​for Gas Mixture Classification in Batch Experiments​​, IISE Annual Conference & Expo, May 2022. <a href="https://drive.google.com/file/d/1YEU6X1-Z-geBY50gJbP-rXwYKOA1Nrk6/view?usp=sharing">[slide]</a></li>
   <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2022), A Propagation Prediction Method for Non-recurrent Traffic Congestion, IISE Annual Conference & Expo, May 2022. <a href="https://drive.google.com/file/d/1Y5_eHU7B9MyWKqeQ6W8rl6Bheo8PHY1H/view?usp=sharing">[slide]</a></li>
@@ -107,7 +112,6 @@ header:
   <li>Oh, Y., & Kim, S. (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, KIIE Spring Conference, May 2021. <a href="https://drive.google.com/file/d/1XflauYvc6Tgk_IFqV2ddAYJ4NcxaLaYP/view?usp=sharing">[slide]</a></li>
   <li>Oh, Y., Lee, J., & Kim, S. (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, KIIE Spring Conference, May 2021. <a href="https://drive.google.com/file/d/1XfZKDUEANyoGVJ-RMm4EQ0yis_RWShOr/view?usp=sharing">[slide]</a></li>
   <li>Oh, Y., Kim, H., Lee, D. & Kim, S. (2020), Simulation-based Anomaly Detection in Nuclear Reactors, KIIE Fall Conference, November 2020. <a href="https://drive.google.com/file/d/1XBg6K08rgUl-5GTDeQNsVUFJkrDZvEHS/view?usp=sharing">[slide]</a></li>
-  <!--<li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2020), Congestion propagation modeling with Graph Neural Network (GNN), KIIE Fall Conference, November 2020</li>-->
   <li>Oh, Y., Kim, N., & Kim, S. (2020), Transfer-Learning based approach for mixture gas classification, KIIE Fall Conference, November 2020. <a href="https://drive.google.com/file/d/1XI7xI4yS-8_r0em64lhH32pEIklpyBC-/view?usp=sharing">[slide]</a></li>
   <li>Oh, Y., & Kim, S. (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo, November 2020. <a href="https://drive.google.com/file/d/1WtpKVjKTbsRCp242_GQFuAVpO2U-7aAq/view?usp=sharing">[slide]</a></li>
   <li>Oh, Y., & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, KIIE Fall Conference, November 2019. <a href="https://drive.google.com/file/d/1WVXyT8Qw4fDGH3uJM0hTgUglU_5tlc0v/view?usp=sharing">[slide]</a></li>
@@ -150,7 +154,7 @@ header:
   <h4>NAVER maps</h4>
   <ul>
   <li>Topic: Traffic prediction and congestion modeling</li>
-  <li>Participation period: 2020.09 ~ </li>
+  <li>Participation period: 2020.09 ~ 2022.11.</li>
     <ul>
     <li>Develop a traffic prediction model using historic & real-time data</li>
     <li>Algorithm for predicting traffic congestion from quantitative and qualitative perspectives</li>
