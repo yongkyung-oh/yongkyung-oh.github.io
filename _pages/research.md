@@ -58,6 +58,8 @@ header:
 <h3> Journal Papers </h3>
 <div class="notice--info"> <!--Published-->
   <ul>
+  <li>Oh, Y., Kwak, J., & Kim, S. (2023). Time delay estimation of traffic congestion propagation due to accidents based on statistical causality. Electronic Research Archive, 31(2), 691-707. <a href="https://doi.org/10.3934/era.2023034">https://doi.org/10.3934/era.2023034</a>.<a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li>
+  <!-- <li>Oh, Y., Kwak, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy, under review. <a href="https://arxiv.org/abs/2108.06717">[preprint]</a> <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li> -->
   <li>Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S. (2022). Multichannel convolution neural network for gas mixture classification. Annals of Operations Research. <a href="https://doi.org/10.1007/s10479-022-04715-2">https://doi.org/10.1007/s10479-022-04715-2</a>.<a href="https://github.com/yongkyung-oh/Multichannel-CNN">[code]</a></li>
   <li>Lee, J., Oh, Y., Kwak, J., & Kim, S. (2022). Quantifying incident impacts and identifying influential features in urban traffic networks. Transportmetrica B: Transport Dynamics (pp. 1–22). <a href="https://doi.org/10.1080/21680566.2022.2063205">https://doi.org/10.1080/21680566.2022.2063205</a></li>
   <li>Oh, Y., Kim, H., Lee, D. & Kim, S. (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.130">https://doi.org/10.7232/JKIIE.2021.47.2.130</a></li>
@@ -73,11 +75,11 @@ header:
   <ul>
   <li>Oh, Y., & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review. <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a></li>
   <li>Oh, Y., Lee, J., & Kim, S, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, under review.</li>
-  <li>Oh, Y., Kwak, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy, under review. <a href="https://arxiv.org/abs/2108.06717">[preprint]</a> <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li>
   <li>Oh, Y., Kwak, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion, under review.</li>
   <li>Oh, Y., Kim, H., & Kim, S., Sparse Multi-Channel Convolutional Neural Network for Multivariate Time Series Classification, under review.</li>
   <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J., & Kim, S., TAOD-Net: Near-Ophthalmologist Level Active Thyroid-Associated Orbitopathy Detection on Frontal Eye Photographs with Deep Learning, under review. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
   <li>Oh, Y., & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data, working. </li>
+  <li>Oh, Y., & Kim, S., Irregularly sampled time series classification using neural stochastic differential equation, working. </li>
   </ul>
 </div>
 
