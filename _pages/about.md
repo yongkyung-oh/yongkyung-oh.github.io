@@ -23,10 +23,9 @@ In addition to his academic pursuits, he has gained valuable industry experience
 <h3> Academic Backgroud </h3>
 
 <div class="notice">
-  <h4>Ph.D. candidate, majoring in Industrial Engineering at UNIST, 2023</h4>
+  <h4>Ph.D. in Industrial Engineering at UNIST, 2023</h4>
   <ul>
-    <li> Postdoctoral researcher at <a href="https://iii.unist.ac.kr/_eng/">Industry Intelligentization Institute</a> </li>
-    <li> Postdoctoral researcher at <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> </li>
+    <li> Thesis: A Comprehensive Study of Deep Learning for Real-World Multivariate Time Series Classification</li>
     <li> Advisor: <a href="https://scholar.google.com/citations?user=BISaBGoAAAAJ&hl">Sungil Kim</a> </li>
   </ul>
 </div>
@@ -53,11 +52,11 @@ In addition to his academic pursuits, he has gained valuable industry experience
 <h3> Work Experiencecs </h3>
 
 <div class="notice--primary">
-  <h4>UNIST Industry Intelligentization Institute (Ulsan, Korea): Postdoctoral researcher, 2023 ~ </h4>
+  <h4>UNIST <a href="https://iii.unist.ac.kr/_eng/">Industry Intelligentization Institute</a> (Ulsan, Korea): Postdoctoral researcher, 2023 ~ </h4>
 </div>
 
 <div class="notice">
-  <h4>UNIST Data Analytics Lab (Ulsan, Korea): Graduate researcher & Laboratory Leader, 2018 ~ 2022</h4>
+  <h4>UNIST <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> (Ulsan, Korea): Graduate researcher & Laboratory Leader, 2018 ~ 2022</h4>
   <ul>
     <li>Advisor: Prof. Sungil Kim | Department of Industrial Engineering</li>
   </ul> 

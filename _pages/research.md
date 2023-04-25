@@ -13,8 +13,7 @@ header:
 <h3> Affiliation </h3>
 <div class="notice--primary">
   <ul>
-  <li> Graduate researcher at <a href="http://analytics.unist.ac.kr/">Data Analytics Lab</a> </li>
-  <li> Advisor: <a href="https://scholar.google.com/citations?user=BISaBGoAAAAJ&hl">SungIl Kim</a> </li>
+  <li> Postdoctoral researcher at <a href="https://iii.unist.ac.kr/_eng/">Industry Intelligentization Institute</a> </li>
   </ul>
 </div>
 
@@ -37,6 +36,8 @@ header:
   <li>Causality analysis with domain knowledge</li>
   <li>Multivariate Time-series analysis</li>
   <li>Graph Neural Network</li>
+  <li>Multi-modal data fusion</li>
+  <li>Neural Differential Equations</li>
   </ul>
 </div>
 
