@@ -13,7 +13,10 @@ header:
 <h3> Profile </h3>
 
 <div class="notice--primary">
-<b>YongKyung Oh</b> is a Ph.D. candidate majoring in industrial engineering at Ulsan National Institute of Science and Technology (UNIST), advised by Prof. Sungil Kim. YongKyung is received a Master’s in Technology and Innovation Management at UNIST and B.Sc. in Physics at UNIST. He has working experiences as a visiting researcher at CMU, GM R&D, and ITAP. Also, he participated in student-oriented consulting projects, working with a variety of companies including CSL Behring, IBM, and Deere & Company. He has expertise in domain-specific machine learning and deep learning. He can provide a practical view of the state-of-the-art AI techniques incorporating industrial characteristics. He is expected to graduate in February 2023. 
+Dr. YongKyung Oh is a postdoctoral researcher at the Industry Intelligentization Institute at the Ulsan National Institute of Science and Technology (UNIST). He received his Ph.D. in Industrial Engineering from UNIST, under the supervision of Professor Sungil Kim. Prior to pursuing his Ph.D., he earned his Master's degree in Technology and Innovation Management and his B.Sc. in Physics, both from UNIST. 
+His area of research focuses on utilizing domain-specific machine learning and deep learning techniques to handle real-world problems from a variety of domains such as medical, healthcare, manufacturing, energy, transportation, and maritime. 
+His expertise lies in domain-specific machine learning and deep learning, and he is able to offer a practical perspective on the application of the cutting-edge AI techniques in real-world practices. 
+In addition to his academic pursuits, he has gained valuable industry experience through visiting researcher positions at Carnegie Mellon University, General Motors (GM) Global R&D Center, and the Institute of Theoretical Physics and Astrophysics (ITAP) of Kiel University, Germany. Furthermore, he has also participated in student consulting projects for companies including CSL Behring, IBM, and Deere&Company. 
 </div>
 
 --------------------

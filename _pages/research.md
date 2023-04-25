@@ -49,21 +49,7 @@ header:
   <li>Urban traffic and accident congestion propagation</li>
   <li>Gas sensor array and Electronic Nose</li>
   <li>Nuclear reactor operation and Anomaly detection</li>
-  <li>Medical data including sensor data and image data</li>
-  </ul>
-</div>
-
-
---------------------
-<h3> Journal Papers </h3>
-<div class="notice--info"> <!--Published-->
-  <ul>
-  <li>Oh, Y., Kwak, J., & Kim, S. (2023). Time delay estimation of traffic congestion propagation due to accidents based on statistical causality. Electronic Research Archive, 31(2), 691-707. <a href="https://doi.org/10.3934/era.2023034">https://doi.org/10.3934/era.2023034</a>.<a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li>
-  <!-- <li>Oh, Y., Kwak, J., & Kim, S., Time delay estimation of traffic congestion propagation based on transfer entropy, under review. <a href="https://arxiv.org/abs/2108.06717">[preprint]</a> <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li> -->
-  <li>Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S. (2022). Multichannel convolution neural network for gas mixture classification. Annals of Operations Research. <a href="https://doi.org/10.1007/s10479-022-04715-2">https://doi.org/10.1007/s10479-022-04715-2</a>.<a href="https://github.com/yongkyung-oh/Multichannel-CNN">[code]</a></li>
-  <li>Lee, J., Oh, Y., Kwak, J., & Kim, S. (2022). Quantifying incident impacts and identifying influential features in urban traffic networks. Transportmetrica B: Transport Dynamics (pp. 1–22). <a href="https://doi.org/10.1080/21680566.2022.2063205">https://doi.org/10.1080/21680566.2022.2063205</a></li>
-  <li>Oh, Y., Kim, H., Lee, D. & Kim, S. (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.130">https://doi.org/10.7232/JKIIE.2021.47.2.130</a></li>
-  <li>Oh, Y., Kim, N., & Kim, S. (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.144">https://doi.org/10.7232/JKIIE.2021.47.2.144</a></li>
+  <li>Medical data including real-time sensor signal and image data</li>
   </ul>
 </div>
 
@@ -74,12 +60,25 @@ header:
 <div class="notice--info"> <!--Under Review-->
   <ul>
   <li>Oh, Y., & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review. <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a></li>
-  <li>Oh, Y., Lee, J., & Kim, S, Sensor Drift Compensation for Gas Mixture Classification in Batch Experiments, under review.</li>
   <li>Oh, Y., Kwak, J., & Kim, S, A propagation prediction method for non-recurrent traffic congestion, under review.</li>
   <li>Oh, Y., Kim, H., & Kim, S., Sparse Multi-Channel Convolutional Neural Network for Multivariate Time Series Classification, under review.</li>
   <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J., & Kim, S., TAOD-Net: Near-Ophthalmologist Level Active Thyroid-Associated Orbitopathy Detection on Frontal Eye Photographs with Deep Learning, under review. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
   <li>Oh, Y., & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data, working. </li>
   <li>Oh, Y., & Kim, S., Irregularly sampled time series classification using neural stochastic differential equation, working. </li>
+  </ul>
+</div>
+
+
+--------------------
+<h3> Journal Papers </h3>
+<div class="notice--info"> <!--Published-->
+  <ul>
+  <li>Oh, Y., Lee, J., & Kim, S. (2023). Sensor drift compensation for gas mixture classification in batch experiments. Quality and Reliability Engineering International. 2023; 1-16. <a href="https://doi.org/10.1002/qre.3354">https://doi.org/10.1002/qre.3354</a>.</li>
+  <li>Oh, Y., Kwak, J., & Kim, S. (2023). Time delay estimation of traffic congestion propagation due to accidents based on statistical causality. Electronic Research Archive, 31(2), 691-707. <a href="https://doi.org/10.3934/era.2023034">https://doi.org/10.3934/era.2023034</a>. <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li>
+  <li>Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S. (2022). Multichannel convolution neural network for gas mixture classification. Annals of Operations Research. <a href="https://doi.org/10.1007/s10479-022-04715-2">https://doi.org/10.1007/s10479-022-04715-2</a>. <a href="https://github.com/yongkyung-oh/Multichannel-CNN">[code]</a></li>
+  <li>Lee, J., Kwak, J., Oh, Y., & Kim, S. (2022). Quantifying incident impacts and identifying influential features in urban traffic networks. Transportmetrica B: Transport Dynamics, 11(1), 279-300.  <a href="https://doi.org/10.1080/21680566.2022.2063205">https://doi.org/10.1080/21680566.2022.2063205</a></li>
+  <li>Oh, Y., Kim, H., Lee, D. & Kim, S. (2021). Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.130">https://doi.org/10.7232/JKIIE.2021.47.2.130</a></li>
+  <li>Oh, Y., Kim, N., & Kim, S. (2021). Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.144">https://doi.org/10.7232/JKIIE.2021.47.2.144</a></li>
   </ul>
 </div>
 
@@ -94,9 +93,10 @@ header:
   <li>Oh, Y., Kwak, J., & Kim, S. (2022). Time Delay Estimation of Traffic Congestion Based on Statistical Causality, 3rd Workshop on Data-driven Intelligent Transportation (<a href="https://dit-workshop.github.io/">DIT 2022</a>), Held in conjunction with CIKM 2022, October 2022. <a href="https://drive.google.com/file/d/1gbCWyUTvVPoTVmisX6jTN19UT-t9rCoC/view?usp=sharing">[slide]</a></li>
   <li>Oh, Y. (2022). Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, Doctoral Consortium. Pages 5865-5866. IJCAI 2022, May 2022. <a href="https://doi.org/10.24963/ijcai.2022/835">https://doi.org/10.24963/ijcai.2022/835</a></li>
   <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE, December 2021. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">https://doi.org/10.1109/ICDMW53433.2021.00143</a></li>
-  <li>Oh, Y., Kwak, J., Lee, J., & Kim, S. (2021). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS, October 2021. <a href="https://scholarworks.unist.ac.kr/handle/201301/56937">[link]</a></li>
+  <!--<li>Lee, J., Oh, Y., Kwak, J., & Kim, S. (2021). A Propagation Prediction Method for Non-recurrent Traffic Congestion. INFORMS, October 2021. <a href="https://scholarworks.unist.ac.kr/handle/201301/56937">[link]</a></li>-->
   <li>Oh, Y., & Kim, S. (2021). Multi-channel Convolution Neural Network for Gas Mixture Classification, Conference of Korean Artificial Intelligence Association, July 2021. <a href="https://drive.google.com/file/d/1gP2ZNwqFP0Ny0nPHBjrWr9u_W8hlatMN/view?usp=share_link">[poster]</a></li>
-  <li>Oh, Y., & Kim, S. (2019). Exploiting logistics anomaly detection using maritime big data. IIE Annual Conference Proceedings, 964-969, IISE.<a href="https://search.proquest.com/openview/d341e92a946a376db2864e1d7efebf37/1?pq-origsite=gscholar&cbl=51908">[proceeding]</a>.<a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC/view?usp=sharing">[slide]</a></li>
+  <li>Oh, Y., & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Logistics & Supply Chain Division, IISE Annual Conference & Expo, May 2021. <u>Best paper award</u></li>
+  <li>Oh, Y., & Kim, S. (2019). Exploiting logistics anomaly detection using maritime big data. IIE Annual Conference Proceedings, 964-969, IISE. <a href="https://search.proquest.com/openview/d341e92a946a376db2864e1d7efebf37/1?pq-origsite=gscholar&cbl=51908">[proceeding]</a>. <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC/view?usp=sharing">[slide]</a></li>
   <!--<li>Oh, Y., & Kim, S. (2019), Exploiting logistics anomaly detection using Maritime Big Data, IISE Annual Conference & Expo, May 2019. <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC/view?usp=sharing">[slide]</a></li>-->
   </ul>
 </div>
@@ -235,7 +235,7 @@ header:
 <div class="notice--warning"> 
   <ul>
   <li><b>IISE 2021 LSC track Best Paper Award</b><br> 
-  Oh, Y., & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, IISE Annual Conference & Expo 2021, Logistics & Supply Chain Division, [<a href="https://news.unist.ac.kr/unist-announces-2021-winners-of-iise-lsc-division-best-paper-award/?fbclid=IwAR2frIPxwtFoN78yz35CZom9Kxo7f8qBL22qekEE3IyiAPl_D8CE5v8c8rQ">news</a>]</li> 
+  Oh, Y., & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Logistics & Supply Chain Division, IISE Annual Conference & Expo, May 2021. <a href="https://news.unist.ac.kr/unist-announces-2021-winners-of-iise-lsc-division-best-paper-award/?fbclid=IwAR2frIPxwtFoN78yz35CZom9Kxo7f8qBL22qekEE3IyiAPl_D8CE5v8c8rQ">[news]</a></li> 
   <li><b>Featured Paper</b><br> 
   Oh, Y., Park, J., Lim, D., Hong, D., Lee, J. (2019), Suggestion for Smart Port in industry 4.0, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries.</li>
   <li><b>Featured Paper</b><br> 
