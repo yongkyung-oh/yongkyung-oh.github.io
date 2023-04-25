@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "YongKyung Oh"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Postdoctoral researcher at the Industry Intelligentization Institute at at UNIST."
+  bio              : "Postdoctoral researcher at the Industry Intelligentization Institute, UNIST."
   location         : "UNIST"
 
   links:
