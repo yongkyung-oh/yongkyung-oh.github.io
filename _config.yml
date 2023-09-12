@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "YongKyung Oh"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Postdoctoral researcher at the Industry Intelligentization Institute, UNIST."
-  location         : "UNIST"
+  bio              : "Visiting researcher at the UCLA Health - David Geffen School of Medicine."
+  location         : "Los Angeles, CA, US"
 
   links:
     - label: "CV"
