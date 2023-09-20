@@ -65,7 +65,7 @@ header:
 
 
 --------------------
-<h3> Working Paper </h3>
+<h3> Working Papers </h3>
 
 <div class="notice--info"> 
   <ul>
@@ -95,7 +95,7 @@ header:
 </div>
 
 --------------------
-<h3> Conference papers (Published) </h3>
+<h3> Conference Papers (Published) </h3>
 <div class="notice--info"> 
   <ul>
   <li>[C3] Oh, Y., Kwak, J. & Kim, S. (2022), Time Delay Estimation of Traffic Congestion Based on Statistical Causality, The 3rd Workshop on Data-driven Intelligent Transportation (DIT 2022), Held in conjunction with The 31st ACM International Conference on Information and Knowledge Management (CIKM) 2022, October 2022. <a href="https://dit-workshop.github.io/">[workshop]</a> <a href="https://drive.google.com/file/d/1gbCWyUTvVPoTVmisX6jTN19UT-t9rCoC">[slide]</a></li>
