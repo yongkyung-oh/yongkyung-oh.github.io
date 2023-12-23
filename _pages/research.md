@@ -69,7 +69,6 @@ header:
 
 <div class="notice--info"> 
   <ul>
-  <li>Oh, Y. & Kim, S., Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap. <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a></li>
   <li>Oh, Y., Kwak, J. & Kim, S, A propagation prediction method for non-recurrent traffic congestion.</li>
   <li>Oh, Y., Kim, H. & Kim, S., TSSI: Time Series as Screenshot Images for Multivariate Time Series Classification using Convolutional Neural Networks.</li>
   <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J. & Kim, S., TAOD-Net: A Data-Driven Approach for Detecting Thyroid-Associated Orbitopathy Symptoms Using Facial Images. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
@@ -85,6 +84,8 @@ header:
 <h3> Journal Papers (Published) </h3>
 <div class="notice--info"> 
   <ul>
+  <li>[J7] Oh, Y., & Kim, S. (2023). Grid-Based Bayesian Bootstrap Approach for Real-Time Detection of Abnormal Vessel Behaviors From AIS Data in Maritime Logistics. IEEE Transactions on Automation Science and Engineering. <a href="https://doi.org/10.1109/TASE.2023.3329041">https://doi.org/10.1109/TASE.2023.3329041</a>.<a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a></li>
+  </li>
   <li>[J6] Oh, Y., Lee, J. & Kim, S. (2023), Sensor drift compensation for gas mixture classification in batch experiments. Quality and Reliability Engineering International. 2023; 1-16. <a href="https://doi.org/10.1002/qre.3354">https://doi.org/10.1002/qre.3354</a>.</li>
   <li>[J5] Oh, Y., Kwak, J. & Kim, S. (2023), Time delay estimation of traffic congestion propagation due to accidents based on statistical causality. Electronic Research Archive, 31(2), 691-707. <a href="https://doi.org/10.3934/era.2023034">https://doi.org/10.3934/era.2023034</a>. <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li>
   <li>[J4] Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S. (2022), Multichannel convolution neural network for gas mixture classification. Annals of Operations Research. <a href="https://doi.org/10.1007/s10479-022-04715-2">https://doi.org/10.1007/s10479-022-04715-2</a>. <a href="https://github.com/yongkyung-oh/Multichannel-CNN">[code]</a></li>
@@ -94,30 +95,24 @@ header:
   </ul>
 </div>
 
---------------------
-<h3> Conference Papers (Published) </h3>
-<div class="notice--info"> 
-  <ul>
-  <li>[C3] Oh, Y., Kwak, J. & Kim, S. (2022), Time Delay Estimation of Traffic Congestion Based on Statistical Causality, The 3rd Workshop on Data-driven Intelligent Transportation (DIT 2022), Held in conjunction with The 31st ACM International Conference on Information and Knowledge Management (CIKM) 2022, October 2022. <a href="https://dit-workshop.github.io/">[workshop]</a> <a href="https://drive.google.com/file/d/1gbCWyUTvVPoTVmisX6jTN19UT-t9rCoC">[slide]</a></li>
-  <li>[C2] Oh, Y. (2022), Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence (IJCAI), Doctoral Consortium. Pages 5865-5866. IJCAI 2022, May 2022. <a href="https://doi.org/10.24963/ijcai.2022/835">[paper]</a> <a href="https://drive.google.com/file/d/1--DJHC2_03HOAWb0wv_ZDfHF5qBBm9vu">[slide]</a></li>
-  <li>[C1] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE, December 2021. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">[paper]</a> <a href="https://drive.google.com/file/d/1ght3vuPzGJ-lj1X0JsnJSoN1Z980byhy">[slide]</a></li>
-  </ul>
-</div>
 
 --------------------
-<h3> Refereed Conferences (In-press) </h3>
+<h3> Conference Papers (In-press or Published) </h3>
 <div class="notice--info"> 
   <ul>
-  <li>[R10] Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Best Paper Award - Artificial Intelligence Division.</u> <a href="https://drive.google.com/file/d/1rRQJH1Z8CVyTTNah9RY3irOd_hqufi2j">[slide]</a></li>
-  <li>[R9] Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Best Oral Presentation Award - Artificial Intelligence Division.</u> <a href="https://drive.google.com/file/d/1rRUdolvItKHTjqD97OmfG6yAaNDGJUtm">[slide]</a></li>
-  <li>[R8] Oh, Y. & Kim, S. (2023), Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process, <u>Data Analytics and Information Systems (DAIS) Best Track Paper Competition,</u> Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2023, May 2023. <a href="https://drive.google.com/file/d/1rWM0io60IOGSN-Hf3pZPOdbPq56QUvsw">[slide]</a></li>
-  <li>[R7] Oh, Y. & Kim, S. (2022), Lifelog data fusion approach for emotion recognition, Conference of Korea Software Congress (KSC) 2022, December 2022. <a href="https://drive.google.com/file/d/1wiVX1fXp7U5WZ2prmaKyIGFQm3Zue8VX">[slide]</a></li>
-  <li>[R6] Oh, Y., Koh, G., Shin, K., Moon, J. & Kim, S. (2022), Real-Time Risk Assessment of Thyroid Function Abnormality using Irregularly-Sampled Heart Rate Records, The 7th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2022, November 2022. <a href="https://drive.google.com/file/d/1gXutGnF1IG4_RgP5lhYZKqx-f08vkq2i">[poster]</a></li>
-  <li>[R5] Oh, Y. & Kim, S. (2022), Irregularly sampled time series classification using neural stochastic differential equation, The 7th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2022, November 2022. <a href="https://drive.google.com/file/d/1gR32rs9ffv8K8KGOdLzXwGMaJuuD_cDW">[poster]</a></li>
-  <li>[R4] Oh, Y., Kwak, J., Lee, J. & Kim, S. (2021), A Propagation Prediction Method for Non-recurrent Traffic Congestion. Institute for Operations Research and the Management Sciences (INFORMS) Annual Meeting 2021, October 2021. <a href="https://scholarworks.unist.ac.kr/handle/201301/56937">[link]</a></li>
-  <li>[R3] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, The 4th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2021, July 2021. <a href="https://drive.google.com/file/d/1gP2ZNwqFP0Ny0nPHBjrWr9u_W8hlatMN">[poster]</a></li>
-  <li>[R2] Oh, Y. & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, May 2021. <u>Best paper award - Logistics & Supply Chain Division.</u> <a href="https://drive.google.com/file/d/1XYEN0r6WFZokJ9l2pwohdE8m-0v3-hbB">[slide]</a></li>
-  <li>[R1] Oh, Y. & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE). Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2019.  <a href="https://search.proquest.com/openview/d341e92a946a376db2864e1d7efebf37/1?pq-origsite=gscholar&cbl=51908">[proceeding]</a> <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC">[slide]</a></li>
+  <li>[C13] Oh, Y., Lim, D., & Kim, S. (2023). Unifying Neural Controlled Differential Equations and Neural Flow for Irregular Time Series Classification. In The Symbiosis of Deep Learning and Differential Equations III. Held in conjunction with Thirty-seventh Annual Conference on Neural Information Processing Systems (NeurIPS) 2023, December 2023.<a href="https://openreview.net/forum?id=RLrLg3kahE">[paper]</a> <a href="https://drive.google.com/file/d/1-4RCnY4FoSFgQwaaCMwGRh-n4uEt0Fee">[poster]</a></li>
+  <li>[C12] Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Best Paper Award - Artificial Intelligence Division.</u> <a href="https://drive.google.com/file/d/1rRQJH1Z8CVyTTNah9RY3irOd_hqufi2j">[slide]</a></li>
+  <li>[C11] Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Best Oral Presentation Award - Artificial Intelligence Division.</u> <a href="https://drive.google.com/file/d/1rRUdolvItKHTjqD97OmfG6yAaNDGJUtm">[slide]</a></li>
+  <li>[C10] Oh, Y. & Kim, S. (2023), Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process, <u>Data Analytics and Information Systems (DAIS) Best Track Paper Competition,</u> Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2023, May 2023. <a href="https://drive.google.com/file/d/1rWM0io60IOGSN-Hf3pZPOdbPq56QUvsw">[slide]</a></li>
+  <li>[C9] Oh, Y. & Kim, S. (2022), Lifelog data fusion approach for emotion recognition, Conference of Korea Software Congress (KSC) 2022, December 2022. <a href="https://drive.google.com/file/d/1wiVX1fXp7U5WZ2prmaKyIGFQm3Zue8VX">[slide]</a></li>
+  <li>[C8] Oh, Y., Koh, G., Shin, K., Moon, J. & Kim, S. (2022), Real-Time Risk Assessment of Thyroid Function Abnormality using Irregularly-Sampled Heart Rate Records, The 7th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2022, November 2022. <a href="https://drive.google.com/file/d/1gXutGnF1IG4_RgP5lhYZKqx-f08vkq2i">[poster]</a></li>
+  <li>[C7] Oh, Y. & Kim, S. (2022), Irregularly sampled time series classification using neural stochastic differential equation, The 7th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2022, November 2022. <a href="https://drive.google.com/file/d/1gR32rs9ffv8K8KGOdLzXwGMaJuuD_cDW">[poster]</a></li>
+  <li>[C6] Oh, Y., Kwak, J. & Kim, S. (2022), Time Delay Estimation of Traffic Congestion Based on Statistical Causality, The 3rd Workshop on Data-driven Intelligent Transportation (DIT 2022), Held in conjunction with The Thirty-First ACM International Conference on Information and Knowledge Management (CIKM) 2022, October 2022. <a href="https://dit-workshop.github.io/">[workshop]</a> <a href="https://drive.google.com/file/d/1gbCWyUTvVPoTVmisX6jTN19UT-t9rCoC">[slide]</a></li>
+  <li>[C5] Oh, Y. (2022), Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence (IJCAI), Doctoral Consortium. Pages 5865-5866. IJCAI 2022, May 2022. <a href="https://doi.org/10.24963/ijcai.2022/835">[paper]</a> <a href="https://drive.google.com/file/d/1--DJHC2_03HOAWb0wv_ZDfHF5qBBm9vu">[slide]</a></li>
+  <li>[C4] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE, December 2021. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">[paper]</a> <a href="https://drive.google.com/file/d/1ght3vuPzGJ-lj1X0JsnJSoN1Z980byhy">[slide]</a></li>
+  <li>[C3] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, The 4th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2021, July 2021. <a href="https://drive.google.com/file/d/1gP2ZNwqFP0Ny0nPHBjrWr9u_W8hlatMN">[poster]</a></li>
+  <li>[C2] Oh, Y. & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, May 2021. <u>Best paper award - Logistics & Supply Chain Division.</u> <a href="https://drive.google.com/file/d/1XYEN0r6WFZokJ9l2pwohdE8m-0v3-hbB">[slide]</a></li>
+  <li>[C1] Oh, Y. & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE). Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2019.  <a href="https://search.proquest.com/openview/d341e92a946a376db2864e1d7efebf37/1?pq-origsite=gscholar&cbl=51908">[proceeding]</a> <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC">[slide]</a></li>
   </ul>
 </div>
 
@@ -125,9 +120,8 @@ header:
 --------------------
 <h3> Presentations and Talks </h3>
 <div class="notice--info"> 
-  <a href="https://yongkyung-oh.github.io/archive/">[Archieve link]</a>
+  <a href="https://yongkyung-oh.github.io/archive/">[Archive link]</a>
 </div>
-
 
 
 --------------------

@@ -102,9 +102,6 @@ author:
     - label: "CV"
       icon: "fas fa-fw fa-link"
       url: "https://drive.google.com/file/d/12kr_OViGjSfBox5_kUnpnpop87liNlyV/view?usp=sharing"
-    - label: "Google Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=YJ1L50YAAAAJ&hl=en"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:yongkyung-oh@outlook.com"
@@ -117,6 +114,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "http://www.linkedin.com/in/yongkyung-oh"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YJ1L50YAAAAJ&hl=en"
 
 # Site Footer
 footer:
@@ -130,6 +130,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "http://www.linkedin.com/in/yongkyung-oh"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YJ1L50YAAAAJ&hl=en"
 
 
 # Reading Files
