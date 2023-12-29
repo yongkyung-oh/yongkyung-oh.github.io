@@ -125,7 +125,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
 <h3> Competition Award </h3>
 <div class="notice">
   <ul>
-    <li> Featured study, Medical Informatics Homecoming Day, Asan Medical Center \& Ministry of Health and Welfare, 2023 </li> 
+    <li> Best study, Medical Informatics Homecoming Day, Asan Medical Center \& Ministry of Health and Welfare, 2023 </li> 
     <li> 1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020 </li> 
     <li> 2nd place in the Medical Startup Festa, Center for Creative Economy and Innovation, Ulsan, 2018</li>
     <li> 1st place (Minister Award) in the Korea R&D Festival – KOREA MOTIE, KIAT, Ministry of Trade, Industry and Energy, 2017</li>
