@@ -120,7 +120,7 @@ header:
 --------------------
 <h3> Presentations and Talks </h3>
 <div class="notice--info"> 
-  <a href="https://yongkyung-oh.github.io/archive/">[Archive link]</a>
+  <a href="https://yongkyung-oh.github.io/presentations/">[Archive link]</a>
 </div>
 
 
