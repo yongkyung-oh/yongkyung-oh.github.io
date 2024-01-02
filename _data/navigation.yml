@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "About Me"
+  - title: "About"
     url: /about/
-  - title: "Research"
+  - title: "Research experience"
     url: /research/
-  - title: "Development"
+  - title: "Development works"
     url: /portfolio-dev/
-  - title: "Consulting"
+  - title: "Consulting works"
     url: /portfolio-mgt/
-  - title: "Archive"
-    url: /archive/
+  - title: "Presentations"
+    url: /presentations/

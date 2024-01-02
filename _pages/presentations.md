@@ -1,7 +1,7 @@
 ---
-title: Archive
+title: Presentations
 layout: single
-permalink: /archive/
+permalink: /presentations/
 author_profile: true
 classes: wide
 header:
@@ -10,7 +10,7 @@ header:
 ---
 
 --------------------
-<h3> &#10003; Presentations and Talks </h3>
+<!--<h3> &#10003; Presentations and Talks </h3>-->
 
 <div class="notice--info">
   <ul>

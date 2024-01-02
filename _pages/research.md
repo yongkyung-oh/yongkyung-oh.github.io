@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Research experience
 layout: single
 permalink: /research/
 author_profile: true
