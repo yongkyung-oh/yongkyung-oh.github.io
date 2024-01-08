@@ -251,7 +251,7 @@ header:
 
 
 --------------------
-<h3> Other Publications </h3>
+<h3> Dissertations </h3>
 
 <div class="notice"> 
   <ul>
