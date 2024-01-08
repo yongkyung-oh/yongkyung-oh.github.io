@@ -70,7 +70,7 @@ header:
 <div class="notice--info"> 
   <ul>
   <li>Oh, Y., Yoon, K., Park, J., & Kim, S., Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data.</li>
-  <li>Oh, Y., Kwak, J. & Kim, S., A propagation prediction method for non-recurrent traffic congestion.<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4425849">[preprint]</a></li>
+  <li>Oh, Y., Kwak, J. & Kim, S., A propagation prediction method for non-recurrent traffic congestion. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4425849">[preprint]</a></li>
   <li>Oh, Y., Kim, H. & Kim, S., TSSI: Time Series as Screenshot Images for Multivariate Time Series Classification using Convolutional Neural Networks.</li>
   <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J. & Kim, S., TAOD-Net: A Data-Driven Approach for Detecting Thyroid-Associated Orbitopathy Symptoms Using Facial Images. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
   <li>Oh, Y., Koh, G., Shin, K., Moon, J. & Kim, S. Real-Time Risk Assessment of Thyroid Function Abnormality using Irregularly-Sampled Heart Rate Records. </li>
