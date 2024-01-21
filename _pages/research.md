@@ -69,14 +69,13 @@ header:
 
 <div class="notice--info"> 
   <ul>
-  <li>Oh, Y., Yoon, K., Park, J., & Kim, S., Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data.</li>
-  <li>Oh, Y., Kwak, J. & Kim, S., A propagation prediction method for non-recurrent traffic congestion. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4425849">[preprint]</a></li>
-  <li>Oh, Y., Kim, H. & Kim, S., TSSI: Time Series as Screenshot Images for Multivariate Time Series Classification using Convolutional Neural Networks.</li>
-  <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J. & Kim, S., TAOD-Net: A Data-Driven Approach for Detecting Thyroid-Associated Orbitopathy Symptoms Using Facial Images. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
-  <li>Oh, Y., Koh, G., Shin, K., Moon, J. & Kim, S. Real-Time Risk Assessment of Thyroid Function Abnormality using Irregularly-Sampled Heart Rate Records. </li>
-  <li>Oh, Y. & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data.<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4601110">[preprint]</a></li>
-  <li>Oh, Y., Lim, D. & Kim, S., Irregularly sampled time series classification using neural stochastic differential equation. </li>
   <li>Oh, Y., Lim, D. & Kim, S., Neural Flow-based Controlled Differential Equations for Irregular Time Series Classification. </li>
+  <li>Oh, Y., Koh, G., Shin, K., Moon, J. & Kim, S. Real-Time Risk Assessment of Thyroid Function Abnormality using Irregularly-Sampled Heart Rate Records. </li>
+  <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J. & Kim, S., TAOD-Net: A Data-Driven Approach for Detecting Thyroid-Associated Orbitopathy Symptoms Using Facial Images. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
+  <li>Oh, Y. & Kim, S., Hybrid data fusion strategy for human activity recognition using multimodal data.<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4601110">[preprint]</a></li>
+  <li>Oh, Y., Kim, H. & Kim, S., TSSI: Time Series as Screenshot Images for Multivariate Time Series Classification using Convolutional Neural Networks.</li>
+  <li>Oh, Y., Kwak, J. & Kim, S., A propagation prediction method for non-recurrent traffic congestion. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4425849">[preprint]</a></li>
+  <li>Oh, Y., Yoon, K., Park, J., & Kim, S., Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data.</li>
   </ul>
 </div>
 
@@ -100,7 +99,8 @@ header:
 <h3> Conference Papers (In-press or Published) </h3>
 <div class="notice--info"> 
   <ul>
-  <li>[C14] Oh, Y., Lim, D., & Kim, S. (2024). Invertible Solution of Neural Differential Equations for Analysis of Irregularly-Sampled Time Series. AI for Time Series (AI4TS) workshop, The 38th Annual AAAI Conference on Artificial Intelligence 2024, Feburay, 2024. <a href="https://ai4ts.github.io/aaai2024/">[workshop]</a></li>
+  <li>[C15] Oh, Y., Lim, D., \& Kim, S. (2024), Stable Neural Stochastic Differential Equations in Analyzing Irregular Time Series Data, The Twelfth International Conference on Learning Representations (ICLR) 2024, May 2024. <u>Spotlight presentation.</u> <a href="https://openreview.net/forum?id=4VIgNuQ1pY">[preprint]</a></li>
+  <li>[C14] Oh, Y., Lim, D., & Kim, S. (2024). Invertible Solution of Neural Differential Equations for Analysis of Irregularly-Sampled Time Series. AI for Time Series (AI4TS) workshop, The 38th Annual AAAI Conference on Artificial Intelligence 2024, Feburay, 2024. <a href="https://ai4ts.github.io/aaai2024/">[workshop]</a> <a href="https://arxiv.org/abs/2401.04979">[preprint]</a></li>
   <li>[C13] Oh, Y., Lim, D., & Kim, S. (2023). Unifying Neural Controlled Differential Equations and Neural Flow for Irregular Time Series Classification. In The Symbiosis of Deep Learning and Differential Equations III, The 37th Annual Conference on Neural Information Processing Systems (NeurIPS) 2023, December 2023.<a href="https://dlde-2023.github.io/">[workshop]</a> <a href="https://openreview.net/forum?id=RLrLg3kahE">[paper]</a> <a href="https://drive.google.com/file/d/1-4RCnY4FoSFgQwaaCMwGRh-n4uEt0Fee">[poster]</a></li>
   <li>[C12] Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Best Paper Award - Artificial Intelligence Division.</u> <a href="https://drive.google.com/file/d/1rRQJH1Z8CVyTTNah9RY3irOd_hqufi2j">[slide]</a></li>
   <li>[C11] Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Best Oral Presentation Award - Artificial Intelligence Division.</u> <a href="https://drive.google.com/file/d/1rRUdolvItKHTjqD97OmfG6yAaNDGJUtm">[slide]</a></li>
