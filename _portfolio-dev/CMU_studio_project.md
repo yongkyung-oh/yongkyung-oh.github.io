@@ -63,7 +63,9 @@ This project is part of High-Potential Individuals Global Training Program suppo
 <a href="https://github.com/yongkyung-oh/CMU-Studio-Project" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
 <a href="https://yongkyung-oh.github.io/CMU-Studio-Project/" class="btn btn--info" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github Page </a>
 <a href="https://youtu.be/e33-9wViLc4" class="btn btn--danger" style="width: 10em"> <i class="fab fa-fw fa-youtube" ></i> Youtube </a>
+<a href="https://drive.google.com/file/d/1j5N0CVVNaOewl4v4iKMckHerMnJ9SiOE/view?usp=sharing" class="btn btn--inverse" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Report </a>
+<a href="https://drive.google.com/file/d/1gR1yd0ATk1PBuL4saTvBpwCvNOyGh-_f/view?usp=sharing" class="btn btn--warning" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Slide </a>
 {: .text-center}
 
 <br>
-This research was results of a study on the "HPC Support" Project, supported by the ‘Ministry of Science and ICT’ and NIPA.
+This research was results of a study on the "HPC (High Performance Computing) Support" Project, supported by the ‘Ministry of Science and ICT (Information and Communication Technology)’ and NIPA (National IT Industry Promotion Agency), Repulbic of Korea.
