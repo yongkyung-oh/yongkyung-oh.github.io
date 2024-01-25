@@ -56,8 +56,8 @@ This project is part of High-Potential Individuals Global Training Program suppo
 {: .text-center}
 
 <a href="https://github.com/yongkyung-oh/" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
-<a href="https://drive.google.com/file/d/1PuneW4Unj_ow7BioyihMafzOa8qywxIo/view?usp=sharing" class="btn btn--inverse" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Report </a>
-<a href="https://drive.google.com/file/d/1aav1Atj_jku9bZzpeE_32EvIJVDiV2hq/view?usp=sharing" class="btn btn--warning" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Slide </a>
+<a href="https://drive.google.com/file/d/1PuneW4Unj_ow7BioyihMafzOa8qywxIo/view?usp=sharing" class="btn btn--success" style="width: 10em"> <i class="fas fa-fw fa-book-open" ></i>  Report </a>
+<a href="https://drive.google.com/file/d/1aav1Atj_jku9bZzpeE_32EvIJVDiV2hq/view?usp=sharing" class="btn btn--warning" style="width: 10em"> <i class="fa-solid fa-laptop"></i> Slide </a>
 {: .text-center}
 
 <br>

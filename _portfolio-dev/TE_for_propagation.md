@@ -36,5 +36,5 @@ Time Delay Estimation of Traffic Congestion Propagation based on Transfer Entrop
 {: .text-center}
 
 <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
-<a href="https://doi.org/10.3934/era.2023034" class="btn btn--inverse" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Paper </a>
+<a href="https://doi.org/10.3934/era.2023034" class="btn btn--success" style="width: 10em"> <i class="fas fa-fw fa-book-open" ></i> Paper </a>
 {: .text-center}

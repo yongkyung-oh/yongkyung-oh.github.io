@@ -38,5 +38,5 @@ Detection of Abnormal Vessel Behaviors from AIS data using the Bayesian Bootstra
 {: .text-center}
 
 <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
-<a href="https://doi.org/10.1109/TASE.2023.3329041" class="btn btn--inverse" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Paper </a>
+<a href="https://doi.org/10.1109/TASE.2023.3329041" class="btn btn--success" style="width: 10em"> <i class="fas fa-fw fa-book-open" ></i> Paper </a>
 {: .text-center}
