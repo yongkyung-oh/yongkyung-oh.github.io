@@ -220,11 +220,12 @@ header:
 
 <div class="notice--danger"> <!--Patent-->
   <ul>
-  <li>Method, computer device, and computer program to predict road congestion propagation using pattern matching. (KR 10-2021-0120229, applied September 9, 2021) | Co-inventor</li>
-  <li>Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy. (KR 10-2021-0119772, applied September 8, 2021) | Co-inventor</li>
-  <li>Sensor Drift Compensation Method and Device. (PCT/KR2021/010729, applied August 12, 2021)(KR 10-2020-0101037, applied August 14, 2020) | Co-inventor</li>
-  <li>Method and Apparatus for Determining Delay Possibility of Shipment. (10-2250354, granted May 4, 2021), (PCT/KR2020/015854, applied November 12, 2020) | Co-inventor</li>
-  <li>Bayesian Bootstrap based anomaly detection of vessels. (KR 10-2020-0178651, applied December 18, 2020) | Co-inventor</li>
+  <li>Encoding apparatus and method for converting time series data into images. (KR 10-2022-0183341, applied December 23, 2022). | Co-inventor</li>
+  <li>Method, computer device, and computer program to predict road congestion propagation using pattern matching. (KR 10-2608343-0000, granted November 27, 2023) (JP 2022-137508, applied August 31, 2022) (KR 10-2021-0120229, applied September 9, 2021). | Co-inventor</li>
+  <li>Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy. (KR 10-2604575-0000, granted November 16, 2023) (JP 2022-137509, applied August 31, 2022) (KR 10-2021-0119772, applied September 8, 2021). | Co-inventor</li>
+  <li>Bayesian Bootstrap based anomaly detection of vessels. (KR 10-2534357-0000, granted May 16, 2023) (KR 10-2020-0178651, applied December 18, 2020). | Co-inventor</li>
+  <li>Sensor Drift Compensation Method and Device. (US 18/012,626, applied December 22, 2022) (KR 10-2364019-0000, granted February 14, 2022) (PCT/KR2021/010729, applied August 12, 2021) (KR 10-2020-0101037, applied August 12, 2020). | Co-inventor</li>
+  <li>Method and Apparatus for Determining Delay Possibility of Shipment. (KR 10-2250354-0000, granted May 4, 2021) (PCT/KR2020/015854, applied November 12, 2020) (KR 10-2019-0158913, applied December 3, 2019). | Co-inventor</li>
   </ul>
 </div>
 
