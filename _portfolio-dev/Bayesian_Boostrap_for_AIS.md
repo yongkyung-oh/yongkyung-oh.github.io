@@ -19,9 +19,8 @@ sidebar:
 ---
 
 Detection of Abnormal Vessel Behaviors from AIS data using the Bayesian Bootstrap. Repository link for following research works: 
-- Oh, Y., & Kim, S. (2022). Detection of abnormal vessel behaviors from AIS data using the Bayesian bootstrap, under review
-- Oh, Y., & Kim, S. (2020, November). Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach. IISE.
-- Oh, Y., & Kim, S. (2019). Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE).
+- Oh, Y., & Kim, S. (2023). Grid-Based Bayesian Bootstrap Approach for Real-Time Detection of Abnormal Vessel Behaviors From AIS Data in Maritime Logistics. IEEE Transactions on Automation Science and Engineering. https://doi.org/10.1109/TASE.2023.3329041. <a href="https://doi.org/10.1109/TASE.2023.3329041">[paper]</a> <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a>
+- Oh, Y. & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE). Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2019.  <a href="https://search.proquest.com/openview/d341e92a946a376db2864e1d7efebf37/1?pq-origsite=gscholar&cbl=51908">[proceeding]</a> <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC">[slide]</a>
 
 
 {% include gallery id="images_gallery" %}
@@ -38,5 +37,6 @@ Detection of Abnormal Vessel Behaviors from AIS data using the Bayesian Bootstra
 </div>
 {: .text-center}
 
-<a href="https://github.com/yongkyung-oh/" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
+<a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
+<a href="https://doi.org/10.1109/TASE.2023.3329041" class="btn btn--success" style="width: 10em"> <i class="fas fa-fw fa-book-open" ></i> Paper </a>
 {: .text-center}

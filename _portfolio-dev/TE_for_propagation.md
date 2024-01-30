@@ -19,7 +19,7 @@ sidebar:
 ---
 
 Time Delay Estimation of Traffic Congestion Propagation based on Transfer Entropy. Repository link for following research works: 
-- Oh, Y., Kwak, J., Lee, J., & Kim, S. (2022). Time delay estimation of traffic congestion propagation based on transfer entropy, submitted
+- Oh, Y., Kwak, J. & Kim, S. (2023), Time delay estimation of traffic congestion propagation due to accidents based on statistical causality. Electronic Research Archive, 31(2), 691-707. https://doi.org/10.3934/era.2023034. <a href="https://doi.org/10.3934/era.2023034">[paper]</a> <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a>
 
 {% include gallery id="images_gallery" %}
 
@@ -35,5 +35,6 @@ Time Delay Estimation of Traffic Congestion Propagation based on Transfer Entrop
 </div>
 {: .text-center}
 
-<a href="https://github.com/yongkyung-oh/" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
+<a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation" class="btn btn--primary" style="width: 10em"> <i class="fab fa-fw fa-github" ></i> Github </a>
+<a href="https://doi.org/10.3934/era.2023034" class="btn btn--success" style="width: 10em"> <i class="fas fa-fw fa-book-open" ></i> Paper </a>
 {: .text-center}
