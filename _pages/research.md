@@ -99,12 +99,12 @@ header:
 <h3> Conference Papers (In-press or Published) </h3>
 <div class="notice--info"> 
   <ul>
-  <li>[C15] Oh, Y., Lim, D., \& Kim, S. (2024), Stable Neural Stochastic Differential Equations in Analyzing Irregular Time Series Data, The Twelfth International Conference on Learning Representations (ICLR) 2024, May 2024. <u>Spotlight presentation (Notable Top 5%).</u> <a href="https://openreview.net/forum?id=4VIgNuQ1pY">[preprint]</a></li>
+  <li>[C15] Oh, Y., Lim, D., & Kim, S. (2024), Stable Neural Stochastic Differential Equations in Analyzing Irregular Time Series Data, The Twelfth International Conference on Learning Representations (ICLR) 2024, May 2024. <u>Spotlight presentation (Notable Top 5%).</u> <a href="https://openreview.net/forum?id=4VIgNuQ1pY">[preprint]</a></li>
   <li>[C14] Oh, Y., Lim, D., & Kim, S. (2024). Invertible Solution of Neural Differential Equations for Analysis of Irregularly-Sampled Time Series. Artificial Intelligence for Time Series (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence 2024, February 2024. <a href="https://ai4ts.github.io/aaai2024/">[workshop]</a> <a href="https://arxiv.org/abs/2401.04979">[preprint]</a></li>
   <li>[C13] Oh, Y., Lim, D., & Kim, S. (2023). Unifying Neural Controlled Differential Equations and Neural Flow for Irregular Time Series Classification. In The Symbiosis of Deep Learning and Differential Equations III Workshop, The 37th Annual Conference on Neural Information Processing Systems (NeurIPS) 2023, December 2023.<a href="https://dlde-2023.github.io/">[workshop]</a> <a href="https://openreview.net/forum?id=RLrLg3kahE">[paper]</a> <a href="https://drive.google.com/file/d/1-4RCnY4FoSFgQwaaCMwGRh-n4uEt0Fee">[poster]</a></li>
-  <li>[C12] Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Best Paper Award - Artificial Intelligence Division.</u> <a href="https://drive.google.com/file/d/1rRQJH1Z8CVyTTNah9RY3irOd_hqufi2j">[slide]</a></li>
-  <li>[C11] Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Best Oral Presentation Award - Artificial Intelligence Division.</u> <a href="https://drive.google.com/file/d/1rRUdolvItKHTjqD97OmfG6yAaNDGJUtm">[slide]</a></li>
-  <li>[C10] Oh, Y. & Kim, S. (2023), Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process, <u>Data Analytics and Information Systems (DAIS) Best Track Paper Competition Finalist,</u> Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2023, May 2023. <a href="https://drive.google.com/file/d/1rWM0io60IOGSN-Hf3pZPOdbPq56QUvsw">[slide]</a></li>
+  <li>[C12] Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Artificial Intelligence Division - Best Paper Award.</u> <a href="https://drive.google.com/file/d/1rRQJH1Z8CVyTTNah9RY3irOd_hqufi2j">[slide]</a></li>
+  <li>[C11] Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Conference of Korea Computer Congress 2023 (KCC 2023), June 2023. <u>Artificial Intelligence Division - Best Oral Presentation Award.</u> <a href="https://drive.google.com/file/d/1rRUdolvItKHTjqD97OmfG6yAaNDGJUtm">[slide]</a></li>
+  <li>[C10] Oh, Y. & Kim, S. (2023), Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2023, May 2023. <u>Data Analytics and Information Systems (DAIS) Division Best Paper Competition.</u><a href="https://drive.google.com/file/d/1rWM0io60IOGSN-Hf3pZPOdbPq56QUvsw">[slide]</a></li>
   <li>[C9] Oh, Y. & Kim, S. (2022), Lifelog data fusion approach for emotion recognition, Conference of Korea Software Congress (KSC) 2022, December 2022. <a href="https://drive.google.com/file/d/1wiVX1fXp7U5WZ2prmaKyIGFQm3Zue8VX">[slide]</a></li>
   <li>[C8] Oh, Y., Koh, G., Shin, K., Moon, J. & Kim, S. (2022), Real-Time Risk Assessment of Thyroid Function Abnormality using Irregularly-Sampled Heart Rate Records, The 7th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2022, November 2022. <a href="https://drive.google.com/file/d/1gXutGnF1IG4_RgP5lhYZKqx-f08vkq2i">[poster]</a></li>
   <li>[C7] Oh, Y. & Kim, S. (2022), Irregularly sampled time series classification using neural stochastic differential equation, The 7th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2022, November 2022. <a href="https://drive.google.com/file/d/1gR32rs9ffv8K8KGOdLzXwGMaJuuD_cDW">[poster]</a></li>
@@ -112,7 +112,7 @@ header:
   <li>[C5] Oh, Y. (2022), Multivariate Times Series Classification Using Multichannel CNN, Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI), Doctoral Consortium. Pages 5865-5866. IJCAI 2022, May 2022. <a href="https://doi.org/10.24963/ijcai.2022/835">[paper]</a> <a href="https://drive.google.com/file/d/1--DJHC2_03HOAWb0wv_ZDfHF5qBBm9vu">[slide]</a></li>
   <li>[C4] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE, December 2021. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">[paper]</a> <a href="https://drive.google.com/file/d/1ght3vuPzGJ-lj1X0JsnJSoN1Z980byhy">[slide]</a></li>
   <li>[C3] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, The 4th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2021, July 2021. <a href="https://drive.google.com/file/d/1gP2ZNwqFP0Ny0nPHBjrWr9u_W8hlatMN">[poster]</a></li>
-  <li>[C2] Oh, Y. & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, May 2021. <u>Best paper award - Logistics & Supply Chain Division.</u> <a href="https://drive.google.com/file/d/1XYEN0r6WFZokJ9l2pwohdE8m-0v3-hbB">[slide]</a></li>
+  <li>[C2] Oh, Y. & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, May 2021. <u>Logistics & Supply Chain (LSC) Division - Best Paper Award.</u> <a href="https://drive.google.com/file/d/1XYEN0r6WFZokJ9l2pwohdE8m-0v3-hbB">[slide]</a></li>
   <li>[C1] Oh, Y. & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE). Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2019.  <a href="https://search.proquest.com/openview/d341e92a946a376db2864e1d7efebf37/1?pq-origsite=gscholar&cbl=51908">[proceeding]</a> <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC">[slide]</a></li>
   </ul>
 </div>
@@ -220,11 +220,12 @@ header:
 
 <div class="notice--danger"> <!--Patent-->
   <ul>
-  <li>Method, computer device, and computer program to predict road congestion propagation using pattern matching. (KR 10-2021-0120229, applied September 9, 2021) | Co-inventor</li>
-  <li>Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy. (KR 10-2021-0119772, applied September 8, 2021) | Co-inventor</li>
-  <li>Sensor Drift Compensation Method and Device. (PCT/KR2021/010729, applied August 12, 2021)(KR 10-2020-0101037, applied August 14, 2020) | Co-inventor</li>
-  <li>Method and Apparatus for Determining Delay Possibility of Shipment. (10-2250354, granted May 4, 2021), (PCT/KR2020/015854, applied November 12, 2020) | Co-inventor</li>
-  <li>Bayesian Bootstrap based anomaly detection of vessels. (KR 10-2020-0178651, applied December 18, 2020) | Co-inventor</li>
+  <li>Encoding apparatus and method for converting time series data into images. (KR 10-2022-0183341, applied December 23, 2022). | Co-inventor</li>
+  <li>Method, computer device, and computer program to predict road congestion propagation using pattern matching. (KR 10-2608343-0000, granted November 27, 2023) (JP 2022-137508, applied August 31, 2022) (KR 10-2021-0120229, applied September 9, 2021). | Co-inventor</li>
+  <li>Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy. (KR 10-2604575-0000, granted November 16, 2023) (JP 2022-137509, applied August 31, 2022) (KR 10-2021-0119772, applied September 8, 2021). | Co-inventor</li>
+  <li>Bayesian Bootstrap based anomaly detection of vessels. (KR 10-2534357-0000, granted May 16, 2023) (KR 10-2020-0178651, applied December 18, 2020). | Co-inventor</li>
+  <li>Sensor Drift Compensation Method and Device. (US 18/012,626, applied December 22, 2022) (KR 10-2364019-0000, granted February 14, 2022) (PCT/KR2021/010729, applied August 12, 2021) (KR 10-2020-0101037, applied August 12, 2020). | Co-inventor</li>
+  <li>Method and Apparatus for Determining Delay Possibility of Shipment. (KR 10-2250354-0000, granted May 4, 2021) (PCT/KR2020/015854, applied November 12, 2020) (KR 10-2019-0158913, applied December 3, 2019). | Co-inventor</li>
   </ul>
 </div>
 
@@ -234,13 +235,13 @@ header:
 
 <div class="notice--warning"> 
   <ul>
-  <li><b>KCC 2023 Best Oral Presentation Award</b><br> 
-  Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023.</li>
-  <li><b>KCC 2023 Best Research Paper Award</b><br> 
+  <li><b>KCC 2023 AI Division Best Research Paper Award</b><br> 
   Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023.</li>
-  <li><b>IISE 2023 Best Paper Competition Finalist</b><br> 
-  Oh, Y. & Kim, S. (2023), Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process, Data Analytics and Information Systems (DAIS) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2023, May 2023. <a href="https://drive.google.com/file/d/1rWv7UOghhb36XVt6CdueTtbmIq68X-ZH">[slide]</a></li> 
-  <li><b>IISE 2021 LSC track Best Paper Award</b><br> 
+  <li><b>KCC 2023 AI Division Best Oral Presentation Award</b><br> 
+  Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023.</li>
+  <li><b>IISE 2023 DAIS Division Best Paper Competition Finalist</b><br> 
+  Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Data Analytics and Information Systems (DAIS) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2023, May 2023. <a href="https://drive.google.com/file/d/1rWv7UOghhb36XVt6CdueTtbmIq68X-ZH">[slide]</a></li> 
+  <li><b>IISE 2021 LSC Division Best Paper Award</b><br> 
   Oh, Y. & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Logistics & Supply Chain (LSC) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, May 2021. <a href="https://news.unist.ac.kr/unist-announces-2021-winners-of-iise-lsc-division-best-paper-award/?fbclid=IwAR2frIPxwtFoN78yz35CZom9Kxo7f8qBL22qekEE3IyiAPl_D8CE5v8c8rQ">[news]</a></li> 
   <li><b>Distinguished Paper Award</b><br> 
   Oh, Y., Lim, D., Hong, D., Lee, J. & Park, J. (2019), Strategy for Maritime Startup Ecosystem, Graduate Student Academic paper competition by Ulsan Development Institute, December 2019.</li>
