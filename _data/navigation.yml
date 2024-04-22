@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Research experience"
+  - title: "Research"
     url: /research/
   - title: "Development works"
     url: /portfolio-dev/
