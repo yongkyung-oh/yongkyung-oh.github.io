@@ -17,7 +17,7 @@ minimal_mistakes_skin    : # "air", "aqua", "contrast", "dark", "dirt", "neon", 
 # Site Settings
 locale                   : "en-US"
 title                    : "YongKyung Oh"
-title_separator          : " "
+title_separator          : "-"
 subtitle                 : " " # site tagline that appears below site title in masthead
 name                     : "YongKyung Oh"
 description              : " "
