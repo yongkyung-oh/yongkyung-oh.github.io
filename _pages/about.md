@@ -108,15 +108,15 @@ In addition to his academic pursuits, he has gained valuable industry experience
 </div>
 
 --------------------
-<h3> Scholarship / Fellowship </h3>
+<h3> Scholarship & Fellowship </h3>
 <div class="notice">
   <ul>
     <li> Biomedical UniStar Training Program, Visiting research program for the collaborative research between UNIST and UCLA School of Medicine, fully supported by Korea Health Industry Development Institute KHIDI, 2023-2024</li>
-    <li> UNIST Graduate Scholarship, UNIST, 2018-2022</li>
+    <li> UNIST Graduate Scholarship (Ph.D. degree), UNIST, 2018-2022</li>
     <li> High-Potential Individuals Global Training Program, fully supported by IITP & Ministry of Science, ICT and Future Planning, 2020</li>
     <li> FISITA Travel Bursary Scholarship, FISITA - International Federation of Automotive Engineering Societies, 2017</li>
     <li> UNIST - GM Internship Fellowship, UNIST, General Motors, 2017</li>
-    <li> UNIST Graduate Scholarship, UNIST, 2015-2016</li>
+    <li> UNIST Graduate Scholarship (Master degree), UNIST, 2015-2016</li>
     <li> UNIST Undergraduate Scholarship, UNIST, 2011-2014</li>
   </ul>  
 </div>
