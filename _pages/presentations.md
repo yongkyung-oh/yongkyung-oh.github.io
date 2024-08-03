@@ -1,5 +1,5 @@
 ---
-title: Presentations
+title: Presentations and Talks
 layout: single
 permalink: /presentations/
 author_profile: true
@@ -10,9 +10,8 @@ header:
 ---
 
 --------------------
-<!--<h3> &#10003; Presentations and Talks </h3>-->
 
-<div class="notice--info">
+<div class="notice">
   <ul>
   <li>[P46] Oh, Y., Kim, S. & Bui, A. (2024). Deep Interaction Feature Fusion for Robust Human Activity Recognition, 4th International Workshop on Deep Learning for Human Activity Recognition, held in conjunction with the 33rd International Joint Conference on Artificial Intelligence (IJCAI) 2024, Aug 2024. <a href="https://drive.google.com/file/d/1Xl20xFrXKzZQyoQJZHxAKutLO3RbgUzn">[slide]</a></li>
   <li>[P45] Oh, Y., & Kim, S. (2024). Enhancing Human Activity Recognition with Comparative Data Fusion and Learning Strategies, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2024, May 2024. <a href="https://drive.google.com/file/d/1JQCbXMAhYqhlAGq2U1pco4OHqiN3FEP5">[slide]</a></li>
@@ -47,13 +46,13 @@ header:
   <li>[P16] Oh, Y., Lee, J. & Kim, S. (2022), Sensor Drift Compensation ​for Gas Mixture Classification in Batch Experiments​​, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2022. <a href="https://drive.google.com/file/d/1YEU6X1-Z-geBY50gJbP-rXwYKOA1Nrk6">[slide]</a></li>
   <li>[P15] Oh, Y., Kwak, J., Lee, J. & Kim, S. (2022), A Propagation Prediction Method for Non-recurrent Traffic Congestion, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2022. <a href="https://drive.google.com/file/d/1Y5_eHU7B9MyWKqeQ6W8rl6Bheo8PHY1H">[slide]</a></li>
   <li>[P14] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE, December 2021. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">[paper]</a> <a href="https://drive.google.com/file/d/1ght3vuPzGJ-lj1X0JsnJSoN1Z980byhy">[slide]</a></li>
-  <li>[P13] Oh, Y., Kwak, J., Lee, J. & Kim, S. (2021), A Propagation Prediction Method for Non-recurrent Traffic Congestion. Institute for Operations Research and the Management Sciences (INFORMS) Annual Meeting 2021, October 2021. <a href="https://scholarworks.unist.ac.kr/handle/201301/56937">[link]</a></li>
+  <li>[P13] Lee, J., Kwak, J., Oh, Y. & Kim, S. (2021), A Propagation Prediction Method for Non-recurrent Traffic Congestion. Institute for Operations Research and the Management Sciences (INFORMS) Annual Meeting 2021, October 2021. <a href="https://scholarworks.unist.ac.kr/handle/201301/56937">[link]</a></li>
   <li>[P12] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, The 4th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2021, July 2021. <a href="https://drive.google.com/file/d/1gP2ZNwqFP0Ny0nPHBjrWr9u_W8hlatMN">[poster]</a></li>
   <li>[P11] Oh, Y., Lee, J. & Kim, S. (2021), Sensor Drift Compensation for Mixed Gas Classification under Batch Experiments, Korean Institute of Industrial Engineers (KIIE) Spring Conference, May 2021. <a href="https://drive.google.com/file/d/1XfZKDUEANyoGVJ-RMm4EQ0yis_RWShOr">[slide]</a></li>
   <li>[P10] Oh, Y. & Kim, S. (2021), Commercial Area Analysis using Big data on GIS: Case of YongIn-si, Korean Institute of Industrial Engineers (KIIE) Spring Conference, May 2021. <a href="https://drive.google.com/file/d/1XflauYvc6Tgk_IFqV2ddAYJ4NcxaLaYP">[slide]</a></li>
   <li>[P9] Oh, Y. & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, May 2021. <u>Best paper award - Logistics & Supply Chain Division.</u> <a href="https://drive.google.com/file/d/1XYEN0r6WFZokJ9l2pwohdE8m-0v3-hbB">[slide]</a></li>
   <li>[P8] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2021. <a href="https://drive.google.com/file/d/1XZuBmtjhq0oCreSbYBmijMgO8YzZ2w3k">[slide]</a></li>
-  <li>[P7] Lee, J., Oh, Y., Kwak, J. & Kim, S. (2020), Congestion Propagation modelling with Graph Neural Network, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2020, November 2020. <a href="https://drive.google.com/file/d/1-4strXSElpXNWGoMSWWClLhdM4loQwIM">[slide]</a></li>
+  <li>[P7] Lee, J., Kwak, J. Oh, Y. & Kim, S. (2020), Congestion Propagation modelling with Graph Neural Network, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2020, November 2020. <a href="https://drive.google.com/file/d/1-4strXSElpXNWGoMSWWClLhdM4loQwIM">[slide]</a></li>
   <li>[P6] Oh, Y., Kim, H., Lee, D. & Kim, S. (2020), Simulation-based Anomaly Detection in Nuclear Reactors, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2020, November 2020. <a href="https://drive.google.com/file/d/1XBg6K08rgUl-5GTDeQNsVUFJkrDZvEHS">[slide]</a></li>
   <li>[P5] Oh, Y., Kim, N. & Kim, S. (2020), Transfer-Learning based approach for mixture gas classification, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2020, November 2020. <a href="https://drive.google.com/file/d/1XI7xI4yS-8_r0em64lhH32pEIklpyBC-">[slide]</a></li>
   <li>[P4] Oh, Y. & Kim, S. (2020), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2020, November 2020. <a href="https://drive.google.com/file/d/1WtpKVjKTbsRCp242_GQFuAVpO2U-7aAq">[slide]</a></li>
