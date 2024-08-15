@@ -74,7 +74,6 @@ header:
   <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J. & Kim, S., TAOD-Net: A Data-Driven Approach for Detecting Thyroid-Associated Orbitopathy Symptoms Using Facial Images. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
   <li>Oh, Y., Kim, H. & Kim, S., TSSI: Time Series as Screenshot Images for Multivariate Time Series Classification using Convolutional Neural Networks.</li>
   <li>Oh, Y., Kwak, J. & Kim, S., A propagation prediction method for non-recurrent traffic congestion. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4425849">[preprint]</a></li>
-  <li>Oh, Y., Yoon, K., Park, J., & Kim, S., Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data.</li>
   </ul>
 </div>
 
@@ -83,6 +82,7 @@ header:
 <h3> Journal Papers (Published) </h3>
 <div class="notice--info"> 
   <ul>
+  <li>[J9] Oh, Y., Yoon, K., Park, J. & Kim, S, Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data. Maritime Policy & Management. https://doi.org/10.1080/03088839.2024.2388177. <a href="https://doi.org/10.1080/03088839.2024.2388177">[paper]</a></li>
   <li>[J8] Oh, Y., & Kim, S. (2024). Multi-modal lifelog data fusion for improved human activity recognition: A hybrid approach. Information Fusion, 110, 102464. https://doi.org/10.1016/j.inffus.2024.102464. <a href="https://doi.org/10.1016/j.inffus.2024.102464">[paper]</a> <a href="https://github.com/yongkyung-oh/Hybrid-Data-Fusion">[code]</a></li>
   <li>[J7] Oh, Y., & Kim, S. (2023), Grid-Based Bayesian Bootstrap Approach for Real-Time Detection of Abnormal Vessel Behaviors From AIS Data in Maritime Logistics. IEEE Transactions on Automation Science and Engineering. https://doi.org/10.1109/TASE.2023.3329041. <a href="https://doi.org/10.1109/TASE.2023.3329041">[paper]</a> <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a></li>
   <li>[J6] Oh, Y., Lee, J. & Kim, S. (2023), Sensor drift compensation for gas mixture classification in batch experiments. Quality and Reliability Engineering International. 2023; 1-16. https://doi.org/10.1002/qre.3354. <a href="https://doi.org/10.1002/qre.3354">[paper]</a></li>
@@ -99,6 +99,7 @@ header:
 <h3> Conference Papers (In-press or Published) </h3>
 <div class="notice--info"> 
   <ul>
+  <li>[C19] Oh, Y., Kim, S. & Bui, A. (2024). Deep Interaction Feature Fusion for Robust Human Activity Recognition, 4th International Workshop on Deep Learning for Human Activity Recognition, held in conjunction with the 33rd International Joint Conference on Artificial Intelligence (IJCAI) 2024, Aug 2024. <a href="https://keyplay.github.io/ijcai2024_workshop/">[workshop]</a> <a href="https://drive.google.com/file/d/1Xl20xFrXKzZQyoQJZHxAKutLO3RbgUzn">[slide]</a></li>
   <li>[C18] Oh, Y., Lim, D., & Kim, S. (2024), Neural CDE-Flow for Irregular Time Series: Integrating Neural Controlled Differential Equations and Neural Flow for Comprehensive Irregularly-sampled Time Series Analysis, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2024, May 2024. <u>Data Analytics and Information Systems (DAIS) Division Best Paper Competition Finalist.</u><a href="https://drive.google.com/file/d/1JUQIzJ7Uk4AVFA6G0XugRn8fuykQ_Asc">[slide]</a></li>
   <li>[C17] Oh, Y., Kam, S., Lim, D. & Kim, S. (2024), Neural Langevin-type Stochastic Differential Equations for Astronomical time series Classification under Irregular Observations, AI4DifferentialEquations in Science Workshop, The Twelfth International Conference on Learning Representations (ICLR) 2024, May 2024. <a href="https://ai4diffeqtnsinsci.github.io/">[workshop]</a> <a href="https://drive.google.com/file/d/1E9vnNHddJu_D0hW3sRrYoDLrvc1_woee">[poster]</a></li>
   <li>[C16] Oh, Y., Lim, D., & Kim, S. (2024), Stable Neural Stochastic Differential Equations in Analyzing Irregular Time Series Data, The Twelfth International Conference on Learning Representations (ICLR) 2024, May 2024. <u>Spotlight presentation (Notable Top 5%).</u> <a href="https://openreview.net/forum?id=4VIgNuQ1pY">[paper]</a> <a href="https://github.com/yongkyung-oh/Stable-Neural-SDEs">[code]</a> <a href="https://drive.google.com/file/d/1Ci0FK_tJKtVNRQFa-Ck3oaiXvWgFHbV-">[slide]</a> <a href="https://drive.google.com/file/d/1EC5gpnGXH7vYt8WV8gTF-iZWHbhcZXYp">[poster]</a> <a href="https://news.unist.ac.kr/new-study-unveils-cutting-edge-time-series-deep-learning-technique-for-optimal-performance-in-ai-models/">[news]</a></li>
