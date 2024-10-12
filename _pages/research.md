@@ -31,9 +31,12 @@ header:
 <h3> Research Interests </h3>
 <div class="notice--primary">
   <ul>
-  <li> Industrial Artificial Intelligence</li>
-  <li> Data Analytics using statistical approaches based on physical & engineering models</li>
-  <li> Implementation of state-of-art Machine Learning and Deep Learning to industrial data</li>
+  <li> Integration of domain expertise with artificial intelligence to drive innovative data analytics and modeling efforts. </li>
+  <li> Design of robust and reliable AI models for dynamic environments, with a focus on adapting to dataset shifts. </li>
+  <li> Development and application of advanced time series analysis techniques, particularly for irregularly sampled data. </li>
+  <li> Implementation of cutting-edge machine learning and deep learning techniques, including neural differential equations. </li>
+  <li> Expertise in longitudinal data analysis and pattern detection, especially in medical and healthcare informatics. </li>
+  <li> Proficient in utilizing statistical methods based on physical and engineering models across various domains. </li>
   </ul>
 </div>
 
@@ -69,7 +72,11 @@ header:
 
 <div class="notice--info"> 
   <ul>
-  <li>Oh, Y., Lim, D. & Kim, S., Neural Flow-based Controlled Differential Equations for Irregular Time Series Classification. </li>
+  <li>Oh, Y., Kim, S. & Bui, A., Deep Interaction Feature Fusion for Robust Human Activity Recognition </li>
+  <li>Oh, Y., Lim, D., Kim, S. & Bui, A., TANDEM: Temporal Attention-guided Neural Differential Equations for Missingness in Time Series Classification </li>
+  <li>Oh, Y., Kam, S., Lim, D. & Kim, S., Advancing Irregular Time Series Classification in Astronomy with Neural Stochastic Differential Equations </li>
+  <li>Oh, Y., Lim, D. & Kim, S., Neural Flow-Based Controlled Differential Equations for Robust Human Activity Recognition with Irregularly Sampled Time Series Data </li>
+  <li>Oh, Y., Lim, D. & Kim, S., DualDynamics: Synergizing Implicit and Explicit Methods for Robust Irregular Time Series Analysis </li>
   <li>Oh, Y., Koh, G., Shin, K., Moon, J. & Kim, S. Real-Time Risk Assessment of Thyroid Function Abnormality using Irregularly-Sampled Heart Rate Records. </li>
   <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J. & Kim, S., TAOD-Net: A Data-Driven Approach for Detecting Thyroid-Associated Orbitopathy Symptoms Using Facial Images. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
   <li>Oh, Y., Kim, H. & Kim, S., TSSI: Time Series as Screenshot Images for Multivariate Time Series Classification using Convolutional Neural Networks.</li>
@@ -87,7 +94,7 @@ header:
   <li>[J7] Oh, Y., & Kim, S. (2023), Grid-Based Bayesian Bootstrap Approach for Real-Time Detection of Abnormal Vessel Behaviors From AIS Data in Maritime Logistics. IEEE Transactions on Automation Science and Engineering. https://doi.org/10.1109/TASE.2023.3329041. <a href="https://doi.org/10.1109/TASE.2023.3329041">[paper]</a> <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a></li>
   <li>[J6] Oh, Y., Lee, J. & Kim, S. (2023), Sensor drift compensation for gas mixture classification in batch experiments. Quality and Reliability Engineering International. 2023; 1-16. https://doi.org/10.1002/qre.3354. <a href="https://doi.org/10.1002/qre.3354">[paper]</a></li>
   <li>[J5] Oh, Y., Kwak, J. & Kim, S. (2023), Time delay estimation of traffic congestion propagation due to accidents based on statistical causality. Electronic Research Archive, 31(2), 691-707. https://doi.org/10.3934/era.2023034. <a href="https://doi.org/10.3934/era.2023034">[paper]</a> <a href="https://github.com/yongkyung-oh/TransferEntropy-Propagation">[code]</a></li>
-  <li>[J4] Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S. (2022), Multichannel convolution neural network for gas mixture classification. Annals of Operations Research. https://doi.org/10.1007/s10479-022-04715-2. <a href="https://doi.org/10.1007/s10479-022-04715-2">[paper]</a> <a href="https://github.com/yongkyung-oh/Multichannel-CNN">[code]</a></li>
+  <li>[J4] Oh, Y., Lee, C., Lee, J., Kim, S. & Kim, S. (2022). Multichannel convolution neural network for gas mixture classification. Annals of Operations Research, 339(1), 261-295. https://doi.org/10.1007/s10479-022-04715-2. <a href="https://doi.org/10.1007/s10479-022-04715-2">[paper]</a> <a href="https://github.com/yongkyung-oh/Multichannel-CNN">[code]</a></li>
   <li>[J3] Lee, J., Kwak, J., Oh, Y. & Kim, S. (2022), Quantifying incident impacts and identifying influential features in urban traffic networks. Transportmetrica B: Transport Dynamics, 11(1), 279-300. https://doi.org/10.1080/21680566.2022.2063205. <a href="https://doi.org/10.1080/21680566.2022.2063205">[paper]</a></li>
   <li>[J2] Oh, Y., Kim, H., Lee, D. & Kim, S. (2021), Simulation-based Anomaly Detection in Nuclear Reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143. https://doi.org/10.7232/JKIIE.2021.47.2.130. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.130">[paper]</a></li>
   <li>[J1] Oh, Y., Kim, N. & Kim, S. (2021), Transfer Learning based Approach for Mixture Gas Classification.  Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159. https://doi.org/10.7232/JKIIE.2021.47.2.144. <a href="https://doi.org/10.7232/JKIIE.2021.47.2.144">[paper]</a></li>
@@ -226,12 +233,13 @@ header:
 
 <div class="notice--danger"> <!--Patent-->
   <ul>
-  <li>Encoding apparatus and method for converting time series data into images. (KR 10-2022-0183341, applied December 23, 2022). | Co-inventor</li>
-  <li>Method, computer device, and computer program to predict road congestion propagation using pattern matching. (KR 10-2608343-0000, granted November 27, 2023) (JP2023039925A, published March, 20, 2023) (JP 2022-137508, applied August 31, 2022) (KR 10-2021-0120229, applied September 9, 2021). | Co-inventor</li>
-  <li>Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy. (KR 10-2604575-0000, granted November 16, 2023) (JP2023039418A, published March, 20, 2023) (JP 2022-137509, applied August 31, 2022) (KR 10-2021-0119772, applied September 8, 2021). | Co-inventor</li>
-  <li>Bayesian Bootstrap based anomaly detection of vessels. (KR 10-2534357-0000, granted May 16, 2023) (KR 10-2020-0178651, applied December 18, 2020). | Co-inventor</li>
-  <li>Sensor Drift Compensation Method and Device. (US 18/012,626, applied December 22, 2022) (KR 10-2364019-0000, granted February 14, 2022) (PCT/KR2021/010729, applied August 12, 2021) (KR 10-2020-0101037, applied August 12, 2020). | Co-inventor</li>
-  <li>Method and Apparatus for Determining Delay Possibility of Shipment. (KR 10-2250354-0000, granted May 4, 2021) (PCT/KR2020/015854, applied November 12, 2020) (KR 10-2019-0158913, applied December 3, 2019). | Co-inventor</li>
+  <li>Apparatus and method for human activity recognition through hybrid fusion of dynamic and static data. | Co-inventor, (KR 10-2024-0033382, applied March 8, 2024) </li>
+  <li>Encoding apparatus and method for converting time series data into images | Co-inventor (KR 10-2024-0101063, granted July 2, 2024) (KR 10-2022-0183341, applied December 23, 2022). </li>
+  <li>Method, computer device, and computer program to predict road congestion propagation using pattern matching | Co-inventor (KR 10-2608343-0000, granted November 27, 2023) (JP2023039925A, published March, 20, 2023) (JP 2022-137508, applied August 31, 2022) (KR 10-2021-0120229, applied September 9, 2021).</li>
+  <li>Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy | Co-inventor (KR 10-2604575-0000, granted November 16, 2023) (JP2023039418A, published March, 20, 2023) (JP 2022-137509, applied August 31, 2022) (KR 10-2021-0119772, applied September 8, 2021). </li>
+  <li>Method of Anomaly detection of vessels applying bayesian bootstrap | Co-inventor (KR 10-2534357-0000, granted May 16, 2023) (KR 10-2020-0178651, applied December 18, 2020). </li>
+  <li>Sensor drift compensation for mixed gas classification in E-nose system | Co-inventor (US 18/012,626, applied December 22, 2022) (KR 10-2364019-0000, granted February 14, 2022) (PCT/KR2021/010729, applied August 12, 2021) (KR 10-2020-0101037, applied August 12, 2020). </li>
+  <li>Method and apparatus for determining delay possibility of shipment | Co-inventor (KR 10-2250354-0000, granted May 4, 2021) (PCT/KR2020/015854, applied November 12, 2020) (KR 10-2019-0158913, applied December 3, 2019). </li>
   </ul>
 </div>
 
