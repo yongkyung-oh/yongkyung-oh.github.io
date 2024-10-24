@@ -15,9 +15,9 @@ header:
 <div class="notice--primary">
 Dr. YongKyung Oh serves as a postdoctoral researcher at the University of California, Los Angeles (UCLA) Health - David Geffen School of Medicine. He contributes as a member of the UCLA Medical & Imaging Informatics (MII) group, under the leadership of Dr. Alex Bui. Prior to join UCLA MII, he held a postdoctoral researcher position at the Industry Intelligentization Institute at the Ulsan National Institute of Science and Technology (UNIST). He received his Ph.D. in Industrial Engineering from UNIST, under the supervision of Dr. Sungil Kim. Prior to pursuing his Ph.D., he earned his Master's degree in Technology and Innovation Management and his B.Sc. in Physics, % minors in Mechanical engineering and Advanced material science, both from UNIST. 
 <br><br>
-His area of research focuses on utilizing domain-specific machine learning and deep learning techniques to handle real-world problems from a variety of domains such as medical, healthcare, manufacturing, energy, transportation, maritime, and logistics. His proficiency encompasses domain-specific AI techniques. Furthermore, he provides an insightful perspective on the implementation in practical scenarios.
+His research focuses on developing and applying domain-specific machine learning and deep learning techniques to address complex real-world problems across a diverse range of fields. This interdisciplinary approach spans multiple sectors, including medical, healthcare, manufacturing, energy, transportation, maritime operations, logistics, supply chain and so forth. His proficiency encompasses domain-specific AI techniques, and he provides insightful perspectives on practical implementations.
 <br><br>
-In addition to his academic pursuits, he has gained valuable industry experience through visiting researcher positions at Carnegie Mellon University, General Motors (GM) Global R&D Center, and the Institute of Theoretical Physics and Astrophysics (ITAP) of Kiel University, Germany. Furthermore, he has also participated in student consulting projects for companies including CSL Behring, IBM, and Deere&Company. 
+In addition to his academic pursuits, he has gained valuable industry experience through visiting researcher positions at Carnegie Mellon University (CMU), General Motors (GM) Global R&D Center, and the Institute of Theoretical Physics and Astrophysics (ITAP) of Kiel University, Germany. Furthermore, he has participated in student consulting projects for companies including CSL Behring, IBM, and Deere&Company. 
 <br><br>
 </div>
 
@@ -34,7 +34,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
 <div class="notice--primary">
   <h4><a href="https://iii.unist.ac.kr/_eng/">UNIST Industry Intelligentization Institute</a> (Ulsan, Korea): Postdoctoral researcher, 2023 ~ </h4>
   <ul>
-    <li>Contribute as a member of the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the leadership of Dr. Sungil Kim</li>
+    <li>Contribute as a member of the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the supervision of Dr. Sungil Kim</li>
   </ul> 
 </div>
 
@@ -42,6 +42,8 @@ In addition to his academic pursuits, he has gained valuable industry experience
   <h4><a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a> (Ulsan, Korea): Graduate researcher & Laboratory Leader, 2018 ~ 2022</h4>
   <ul>
     <li>Advisor: Prof. Sungil Kim | Department of Industrial Engineering</li>
+    <li>Contributed as a founding lab leader at the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the supervision of Dr. Sungil Kim</li>
+    <li>Conducting innovative machine learning and deep learning methods to solve complex real-world problems</li>
   </ul> 
 </div>
 
