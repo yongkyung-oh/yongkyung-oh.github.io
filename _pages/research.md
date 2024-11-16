@@ -13,17 +13,11 @@ header:
 <h3> Affiliation </h3>
 <div class="notice--primary">
   <ul>
-  <li> Visiting researcher at <a href="https://www.uclahealth.org/">UCLA Health</a> - David Geffen School of Medicine at UCLA</li>
+  <li> Postdoctoral researcher at <a href="https://www.uclahealth.org/">UCLA Health</a> - David Geffen School of Medicine at UCLA</li>
     <ul>
     <li>Medical & Imaging Informatics (MII) group</li>
     <li>Principal Investigator: Dr. Alex Bui</li>
     </ul>
-  <li> Postdoctoral researcher at <a href="https://iii.unist.ac.kr/_eng/">Industry Intelligentization Institute</a> at UNIST </li>
-    <ul>
-    <li>Data Analytics Lab</li>
-    <li>Principal Investigator: Dr. Sungil Kim</li>
-    </ul>
-  </ul>
 </div>
 
 
@@ -89,6 +83,7 @@ header:
 <h3> Journal Papers (Published) </h3>
 <div class="notice--info"> 
   <ul>
+  <li>[J10] Oh, Y., Kim, S., & Bui, A.A.T. (2025). Deep Interaction Feature Fusion for Robust Human Activity Recognition. In: Peng, KC., et al. Human Activity Recognition and Anomaly Detection. IJCAI 2024. Communications in Computer and Information Science, vol 2201. Springer, Singapore. https://doi.org/10.1007/978-981-97-9003-6_7. <a href="https://doi.org/10.1007/978-981-97-9003-6_7">[paper]</a></li>
   <li>[J9] Oh, Y., Yoon, K., Park, J., & Kim, S. (2024). Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data. Maritime Policy & Management, 1-18. https://doi.org/10.1080/03088839.2024.2388177. <a href="https://doi.org/10.1080/03088839.2024.2388177">[paper]</a></li>
   <li>[J8] Oh, Y., & Kim, S. (2024). Multi-modal lifelog data fusion for improved human activity recognition: A hybrid approach. Information Fusion, 110, 102464. https://doi.org/10.1016/j.inffus.2024.102464. <a href="https://doi.org/10.1016/j.inffus.2024.102464">[paper]</a> <a href="https://github.com/yongkyung-oh/Hybrid-Data-Fusion">[code]</a></li>
   <li>[J7] Oh, Y., & Kim, S. (2023), Grid-Based Bayesian Bootstrap Approach for Real-Time Detection of Abnormal Vessel Behaviors From AIS Data in Maritime Logistics. IEEE Transactions on Automation Science and Engineering. https://doi.org/10.1109/TASE.2023.3329041. <a href="https://doi.org/10.1109/TASE.2023.3329041">[paper]</a> <a href="https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS">[code]</a></li>
@@ -108,7 +103,7 @@ header:
   <ul>
   <li>[C21] Oh, Y. & Kim, S. (2024). Grid-Based Bayesian Bootstrap Approach for Real-Time Detection of Abnormal Vessel Behaviors from AIS Data in Maritime Logistics, IEEE 20th International Conference on Automation Science and Engineering, Institute of Electrical and Electronics Engineers (IEEE), Aug 2024. <a href="https://drive.google.com/file/d/12jJqyOQY7AgHHR1hexcE7W-tmmxcQ82J">[slide]</a></li>
   <li>[C20] Oh, Y., Lim, D., Kim, S. & Bui, A. (2024). Attention-guided Neural Differential Equations Framework for Missingness in Time Series Classification, The 10th Mining and Learning from Time Series (MILETS) Workshop, held in conjunction with the 2024 ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2024, Aug 2024. <a href="https://kdd-milets.github.io/milets2024/">[workshop]</a> <a href="https://drive.google.com/file/d/1kjQdpOew69nsXKsgb-QW8q7rGBTYw1DS">[poster]</a></li>
-  <li>[C19] Oh, Y., Kim, S. & Bui, A. (2024). Deep Interaction Feature Fusion for Robust Human Activity Recognition, 4th International Workshop on Deep Learning for Human Activity Recognition, held in conjunction with the 33rd International Joint Conference on Artificial Intelligence (IJCAI) 2024, Aug 2024. <a href="https://keyplay.github.io/ijcai2024_workshop/">[workshop]</a> <a href="https://drive.google.com/file/d/1Xl20xFrXKzZQyoQJZHxAKutLO3RbgUzn">[slide]</a></li>
+  <li>[C19] Oh, Y., Kim, S. & Bui, A. (2024). Deep Interaction Feature Fusion for Robust Human Activity Recognition, 4th International Workshop on Deep Learning for Human Activity Recognition, held in conjunction with the 33rd International Joint Conference on Artificial Intelligence (IJCAI) 2024, Aug 2024. <a href="https://keyplay.github.io/ijcai2024_workshop/">[workshop]</a>  <a href="https://doi.org/10.1007/978-981-97-9003-6_7">[proceeding]</a> <a href="https://drive.google.com/file/d/1Xl20xFrXKzZQyoQJZHxAKutLO3RbgUzn">[slide]</a></li>
   <li>[C18] Oh, Y., Lim, D., & Kim, S. (2024), Neural CDE-Flow for Irregular Time Series: Integrating Neural Controlled Differential Equations and Neural Flow for Comprehensive Irregularly-sampled Time Series Analysis, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2024, May 2024. <u>Data Analytics and Information Systems (DAIS) Division Best Paper Competition Finalist.</u><a href="https://drive.google.com/file/d/1JUQIzJ7Uk4AVFA6G0XugRn8fuykQ_Asc">[slide]</a></li>
   <li>[C17] Oh, Y., Kam, S., Lim, D. & Kim, S. (2024), Neural Langevin-type Stochastic Differential Equations for Astronomical time series Classification under Irregular Observations, AI4DifferentialEquations in Science Workshop, The Twelfth International Conference on Learning Representations (ICLR) 2024, May 2024. <a href="https://ai4diffeqtnsinsci.github.io/">[workshop]</a> <a href="https://drive.google.com/file/d/1E9vnNHddJu_D0hW3sRrYoDLrvc1_woee">[poster]</a></li>
   <li>[C16] Oh, Y., Lim, D., & Kim, S. (2024), Stable Neural Stochastic Differential Equations in Analyzing Irregular Time Series Data, The Twelfth International Conference on Learning Representations (ICLR) 2024, May 2024. <u>Spotlight presentation (Notable Top 5%).</u> <a href="https://openreview.net/forum?id=4VIgNuQ1pY">[paper]</a> <a href="https://github.com/yongkyung-oh/Stable-Neural-SDEs">[code]</a> <a href="https://drive.google.com/file/d/1Ci0FK_tJKtVNRQFa-Ck3oaiXvWgFHbV-">[slide]</a> <a href="https://drive.google.com/file/d/1EC5gpnGXH7vYt8WV8gTF-iZWHbhcZXYp">[poster]</a> <a href="https://news.unist.ac.kr/new-study-unveils-cutting-edge-time-series-deep-learning-technique-for-optimal-performance-in-ai-models/">[news]</a></li>
@@ -126,7 +121,7 @@ header:
   <li>[C4] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095). IEEE, December 2021. <a href="https://doi.org/10.1109/ICDMW53433.2021.00143">[paper]</a> <a href="https://drive.google.com/file/d/1ght3vuPzGJ-lj1X0JsnJSoN1Z980byhy">[slide]</a></li>
   <li>[C3] Oh, Y. & Kim, S. (2021), Multi-channel Convolution Neural Network for Gas Mixture Classification, The 4th Joint Conference of Korean Artificial Intelligence Association (JKAIA) 2021, July 2021. <a href="https://drive.google.com/file/d/1gP2ZNwqFP0Ny0nPHBjrWr9u_W8hlatMN">[poster]</a></li>
   <li>[C2] Oh, Y. & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, May 2021. <u>Logistics & Supply Chain (LSC) Division - Best Paper Award.</u> <a href="https://drive.google.com/file/d/1XYEN0r6WFZokJ9l2pwohdE8m-0v3-hbB">[slide]</a></li>
-  <li>[C1] Oh, Y. & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE). Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2019.  <a href="https://search.proquest.com/openview/d341e92a946a376db2864e1d7efebf37/1?pq-origsite=gscholar&cbl=51908">[proceeding]</a> <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC">[slide]</a></li>
+  <li>[C1] Oh, Y. & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE). Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2019. <a href="https://search.proquest.com/openview/d341e92a946a376db2864e1d7efebf37/1?pq-origsite=gscholar&cbl=51908">[proceeding]</a> <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC">[slide]</a></li>
   </ul>
 </div>
 
@@ -141,7 +136,21 @@ header:
 --------------------
 <h3> Industry Cooperation Projects </h3>
 
-<div class="notice--success"> <!--Project-->
+<div class="notice--success">
+  <h4>UCLA Depression Grand Challenge</h4>
+  <ul>
+  <li>Topic: AI-based solutions to advance depression research and treatment strategies</li>
+  <li>Participation period: 2023.09. ~ Present </li>
+    <ul>
+    <li>The UCLA Depression Grand Challenge is a pioneering initiative that aims to cut the global burden of depression in half by 2050 through innovative research and treatment development.</li>
+    <li>Collaborate with Apple and UCLA Health in pioneering research using mobile technology and wearable devices to identify early indicators of depression and track treatment effectiveness</li>
+    <li>Develop and implement AI-based solutions for several studies, including OPTIMA (Operationalizing Digital PhenoTyping In the Measurement of Anhedonia), analyzing digital biomarkers to measure depression symptoms</li>
+    </ul>
+  <li>Technology Stack: Python, Deep learning, Computer Vision</li>
+  </ul>
+</div>
+
+<div class="notice--success">
   <h4>THYROSCOPE Inc.</h4>
   <ul>
   <li>Topic: Classification for Eye disease related to Thyroid illness</li>
