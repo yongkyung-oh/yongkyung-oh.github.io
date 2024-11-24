@@ -18,6 +18,7 @@ header:
     <li>Medical & Imaging Informatics (MII) group</li>
     <li>Principal Investigator: Dr. Alex Bui</li>
     </ul>
+  </ul>  
 </div>
 
 
