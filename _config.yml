@@ -121,6 +121,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "CV"
+      icon: "fas fa-fw fa-link"
+      url: "https://drive.google.com/file/d/12kr_OViGjSfBox5_kUnpnpop87liNlyV/view?usp=sharing"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:yongkyung-oh@outlook.com"
