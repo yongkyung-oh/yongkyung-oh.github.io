@@ -150,7 +150,7 @@ header:
     <li>Collaborate with Apple and UCLA Health in pioneering research using mobile technology and wearable devices to identify early indicators of depression and track treatment effectiveness</li>
     <li>Develop and implement AI-based solutions for several studies, including OPTIMA (Operationalizing Digital PhenoTyping In the Measurement of Anhedonia), analyzing digital biomarkers to measure depression symptoms</li>
     </ul>
-  <li>Technology Stack: Python, Deep learning, Computer Vision</li>
+  <li>Technology Stack: Python, Machine Learning, Deep learning, Clinical study</li>
   </ul>
 </div>
 
@@ -265,9 +265,9 @@ header:
   <li><b>IISE 2024 DAIS Division Best Paper Competition Finalist</b><br> 
   Oh, Y., Lim, D. & Kim, S. (2024), Neural CDE-Flow for Irregular Time Series: Integrating Neural Controlled Differential Equations and Neural Flow for Comprehensive Irregularly-sampled Time Series Analysis, Data Analytics and Information Systems (DAIS) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2024, May 2024. <a href="https://drive.google.com/file/d/1JUQIzJ7Uk4AVFA6G0XugRn8fuykQ_Asc">[slide]</a></li> 
   <li><b>KCC 2023 AI Division Best Research Paper Award</b><br> 
-  Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023.</li>
+  Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023. <a href="https://drive.google.com/file/d/1rRQJH1Z8CVyTTNah9RY3irOd_hqufi2j">[slide]</a></li>
   <li><b>KCC 2023 AI Division Best Oral Presentation Award</b><br> 
-  Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023.</li>
+  Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023. <a href="https://drive.google.com/file/d/1rRUdolvItKHTjqD97OmfG6yAaNDGJUtm">[slide]</a></li>
   <li><b>IISE 2023 DAIS Division Best Paper Competition Finalist</b><br> 
   Oh, Y. & Kim, S. (2023), Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process, Data Analytics and Information Systems (DAIS) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2023, May 2023. <a href="https://drive.google.com/file/d/1rWv7UOghhb36XVt6CdueTtbmIq68X-ZH">[slide]</a></li> 
   <li><b>IISE 2021 LSC Division Best Paper Award</b><br> 
