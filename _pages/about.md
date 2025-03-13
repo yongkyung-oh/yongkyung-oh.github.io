@@ -31,7 +31,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
   </ul> 
 </div>
 
-<div class="notice--primary">
+<div class="notice">
   <h4><a href="https://iii.unist.ac.kr/_eng/">UNIST Industry Intelligentization Institute</a> (Ulsan, Korea): Postdoctoral researcher, 2023 ~ 2024</h4>
   <ul>
     <li>Contribute as a member of the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the supervision of Dr. Sungil Kim</li>
