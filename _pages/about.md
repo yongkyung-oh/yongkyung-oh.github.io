@@ -27,14 +27,14 @@ In addition to his academic pursuits, he has gained valuable industry experience
 <div class="notice--primary">
   <h4><a href="https://www.uclahealth.org/">UCLA Health</a> - <a href="https://medschool.ucla.edu/">David Geffen School of Medicine</a> (Los Angeles, CA, US): Postdoctoral researcher, 2023 ~ </h4>
   <ul>
-    <li>Contribute as a member of the <a href="https://mii.ucla.edu/">UCLA Medical & Imaging Informatics group</a>, under the leadership of Dr. Alex Bui</li>
+    <li>Contribute as a member of the <a href="https://mii.ucla.edu/">UCLA Medical & Imaging Informatics group</a>, under the leadership of Prof. Alex Bui</li>
   </ul> 
 </div>
 
 <div class="notice">
   <h4><a href="https://iii.unist.ac.kr/_eng/">UNIST Industry Intelligentization Institute</a> (Ulsan, Korea): Postdoctoral researcher, 2023 ~ 2024</h4>
   <ul>
-    <li>Contribute as a member of the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the supervision of Dr. Sungil Kim</li>
+    <li>Contribute as a member of the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the supervision of Prof. Sungil Kim</li>
   </ul> 
 </div>
 
@@ -42,7 +42,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
   <h4><a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a> (Ulsan, Korea): Graduate researcher & Laboratory Leader, 2018 ~ 2022</h4>
   <ul>
     <li>Advisor: Prof. Sungil Kim | Department of Industrial Engineering</li>
-    <li>Contributed as a founding lab leader at the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the supervision of Dr. Sungil Kim</li>
+    <li>Contributed as a founding lab leader at the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the supervision of Prof. Sungil Kim</li>
     <li>Conducting innovative machine learning and deep learning methods to solve complex real-world problems</li>
   </ul> 
 </div>

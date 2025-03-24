@@ -73,7 +73,6 @@ header:
   <li>Oh, Y., Lim, D. & Kim, S., Neural Flow-Based Controlled Differential Equations for Robust Human Activity Recognition with Irregularly Sampled Time Series Data </li>
   <li>Oh, Y., Lim, D. & Kim, S., DualDynamics: Synergizing Implicit and Explicit Methods for Robust Irregular Time Series Analysis </li>
   <li>Oh, Y., Koh, G., Shin, K., Moon, J. & Kim, S. Real-Time Risk Assessment of Thyroid Function Abnormality using Irregularly-Sampled Heart Rate Records. </li>
-  <li>Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J. & Kim, S., TAOD-Net: A Data-Driven Approach for Detecting Thyroid-Associated Orbitopathy Symptoms Using Facial Images. <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
   <li>Oh, Y., Kim, H. & Kim, S., TSSI: Time Series as Screenshot Images for Multivariate Time Series Classification using Convolutional Neural Networks.</li>
   <li>Oh, Y., Kwak, J. & Kim, S., A propagation prediction method for non-recurrent traffic congestion. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4425849">[preprint]</a></li>
   </ul>
@@ -84,6 +83,7 @@ header:
 <h3> Journal Papers (Published) </h3>
 <div class="notice--info"> 
   <ul>
+  <li>[J11] Oh, Y., Goh, K., Kwak, J., Shin, K., Kim, G., Lee M., Choung, H., Kim, N., Moon, J. & Kim, S. (2025). TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery. Computers \& Industrial Engineering, 111024. https://doi.org/10.1016/j.cie.2025.111024. <a href="https://doi.org/10.1016/j.cie.2025.111024">[paper]</a> <a href="https://github.com/UNIST-DA/TAOD-Net">[code]</a></li>
   <li>[J10] Oh, Y., Kim, S., & Bui, A.A.T. (2025). Deep Interaction Feature Fusion for Robust Human Activity Recognition. In: Peng, KC., et al. Human Activity Recognition and Anomaly Detection. IJCAI 2024. Communications in Computer and Information Science, vol 2201. Springer, Singapore. https://doi.org/10.1007/978-981-97-9003-6_7. <a href="https://doi.org/10.1007/978-981-97-9003-6_7">[paper]</a></li>
   <li>[J09] Oh, Y., Yoon, K., Park, J., & Kim, S. (2024). Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data. Maritime Policy & Management, 1-18. https://doi.org/10.1080/03088839.2024.2388177. <a href="https://doi.org/10.1080/03088839.2024.2388177">[paper]</a></li>
   <li>[J08] Oh, Y., & Kim, S. (2024). Multi-modal lifelog data fusion for improved human activity recognition: A hybrid approach. Information Fusion, 110, 102464. https://doi.org/10.1016/j.inffus.2024.102464. <a href="https://doi.org/10.1016/j.inffus.2024.102464">[paper]</a> <a href="https://github.com/yongkyung-oh/Hybrid-Data-Fusion">[code]</a></li>
