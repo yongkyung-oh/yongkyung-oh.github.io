@@ -67,7 +67,6 @@ header:
 
 <div class="notice--info"> 
   <ul>
-  <li>Oh, Y., Kim, S. & Bui, A., Deep Interaction Feature Fusion for Robust Human Activity Recognition </li>
   <li>Oh, Y., Lim, D., Kim, S. & Bui, A., TANDEM: Temporal Attention-guided Neural Differential Equations for Missingness in Time Series Classification </li>
   <li>Oh, Y., Kam, S., Lim, D. & Kim, S., Advancing Irregular Time Series Classification in Astronomy with Neural Stochastic Differential Equations </li>
   <li>Oh, Y., Lim, D. & Kim, S., Neural Flow-Based Controlled Differential Equations for Robust Human Activity Recognition with Irregularly Sampled Time Series Data </li>
@@ -102,6 +101,7 @@ header:
 <h3> Conference Papers (In-press or Published) </h3>
 <div class="notice--info"> 
   <ul>
+  <li>[C25] Oh, Y., & Bui, A. (2025). Multi-View Contrastive Learning for Robust Domain Adaptation in Medical Time Series Analysis, The AHLI Conference on Health, Inference, and Learning (CHIL) 2025, June 2025. <a href="">[paper]</a> <a href="">[code]</a> <a href="">[poster]</a></li>
   <li>[C24] Oh, Y., & Bui, A. (2025). Integrating Transfer Entropy into Transformer for Time Series Forecasting, AAAI’25 Workshop on Artificial Intelligence with Causal Techniques, The 39th Annual AAAI Conference on Artificial Intelligence 2025, February 2025. <a href="https://sites.google.com/view/aict-2025/home">[workshop]</a> <a href="https://drive.google.com/file/d/1-m9XhEGPkbCIJF7jKxj7nXxaRf2ZDZYL">[slide]</a> <a href="https://drive.google.com/file/d/1-m9XhEGPkbCIJF7jKxj7nXxaRf2ZDZYL">[poster]</a></li>
   <li>[C23] Oh, Y., Lim, D., & Kim, S. (2025). DualDynamics: Synergizing Implicit and Explicit Methods for Robust Irregular Time Series Analysis, The 39th Annual AAAI Conference on Artificial Intelligence 2025, February 2025. <a href="https://arxiv.org/abs/2401.04979">[paper]</a> <a href="https://github.com/yongkyung-oh/DualDynamics">[code]</a> <a href="https://drive.google.com/file/d/1035VU__8r3bSeSNXBwXM3XMHcv7Kh-Jj">[slide]</a> <a href="https://drive.google.com/file/d/1-iB9s5LZx9w8YIQXlr6hYHi60-pi-9X5">[poster]</a></li>
   <li>[C22] Oh, Y., & Bui, A. (2025). Multi-view Contrastive Learning for Medical Time Series Domain Adaptation, AI for Medicine and Healthcare, AAAI Bridge Program 2025, The 39th Annual AAAI Conference on Artificial Intelligence 2025, February 2025. <a href="https://sites.google.com/view/aimedhealth-aaai/home">[workshop]</a> <a href="https://drive.google.com/file/d/1-oLyJqT0RG3ePhB0nHxABgkbTISEUBQV">[poster]</a></li>
@@ -253,29 +253,6 @@ header:
   <li>Method of Anomaly detection of vessels applying bayesian bootstrap | Co-inventor (KR 10-2534357-0000, granted May 16, 2023) (KR 10-2020-0178651, applied December 18, 2020). </li>
   <li>Sensor drift compensation for mixed gas classification in E-nose system | Co-inventor (US 18/012,626, applied December 22, 2022) (KR 10-2364019-0000, granted February 14, 2022) (PCT/KR2021/010729, applied August 12, 2021) (KR 10-2020-0101037, applied August 12, 2020). </li>
   <li>Method and apparatus for determining delay possibility of shipment | Co-inventor (KR 10-2250354-0000, granted May 4, 2021) (PCT/KR2020/015854, applied November 12, 2020) (KR 10-2019-0158913, applied December 3, 2019). </li>
-  </ul>
-</div>
-
-
---------------------
-<h3> Research Awards and Honors </h3>
-
-<div class="notice--warning"> 
-  <ul>
-  <li><b>IISE 2024 DAIS Division Best Paper Competition Finalist</b><br> 
-  Oh, Y., Lim, D. & Kim, S. (2024), Neural CDE-Flow for Irregular Time Series: Integrating Neural Controlled Differential Equations and Neural Flow for Comprehensive Irregularly-sampled Time Series Analysis, Data Analytics and Information Systems (DAIS) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2024, May 2024. <a href="https://drive.google.com/file/d/1JUQIzJ7Uk4AVFA6G0XugRn8fuykQ_Asc">[slide]</a></li> 
-  <li><b>KCC 2023 AI Division Best Research Paper Award</b><br> 
-  Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023. <a href="https://drive.google.com/file/d/1rRQJH1Z8CVyTTNah9RY3irOd_hqufi2j">[slide]</a></li>
-  <li><b>KCC 2023 AI Division Best Oral Presentation Award</b><br> 
-  Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023. <a href="https://drive.google.com/file/d/1rRUdolvItKHTjqD97OmfG6yAaNDGJUtm">[slide]</a></li>
-  <li><b>IISE 2023 DAIS Division Best Paper Competition Finalist</b><br> 
-  Oh, Y. & Kim, S. (2023), Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process, Data Analytics and Information Systems (DAIS) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2023, May 2023. <a href="https://drive.google.com/file/d/1rWv7UOghhb36XVt6CdueTtbmIq68X-ZH">[slide]</a></li> 
-  <li><b>IISE 2021 LSC Division Best Paper Award</b><br> 
-  Oh, Y. & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Logistics & Supply Chain (LSC) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, May 2021. <a href="https://drive.google.com/file/d/1XYEN0r6WFZokJ9l2pwohdE8m-0v3-hbB">[slide]</a> <a href="https://news.unist.ac.kr/unist-announces-2021-winners-of-iise-lsc-division-best-paper-award/?fbclid=IwAR2frIPxwtFoN78yz35CZom9Kxo7f8qBL22qekEE3IyiAPl_D8CE5v8c8rQ">[news]</a></li> 
-  <li><b>Distinguished Paper Award</b><br> 
-  Oh, Y., Lim, D., Hong, D., Lee, J. & Park, J. (2019), Strategy for Maritime Startup Ecosystem, Graduate Student Academic paper competition by Ulsan Development Institute, December 2019.</li>
-  <li><b>Distinguished Paper Award</b><br> 
-  Oh, Y., Lim, D., Hong, D., Lee, J. & Park, J. (2019), Suggestion for Smart Port in industry 4.0, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries, November 2019.</li>
   </ul>
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Presentations and Talks
+title: Talks and Presentations
 layout: single
 permalink: /presentations/
 author_profile: true
@@ -10,6 +10,18 @@ header:
 ---
 
 --------------------
+
+<h3> Invited Talks </h3>
+<div class="notice">
+  <ul>
+  <li>[T05] Oh, Y. (2025). Modeling Temporal Evolution with Neural Differential Equations, ISE Colloquium, Department of Industrial and Systems Engineering, Korea Advanced Institute of Science & Technology (KAIST), March 2025. <a href="https://drive.google.com/file/d/17NV1kiPusCjIo3xo7ReCaFL6gOllxpmY">[slide]</a></li>
+  <li>[T04] Oh, Y. (2024). Hands-on Practices for Neural Differential Equations, IE552/AI603: Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), December 2025. <a href="https://yongkyungoh.notion.site/Hands-on-Practices-for-Neural-Differential-Equations-151c233cbd0680a5b3eacc348f8b5513?pvs=4">[slide]</a> <a href="https://github.com/yongkyung-oh/Stable-Neural-SDEs/tree/main/tutorial">[tutorial]</a></li>
+  <li>[T03] Oh, Y. (2024). Research Journey from concept to conference, IUCLA Medical & Imaging Informatics (MII) group, University of California, Los Angeles (UCLA), October 2024. <a href="https://drive.google.com/file/d/17Iq6ePYrRfzHh9wH6Hep3_hz142wb03P">[slide]</a></li>
+  <li>[T02] Oh, Y. (2024). Deep Learning-based Techniques for Analyzing Real-World Healthcare Data, IUCLA Medical & Imaging Informatics (MII) group, University of California, Los Angeles (UCLA), September 2024. <a href="https://drive.google.com/file/d/17HRmRNSnomp4MbUomvPIsPGNcd_i8VxD">[slide]</a></li>
+  <li>[T01] Oh, Y., Lim, D. & Kim, S. (2023), Stable Neural Stochastic Differential Equations for Irregular Time Series Classification, Optimization & Machine learning  Workshop, Ulsan National Institute of Science & Technology (UNIST), August 2023. <a href="https://drive.google.com/file/d/1rXl1xuH_YqHABdTqLp-Ioo57S4_ONm94">[slide]</a></li>
+  </ul>
+</div>
+
 
 <h3> Presentations </h3>
 <div class="notice">
@@ -71,16 +83,5 @@ header:
   <li>[P3] Oh, Y. & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data, Korean Institute of Industrial Engineers (KIIE) Fall Conference 2019, November 2019. <a href="https://drive.google.com/file/d/1WVXyT8Qw4fDGH3uJM0hTgUglU_5tlc0v">[slide]</a></li>
   <li>[P2] Oh, Y. & Kim, S. (2019), Exploiting Logistics Anomaly Detection using Maritime Big Data. In IIE Annual Conference. Proceedings (pp. 964-969). Institute of Industrial and Systems Engineers (IISE). Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo, May 2019.  <a href="https://search.proquest.com/openview/d341e92a946a376db2864e1d7efebf37/1?pq-origsite=gscholar&cbl=51908">[proceeding]</a> <a href="https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC">[slide]</a></li>
   <li>[P1] Oh, Y. & Kim, S. (2019), Feature Selection for imbalanced data using local interpretation of complete model, Korean Institute of Industrial Engineers (KIIE) Spring Conference 2019, April 2019. <a href="https://drive.google.com/file/d/1WUHWfXpHrfmaNOgdBkQPiQHJzuE0GS8n">[slide]</a></li>
-  </ul>
-</div>
-
-<h3> Invited Talks </h3>
-<div class="notice">
-  <ul>
-  <li>[T05] Oh, Y. (2025). Modeling Temporal Evolution with Neural Differential Equations, ISE Colloquium, Department of Industrial and Systems Engineering, Korea Advanced Institute of Science & Technology (KAIST), March 2025. <a href="https://drive.google.com/file/d/17NV1kiPusCjIo3xo7ReCaFL6gOllxpmY">[slide]</a></li>
-  <li>[T04] Oh, Y. (2024). Hands-on Practices for Neural Differential Equations, IE552/AI603: Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), December 2025. <a href="https://yongkyungoh.notion.site/Hands-on-Practices-for-Neural-Differential-Equations-151c233cbd0680a5b3eacc348f8b5513?pvs=4">[slide]</a> <a href="https://github.com/yongkyung-oh/Stable-Neural-SDEs/tree/main/tutorial">[tutorial]</a></li>
-  <li>[T03] Oh, Y. (2024). Research Journey from concept to conference, IUCLA Medical & Imaging Informatics (MII) group, University of California, Los Angeles (UCLA), October 2024. <a href="https://drive.google.com/file/d/17Iq6ePYrRfzHh9wH6Hep3_hz142wb03P">[slide]</a></li>
-  <li>[T02] Oh, Y. (2024). Deep Learning-based Techniques for Analyzing Real-World Healthcare Data, IUCLA Medical & Imaging Informatics (MII) group, University of California, Los Angeles (UCLA), September 2024. <a href="https://drive.google.com/file/d/17HRmRNSnomp4MbUomvPIsPGNcd_i8VxD">[slide]</a></li>
-  <li>[T01] Oh, Y., Lim, D. & Kim, S. (2023), Stable Neural Stochastic Differential Equations for Irregular Time Series Classification, Optimization & Machine learning  Workshop, Ulsan National Institute of Science & Technology (UNIST), August 2023. <a href="https://drive.google.com/file/d/1rXl1xuH_YqHABdTqLp-Ioo57S4_ONm94">[slide]</a></li>
   </ul>
 </div>

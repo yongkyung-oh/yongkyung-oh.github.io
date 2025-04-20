@@ -21,6 +21,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
 <br><br>
 </div>
 
+
 --------------------
 <h3> Work Experiencecs </h3>
 
@@ -80,6 +81,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
   </ul> 
 </div>
 
+
 --------------------
 <h3> Academic Backgroud </h3>
 
@@ -124,6 +126,30 @@ In addition to his academic pursuits, he has gained valuable industry experience
   </ul>  
 </div>
 
+
+--------------------
+<h3> Research Awards and Honors </h3>
+
+<div class="notice--warning"> 
+  <ul>
+  <li><b>IISE 2024 DAIS Division Best Paper Competition Finalist</b><br> 
+  Oh, Y., Lim, D. & Kim, S. (2024), Neural CDE-Flow for Irregular Time Series: Integrating Neural Controlled Differential Equations and Neural Flow for Comprehensive Irregularly-sampled Time Series Analysis, Data Analytics and Information Systems (DAIS) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2024, May 2024. <a href="https://drive.google.com/file/d/1JUQIzJ7Uk4AVFA6G0XugRn8fuykQ_Asc">[slide]</a></li> 
+  <li><b>KCC 2023 Best Research Paper Award</b><br> 
+  Oh, Y. & Kim, S. (2023), Flow-based Neural Differential Equations for Time series Analysis, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023. <a href="https://drive.google.com/file/d/1rRQJH1Z8CVyTTNah9RY3irOd_hqufi2j">[slide]</a></li>
+  <li><b>KCC 2023 Best Oral Presentation Award</b><br> 
+  Oh, Y. & Kim, S. (2023), Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition, Artificial Intelligence Division, Korea Computer Congress (KCC) 2023, Korean Institute of Information Scientists and Engineers (KIISE), June 2023. <a href="https://drive.google.com/file/d/1rRUdolvItKHTjqD97OmfG6yAaNDGJUtm">[slide]</a></li>
+  <li><b>IISE 2023 DAIS Division Best Paper Competition Finalist</b><br> 
+  Oh, Y. & Kim, S. (2023), Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process, Data Analytics and Information Systems (DAIS) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2023, May 2023. <a href="https://drive.google.com/file/d/1rWv7UOghhb36XVt6CdueTtbmIq68X-ZH">[slide]</a></li> 
+  <li><b>IISE 2021 LSC Division Best Paper Award</b><br> 
+  Oh, Y. & Kim, S. (2021), Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach, Logistics & Supply Chain (LSC) Division, Institute of Industrial and Systems Engineers (IISE) Annual Conference & Expo 2021, May 2021. <a href="https://drive.google.com/file/d/1XYEN0r6WFZokJ9l2pwohdE8m-0v3-hbB">[slide]</a> <a href="https://news.unist.ac.kr/unist-announces-2021-winners-of-iise-lsc-division-best-paper-award/?fbclid=IwAR2frIPxwtFoN78yz35CZom9Kxo7f8qBL22qekEE3IyiAPl_D8CE5v8c8rQ">[news]</a></li> 
+  <li><b>Distinguished Paper Award</b><br> 
+  Oh, Y., Lim, D., Hong, D., Lee, J. & Park, J. (2019), Strategy for Maritime Startup Ecosystem, Graduate Student Academic paper competition by Ulsan Development Institute, December 2019.</li>
+  <li><b>Distinguished Paper Award</b><br> 
+  Oh, Y., Lim, D., Hong, D., Lee, J. & Park, J. (2019), Suggestion for Smart Port in industry 4.0, International Conference on Maritime - Academic paper competition, Dongseo University and Ministry of Maritime Affairs and Fisheries, November 2019.</li>
+  </ul>
+</div>
+
+
 --------------------
 <h3> Competition Award </h3>
 <div class="notice">
@@ -135,6 +161,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
     <li> 1st place (Minister Award) in the Korea R&D Festival – KOREA MOTIE, KIAT, Ministry of Trade, Industry and Energy, 2017</li>
   </ul>  
 </div>
+
 
 --------------------
 <h3> Teaching Experiences </h3>
