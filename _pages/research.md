@@ -149,7 +149,7 @@ header:
   </ul>
 </div>
 
-div class="notice--success">
+<div class="notice--success">
   <h4>Human Centered-Carbon Neutral Global Supply Chain Research Center</h4>
   <ul>
   <li>Topic: Proposal writing support for multi-disciplinary research center grant</li>
