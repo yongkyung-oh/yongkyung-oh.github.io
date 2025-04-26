@@ -105,8 +105,36 @@ In addition to his academic pursuits, he has gained valuable industry experience
   <h4>B.S. in Natural science at UNIST, 2015</h4>
   <ul>
     <li> Major &#8211; Physics </li> 
-    <li> Double Minor &#8211; Mechanical Engieering & Advanced Material Science</li>
+    <li> Double Minor &#8211; Mechanical Engineering & Advanced Material Science</li>
     <li> Valedictorian, Magna cum Laude, Accomplished total 181 credits</li>
+  </ul>  
+</div>
+
+
+--------------------
+<h3> Grants and Fellowships </h3>
+<div class="notice">
+  <ul>
+    <li> Principal Investigator: Postdoctoral Fellowship for Overseas Research (Nurturing Next-generation Researchers) </li>
+    <ul>
+      <li>Research Title: "Approach to Detect Distribution Shifts Over Time and Evaluate Model Trustworthy with Retraining in Longitudinal Medical Data"</li>
+      <li>Source: National Research Foundation of Korea (NRF)</li>
+      <li>Amount: KRW 60,000,000 (Approximate USD 43,478 as of June 3rd, 2024)</li>
+      <li>Duration: September 1st, 2024 - August 31st, 2025</li>
+    </ul>
+    <li> Researcher & Trainee: High-Potential Individuals Global Training Program </li>
+    <ul>
+      <li>Source: Korea Health Industry Development Institute (KHIDI)</li>
+      <li>Amount: Approximate USD 50,000 as of March 13th, 2023</li>
+      <li>Duration: September 1st, 2023 - August 31st, 2024</li>
+    </ul>
+    <li> Researcher & Trainee: Biomedical UniStar Training Program </li>
+    <ul>
+      <li>In-depth training program at Carnegie Mellon University (CMU)</li>
+      <li>Source: Institute for Information & communication Technology Planning & evaluation (IITP)</li>
+      <li>Amount: Approximate USD 45,000 as of January 1st, 2020</li>
+      <li>Duration: January 13th, 2020 - July 3rd, 2020</li>
+    </ul>
   </ul>  
 </div>
 
@@ -154,7 +182,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
 <div class="notice">
   <ul>
     <li> Featured study, Medical Informatics Homecoming Day, Asan Medical Center & Ministry of Health and Welfare, 2023 </li> 
-    <li> 3rd place, A Comprehensive Analysis of Regional Commercial Districts and Their Role in Supporting the Success of Young Entrepreneurs, Korea Land \& Housing Corporation, 2021 </li> 
+    <li> 3rd place, A Comprehensive Analysis of Regional Commercial Districts and Their Role in Supporting the Success of Young Entrepreneurs, Korea Land & Housing Corporation, 2021 </li> 
     <li> 1st place, Professional Training for Medical Data Analysis, Asan Medical Center & Ministry of Health and Welfare, 2020 </li> 
     <li> 2nd place in the Medical Startup Festa, Center for Creative Economy and Innovation, Ulsan, 2018</li>
     <li> 1st place (Minister Award) in the Korea R&D Festival – KOREA MOTIE, KIAT, Ministry of Trade, Industry and Energy, 2017</li>
