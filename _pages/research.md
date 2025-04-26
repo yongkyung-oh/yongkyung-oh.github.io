@@ -23,41 +23,25 @@ header:
 
 
 --------------------
-<h3> Research Interests </h3>
+<h3> Research Highlights </h3>
 <div class="notice--primary">
   <ul>
-  <li> Integration of domain expertise with artificial intelligence to drive innovative data analytics and modeling efforts. </li>
-  <li> Design of robust and reliable AI models for dynamic environments, with a focus on adapting to dataset shifts. </li>
-  <li> Development and application of advanced time series analysis techniques, particularly for irregularly sampled data. </li>
-  <li> Implementation of cutting-edge machine learning and deep learning techniques, including neural differential equations. </li>
-  <li> Expertise in longitudinal data analysis and pattern detection, especially in medical and healthcare informatics. </li>
-  <li> Proficient in utilizing statistical methods based on physical and engineering models across various domains. </li>
+  <li> Spotlight presentation at ICLR 2024: "Stable Neural Stochastic Differential Equations in Analyzing Irregular Time Series." </li>
+  <li> DAIS Division Best Paper Competition Finalist for three consecutive years (2023, 2024, 2025) at IISE Annual Conference. </li>
+  <li> Publications in leading venues including AAAI, CHIL, Information Fusion, and Computers \& Industrial Engineering. </li>
+  <li> Recipient of competitive national grants and fellowship awards, including NRF Postdoctoral Fellowship for Overseas Research. </li>
+  <li> Holder of multiple patents on time series modeling, complex system, and healthcare AI applications. </li>
   </ul>
 </div>
 
 <div class="notice">
-  <h4>Research Keywords</h4>
+  <h4>Research Interests</h4>
   <ul>
-  <li>Physical & Engineering Model with simulation</li>
-  <li>Anomaly Detection using machine learning</li>
-  <li>Causality analysis with domain knowledge</li>
-  <li>Multivariate Time-series analysis</li>
-  <li>Graph Neural Network</li>
-  <li>Multi-modal data fusion</li>
-  <li>Neural Differential Equations</li>
-  </ul>
-</div>
-
-<div class="notice">
-  <h4>Related Working domains</h4>
-  <ul>
-  <li>Sequence data from industry</li>
-  <li>Maritime surveillance</li>
-  <li>Shipping Logistics & Stowage Planning</li>
-  <li>Urban traffic and accident congestion propagation</li>
-  <li>Gas sensor array and Electronic Nose</li>
-  <li>Nuclear reactor operation and Anomaly detection</li>
-  <li>Medical data including real-time sensor signal and image data</li>
+  <li>Robust machine learning methods for irregular and longitudinal time series analysis. </li>
+  <li>Trustworthy AI under distribution shifts in real-world deployment scenarios. </li>
+  <li>Longitudinal healthcare informatics and digital biomarker discovery. </li>
+  <li>Neural differential equations and dynamic system modeling. </li>
+  <li>Domain-adaptive representation learning and causal inference. </li>
   </ul>
 </div>
 
