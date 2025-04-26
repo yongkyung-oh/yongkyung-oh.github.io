@@ -142,9 +142,8 @@ header:
   <li>Topic: AI-based solutions to advance depression research and treatment strategies</li>
   <li>Participation period: 2023.09. ~ Present </li>
     <ul>
-    <li>The UCLA Depression Grand Challenge is a pioneering initiative that aims to cut the global burden of depression in half by 2050 through innovative research and treatment development.</li>
     <li>Collaborate with Apple and UCLA Health in pioneering research using mobile technology and wearable devices to identify early indicators of depression and track treatment effectiveness</li>
-    <li>Develop AI-based solutions for several studies, including DMHS (Digital Mental Health Study), and OPTIMA (Operationalizing Digital PhenoTyping In the Measurement of Anhedonia), analyzing digital biomarkers to measure depression symptoms</li>
+    <li>Develop and implement AI-based solutions for several studies, including DMHS (Digital Mental Health Study), and OPTIMA (Operationalizing Digital PhenoTyping In the Measurement of Anhedonia), analyzing digital biomarkers to measure depression symptoms</li>
     </ul>
   </ul>
 </div>
