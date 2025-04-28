@@ -53,13 +53,14 @@ In addition to his academic pursuits, he has gained valuable industry experience
     <li>High-Potential Individuals Global Training Program fully supported by IITP and Korean Government.</li>
     <li>Attend core courses and conduct project-based on IoT, machine learning, and deep learning.</li>
     <li>CMU Studio Project: Conversational Chatbot. <a href="https://yongkyung-oh.github.io/portfolio-dev/CMU_studio_project/">[demo]</a></li>
+    <li>Project advisor: Daniel Plakosh \& Jeffrey Gennari</li>
   </ul> 
 </div>
 
 <div class="notice">
   <h4>General Motors Global Technology Center (Detroit, MI, US): Visting Researcher, 2017</h4>
   <ul>
-    <li>Mentor: Dr. Wayne Cai / Research support for automotive manufacturing operation</li>
+    <li>Mentor: Dr. Wayne Cai & Dr. Seog-Chan Oh/ Research support for automotive manufacturing operation</li>
     <li>Perform analytical analysis using experimental data. Develop a multi-platform welding simulation tool for GM internal users. <a href="https://yongkyung-oh.github.io/portfolio-dev/GM-internship/">[demo]</a></li>
   </ul> 
 </div>

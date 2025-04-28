@@ -59,6 +59,3 @@ This project is part of High-Potential Individuals Global Training Program suppo
 <a href="https://drive.google.com/file/d/1PuneW4Unj_ow7BioyihMafzOa8qywxIo/view?usp=sharing" class="btn btn--success" style="width: 10em"> <i class="fas fa-fw fa-book-open" ></i>  Report </a>
 <a href="https://drive.google.com/file/d/1aav1Atj_jku9bZzpeE_32EvIJVDiV2hq/view?usp=sharing" class="btn btn--warning" style="width: 10em"> <i class="fa-solid fa-laptop"></i> Slide </a>
 {: .text-center}
-
-<br>
-This research was results of a study on the "HPC (High Performance Computing) Support" Project, supported by the ‘Ministry of Science and ICT (Information and Communication Technology)’ and NIPA (National IT Industry Promotion Agency), Repulbic of Korea.
