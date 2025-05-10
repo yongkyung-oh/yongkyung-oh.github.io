@@ -25,21 +25,21 @@ In addition to his academic pursuits, he has gained valuable industry experience
 <h3> Work Experiencecs </h3>
 
 <div class="notice--primary">
-  <h4><a href="https://www.uclahealth.org/">UCLA Health</a> - <a href="https://medschool.ucla.edu/">David Geffen School of Medicine</a> (Los Angeles, CA, US): Postdoctoral researcher, 2023 ~ </h4>
+  <h4><a href="https://www.uclahealth.org/">UCLA Health</a> - <a href="https://medschool.ucla.edu/">David Geffen School of Medicine</a> (Los Angeles, CA, US): Postdoctoral Researcher, 2023 ~ </h4>
   <ul>
     <li>Contribute as a member of the <a href="https://mii.ucla.edu/">UCLA Medical & Imaging Informatics group</a>, under the leadership of Prof. Alex Bui</li>
   </ul> 
 </div>
 
 <div class="notice">
-  <h4><a href="https://iii.unist.ac.kr/_eng/">UNIST Industry Intelligentization Institute</a> (Ulsan, Korea): Postdoctoral researcher, 2023 ~ 2024</h4>
+  <h4><a href="https://iii.unist.ac.kr/_eng/">UNIST Industry Intelligentization Institute</a> (Ulsan, Korea): Postdoctoral Researcher, 2023 ~ 2024</h4>
   <ul>
     <li>Contribute as a member of the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the supervision of Prof. Sungil Kim</li>
   </ul> 
 </div>
 
 <div class="notice">
-  <h4><a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a> (Ulsan, Korea): Graduate researcher & Laboratory Leader, 2018 ~ 2022</h4>
+  <h4><a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a> (Ulsan, Korea): Graduate Researcher & Laboratory Leader, 2018 ~ 2022</h4>
   <ul>
     <li>Advisor: Prof. Sungil Kim | Department of Industrial Engineering</li>
     <li>Contributed as a founding lab leader at the <a href="http://analytics.unist.ac.kr/">UNIST Data Analytics Lab</a>, under the supervision of Prof. Sungil Kim</li>
@@ -48,7 +48,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
 </div>
 
 <div class="notice">
-  <h4>Carnegie Mellon University (Pittsburgh, PA, US): Visting Researcher, 2020</h4>
+  <h4>Carnegie Mellon University (Pittsburgh, PA, US): Visting Student & Researcher, 2020</h4>
   <ul>
     <li>High-Potential Individuals Global Training Program fully supported by IITP and Korean Government.</li>
     <li>Attend core courses and conduct project-based on IoT, machine learning, and deep learning.</li>
@@ -58,7 +58,7 @@ In addition to his academic pursuits, he has gained valuable industry experience
 </div>
 
 <div class="notice">
-  <h4>General Motors Global Technology Center (Detroit, MI, US): Visting Researcher, 2017</h4>
+  <h4>General Motors Global Technology Center (Detroit, MI, US): Visting Scientist, 2017</h4>
   <ul>
     <li>Mentor: Dr. Wayne Cai & Dr. Seog-Chan Oh/ Research support for automotive manufacturing operation</li>
     <li>Perform analytical analysis using experimental data. Develop a multi-platform welding simulation tool for GM internal users. <a href="https://yongkyung-oh.github.io/portfolio-dev/GM-internship/">[demo]</a></li>
