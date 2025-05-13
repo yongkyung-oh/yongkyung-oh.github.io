@@ -154,7 +154,7 @@ header:
   <li>Topic: Proposal writing support for multi-disciplinary research center grant</li>
   <li>Participation period: 2023.01. ~ 2023.08. </li>
     <ul>
-    <li>Participated in the proposal development for a large-scale multi-disciplinary research center focused on carbon neutrality and sustainable supply chain innovation: Safe and Clean Supply Chain (SCSC) at Pusan National University.</li>
+    <li>Participated in the proposal development for a large-scale multi-disciplinary research center focused on carbon neutrality and sustainable supply chain innovation: Safe and Clean Supply Chain (SCSC) center at Pusan National University.</li>
     <li>Contributed to the design of the data-driven analytics framework for Data Science Group.</li>
     </ul>
   </ul>
