@@ -14,7 +14,7 @@ header:
 <h3> Invited Talks </h3>
 <div class="notice">
   <ul>
-  <li>[T06] Oh, Y. (2025). Modeling Temporal Evolution with Neural Differential Equations, ISE Colloquium, Department of Industrial and Systems Engineering, Korea Advanced Institute of Science & Technology (KAIST), March 2025. <a href="https://drive.google.com/file/d/17NV1kiPusCjIo3xo7ReCaFL6gOllxpmY">[slide]</a></li>
+  <li>[T06] Oh, Y. (2025). Modeling Temporal Evolution with Neural Differential Equations, ISE Colloquium, Department of Industrial and Systems Engineering, Korea Advanced Institute of Science & Technology (KAIST), March 2025. <a href="https://drive.google.com/file/d/1AJMMg9wWa4clMacT9SInmGQ4YLdf4M-e">[slide]</a></li>
   <li>[T05] Oh, Y. (2024). Hands-on Practices for Neural Differential Equations, IE552/AI603: Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), December 2025. <a href="https://yongkyungoh.notion.site/Hands-on-Practices-for-Neural-Differential-Equations-151c233cbd0680a5b3eacc348f8b5513?pvs=4">[slide]</a> <a href="https://github.com/yongkyung-oh/Stable-Neural-SDEs/tree/main/tutorial">[tutorial]</a></li>
   <li>[T04] Oh, Y. (2024). Research Journey from concept to conference, UCLA Medical & Imaging Informatics (MII) group, University of California, Los Angeles (UCLA), October 2024. <a href="https://drive.google.com/file/d/17Iq6ePYrRfzHh9wH6Hep3_hz142wb03P">[slide]</a></li>
   <li>[T03] Oh, Y. (2024). Research Journey from concept to conference, IE552/AI603: Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), October 2024. <a href="https://drive.google.com/file/d/17Iq6ePYrRfzHh9wH6Hep3_hz142wb03P">[slide]</a></li>
