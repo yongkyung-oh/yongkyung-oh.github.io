@@ -10,16 +10,13 @@ header:
 ---
 
 --------------------
-<h3> Affiliation </h3>
-<div class="notice--primary">
-  <ul>
-  <li> Postdoctoral researcher at <a href="https://www.uclahealth.org/">UCLA Health</a> - David Geffen School of Medicine at UCLA</li>
-    <ul>
-    <li>Medical & Imaging Informatics (MII) group</li>
-    <li>Principal Investigator: Dr. Alex Bui</li>
-    </ul>
-  </ul>  
-</div>
+<h3>Affiliation</h3>
+<p>
+  Postdoctoral Researcher at 
+  <a href="https://www.uclahealth.org/">UCLA Health</a> – David Geffen School of Medicine at UCLA<br>
+  <a href="https://mii.ucla.edu/">UCLA Medical &amp; Imaging Informatics (MII) Group</a><br>
+  Principal Investigator: Dr. Alex Bui
+</p>
 
 
 --------------------
