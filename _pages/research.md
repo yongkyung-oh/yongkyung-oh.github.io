@@ -23,27 +23,22 @@ header:
 
 
 --------------------
-<h3> Research Highlights </h3>
-<div class="notice">
-  <ul>
-  <li> Spotlight presentation at ICLR 2024: "Stable Neural Stochastic Differential Equations in Analyzing Irregular Time Series." </li>
-  <li> DAIS Division Best Paper Competition Finalist for three consecutive years (2023, 2024, 2025) at IISE Annual Conference. </li>
-  <li> Publications in leading venues including AAAI, CHIL, Information Fusion, and Computers & Industrial Engineering. </li>
-  <li> Recipient of competitive national grants and fellowship awards, including NRF Postdoctoral Fellowship for Overseas Research. </li>
-  <li> Holder of multiple patents on time series modeling, complex system, and healthcare AI applications. </li>
-  </ul>
-</div>
+<!-- Research Highlights -->
+<h3>Research Highlights</h3>
+<ul>
+  <li><strong>Pioneering Methodological Research:</strong> Spotlight presentation (top 5%) at ICLR 2024 for novel work on Neural Stochastic Differential Equations; publications in other premier AI venues including AAAI and IJCAI.</li>
+  <li><strong>Demonstrated Funding and Leadership Potential:</strong> Secured a competitive Postdoctoral Fellowship from the National Research Foundation of Korea (NRF) as a Principal Investigator; recipient of multiple research training fellowships.</li>
+  <li><strong>Consistent Excellence in Data-Driven Engineering:</strong> Recognized as a Best Paper Award Finalist for three consecutive years (2023–2025) by the Data Analytics and Information Systems (DAIS) division of IISE.</li>
+  <li><strong>Proven Track Record of Industrial &amp; Healthcare Impact:</strong> Multiple publications in leading application journals (e.g., <i>Information Fusion</i>, <i>Computers &amp; Industrial Engineering</i>) and multiple patents on time series modeling and healthcare AI.</li>
+</ul>
 
-<div class="notice">
-  <h4>Research Interests</h4>
-  <ul>
-  <li>Robust machine learning methods for irregular and longitudinal time series analysis. </li>
-  <li>Trustworthy AI under distribution shifts in real-world deployment scenarios. </li>
-  <li>Longitudinal healthcare informatics and digital biomarker discovery. </li>
-  <li>Neural differential equations and dynamic system modeling. </li>
-  <li>Domain-adaptive representation learning and causal inference. </li>
-  </ul>
-</div>
+<!-- Research Interests -->
+<h3>Research Interests</h3>
+<ul>
+  <li><em>Trustworthy AI for Longitudinal Systems:</em> Designing and deploying robust and interpretable AI systems for real-world longitudinal data. Special focus on mitigating dataset shift in applications ranging from industrial process control to digital healthcare.</li>
+  <li><em>Data-Driven Operations Research &amp; Optimization:</em> Applying advanced statistical and machine learning methods to enhance operational efficiency. Expertise in AI-based anomaly detection for quality control, predictive maintenance, and optimization.</li>
+  <li><em>Dynamic System Modeling with Neural Differential Equations:</em> Developing and applying novel frameworks to model complex, irregularly sampled time series data, forming the technical foundation for high-fidelity industrial systems over time.</li>
+</ul>
 
 
 --------------------
