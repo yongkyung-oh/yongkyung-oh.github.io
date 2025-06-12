@@ -14,7 +14,7 @@ header:
 <p>
   Postdoctoral Researcher at 
   <a href="https://www.uclahealth.org/">UCLA Health</a> – David Geffen School of Medicine at UCLA<br>
-  <a href="https://mii.ucla.edu/">UCLA Medical &amp; Imaging Informatics (MII) Group</a><br>
+  <a href="https://mii.ucla.edu/">UCLA Medical &amp; Imaging Informatics (MII) group</a><br>
   Principal Investigator: Dr. Alex Bui
 </p>
 
