@@ -22,21 +22,26 @@ header:
 --------------------
 <!-- Research Highlights -->
 <h3>Research Highlights</h3>
-<ul>
+
+<div class="notice--primary">
+  <ul>
   <li><strong>Pioneering Methodological Research:</strong> Spotlight presentation (top 5%) at ICLR 2024 for novel work on Neural Stochastic Differential Equations; publications in other premier AI venues including AAAI and IJCAI.</li>
   <li><strong>Demonstrated Funding and Leadership Potential:</strong> Secured a competitive Postdoctoral Fellowship from the National Research Foundation of Korea (NRF) as a Principal Investigator; recipient of multiple research training fellowships.</li>
   <li><strong>Consistent Excellence in Data-Driven Engineering:</strong> Recognized as a Best Paper Award Finalist for three consecutive years (2023–2025) by the Data Analytics and Information Systems (DAIS) division of IISE.</li>
   <li><strong>Proven Track Record of Industrial &amp; Healthcare Impact:</strong> Multiple publications in leading application journals (e.g., <i>Information Fusion</i>, <i>Computers &amp; Industrial Engineering</i>) and multiple patents on time series modeling and healthcare AI.</li>
-</ul>
+  </ul>
+</div>
 
 <!-- Research Interests -->
 <h3>Research Interests</h3>
-<ul>
+
+<div class="notice--primary">
+  <ul>
   <li><em>Trustworthy AI for Longitudinal Systems:</em> Designing and deploying robust and interpretable AI systems for real-world longitudinal data. Special focus on mitigating dataset shift in applications ranging from industrial process control to digital healthcare.</li>
   <li><em>Data-Driven Operations Research &amp; Optimization:</em> Applying advanced statistical and machine learning methods to enhance operational efficiency. Expertise in AI-based anomaly detection for quality control, predictive maintenance, and optimization.</li>
   <li><em>Dynamic System Modeling with Neural Differential Equations:</em> Developing and applying novel frameworks to model complex, irregularly sampled time series data, forming the technical foundation for high-fidelity industrial systems over time.</li>
-</ul>
-
+  </ul>
+</div>
 
 --------------------
 <h3> Working Papers (Under review) </h3>

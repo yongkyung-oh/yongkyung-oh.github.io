@@ -10,7 +10,7 @@ header:
 ---
 
 --------------------
-<h3> Profile </h3>
+<h3> Biography </h3>
 Dr. YongKyung Oh is a Postdoctoral Researcher at the University of California, Los Angeles (UCLA) Health - David Geffen School of Medicine, contributing to the Medical \& Imaging Informatics (MII) group under the leadership of Dr. Alex Bui. Prior to his current appointment, he was a postdoctoral researcher at the Industry Intelligentization Institute at the Ulsan National Institute of Science and Technology (UNIST). His academic training from UNIST is notably interdisciplinary, comprising a Ph.D. in Industrial Engineering, an M.S. in Technology and Innovation Management, and a B.Sc. in Physics.
 <br>
 His research centers on developing and applying domain-specific machine learning and deep learning techniques to solve complex, real-world problems. This interdisciplinary approach has led to impactful solutions across a diverse range of sectors, including manufacturing, energy, transportation, maritime operations, logistics, and healthcare. He possesses deep expertise in tailoring advanced AI techniques for specific domains and provides insightful perspectives on their practical, large-scale implementation.
