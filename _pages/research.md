@@ -11,19 +11,19 @@ header:
 
 --------------------
 <h3>Affiliation</h3>
-<p>
+<div class="notice--primary">
   Postdoctoral Researcher at 
   <a href="https://www.uclahealth.org/">UCLA Health</a> – David Geffen School of Medicine at UCLA<br>
   <a href="https://mii.ucla.edu/">UCLA Medical &amp; Imaging Informatics (MII) group</a><br>
   Principal Investigator: Dr. Alex Bui
-</p>
+</div>
 
 
 --------------------
 <!-- Research Highlights -->
 <h3>Research Highlights</h3>
 
-<div class="notice--primary">
+<div class="notice">
   <ul>
   <li><strong>Pioneering Methodological Research:</strong> Spotlight presentation (top 5%) at ICLR 2024 for novel work on Neural Stochastic Differential Equations; publications in other premier AI venues including AAAI and IJCAI.</li>
   <li><strong>Demonstrated Funding and Leadership Potential:</strong> Secured a competitive Postdoctoral Fellowship from the National Research Foundation of Korea (NRF) as a Principal Investigator; recipient of multiple research training fellowships.</li>
@@ -35,7 +35,7 @@ header:
 <!-- Research Interests -->
 <h3>Research Interests</h3>
 
-<div class="notice--primary">
+<div class="notice">
   <ul>
   <li><em>Trustworthy AI for Longitudinal Systems:</em> Designing and deploying robust and interpretable AI systems for real-world longitudinal data. Special focus on mitigating dataset shift in applications ranging from industrial process control to digital healthcare.</li>
   <li><em>Data-Driven Operations Research &amp; Optimization:</em> Applying advanced statistical and machine learning methods to enhance operational efficiency. Expertise in AI-based anomaly detection for quality control, predictive maintenance, and optimization.</li>
