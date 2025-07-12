@@ -117,7 +117,7 @@ header:
     <ul>
       <li>Research Title: "Approach to Detect Distribution Shifts Over Time and Evaluate Model Trustworthy with Retraining in Longitudinal Medical Data"</li>
       <li>Source: National Research Foundation of Korea (NRF)</li>
-      <li>Amount: KRW 60,000,000 (Approximate USD 43,478 as of June 3rd, 2024)</li>
+      <li>Amount: KRW 60,000,000 (Approximate USD 43,500 as of June 3rd, 2024)</li>
       <li>Duration: September 1st, 2024 - August 31st, 2025</li>
     </ul>
     <li> Researcher & Trainee: High-Potential Individuals Global Training Program </li>
