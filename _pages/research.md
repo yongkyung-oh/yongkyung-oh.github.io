@@ -121,6 +121,7 @@ header:
   <li>[W03] Oh, Y., Kam, S., Lim, D., & Kim, S. (2024), Enhancing Astronomical time series Classification with Neural Stochastic Differential Equations under Irregular Observations, Knowledge Guided ML (KGML) Bridge Program, The 38th Annual AAAI Conference on Artificial Intelligence 2024, February 2024. <a href="https://sites.google.com/vt.edu/kgml-bridge-aaai-24/">[workshop]</a> <a href="https://drive.google.com/file/d/12aK3ugtB-wK3cODCuVYmZl2avtfJis9D">[slide]</a> <a href="https://drive.google.com/file/d/1h38TnE6C8H1KtKZXasc7U-HbjkkpwwB4">[poster]</a></li>
   <li>[W02] Oh, Y., Lim, D., & Kim, S. (2023), Unifying Neural Controlled Differential Equations and Neural Flow for Irregular Time Series Classification. In The Symbiosis of Deep Learning and Differential Equations (DLDE) III Workshop, The 37th Annual Conference on Neural Information Processing Systems (NeurIPS) 2023, December 2023.<a href="https://dlde-2023.github.io/">[workshop]</a> <a href="https://drive.google.com/file/d/1-4RCnY4FoSFgQwaaCMwGRh-n4uEt0Fee">[poster]</a></li>
   <li>[W01] Oh, Y., Kwak, J., &  Kim, S. (2022), Time Delay Estimation of Traffic Congestion Based on Statistical Causality, The 3rd Workshop on Data-driven Intelligent Transportation (DIT 2022), The 31st ACM International Conference on Information and Knowledge Management (CIKM) 2022, October 2022. <a href="https://dit-workshop.github.io/">[workshop]</a> <a href="https://drive.google.com/file/d/1gbCWyUTvVPoTVmisX6jTN19UT-t9rCoC">[slide]</a></li>
+  </ul>
 </div>
 
 
