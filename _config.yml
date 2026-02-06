@@ -20,7 +20,7 @@ title                    : "YongKyung Oh"
 title_separator          : "-"
 subtitle                 : " " # site tagline that appears below site title in masthead
 name                     : "YongKyung Oh"
-description              : " "
+description              : "YongKyung Oh - Postdoctoral Researcher at UCLA Health. Research on trustworthy AI, neural differential equations, and digital healthcare."
 url                      : https://yongkyung-oh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : yongkyung-oh/yongkyung-oh.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -141,6 +141,7 @@ footer:
 # Reading Files
 include:
   - .htaccess
+  - .well-known
   - _pages
 exclude:
   - "*.sublime-project"
@@ -200,6 +201,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  quiet_deps: true
 
 
 # Outputting
@@ -279,8 +281,6 @@ defaults:
       header:
         teaser: /assets/images/unsplash-image.jpg
         og_image: /assets/images/unsplash-image.jpg
-
-defaults:
   # _pages
   - scope:
       path: ""

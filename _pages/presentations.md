@@ -15,21 +15,21 @@ header:
 
 <div class="notice--primary" markdown="1">
 
-- **_Modeling Temporal Evolution with Neural Differential Equations_.** [[slide]](https://drive.google.com/file/d/1AJMMg9wWa4clMacT9SInmGQ4YLdf4M-e)
-  - ISE Colloquium, Department of Industrial and Systems Engineering, Korea Advanced Institute of Science & Technology (KAIST), March 2025. 
+- **_Modeling Temporal Evolution with Neural Differential Equations_.** 
+  - ISE Colloquium, Department of Industrial and Systems Engineering, Korea Advanced Institute of Science & Technology (KAIST), March 2025. [[slide]](https://drive.google.com/file/d/1AJMMg9wWa4clMacT9SInmGQ4YLdf4M-e)
 
-- **_Hands-on Practices for Neural Differential Equations_.** [[slide]](https://yongkyungoh.notion.site/Hands-on-Practices-for-Neural-Differential-Equations-151c233cbd0680a5b3eacc348f8b5513?pvs=4) [[tutorial]](https://github.com/yongkyung-oh/Stable-Neural-SDEs/tree/main/tutorial)
-  - Guest Lecture in IE552/AI603 Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), December 2024. 
+- **_Hands-on Practices for Neural Differential Equations_.** 
+  - Guest Lecture in IE552/AI603 Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), December 2024. [[slide]](https://yongkyungoh.notion.site/Hands-on-Practices-for-Neural-Differential-Equations-151c233cbd0680a5b3eacc348f8b5513?pvs=4) [[tutorial]](https://github.com/yongkyung-oh/Stable-Neural-SDEs/tree/main/tutorial)
 
-- **_Research Journey from Concept to Conference_.** [[slide]](https://drive.google.com/file/d/17Iq6ePYrRfzHh9wH6Hep3_hz142wb03P)
-  - UCLA Medical & Imaging Informatics (MII) Group, University of California, Los Angeles (UCLA), October 2024.
+- **_Research Journey from Concept to Conference_.** 
+  - UCLA Medical & Imaging Informatics (MII) Group, University of California, Los Angeles (UCLA), October 2024. [[slide]](https://drive.google.com/file/d/17Iq6ePYrRfzHh9wH6Hep3_hz142wb03P)
   - Guest Lecture in IE552/AI603 Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), October 2024.
 
-- **_Deep Learning-based Techniques for Analyzing Real-World Healthcare Data_.** [[slide]](https://drive.google.com/file/d/17HRmRNSnomp4MbUomvPIsPGNcd_i8VxD)
-  - UCLA Medical & Imaging Informatics (MII) Group, University of California, Los Angeles (UCLA), September 2024.
+- **_Deep Learning-based Techniques for Analyzing Real-World Healthcare Data_.** 
+  - UCLA Medical & Imaging Informatics (MII) Group, University of California, Los Angeles (UCLA), September 2024. [[slide]](https://drive.google.com/file/d/17HRmRNSnomp4MbUomvPIsPGNcd_i8VxD)
 
-- **_Stable Neural Stochastic Differential Equations for Irregular Time Series Classification_.** [[slide]](https://drive.google.com/file/d/1rXl1xuH_YqHABdTqLp-Ioo57S4_ONm94)
-  - Optimization & Machine Learning Workshop, Ulsan National Institute of Science & Technology (UNIST), August 2023. 
+- **_Stable Neural Stochastic Differential Equations for Irregular Time Series Classification_.** 
+  - Optimization & Machine Learning Workshop, Ulsan National Institute of Science & Technology (UNIST), August 2023. [[slide]](https://drive.google.com/file/d/1rXl1xuH_YqHABdTqLp-Ioo57S4_ONm94)
 </div>
 
 
@@ -49,7 +49,7 @@ header:
 - [P57] Oh, Y., & Bui, A. (2025). Integrating Transfer Entropy into Transformer for Time Series Forecasting, AAAI'25 Workshop on Artificial Intelligence with Causal Techniques, The 39th Annual AAAI Conference on Artificial Intelligence 2025, February 2025. [\[workshop\]](https://sites.google.com/view/aict-2025/home) [\[slide\]](https://drive.google.com/file/d/10yTHQ3ICZi8vDuYTb-1LBCdqIJQNY3b_) [\[poster\]](https://drive.google.com/file/d/1-m9XhEGPkbCIJF7jKxj7nXxaRf2ZDZYL)
 - [P56] Oh, Y., Lim, D., & Kim, S. (2025). DualDynamics: Synergizing Implicit and Explicit Methods for Robust Irregular Time Series Analysis, The 39th Annual AAAI Conference on Artificial Intelligence 2025, February 2025. [\[paper\]](https://arxiv.org/abs/2401.04979) [\[code\]](https://github.com/yongkyung-oh/DualDynamics) [\[slide\]](https://drive.google.com/file/d/1035VU__8r3bSeSNXBwXM3XMHcv7Kh-Jj) [\[poster\]](https://drive.google.com/file/d/1-iB9s5LZx9w8YIQXlr6hYHi60-pi-9X5)
 - [P55] Oh, Y., & Bui, A. (2025). Multi-view Contrastive Learning for Medical Time Series Domain Adaptation, AI for Medicine and Healthcare, AAAI Bridge Program 2025, The 39th Annual AAAI Conference on Artificial Intelligence 2025, February 2025. [\[workshop\]](https://sites.google.com/view/aimedhealth-aaai/home) [\[poster\]](https://drive.google.com/file/d/1-oLyJqT0RG3ePhB0nHxABgkbTISEUBQV)
-- [P54] Oh, Y. (2024). Hands-on Practices for Neural Differential Equations, IE552/AI603: Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), December 2025. [\[slide\]](https://yongkyungoh.notion.site/Hands-on-Practices-for-Neural-Differential-Equations-151c233cbd0680a5b3eacc348f8b5513?pvs=4) [\[tutorial\]](https://github.com/yongkyung-oh/Stable-Neural-SDEs/tree/main/tutorial)
+- [P54] Oh, Y. (2024). Hands-on Practices for Neural Differential Equations, IE552/AI603: Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), December 2024. [\[slide\]](https://yongkyungoh.notion.site/Hands-on-Practices-for-Neural-Differential-Equations-151c233cbd0680a5b3eacc348f8b5513?pvs=4) [\[tutorial\]](https://github.com/yongkyung-oh/Stable-Neural-SDEs/tree/main/tutorial)
 - [P53] Lin, Y., Zhu, Y., Oh, Y., Zhuang, L., Taira, R., Prosper, A.E., Hsu, W. (2024). Extracting Quantitative Smoking History from Clinical Narratives Using Zero-Shot Guideline-Based Large Language Model Prompting, IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI'24), IEEE Engineering in Medicine and Biology Society (IEEE EMBS), Nov 2024. [\[poster\]](https://drive.google.com/file/d/1-nFlmgW6fGpZ6LevsbqAKD9eFITdW19R)
 - [P52] Oh, Y., Kam, S., Lim, D. & Kim, S. (2024). Advancing Irregular Time Series Classification in Astronomy with Neural Stochastic DifferentialEquations, INFORMS Workshop on Data Science 2024, Institute for Operations Research and the Management Sciences (INFORMS) 2024, Oct 2024. [\[workshop\]](https://sites.google.com/view/data-science-2024) [\[poster\]](https://drive.google.com/file/d/1UKgpLALoSRzFpybIGax4UgkLRBQRxzHJ)
 - [P51] Oh, Y. (2024). Research Journey from concept to conference, IE552/AI603: Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), October 2024. [\[slide\]](https://drive.google.com/file/d/17Iq6ePYrRfzHh9wH6Hep3_hz142wb03P)

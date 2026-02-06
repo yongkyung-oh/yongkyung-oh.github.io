@@ -50,7 +50,7 @@ In parallel with his academic pursuits, Dr. Oh has cultivated significant indust
 
 #### [UNIST Data Analytics Lab](http://analytics.unist.ac.kr/) (Ulsan, Korea): Graduate Researcher & Laboratory Leader, 2018 ~ 2023
 
-- Advisor: Prof. Sungil Kim | Department of Industrial Engineering
+- Advisor: Prof. Sungil Kim — Department of Industrial Engineering
 - Founding member and laboratory leader of the [UNIST Data Analytics Lab](http://analytics.unist.ac.kr/), contributing to the establishment of research directions and coordination of industry collaborative projects.
 - Led applied research projects on time series modeling and anomaly detection across multiple domains.
 
@@ -214,13 +214,13 @@ In parallel with his academic pursuits, Dr. Oh has cultivated significant indust
 
 <div class="notice--danger" markdown="1">
 
-- Apparatus and method for human activity recognition through hybrid fusion of dynamic and static data. | Co-inventor, (KR 10-2024-0033382, applied March 8, 2024)
-- Encoding apparatus and method for converting time series data into images | Co-inventor (KR 10-2024-0101063, granted July 2, 2024) (KR 10-2022-0183341, applied December 23, 2022).
-- Method, computer device, and computer program to predict road congestion propagation using pattern matching | Co-inventor (KR 10-2608343-0000, granted November 27, 2023) (KR 10-2021-0120229, applied September 9, 2021) (JP2023039925A, published March, 20, 2023) (JP 2022-137508, applied August 31, 2022).
-- Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy | Co-inventor (KR 10-2604575-0000, granted November 16, 2023) (KR 10-2021-0119772, applied September 8, 2021) (JP2023039418A, published March, 20, 2023) (JP 2022-137509, applied August 31, 2022).
-- Method of Anomaly detection of vessels applying bayesian bootstrap | Co-inventor (KR 10-2534357-0000, granted May 16, 2023) (KR 10-2020-0178651, applied December 18, 2020).
-- Sensor drift compensation for mixed gas classification in E-nose system | Co-inventor (US 18/012,626, applied December 22, 2022) (KR 10-2364019-0000, granted February 14, 2022) (PCT/KR2021/010729, applied August 12, 2021) (KR 10-2020-0101037, applied August 12, 2020).
-- Method and apparatus for determining delay possibility of shipment | Co-inventor (KR 10-2250354-0000, granted May 4, 2021) (PCT/KR2020/015854, applied November 12, 2020) (KR 10-2019-0158913, applied December 3, 2019).
+- Apparatus and method for human activity recognition through hybrid fusion of dynamic and static data. Co-inventor, (KR 10-2024-0033382, applied March 8, 2024)
+- Encoding apparatus and method for converting time series data into images — Co-inventor (KR 10-2024-0101063, granted July 2, 2024) (KR 10-2022-0183341, applied December 23, 2022).
+- Method, computer device, and computer program to predict road congestion propagation using pattern matching — Co-inventor (KR 10-2608343-0000, granted November 27, 2023) (KR 10-2021-0120229, applied September 9, 2021) (JP2023039925A, published March, 20, 2023) (JP 2022-137508, applied August 31, 2022).
+- Method, computer device, and computer program to predict propagation time delay lag of road congestion using transfer entropy — Co-inventor (KR 10-2604575-0000, granted November 16, 2023) (KR 10-2021-0119772, applied September 8, 2021) (JP2023039418A, published March, 20, 2023) (JP 2022-137509, applied August 31, 2022).
+- Method of Anomaly detection of vessels applying bayesian bootstrap — Co-inventor (KR 10-2534357-0000, granted May 16, 2023) (KR 10-2020-0178651, applied December 18, 2020).
+- Sensor drift compensation for mixed gas classification in E-nose system — Co-inventor (US 18/012,626, applied December 22, 2022) (KR 10-2364019-0000, granted February 14, 2022) (PCT/KR2021/010729, applied August 12, 2021) (KR 10-2020-0101037, applied August 12, 2020).
+- Method and apparatus for determining delay possibility of shipment — Co-inventor (KR 10-2250354-0000, granted May 4, 2021) (PCT/KR2020/015854, applied November 12, 2020) (KR 10-2019-0158913, applied December 3, 2019).
 
 </div>
 
@@ -235,16 +235,16 @@ In parallel with his academic pursuits, Dr. Oh has cultivated significant indust
 - (Fall, 2024) Introduction to Evidence-Based Undergraduate Teaching, CIRTL, UCLA
 - (Summer, 2024) NIH K-award Grant Writing Bootcamp, CTSI & OPSCD, UCLA
 - (Summer, 2024) Teaching Institute, The Johns Hopkins University
-- (Spring-Fall, 2021) Undergraduate Interdisciplinary Research Project | Teaching Assistant, UNIST
+- (Spring-Fall, 2021) Undergraduate Interdisciplinary Research Project — Teaching Assistant, UNIST
   - Advise student-led project and presentation. Yeo J., Seo H., and Shim S., "A Methodology for Predicting Traffic Accidents Using Road Network Structure", KIIE Fall Conference, November 2021.
-- (Fall, 2019) MGT205, Financial Accounting | Teaching Assistant, UNIST
-- (Fall, 2019) MGT206, Managerial Accounting | Teaching Assistant, UNIST
-- (Fall, 2018) MGT206, Managerial Accounting | Teaching Assistant, UNIST
-- (Spring, 2018) MGE362, Quality Management | Teaching Assistant, UNIST
-- (Fall, 2017) TIM614, Integration of IT, Manufacturing, and Operational Systems | Teaching Assistant, UNIST
-- (Spring, 2016) MGT473, Entrepreneurship and Venture Management | Teaching Assistant, UNIST
-- (Fall, 2015) AHS230, Recent Trends in Science and Technology Business of Korea | Teaching Assistant, UNIST
-- (Spring, 2015) MGT410, Psychology and Marketing | Teaching Assistant, UNIST
+- (Fall, 2019) MGT205, Financial Accounting — Teaching Assistant, UNIST
+- (Fall, 2019) MGT206, Managerial Accounting — Teaching Assistant, UNIST
+- (Fall, 2018) MGT206, Managerial Accounting — Teaching Assistant, UNIST
+- (Spring, 2018) MGE362, Quality Management — Teaching Assistant, UNIST
+- (Fall, 2017) TIM614, Integration of IT, Manufacturing, and Operational Systems — Teaching Assistant, UNIST
+- (Spring, 2016) MGT473, Entrepreneurship and Venture Management — Teaching Assistant, UNIST
+- (Fall, 2015) AHS230, Recent Trends in Science and Technology Business of Korea — Teaching Assistant, UNIST
+- (Spring, 2015) MGT410, Psychology and Marketing — Teaching Assistant, UNIST
 
 </div>
 
