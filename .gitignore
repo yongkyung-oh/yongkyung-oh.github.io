@@ -27,3 +27,9 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Local Analysis
+_local_analysis/
+
+# Claude Code
+CLAUDE.md
