@@ -4,9 +4,11 @@ layout: single
 permalink: /about/
 author_profile: true
 classes: wide
+excerpt: "Postdoctoral researcher at UCLA Health specializing in trustworthy AI, neural differential equations, and digital healthcare solutions with expertise across healthcare, manufacturing, and logistics."
 header:
-  teaser: /assets/images/unsplash-image.jpg
-  og_image: /assets/images/unsplash-image.jpg
+  teaser: /assets/images/Pic-BW-cut.jpg
+  og_image: /assets/images/Pic-BW-cut.jpg
+  teaser_alt: "YongKyung Oh, Postdoctoral Researcher at UCLA Health"
 ---
 
 --------------------

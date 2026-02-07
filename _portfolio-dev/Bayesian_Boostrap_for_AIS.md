@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Bayesian Bootstrap for AIS data analysis"
+excerpt: "Bayesian Bootstrap method for Automatic Identification System data analysis. Statistical framework for uncertainty quantification in maritime vessel tracking and trajectory prediction."
 header:
 #  image: /assets/images/dev/bb_ais/overview.png
   teaser: /assets/images/dev/bb_ais/overview.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/dev/bb_ais/overview.png
+  teaser_alt: "Bayesian Bootstrap for AIS Data Analysis"
 images_gallery:
   - url: /assets/images/dev/bb_ais/overview.png
     image_path: /assets/images/dev/bb_ais/overview.png

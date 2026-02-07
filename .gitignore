@@ -33,3 +33,4 @@ _local_analysis/
 
 # Claude Code
 CLAUDE.md
+.claude/

@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "DEOKYANG Co.,LTD.: Analysis of graphene technology feasibility in the application."
+excerpt: "Graphene technology commercialization study for DEOKYANG. Evaluated technical feasibility and market potential for graphene applications in industrial materials and advanced manufacturing."
 header:
 #  image: /assets/images/mgt/deokyang.png
   teaser: /assets/images/mgt/deokyang-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/deokyang-th.png
+  teaser_alt: "DEOKYANG: Graphene Technology Feasibility Analysis"
 images_gallery:
   - url: /assets/images/mgt/deokyang.png
     image_path: /assets/images/mgt/deokyang.png

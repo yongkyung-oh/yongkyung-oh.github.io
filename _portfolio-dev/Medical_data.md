@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Medical Data Analysis: NLP for EMR data"
+excerpt: "Natural Language Processing tool for Electronic Medical Records analysis. Extracts clinical insights from unstructured medical text using deep learning NLP techniques for healthcare decision support."
 header:
 #  image: /assets/images/dev/nlp_for_emr/nlp_for_emr_0.png
   teaser: /assets/images/dev/nlp_for_emr/nlp_for_emr_0.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/dev/nlp_for_emr/nlp_for_emr_0.png
+  teaser_alt: "Medical Data Analysis: NLP for EMR Data Extraction"
 images_gallery:
   - url: /assets/images/dev/nlp_for_emr/nlp_for_emr_0.png
     image_path: /assets/images/dev/nlp_for_emr/nlp_for_emr_0.png

@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "DaeWoong Pharmaceutical co. ltd & BID-AGE"
+excerpt: "Strategic partnership analysis for DaeWoong Pharmaceutical and BID-AGE. Evaluated biotech collaboration opportunities and developed partnership strategy for anti-aging pharmaceutical development."
 header:
 #  image: /assets/images/mgt/bioage.png
   teaser: /assets/images/mgt/bioage-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/bioage-th.png
+  teaser_alt: "DaeWoong Pharmaceutical & BID-AGE Partnership Strategy"
 images_gallery:
   - url: /assets/images/mgt/bioage.png
     image_path: /assets/images/mgt/bioage.png

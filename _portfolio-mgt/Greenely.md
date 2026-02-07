@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Greenely: Energy management Software App & Service"
+excerpt: "Business strategy for Greenely energy management platform. Developed product positioning and go-to-market strategy for smart home energy optimization app in Stockholm market."
 header:
 #  image: /assets/images/mgt/greenely.png
   teaser: /assets/images/mgt/greenely-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/greenely-th.png
+  teaser_alt: "Greenely: Energy Management Software App & Service"
 images_gallery:
   - url: /assets/images/mgt/greenely.png
     image_path: /assets/images/mgt/greenely.png

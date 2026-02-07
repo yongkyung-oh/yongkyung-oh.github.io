@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "3DWooW: 3D Medical Imaging, Endoscopy Device"
+excerpt: "Business strategy for 3DWooW medical imaging startup. Developed market analysis and commercialization plan for innovative 3D endoscopy technology in Shanghai medical device market."
 header:
 #  image: /assets/images/mgt/3dwoow.jpg
   teaser: /assets/images/mgt/3dwoow-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/3dwoow-th.png
+  teaser_alt: "3DWooW: 3D Medical Imaging Endoscopy Device"
 images_gallery:
   - url: /assets/images/mgt/3dwoow.jpg
     image_path: /assets/images/mgt/3dwoow.jpg

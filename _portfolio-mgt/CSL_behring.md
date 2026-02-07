@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "CSL Behring: Future direction of plasma therapy industry"
+excerpt: "Strategic foresight for CSL Behring plasma therapy industry. Analyzed emerging trends and developed strategic roadmap for next-generation biopharmaceutical treatments and market positioning."
 header:
 #  image: /assets/images/mgt/csl_behring.jpg
   teaser: /assets/images/mgt/csl_behring-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/csl_behring-th.png
+  teaser_alt: "CSL Behring: Plasma Therapy Industry Future Direction"
 images_gallery:
   - url: /assets/images/mgt/csl_behring.jpg
     image_path: /assets/images/mgt/csl_behring.jpg

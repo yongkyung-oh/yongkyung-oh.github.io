@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Transfer Entropy analysis for congestion propagation"
+excerpt: "Transfer Entropy analysis for traffic congestion propagation modeling. Applied information theory and causal inference to understand and predict traffic flow patterns in urban networks."
 header:
 #  image: /assets/images/dev/te_propagation/overview.png
   teaser: /assets/images/dev/te_propagation/overview.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/dev/te_propagation/overview.png
+  teaser_alt: "Transfer Entropy Analysis for Congestion Propagation"
 images_gallery:
   - url: /assets/images/dev/te_propagation/overview.png
     image_path: /assets/images/dev/te_propagation/overview.png

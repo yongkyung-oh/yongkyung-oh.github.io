@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "CMU LSMM Project: Deepfake Detection"
+excerpt: "Deepfake detection research project at Carnegie Mellon University. Developed machine learning models to identify manipulated media using computer vision and deep learning techniques."
 header:
 #  image: /assets/images/dev/lsmm/deepfake_research_cover.png
   teaser: /assets/images/dev/lsmm/deepfake_research_cover-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/dev/lsmm/deepfake_research_cover-th.png
+  teaser_alt: "CMU LSMM Project: Deepfake Detection Research"
 images_gallery:
   - url: /assets/images/dev/lsmm/deepfake_research_cover.png
     image_path: /assets/images/dev/lsmm/deepfake_research_cover.png

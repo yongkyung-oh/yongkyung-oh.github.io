@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Agrible, Inc.: Analysis for market expansion and entry to the agriculture industry"
+excerpt: "Market expansion strategy for Agrible agriculture technology company. Analyzed precision farming market opportunities and developed entry strategies for agricultural data analytics platform."
 header:
 #  image: /assets/images/mgt/agrible.jpg
   teaser: /assets/images/mgt/agrible-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/agrible-th.png
+  teaser_alt: "Agrible: Agriculture Industry Market Expansion Analysis"
 images_gallery:
   - url: /assets/images/mgt/agrible.jpg
     image_path: /assets/images/mgt/agrible.jpg

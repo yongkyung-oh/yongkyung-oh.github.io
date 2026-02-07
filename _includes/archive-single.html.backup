@@ -13,13 +13,8 @@
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
-      {% if post.header.teaser_alt %}
-        {% assign teaser_alt = post.header.teaser_alt %}
-      {% else %}
-        {% assign teaser_alt = post.title %}
-      {% endif %}
       <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="{{ teaser_alt | markdownify | strip_html | strip_newlines | escape_once }}">
+        <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
     <h2 class="archive__item-title no_toc" itemprop="headline">

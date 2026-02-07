@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Bayside Brewery: Entry Strategy Development for US startup"
+excerpt: "Market entry strategy for Bayside Brewery startup. Developed comprehensive business plan and competitive analysis for New York craft beer market expansion with UNISCA consulting team."
 header:
 #  image: /assets/images/mgt/bayside.jpg
   teaser: /assets/images/mgt/bayside-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/bayside-th.png
+  teaser_alt: "Bayside Brewery: US Market Entry Strategy"
 images_gallery:
   - url: /assets/images/mgt/bayside.jpg
     image_path: /assets/images/mgt/bayside.jpg

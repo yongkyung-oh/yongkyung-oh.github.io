@@ -4,9 +4,11 @@ layout: single
 permalink: /presentations/
 author_profile: true
 classes: wide
+excerpt: "Invited talks and conference presentations spanning ICLR, AAAI, IJCAI, and IISE. Featured presentations on neural differential equations, medical AI, and time series analysis with multiple best paper awards."
 header:
-  teaser: /assets/images/unsplash-image.jpg
-  og_image: /assets/images/unsplash-image.jpg
+  teaser: /assets/images/YK.png
+  og_image: /assets/images/YK.png
+  teaser_alt: "YongKyung Oh presenting at international conferences"
 ---
 
 --------------------
@@ -15,20 +17,18 @@ header:
 
 <div class="notice--primary" markdown="1">
 
-- **_Modeling Temporal Evolution with Neural Differential Equations_.** 
+- **_Research Journey from Concept to Conference_.** (**_Modeling Temporal Evolution with Neural Differential Equations_.**)
   - ISE Colloquium, Department of Industrial and Systems Engineering, Korea Advanced Institute of Science & Technology (KAIST), March 2025. [[slide]](https://drive.google.com/file/d/1AJMMg9wWa4clMacT9SInmGQ4YLdf4M-e)
+  - UCLA Medical & Imaging Informatics (MII) Group, University of California, Los Angeles (UCLA), October 2024. [[slide]](https://drive.google.com/file/d/17Iq6ePYrRfzHh9wH6Hep3_hz142wb03P)
+  - Guest Lecture in IE552/AI603 Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), October 2024.
 
 - **_Hands-on Practices for Neural Differential Equations_.** 
   - Guest Lecture in IE552/AI603 Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), December 2024. [[slide]](https://yongkyungoh.notion.site/Hands-on-Practices-for-Neural-Differential-Equations-151c233cbd0680a5b3eacc348f8b5513?pvs=4) [[tutorial]](https://github.com/yongkyung-oh/Stable-Neural-SDEs/tree/main/tutorial)
 
-- **_Research Journey from Concept to Conference_.** 
-  - UCLA Medical & Imaging Informatics (MII) Group, University of California, Los Angeles (UCLA), October 2024. [[slide]](https://drive.google.com/file/d/17Iq6ePYrRfzHh9wH6Hep3_hz142wb03P)
-  - Guest Lecture in IE552/AI603 Neural Differential Equations, Ulsan National Institute of Science & Technology (UNIST), October 2024.
-
 - **_Deep Learning-based Techniques for Analyzing Real-World Healthcare Data_.** 
   - UCLA Medical & Imaging Informatics (MII) Group, University of California, Los Angeles (UCLA), September 2024. [[slide]](https://drive.google.com/file/d/17HRmRNSnomp4MbUomvPIsPGNcd_i8VxD)
 
-- **_Stable Neural Stochastic Differential Equations for Irregular Time Series Classification_.** 
+- **_Stable Neural Stochastic Differential Equations for Irregular Time Series Classification_.** (ICLR 2024, Spotlight)
   - Optimization & Machine Learning Workshop, Ulsan National Institute of Science & Technology (UNIST), August 2023. [[slide]](https://drive.google.com/file/d/1rXl1xuH_YqHABdTqLp-Ioo57S4_ONm94)
 </div>
 

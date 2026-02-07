@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "GM Internship Project: Battery Laser Welding Advisor"
+excerpt: "Battery laser welding optimization tool for General Motors. Developed multi-platform simulation tool using Python, Django, and MySQL for process parameter optimization and quality prediction in automotive manufacturing."
 header:
 #  image: /assets/images/dev/GM/GM_demo.png
   teaser: /assets/images/dev/GM/GM_demo-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/dev/GM/GM_demo-th.png
+  teaser_alt: "GM Battery Laser Welding Advisor Tool"
 images_gallery:
 #  - url: /assets/images/dev/GM/GM_demo.png
 #    image_path: /assets/images/dev/GM/GM_demo.png

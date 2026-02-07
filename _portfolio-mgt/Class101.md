@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Class101: BM development for newley-launched service"
+excerpt: "Business model development for Class101 online learning platform. Designed revenue model and growth strategy for newly-launched creative education marketplace in Korean market."
 header:
 #  image: /assets/images/mgt/class101.jpg
   teaser: /assets/images/mgt/class101-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/class101-th.png
+  teaser_alt: "Class101: Business Model Development for Online Learning"
 images_gallery:
   - url: /assets/images/mgt/class101.jpg
     image_path: /assets/images/mgt/class101.jpg

@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "KIC Innoenergy: Applicable field research related to energy technology"
+excerpt: "Technology commercialization research for KIC InnoEnergy. Identified market applications and developed business models for sustainable energy technologies in European market."
 header:
 #  image: /assets/images/mgt/innoenergy.png
   teaser: /assets/images/mgt/innoenergy-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/innoenergy-th.png
+  teaser_alt: "KIC InnoEnergy: Energy Technology Commercialization"
 images_gallery:
   - url: /assets/images/mgt/innoenergy.png
     image_path: /assets/images/mgt/innoenergy.png

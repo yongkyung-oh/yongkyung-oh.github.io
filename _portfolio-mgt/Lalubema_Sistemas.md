@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Lalubema Sistemas: Condominium Management App & Service"
+excerpt: "Product strategy for Lalubema condominium management platform. Developed feature roadmap and go-to-market strategy for residential property management SaaS solution in Brazilian market."
 header:
 #  image: /assets/images/mgt/lalubema.png
   teaser: /assets/images/mgt/lalubema-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/lalubema-th.png
+  teaser_alt: "Lalubema Sistemas: Condominium Management App"
 images_gallery:
   - url: /assets/images/mgt/lalubema.png
     image_path: /assets/images/mgt/lalubema.png

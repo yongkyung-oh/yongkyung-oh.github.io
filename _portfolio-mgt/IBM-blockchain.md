@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "IBM: A study on Blockchain impact on insurance industry"
+excerpt: "Blockchain impact analysis for IBM insurance industry research. Evaluated distributed ledger technology applications and developed implementation framework for insurance claim processing and underwriting."
 header:
 #  image: /assets/images/mgt/ibmblockchain.jpg
   teaser: /assets/images/mgt/ibmblockchain-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/ibmblockchain-th.png
+  teaser_alt: "IBM: Blockchain Impact on Insurance Industry"
 images_gallery:
   - url: /assets/images/mgt/ibmblockchain.jpg
     image_path: /assets/images/mgt/ibmblockchain.jpg

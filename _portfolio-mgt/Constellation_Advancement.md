@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Constellation Advancement, LLC"
+excerpt: "Business consulting for Constellation Advancement educational services. Developed strategic recommendations for academic advancement and college preparation services expansion in New York market."
 header:
 #  image: /assets/images/mgt/constellation.png
   teaser: /assets/images/mgt/constellation-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/constellation-th.png
+  teaser_alt: "Constellation Advancement: Educational Services Strategy"
 images_gallery:
   - url: /assets/images/mgt/constellation.png
     image_path: /assets/images/mgt/constellation.png

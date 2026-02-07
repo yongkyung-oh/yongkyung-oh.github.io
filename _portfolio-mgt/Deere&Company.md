@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Deere & Company: Blockchain based servitization and precision agriculture"
+excerpt: "Blockchain strategy for John Deere precision agriculture. Analyzed servitization opportunities and developed blockchain implementation roadmap for agricultural equipment and data ecosystem."
 header:
 #  image: /assets/images/mgt/john_deere.jpg
   teaser: /assets/images/mgt/john_deere-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/mgt/john_deere-th.png
+  teaser_alt: "Deere & Company: Blockchain Based Precision Agriculture"
 images_gallery:
   - url: /assets/images/mgt/john_deere.jpg
     image_path: /assets/images/mgt/john_deere.jpg

@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "Multichannel CNN for Gas mixture classification"
+excerpt: "Multichannel Convolutional Neural Network for gas mixture classification. Applied deep learning to sensor data analysis for industrial gas detection and environmental monitoring."
 header:
 #  image: /assets/images/dev/multi_cnn/method_fig_1.png
   teaser: /assets/images/dev/multi_cnn/method_fig_1.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/dev/multi_cnn/method_fig_1.png
+  teaser_alt: "Multichannel CNN Architecture for Gas Mixture Classification"
 images_gallery:
   - url: /assets/images/dev/multi_cnn/method_fig_1.png
     image_path: /assets/images/dev/multi_cnn/method_fig_1.png

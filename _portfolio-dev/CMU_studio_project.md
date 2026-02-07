@@ -4,10 +4,12 @@ author_profile: false
 classes: wide
 
 title: "CMU Studio Project: Conversational Chatbot"
+excerpt: "Conversational AI chatbot system developed at Carnegie Mellon University using ParlAI framework. Led team project in end-to-end design with Python, Django, and AWS deployment."
 header:
 #  image: /assets/images/dev/chatbot/chatbot_free-talking.png
   teaser: /assets/images/dev/chatbot/chatbot_free-talking-th.png
-  og_image: /assets/images/unsplash-image.jpg
+  og_image: /assets/images/dev/chatbot/chatbot_free-talking-th.png
+  teaser_alt: "CMU Studio Project: Conversational Chatbot Architecture"
 images_gallery:
 #  - url: /assets/images/dev/chatbot/chatbot_free-talking.png
 #    image_path: /assets/images/dev/chatbot/chatbot_free-talking.png

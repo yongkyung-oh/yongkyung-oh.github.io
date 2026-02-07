@@ -4,9 +4,11 @@ layout: single
 permalink: /research/
 author_profile: true
 classes: wide
+excerpt: "Latest research on trustworthy AI, neural differential equations, and digital healthcare. CHIL 2025 Best Paper Award winner and ICLR 2024 Spotlight presenter with focus on medical time series analysis and robust AI methodologies."
 header:
-  teaser: /assets/images/unsplash-image.jpg
-  og_image: /assets/images/unsplash-image.jpg
+  teaser: /assets/images/Pic.jpg
+  og_image: /assets/images/Pic.jpg
+  teaser_alt: "YongKyung Oh research on neural differential equations and trustworthy AI"
 ---
 
 --------------------
