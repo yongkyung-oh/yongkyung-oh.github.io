@@ -30,7 +30,11 @@ if (failures.length === 0) {
     failures.push("User-page deployment should not set Astro base; remove base for yongkyung-oh.github.io");
   }
   requireText("package.json", /"build":\s*"[^"]*astro check[^"]*astro build/, "package.json build must run astro check and astro build");
-  requireText(".github/workflows/deploy.yml", /branches:\s*\[main\]/, "Deploy workflow should trigger on main");
+  requireText(
+    ".github/workflows/deploy.yml",
+    /branches:\s*\[(?:main,\s*master|master,\s*main)\]/,
+    "Deploy workflow should trigger on both main and master so the current legacy-repo branch can deploy"
+  );
   requireText(".github/workflows/deploy.yml", /uses:\s*withastro\/action@v6/, "Deploy workflow must use withastro/action@v6");
   requireText(".github/workflows/deploy.yml", /uses:\s*actions\/deploy-pages@v5/, "Deploy workflow must use actions/deploy-pages@v5");
   requireText(".github/workflows/deploy.yml", /pages:\s*write/, "Deploy workflow must request pages: write");
@@ -54,7 +58,9 @@ if (existsSync(path.join(repoRoot, ".git"))) {
       cwd: repoRoot,
       encoding: "utf8"
     }).trim();
-    if (branch && branch !== "main") warnings.push(`Current branch is ${branch}; deploy workflow triggers main`);
+    if (branch && !["main", "master"].includes(branch)) {
+      warnings.push(`Current branch is ${branch}; deploy workflow triggers main/master`);
+    }
   } catch {
     warnings.push("Git repo exists but current branch could not be read");
   }
