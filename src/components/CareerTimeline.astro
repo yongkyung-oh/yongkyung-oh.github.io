@@ -1,0 +1,26 @@
+---
+import type { CareerRecord } from "../data/career";
+
+interface Props {
+  records: CareerRecord[];
+}
+
+const { records } = Astro.props;
+---
+
+<ol class="rec-record-list">
+  {records.map((record) => (
+    <li>
+      <div class="rec-record-meta">
+        <span>{record.period}</span>
+        <span>{record.location}</span>
+        <span>{record.status}</span>
+      </div>
+      <article class="rec-record-body">
+        <h2>{record.title}</h2>
+        <p><strong>{record.organization}</strong>{record.unit ? ` · ${record.unit}` : ""}</p>
+        {record.summary.map((item) => <p>{item}</p>)}
+      </article>
+    </li>
+  ))}
+</ol>

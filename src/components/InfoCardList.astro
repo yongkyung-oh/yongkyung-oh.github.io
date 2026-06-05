@@ -1,0 +1,23 @@
+---
+export type InfoCard = {
+  title: string;
+  text: string;
+  eyebrow?: string;
+};
+
+interface Props {
+  items: InfoCard[];
+}
+
+const { items } = Astro.props;
+---
+
+<div class="rec-grid rec-grid-fit">
+  {items.map((item) => (
+    <article class="rec-card">
+      {item.eyebrow && <p class="rec-kicker">{item.eyebrow}</p>}
+      <h2>{item.title}</h2>
+      <p>{item.text}</p>
+    </article>
+  ))}
+</div>

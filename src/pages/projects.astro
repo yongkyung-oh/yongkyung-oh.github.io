@@ -1,0 +1,50 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import PageHeader from "../components/PageHeader.astro";
+import ProjectList from "../components/ProjectList.astro";
+import PortfolioRecordList from "../components/PortfolioRecordList.astro";
+import { projects } from "../data/projects";
+import { portfolioRecords } from "../data/portfolioRecords";
+
+const development = portfolioRecords.filter((record) => record.track === "research-development");
+const consulting = portfolioRecords.filter((record) => record.track === "industry-consulting");
+---
+
+<SiteLayout
+  title="Projects"
+  description="Research software and selected verified project records."
+  current="Projects"
+>
+  <PageHeader
+    eyebrow="Projects"
+    title="Research software and applied project record."
+    lead="A structured archive for reusable code and selected applied work. Project material is shown only when it has a verified source record."
+  />
+
+  <section class="rec-section" aria-labelledby="software-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Research Software</p>
+      <h2 id="software-title">Code tied to papers and methods.</h2>
+    </div>
+    <ProjectList projects={projects} />
+  </section>
+
+  <section class="rec-section" aria-labelledby="development-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Development</p>
+      <h2 id="development-title">Selected development and research works.</h2>
+    </div>
+    <PortfolioRecordList records={development} />
+  </section>
+
+  <section class="rec-section" aria-labelledby="consulting-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Consulting</p>
+      <h2 id="consulting-title">Public-safe strategy and management work.</h2>
+    </div>
+    <PortfolioRecordList
+      records={consulting}
+      emptyMessage="No consulting records are listed on the public site yet."
+    />
+  </section>
+</SiteLayout>

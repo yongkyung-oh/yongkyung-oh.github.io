@@ -1,0 +1,24 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import PageHeader from "../components/PageHeader.astro";
+import PortfolioRecordList from "../components/PortfolioRecordList.astro";
+import { portfolioRecords } from "../data/portfolioRecords";
+
+const records = portfolioRecords.filter((record) => record.track === "research-development");
+---
+
+<SiteLayout title="Development Works" description="Selected development and research works." current="Projects">
+  <PageHeader
+    eyebrow="Archive"
+    title="Development and research works."
+    lead="Development entries are listed here only when they are backed by verified source records."
+  />
+
+  <section class="rec-section" aria-labelledby="development-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Development</p>
+      <h2 id="development-title">Research and development project summaries.</h2>
+    </div>
+    <PortfolioRecordList records={records} />
+  </section>
+</SiteLayout>

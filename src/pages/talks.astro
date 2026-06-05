@@ -1,0 +1,26 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import PageHeader from "../components/PageHeader.astro";
+import TalkList from "../components/TalkList.astro";
+import { talks } from "../data/talks";
+---
+
+<SiteLayout
+  title="Talks"
+  description="Selected invited talks, conference presentations, and workshop presentations."
+  current="Talks"
+>
+  <PageHeader
+    eyebrow="Talks"
+    title="Talks and presentations."
+    lead="A selected record of invited talks, conference presentations, and workshop presentations. The full historical list should be generated from the structured record export before expansion."
+  />
+
+  <section class="rec-section" aria-labelledby="talks-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Selected Record</p>
+      <h2 id="talks-title">Recent talks with public links where available.</h2>
+    </div>
+    <TalkList talks={talks} />
+  </section>
+</SiteLayout>

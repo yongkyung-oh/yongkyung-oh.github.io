@@ -1,0 +1,22 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import PageHeader from "../components/PageHeader.astro";
+import TalkList from "../components/TalkList.astro";
+import { talks } from "../data/talks";
+---
+
+<SiteLayout title="Presentations" description="Selected talks and presentation record." current="Talks">
+  <PageHeader
+    eyebrow="Presentations"
+    title="Presentations are now organized under Talks."
+    lead="Selected talks and presentations are listed here using the same data as the Talks page."
+  />
+
+  <section class="rec-section" aria-labelledby="presentations-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Talks</p>
+      <h2 id="presentations-title">Selected talks and presentations.</h2>
+    </div>
+    <TalkList talks={talks} />
+  </section>
+</SiteLayout>

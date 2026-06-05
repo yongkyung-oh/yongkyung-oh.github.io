@@ -1,0 +1,38 @@
+---
+import type { PortfolioRecord } from "../data/portfolioRecords";
+
+interface Props {
+  records: PortfolioRecord[];
+  emptyMessage?: string;
+}
+
+const { records, emptyMessage = "No verified records are included in the current launch scope." } = Astro.props;
+---
+
+{records.length ? (
+  <div class="rec-grid rec-grid-fit">
+    {records.map((record) => (
+      <article class="rec-card">
+        <p class="rec-kicker">{record.organization}</p>
+        <h2>{record.title}</h2>
+        <div class="rec-record-kv">
+          <span>{record.role}</span>
+          {record.period && <span>{record.period}</span>}
+          {record.location && <span>{record.location}</span>}
+        </div>
+        <p>{record.summary}</p>
+        {record.links?.length ? (
+          <div class="rec-record-links">
+            {record.links.map((link) => (
+              <a href={link.href} target="_blank" rel="noopener">{link.label}</a>
+            ))}
+          </div>
+        ) : null}
+      </article>
+    ))}
+  </div>
+) : (
+  <div class="rec-panel">
+    <p>{emptyMessage}</p>
+  </div>
+)}

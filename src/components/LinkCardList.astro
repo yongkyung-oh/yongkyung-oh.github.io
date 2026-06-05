@@ -1,0 +1,30 @@
+---
+export type LinkCard = {
+  label: string;
+  href: string;
+  detail: string;
+};
+
+interface Props {
+  links: LinkCard[];
+}
+
+const { links } = Astro.props;
+---
+
+<div class="rec-grid rec-grid-fit">
+  {links.map((link) => (
+    <article class="rec-card">
+      <h2>
+        <a
+          href={link.href}
+          target={link.href.startsWith("mailto:") ? undefined : "_blank"}
+          rel={link.href.startsWith("mailto:") ? undefined : "noopener"}
+        >
+          {link.label}
+        </a>
+      </h2>
+      <p>{link.detail}</p>
+    </article>
+  ))}
+</div>

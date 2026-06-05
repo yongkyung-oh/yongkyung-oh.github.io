@@ -1,0 +1,19 @@
+---
+import type { NewsItem } from "../data/news";
+
+interface Props {
+  items: NewsItem[];
+}
+
+const { items } = Astro.props;
+---
+
+<div class="rec-news">
+  {items.map((item) => (
+    <article>
+      <time datetime={item.date}>{item.dateLabel ?? item.date}</time>
+      <h2><a href={item.href}>{item.title}</a></h2>
+      <p>{item.text}</p>
+    </article>
+  ))}
+</div>

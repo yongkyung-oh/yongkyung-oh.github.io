@@ -1,0 +1,21 @@
+---
+import { profile } from "../data/site";
+---
+
+<div class="rec-grid rec-grid-fit">
+  <article class="rec-card">
+    <h2>Current role</h2>
+    <p>{profile.role}</p>
+    <p>{profile.affiliation}</p>
+  </article>
+  <article class="rec-card">
+    <h2>Location</h2>
+    <p>{profile.location}</p>
+  </article>
+  <article class="rec-card">
+    <h2>Research themes</h2>
+    <ul class="rec-tags">
+      {profile.themes.map((theme) => <li>{theme}</li>)}
+    </ul>
+  </article>
+</div>
