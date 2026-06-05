@@ -1,0 +1,72 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import PageHeader from "../components/PageHeader.astro";
+import ProfileSummary from "../components/ProfileSummary.astro";
+import RecognitionList from "../components/RecognitionList.astro";
+import CareerTimeline from "../components/CareerTimeline.astro";
+import EducationList from "../components/EducationList.astro";
+import GrantList from "../components/GrantList.astro";
+import PatentList from "../components/PatentList.astro";
+import { profile } from "../data/site";
+import { career } from "../data/career";
+import { education } from "../data/education";
+import { grants } from "../data/grants";
+import { patents } from "../data/patents";
+import { recognitions } from "../data/derived";
+---
+
+<SiteLayout title="About" description={profile.summary} current="About">
+  <PageHeader
+    eyebrow="About"
+    title={profile.name}
+    lead={`${profile.role}, ${profile.affiliation}. ${profile.summary}`}
+  />
+
+  <section class="rec-section" aria-labelledby="profile-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Profile</p>
+      <h2 id="profile-title">Current role and research themes.</h2>
+    </div>
+    <ProfileSummary />
+  </section>
+
+  <section class="rec-section" aria-labelledby="career-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Career</p>
+      <h2 id="career-title">Appointments and research roles.</h2>
+    </div>
+    <CareerTimeline records={career} />
+  </section>
+
+  <section class="rec-section" aria-labelledby="education-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Education</p>
+      <h2 id="education-title">Verified degree records.</h2>
+    </div>
+    <EducationList records={education} />
+  </section>
+
+  <section class="rec-section" aria-labelledby="funding-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Funding</p>
+      <h2 id="funding-title">Selected fellowships and supported programs.</h2>
+    </div>
+    <GrantList grants={grants} />
+  </section>
+
+  <section class="rec-section" aria-labelledby="recognition-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Recognition</p>
+      <h2 id="recognition-title">Awards and selected recognitions.</h2>
+    </div>
+    <RecognitionList recognitions={recognitions} />
+  </section>
+
+  <section class="rec-section" aria-labelledby="patent-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Patents</p>
+      <h2 id="patent-title">Selected invention records.</h2>
+    </div>
+    <PatentList patents={patents} />
+  </section>
+</SiteLayout>

@@ -1,0 +1,60 @@
+---
+import type { Publication, PublicationLink } from "../data/publications";
+import { shortVenue } from "../data/derived";
+
+interface Props {
+  publications: Publication[];
+  limit?: number;
+}
+
+const { publications, limit } = Astro.props;
+const visible = typeof limit === "number" ? publications.slice(0, limit) : publications;
+const linkOrder: PublicationLink["label"][] = ["Paper", "Proceedings", "DOI", "Preprint", "Code"];
+const orderedLinks = (links: PublicationLink[]) =>
+  [...links].sort((a, b) => linkOrder.indexOf(a.label) - linkOrder.indexOf(b.label));
+const citation = (pub: Publication) => {
+  const venueYear = `${shortVenue(pub)} · ${pub.year}`;
+  return pub.apaDetails ? `${venueYear} · ${pub.apaDetails}` : venueYear;
+};
+const statusLabel = (status: Publication["status"]) => {
+  if (status === "accepted") return "Accepted";
+  if (status === "in_press") return "In press";
+  if (status === "preprint") return "Preprint";
+  return "Published";
+};
+---
+
+<ol class="rec-publist">
+  {
+    visible.map((pub, index) => (
+      <li
+        data-pub-kind={pub.kind ?? "publication"}
+        data-pub-status={pub.status ?? "published"}
+        data-pub-featured={pub.featured ? "true" : "false"}
+      >
+        <span class="rec-rowno">{String(index + 1).padStart(2, "0")}</span>
+        <div class="rec-pubmain">
+          <h2>{pub.title}</h2>
+          <p>{pub.apaAuthors ?? pub.authors}</p>
+          <p class="rec-citation">{citation(pub)}</p>
+        </div>
+        <div class="rec-pubmeta">
+          <span>{pub.kind ?? "publication"}</span>
+          <span>{statusLabel(pub.status)}</span>
+          {pub.displayNote && <strong>{pub.displayNote}</strong>}
+          {
+            pub.links.length ? (
+              <div class="rec-linkrow">
+                {orderedLinks(pub.links).map((link) => (
+                  <a href={link.href} target="_blank" rel="noopener">{link.label}</a>
+                ))}
+              </div>
+            ) : (
+              <span class="rec-linkpending">Links pending</span>
+            )
+          }
+        </div>
+      </li>
+    ))
+  }
+</ol>

@@ -1,0 +1,33 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import PageHeader from "../components/PageHeader.astro";
+import LinkCardList, { type LinkCard } from "../components/LinkCardList.astro";
+import { profile } from "../data/site";
+
+const emailDisplay = profile.email.replace(/^mailto:/, "");
+const personalEmailDisplay = profile.personalEmail.replace(/^mailto:/, "");
+const links: LinkCard[] = [
+  { label: "Email", href: profile.email, detail: emailDisplay },
+  { label: "Alternate Email", href: profile.personalEmail, detail: personalEmailDisplay },
+  { label: "Google Scholar", href: profile.scholarUrl, detail: "scholar.google.com" },
+  { label: "GitHub", href: profile.githubUrl, detail: "github.com/yongkyung-oh" },
+  { label: "LinkedIn", href: profile.linkedinUrl, detail: "linkedin.com/in/yongkyung-oh" },
+  { label: "CV", href: profile.cvUrl, detail: "Curriculum vitae" }
+];
+---
+
+<SiteLayout title="Contact" description="Contact links for YongKyung Oh." current="Contact">
+  <PageHeader
+    eyebrow="Contact"
+    title="Direct contact and public profiles."
+    lead={`Use email for direct contact. Public research profiles are linked for publication and software context.`}
+  />
+
+  <section class="rec-section" aria-labelledby="contact-title">
+    <div class="rec-section-head">
+      <p class="rec-kicker">Links</p>
+      <h2 id="contact-title">{emailDisplay}</h2>
+    </div>
+    <LinkCardList links={links} />
+  </section>
+</SiteLayout>

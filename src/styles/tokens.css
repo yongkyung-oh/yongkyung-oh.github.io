@@ -1,0 +1,165 @@
+/* =============================================================
+   tokens.css — single source of truth for color, type, space.
+   Authoritative spec: ../../DESIGN.md (§ Design tokens).
+
+   Color model = DEVICE-PREFERENCE light/dark:
+     1. :root                                  → light defaults
+     2. @media (prefers-color-scheme: dark)    → automatic dark (no JS)
+     3. :root[data-theme="light"|"dark"]       → manual override (optional toggle)
+
+   RULES (enforced in review):
+   - Components reference SEMANTIC tokens only (var(--text), var(--accent)…).
+     Never hard-code hex in component CSS.
+   - A per-variant/visual-language file may override ONLY --accent and
+     --accent-contrast (in all 4 layers). It must not redefine any other token.
+   - Every text/surface pair must stay ≥ 4.5:1 (AA) in BOTH modes.
+   ============================================================= */
+
+/* ── 1. LIGHT (default) — "Atlas Ledger" base visual language ── */
+:root {
+  color-scheme: light dark;
+
+  /* surfaces */
+  --bg: #f3f0ea;            /* page canvas (graphite paper) */
+  --surface: #fffdf8;       /* elevated card / panel */
+  --surface-2: #ebe4d8;     /* recessed / secondary surface */
+  --surface-invert: #1b2229;/* dark band sections / graphite */
+
+  /* text */
+  --text: #111820;          /* body — high contrast on --bg */
+  --text-muted: #5f696b;    /* caption/secondary — AA on --bg */
+  --text-on-invert: #f3f0ea;/* text on --surface-invert */
+
+  /* structure */
+  --line: #d8d0c5;          /* hairlines, dividers, borders */
+
+  /* accent — the ONE swappable axis per visual language */
+  --accent: #7b622f;        /* brass — AA on --bg and --surface */
+  --accent-contrast: #ffffff;/* text/icon ON an --accent-filled surface */
+
+  /* visualization */
+  --viz-1: #536b70;         /* steel signal trace */
+  --viz-2: #53645c;         /* sage signal trace */
+
+  /* interaction */
+  --focus: #1f6fd6;         /* focus ring — strong blue, mode-independent */
+
+  /* type */
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* type scale (size / line-height) */
+  --text-xs: 0.72rem;       /* mono kicker / labels (line 1.4) */
+  --text-sm: 0.875rem;      /* caption / footnote (1.5) */
+  --text-base: 1rem;        /* body (1.65) */
+  --text-lg: 1.2rem;        /* lead paragraph (1.5) */
+  --text-xl: 1.5rem;        /* section heading (1.3) */
+  --text-2xl: 2rem;         /* page heading (1.15) */
+  --text-3xl: clamp(2.6rem, 6vw, 3.6rem); /* home hero display only (1.02) */
+
+  /* spacing scale (4px base) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  /* layout */
+  --max: 1180px;            /* max content width */
+  --measure: 72ch;          /* prose column max */
+  --gutter: clamp(18px, 4vw, 40px); /* page horizontal padding */
+  --radius: 8px;            /* default corner radius (cards) */
+}
+
+/* ── 2. AUTOMATIC DARK (follows the OS / device setting) ─────── */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --bg: #101216;
+    --surface: #171b20;
+    --surface-2: #202630;
+    --surface-invert: #f2f4ef;
+
+    --text: #f2f4ef;
+    --text-muted: #aeb7b2;
+    --text-on-invert: #101216;
+
+    --line: #303842;
+
+    --accent: #d3ae69;
+    --accent-contrast: #101216;
+    --viz-1: #8ea5b0;
+    --viz-2: #94b1a2;
+
+    --focus: #6ea8fe;
+  }
+}
+
+/* ── 3 & 4. MANUAL OVERRIDE (icon-only light/dark toggle) ────── */
+/* Force light */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f3f0ea;
+  --surface: #fffdf8;
+  --surface-2: #ebe4d8;
+  --surface-invert: #1b2229;
+  --text: #111820;
+  --text-muted: #5f696b;
+  --text-on-invert: #f3f0ea;
+  --line: #d8d0c5;
+  --accent: #7b622f;
+  --accent-contrast: #ffffff;
+  --viz-1: #536b70;
+  --viz-2: #53645c;
+  --focus: #1f6fd6;
+}
+/* Force dark */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #101216;
+  --surface: #171b20;
+  --surface-2: #202630;
+  --surface-invert: #f2f4ef;
+  --text: #f2f4ef;
+  --text-muted: #aeb7b2;
+  --text-on-invert: #101216;
+  --line: #303842;
+  --accent: #d3ae69;
+  --accent-contrast: #101216;
+  --viz-1: #8ea5b0;
+  --viz-2: #94b1a2;
+  --focus: #6ea8fe;
+}
+
+/* ── Base element defaults (consume tokens only) ─────────────── */
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.65;
+}
+a { color: var(--accent); }
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+img, svg { display: block; max-width: 100%; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

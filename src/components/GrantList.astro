@@ -1,0 +1,26 @@
+---
+import type { Grant } from "../data/grants";
+
+interface Props {
+  grants: Grant[];
+}
+
+const { grants } = Astro.props;
+---
+
+<ol class="rec-record-list">
+  {grants.map((grant) => (
+    <li>
+      <div class="rec-record-meta">
+        <span>{grant.period}</span>
+        <span>{grant.role}</span>
+        {grant.host && <span>{grant.host}</span>}
+      </div>
+      <article class="rec-record-body">
+        <h2>{grant.title}</h2>
+        <p>{grant.funder}</p>
+        {grant.projectTitle && <p>{grant.projectTitle}</p>}
+      </article>
+    </li>
+  ))}
+</ol>

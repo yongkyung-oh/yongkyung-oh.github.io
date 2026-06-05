@@ -1,0 +1,58 @@
+---
+import type { Project } from "../data/projects";
+import { publications, type Publication, type PublicationLink } from "../data/publications";
+import { shortVenue } from "../data/derived";
+
+interface Props {
+  projects: Project[];
+}
+
+const { projects } = Astro.props;
+const publicationById = new Map(publications.map((publication) => [publication.id, publication]));
+const linkOrder: PublicationLink["label"][] = ["Paper", "Proceedings", "DOI", "Preprint", "Code"];
+const primaryLink = (links: PublicationLink[]) => {
+  for (const label of linkOrder) {
+    const found = links.find((link) => link.label === label);
+    if (found) return found;
+  }
+  return links[0];
+};
+const relatedPublications = (ids: string[] = []): Publication[] =>
+  ids.map((id) => publicationById.get(id)).filter((publication): publication is Publication => Boolean(publication));
+---
+
+<div class="rec-grid rec-grid-fit">
+  {projects.map((project) => (
+    <article class="rec-card">
+      <p class="rec-kicker">{project.area}</p>
+      <h2><a href={project.href} target="_blank" rel="noopener">{project.name}</a></h2>
+      <p>{project.summary}</p>
+      <ul class="rec-tags">
+        <li>{project.track}</li>
+        <li>{project.status}</li>
+      </ul>
+      {
+        project.relatedPublicationIds?.length ? (
+          <div class="rec-related">
+            <p class="rec-kicker">Related papers</p>
+            <ul>
+              {relatedPublications(project.relatedPublicationIds).map((publication) => {
+                const link = primaryLink(publication.links);
+                return (
+                  <li>
+                    <span>{shortVenue(publication)}</span>
+                    {link ? (
+                      <a href={link.href} target="_blank" rel="noopener">{publication.title}</a>
+                    ) : (
+                      <span>{publication.title}</span>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ) : null
+      }
+    </article>
+  ))}
+</div>

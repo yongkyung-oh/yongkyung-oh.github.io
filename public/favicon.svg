@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="YO">
+  <rect width="64" height="64" rx="13" fill="#245f73" />
+  <text x="32" y="43" text-anchor="middle" font-family="'Source Sans 3', 'Inter', system-ui, sans-serif" font-size="30" font-weight="700" fill="#ffffff">YO</text>
+</svg>

@@ -1,36 +1,7 @@
-# Vim
-*~
-*.sw[p_]
-
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
-
-# Ruby Gem
-*.gem
-.bundle
-Gemfile.lock
-**/vendor/bundle
-
-# Node.js and NPM
-node_modules
-npm-debug.log*
-package-lock.json
-codekit-config.json
-
-# macOS
+node_modules/
+dist/
+.astro/
+qc/
 .DS_Store
-
-# Jekyll generated files
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-
-# Local Analysis
-_local_analysis/
-
-# Claude Code
-CLAUDE.md
-.claude/
+npm-debug.log*
+CUTOVER_*.md
