@@ -35,6 +35,16 @@ if (failures.length === 0) {
     /branches:\s*\[(?:main,\s*master|master,\s*main)\]/,
     "Deploy workflow should trigger on both main and master so the current legacy-repo branch can deploy"
   );
+  requireText(
+    ".github/workflows/deploy.yml",
+    /pull_request:\s*\n\s*branches:\s*\[(?:main,\s*master|master,\s*main)\]/,
+    "Deploy workflow should run the build job on pull requests to main/master for review-branch checks"
+  );
+  requireText(
+    ".github/workflows/deploy.yml",
+    /deploy:\s*\n\s*if:\s*github\.event_name\s*!=\s*'pull_request'/,
+    "Deploy workflow must skip the deploy job on pull_request events"
+  );
   requireText(".github/workflows/deploy.yml", /uses:\s*withastro\/action@v6/, "Deploy workflow must use withastro/action@v6");
   requireText(".github/workflows/deploy.yml", /uses:\s*actions\/deploy-pages@v5/, "Deploy workflow must use actions/deploy-pages@v5");
   requireText(".github/workflows/deploy.yml", /pages:\s*write/, "Deploy workflow must request pages: write");

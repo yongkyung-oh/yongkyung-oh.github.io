@@ -58,7 +58,8 @@ npm run preview
 ## Deploy (GitHub Pages)
 
 `.github/workflows/deploy.yml` builds with `withastro/action` and publishes via `actions/deploy-pages`
-on push to `main`. In the repo: **Settings → Pages → Source = GitHub Actions**.
+on push to `main` or `master`. Pull requests into `main`/`master` run the build job only; the deploy job is skipped
+for PR events. In the repo: **Settings → Pages → Source = GitHub Actions**.
 
 Current local topology:
 
@@ -115,3 +116,7 @@ unless referenced by the current MVP.
 See `../docs/portfolio-deploy-cutover.md` for the live-site cutover runbook. As of 2026-06-05, the live
 `https://yongkyung-oh.github.io` URL still serves the legacy Jekyll site; do not claim deployment completion until the
 live URL shows the Astro navigation and GitHub Actions Pages deploy is green.
+
+Before UI or IA changes, read `DESIGN.md` and `../docs/portfolio-dev-agent-direction.md`. DMQA-class Korean lab-site
+structure is adopted as taxonomy and future IA only: the current rendered site stays a single honest postdoc profile
+with no lab/team/"we"/stats/mascot/recruiting surface until real verified content exists.
