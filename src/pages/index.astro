@@ -17,7 +17,7 @@ const years = [...new Set(cv.publications.map((paper) => paper.year))].sort((a, 
 const latestYear = years[0];
 const recentPapers = cv.publications.filter((paper) => paper.year === latestYear);
 const earlierYears = years.slice(1);
-if (identity.major !== editorial.affiliation.expectedOfficialMajor) throw new Error('Official major changed: review docs/AFFILIATION.md before updating the appointment.');
+if (identity.major !== editorial.affiliation.expectedOfficialMajor) throw new Error('Official major changed: review the appointment before updating the profile.');
 const cvUrl = editorial.cv.url;
 // Recognition mirrors the CV subsections; `group` is the bundle sectionId carried by the adapter.
 const recognitionGroups = [{ group: 'honors', title: 'Honors' }, { group: 'honors_research_awards', title: 'Research Awards' }]

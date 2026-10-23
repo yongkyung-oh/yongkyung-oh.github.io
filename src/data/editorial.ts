@@ -1,9 +1,4 @@
-// Biography: verbatim public CV.pdf p. 1, generated 2026-10-12; identity/links and research order reviewed 2026-10-23.
-// Research Interests: reviewed display copy of ../docs/ssot/RESEARCH_FIELDS_SSOT.md §§1–2 (2026-10-08).
-// Field-level mapping and word counts: docs/CONTENT_AUDIT.md. CV facts remain in cv.generated.json.
-// Research direction and scope: docs/RESEARCH_IDENTITY.md. Bio follows the current CV.
 export const editorial = {
-  // Owner-reviewed official major in the affiliation line. See docs/AFFILIATION.md.
   affiliation: { expectedOfficialMajor: 'Data Science Major' },
   lab: { url: 'https://scientific-inference-lab.github.io/' },
   cv: { url: 'https://drive.google.com/file/d/12kr_OViGjSfBox5_kUnpnpop87liNlyV/view?usp=sharing' },
