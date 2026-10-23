@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+qc/
+*.log
+.DS_Store
+__pycache__/
+
+# Local agent configuration may contain machine-specific settings or tokens.
+/CLAUDE.local.md
+/.codex/
+/.cursor/
+/.gemini/
+/.mcp.json
+
+# Internal agent/review material — not part of the published site.
+# Kept local so the repo carries only what builds and serves the page.
+.claude/
+CLAUDE.md
+AGENTS.md
+docs/
+
+# Internal design decisions stay local; only machine-readable palette values are published.
+/DESIGN.md

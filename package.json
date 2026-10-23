@@ -1,0 +1,32 @@
+{
+  "name": "yongkyung-oh-personal-cv",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1 --port 4400",
+    "check": "astro check",
+    "build": "npm run check && astro build && node scripts/check-build.mjs",
+    "preview": "astro preview --background --host 127.0.0.1 --port 4400",
+    "preview:status": "astro preview status",
+    "preview:stop": "astro preview stop",
+    "sync:cv": "node scripts/sync-cv.mjs",
+    "verify": "node scripts/verify.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/public-sans": "^5.2.0",
+    "@fontsource-variable/source-serif-4": "^5.3.0",
+    "@lucide/astro": "1.42.0",
+    "@tailwindcss/vite": "4.3.3",
+    "astro": "7.3.6",
+    "tailwindcss": "4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "typescript": "6.0.3"
+  }
+}

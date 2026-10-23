@@ -1,0 +1,224 @@
+/* Automatic source detection scanned docs and generated JSON, so prose words such as
+   "sticky" or "com" leaked into the emitted CSS. Only the .astro templates use utilities. */
+@import 'tailwindcss' source(none);
+@source '../pages/**/*.astro';
+@source '../components/**/*.astro';
+
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2') format('woff2');
+}
+
+@theme {
+  --color-paper: #181b1a;
+  --color-ink: #e9e7e1;
+  --color-muted: #adb5af;
+  --color-rule: #3a433e;
+  /* Presentation Quarto blue (#0075b1), tinted with 45% white for dark-mode contrast. */
+  --color-accent: #73b3d4;
+  --font-sans: 'Public Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+}
+
+:root { --gutter: clamp(20px, 5vw, 64px); --content-max: 53rem; color-scheme: dark; }
+html { scroll-behavior: auto; scroll-padding-top: 1.5rem; }
+/* The device preference decides the palette (spec 013). Dark is the authored base in @theme;
+   this block is the light override. No manual toggle: see DESIGN.md §1. */
+@media (prefers-color-scheme: light) {
+  :root { --color-paper: #fafaf8; --color-ink: #171717; --color-muted: #62625c; --color-rule: #ddded6; --color-accent: #0075b1; color-scheme: light; }
+}
+body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-family: var(--font-serif); font-size: 1.0625rem; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+::selection { background: var(--color-accent); color: var(--color-paper); }
+a { color: var(--color-accent); text-decoration: none; text-underline-offset: .2em; }
+a:hover { text-decoration: underline; }
+a, button, summary { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }
+button { font: inherit; }
+[hidden] { display: none !important; }
+h1, h2, h3, h4, p { margin: 0; }
+svg { flex-shrink: 0; }
+.document { width: min(100% - 2 * var(--gutter), 1040px); margin: 0 auto; padding-top: 3.75rem; }
+/* 404.html (spec 021): no header container, so the h1 gets a fixed size instead of the cqi rule. */
+.not-found { max-width: 40rem; padding-bottom: 3.75rem; }
+.not-found h1 { font-size: 2.25rem; margin-bottom: 1rem; }
+.not-found p + p { margin-top: .75rem; }
+.skip-link { position: fixed; top: .5rem; left: -10000px; padding: .6rem 1rem; background: var(--color-ink); color: var(--color-paper); z-index: 10; font-family: var(--font-sans); }
+.skip-link:focus { left: .5rem; }
+#main:focus { outline: none; }
+/* `container-type` lets the name size itself against this box (see h1 below). */
+.identity-heading { display: grid; grid-template-columns: minmax(0, 1fr) 224px; grid-template-areas: 'name photo' 'appointment photo' 'affiliation photo' 'email photo' 'links photo'; align-items: start; column-gap: 2rem; container-type: inline-size; }
+.identity-heading h1 { grid-area: name; }
+.identity-heading > div { min-width: 0; max-width: 100%; }
+.portrait { grid-area: photo; display: block; width: 224px; height: 224px; }
+/* 3rem at the default font size. Only when the text is enlarged (rem grows, the column does not)
+   does the second declaration shrink the name so "YongKyung" (5.15em wide) fits its column:
+   18% of the name column (container minus the 224px portrait and the 2rem gap) keeps the word at
+   ≤ 93% of the column. `overflow-wrap: anywhere` stays as the fallback without `cqi` support. */
+h1 { font-size: 3rem; font-size: min(3rem, calc((100cqi - 224px - 2rem) * .18)); line-height: 1.15; font-weight: 550; letter-spacing: -.04em; overflow-wrap: anywhere; }
+.appointment { grid-area: appointment; font-family: var(--font-sans); font-size: .95rem; line-height: 1.7; margin-top: .8rem; }
+.header-cv { font-family: var(--font-sans); display: inline-flex; align-items: center; font-size: .8125rem; min-height: 44px; }
+.file-type { font-size: .75rem; color: var(--color-muted); margin-left: .3rem; }
+.affiliation { grid-area: affiliation; color: var(--color-muted); font-size: .98rem; line-height: 1.5; margin-top: .65rem; }
+.header-email { grid-area: email; width: fit-content; margin-top: .2rem; font: .8125rem/1.6 var(--font-sans); overflow-wrap: anywhere; }
+.profile-links { grid-area: links; display: flex; flex-wrap: wrap; align-items: center; column-gap: 1.25rem; font-family: var(--font-sans); margin-top: .45rem; font-size: .8125rem; }
+.profile-links a { display: inline-flex; align-items: center; min-height: 44px; overflow-wrap: anywhere; }
+.cv-nav { border-top: 1px solid var(--color-rule); border-bottom: 1px solid var(--color-rule); margin-top: 1.1rem; font: .8125rem/1.5 var(--font-sans); padding-block: .2rem; }
+.cv-nav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--color-muted); }
+.cv-nav a:hover { color: var(--color-accent); }
+/* Bio and Research interests share the full section column and the same justification (owner decision 2026-10-02).
+   No ch cap: at 848px the Bio drops to 1.45x average word-space stretch (1.71x at 80ch). DESIGN.md §4, §6. */
+.bio-copy { font-size: 1.02rem; line-height: 1.75; }
+.bio-copy p, .interest-list li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; hyphenate-limit-chars: 6 3 3; }
+.bio-copy p + p { margin-top: .85rem; }
+#bio { border-top: 0; }
+.cv-section { display: grid; grid-template-columns: 10rem minmax(0, 1fr); align-items: start; gap: 2rem; border-top: 1px solid var(--color-rule); padding-block: 1.7rem; scroll-margin-top: 1rem; }
+.cv-section h2 { font: 600 .875rem/1.7 var(--font-sans); padding-top: .15rem; max-width: 10rem; position: sticky; top: 1rem; }
+.interest-list { padding: 0; margin: 0; list-style: none; font-size: 1rem; }
+.interest-list li + li { margin-top: .65rem; }
+.interest-list strong { font-weight: 600; }
+.publication-list { list-style: none; padding: 0; margin: 0; }
+.publication-list > li + li { margin-top: 1.8rem; }
+.publication-overview { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 1.5rem; }
+.publication-overview > a { font: .8125rem/1.6 var(--font-sans); min-height: 44px; display: inline-flex; align-items: center; }
+.year-heading { display: flex; align-items: baseline; gap: 1rem; font: 600 .95rem/1.6 var(--font-sans); margin-bottom: 1rem; }
+.publication-year { scroll-margin-top: 1.5rem; }
+.earlier-publications { margin-top: 1.5rem; }
+.year-index { display: flex; flex-wrap: wrap; column-gap: 1.5rem; margin-bottom: 1rem; font: .8125rem/1.6 var(--font-sans); }
+.year-index a, .back-to-years { display: inline-flex; align-items: center; min-height: 44px; }
+.back-to-years { font: .75rem/1.6 var(--font-sans); margin-block: .5rem 1.5rem; }
+.section-note { font-size: .93rem; line-height: 1.6; color: var(--color-muted); margin-bottom: .8rem; }
+.cv-disclosure { border-top: 1px solid var(--color-rule); }
+.cv-disclosure > summary { display: flex; flex-wrap: wrap; align-items: baseline; gap: .7rem; padding-block: .75rem; min-height: 48px; list-style: none; cursor: pointer; }
+.cv-disclosure > summary::-webkit-details-marker { display: none; }
+.cv-disclosure > summary::before { content: '+'; width: .7rem; flex-shrink: 0; font: 1rem/1.5 var(--font-sans); color: var(--color-accent); }
+.cv-disclosure[open] > summary::before { content: '−'; }
+.disclosure-title { font-weight: 550; line-height: 1.5; }
+.cv-disclosure > summary:hover .disclosure-title { color: var(--color-accent); }
+.disclosure-count { font: .8125rem/1.6 var(--font-sans); color: var(--color-muted); margin-left: auto; white-space: nowrap; }
+.cv-disclosure > .publication-list, .cv-disclosure > .career-list, .cv-disclosure > .earlier-content, .cv-disclosure > .recognition-groups { padding-block: .65rem 1.5rem; }
+/* Longer summaries ("11 distinctions · 2015–2026") must wrap rather than overflow at 320px / 200% text. */
+.recognition-disclosure .disclosure-count, .patents-disclosure .disclosure-count { white-space: normal; }
+.recognition-disclosure, .patents-disclosure { margin-top: 1.5rem; }
+.recognition-group + .recognition-group { margin-top: 1.5rem; }
+.earlier-experience { margin-top: 1.5rem; }
+.earlier-experience .disclosure-title { font-size: .95rem; }
+.paper { scroll-margin-top: 2rem; }
+.paper-title { font-size: 1.14rem; line-height: 1.48; font-weight: 550; }
+.authors { font-size: .95rem; color: var(--color-muted); line-height: 1.6; margin-top: .3rem; }
+.authors strong { font-weight: 550; color: var(--color-ink); }
+.authors sup { font-size: .65rem; padding-left: .05rem; }
+.publication-meta { margin-top: .15rem; font-size: .925rem; }
+.venue { font-weight: 550; }
+.publication-note { font-weight: 550; }
+.paper-actions { display: flex; flex-wrap: wrap; gap: 0 1.1rem; align-items: start; font: .8125rem/1.6 var(--font-sans); }
+.paper-actions > a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline; text-decoration-color: currentColor; }
+.citation { flex: 0 0 100%; min-width: 0; }
+/* The APA toggle sits in the action row next to Paper/Preprint/Code, and the opened citation spans
+   the full row below it (the al-folio Abs/Bib pattern). Two stacked 44px targets made the toggle a
+   row of its own: 30px inside an entry vs 44px between entries (1.47x). In one row it is 16px vs
+   44px (2.76x). Browsers without ::details-content (Baseline 2025) keep the stacked fallback above. */
+@supports selector(::details-content) {
+  .citation { display: contents; }
+  .citation::details-content { flex: 0 0 100%; min-width: 0; }
+}
+.citation summary { cursor: pointer; display: inline-flex; align-items: center; gap: .3rem; min-height: 44px; list-style: none; color: var(--color-accent); }
+.citation summary::before { content: '+'; display: inline-block; width: .65rem; }
+.citation[open] summary::before { content: '−'; }
+.citation summary::-webkit-details-marker { display: none; }
+.citation summary:hover { text-decoration: underline; }
+.citation-content { width: 100%; box-sizing: border-box; margin: .2rem 0 .6rem; padding-left: .85rem; border-left: 2px solid var(--color-rule); color: var(--color-muted); font: .925rem/1.75 var(--font-serif); }
+.citation-content > p { max-width: 76ch; overflow-wrap: anywhere; }
+.author-key { font: .75rem/1.6 var(--font-sans); color: var(--color-muted); margin-bottom: 1.5rem; }
+.all-publications { font: .8125rem/1.7 var(--font-sans); display: inline-flex; align-items: center; min-height: 44px; margin-top: 1rem; text-decoration: underline; text-decoration-color: var(--color-muted); }
+.career-list { list-style: none; padding: 0; margin: 0; }
+.career-list > li + li { margin-top: 1.5rem; }
+.career-heading { display: grid; grid-template-columns: minmax(0, 1fr) max-content; align-items: start; column-gap: 1.5rem; }
+.career-heading h3 { font-size: 1.08rem; line-height: 1.5; font-weight: 550; }
+.career-date { justify-self: end; font: .8125rem/1.7 var(--font-sans); color: var(--color-muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.career-organization { font-size: 1rem; margin-top: .2rem; }
+.career-detail { color: var(--color-muted); font-size: .93rem; margin-top: .2rem; }
+.career-note { font-size: .93rem; margin-top: .35rem; }
+.recognition-list { list-style: none; padding: 0; margin: 0; }
+.email-row { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin-top: .4rem; }
+.email-link { font-size: 1rem; overflow-wrap: anywhere; min-height: 44px; display: inline-flex; align-items: center; }
+.copy-button { border: 0; width: 44px; height: 44px; display: grid; place-items: center; cursor: pointer; color: var(--color-muted); background: transparent; }
+.copy-button:hover { color: var(--color-accent); }
+.copy-button .check-icon, .copy-button.copied .copy-icon { display: none; }
+.copy-button.copied .check-icon { display: block; color: var(--color-accent); }
+.copy-status { color: var(--color-ink); font: .75rem/1.6 var(--font-sans); }
+.copy-status:empty { display: none; }
+.cv-footer { border-top: 1px solid var(--color-rule); padding-block: 1.1rem 2rem; display: flex; flex-wrap: wrap; gap: .25rem 1rem; align-items: center; justify-content: space-between; color: var(--color-muted); font: .75rem/1.7 var(--font-sans); }
+.cv-footer a { min-height: 44px; display: inline-flex; align-items: center; }
+
+/* Breakpoints are written in em (16px default = 1240px / 760px / 400px) so that a visitor who
+   enlarges only the text (browser font-size setting) gets the narrower layouts too. */
+@media (max-width: 77.5em) {
+  .cv-section { display: block; }
+  .cv-section h2 { max-width: none; margin-bottom: 1rem; position: static; }
+  .section-content { max-width: var(--content-max); }
+}
+@media (max-width: 47.5em) {
+  .document { padding-top: 2rem; }
+  .cv-header { display: flex; flex-direction: column; }
+  .identity-heading { display: grid; grid-template-columns: minmax(0, 1fr) 144px; grid-template-areas: 'name name' 'appointment appointment' 'affiliation photo' 'email photo' 'links links'; gap: .7rem 1rem; }
+  .identity-heading h1 { width: 100%; }
+  .portrait { width: 144px; height: 144px; margin-left: auto; }
+  /* The name spans the whole container here, so 18% of the container is the shrink bound. */
+  h1 { font-size: 2.15rem; font-size: min(2.15rem, 18cqi); }
+  .bio-copy p, .interest-list li { text-align: left; hyphens: manual; -webkit-hyphens: manual; }
+  .appointment { width: 100%; font-size: .9375rem; margin-top: 0; }
+  .header-cv { font-size: .8125rem; }
+  .affiliation { align-self: end; margin-top: .4rem; }
+  .header-email { align-self: start; margin-top: 0; }
+  .profile-links { width: 100%; margin-top: 0; }
+  .cv-nav { column-gap: 1rem; row-gap: 0; }
+  .cv-section { padding-block: 1.5rem; }
+  .paper-title { font-size: 1.12rem; }
+  .publication-list > li + li { margin-top: 1.6rem; }
+  .publication-meta { font-size: .9rem; }
+  .career-detail { font-size: .92rem; }
+  .career-heading { grid-template-columns: minmax(0, 1fr); row-gap: .2rem; }
+  .career-date { justify-self: start; }
+}
+/* Below 400px the column beside the 144px portrait is 120–190px: the affiliation ran to 6–7 lines
+   and the email broke inside the domain. Give the text the full width and let the portrait take
+   its own row; the portrait itself keeps its 144px size and crop (owner decision 2026-09-30). */
+@media (max-width: 25em) {
+  .identity-heading { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'name' 'appointment' 'affiliation' 'email' 'photo' 'links'; }
+  .portrait { margin-left: 0; margin-top: .3rem; }
+  .affiliation { align-self: start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+@media print {
+  html { --color-paper: #fff; --color-ink: #171717; --color-muted: #444; --color-rule: #ddd; --color-accent: #171717; color-scheme: light; }
+  body { background: white; font-size: 10pt; }
+  .document { width: 100%; padding: 0; }
+  .cv-nav, .header-cv, .copy-button, .copy-status, .cv-footer a, .paper-actions > a, .citation summary, .publication-overview > a, .year-index, .back-to-years { display: none !important; }
+  h1 { font-size: 28pt; }
+  .cv-section { grid-template-columns: 8rem minmax(0, 1fr); gap: 1.5rem; padding-block: 1rem; }
+  .paper, .career-row { break-inside: avoid; }
+  .cv-disclosure::details-content, .citation::details-content { content-visibility: visible; }
+  .citation-content { padding-left: 0; border-left: 0; }
+  .cv-disclosure > summary::before { display: none; }
+  a { color: inherit !important; }
+}

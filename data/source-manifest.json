@@ -1,0 +1,966 @@
+{
+  "schemaVersion": 2,
+  "sourceBundle": "CV_publish",
+  "sourceGeneratedAt": "2026-10-11T23:22:19-07:00",
+  "curationSha256": "fb9a250f5f130312599ec5dc0669c3de75735e4ea14596924cad26c14f8daad2",
+  "generatedDataSha256": "bdb32b8111e35589967f9b549b0818142663b4d3dca63785af7df2afde428f5c",
+  "sources": {
+    "data/publications.json": {
+      "sha256": "b6e7208b7142ac7a2bd1bba5926a57a2ee388389ba9181e2c2b640108475aced",
+      "bytes": 50356
+    },
+    "data/cv_items.json": {
+      "sha256": "286448411776139f48b594488f312ac33bd7434341bc964b3e28f05680b0bd9a",
+      "bytes": 199785
+    },
+    "data/recognitions.json": {
+      "sha256": "2b56d7eaff3ccc71bcd4dee843be0914cefc200a7653df3b2da65aae14a3cc8b",
+      "bytes": 2844
+    },
+    "manifest.yaml": {
+      "sha256": "3ba0790354945aaaa7c42775dc7bdcdf10a396b756985fb4adbd5e147028755c",
+      "bytes": 3712
+    },
+    "CV.pdf": {
+      "sha256": "40ef44baecb33692b657f86f23042cce0b0284a8cbeaedcfda7bcdf54546ce5f",
+      "bytes": 323994
+    }
+  },
+  "selected": [
+    {
+      "sourcePath": "records/publications/conference/oh_silent_2026.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Published 2026; promoted from accepted/in-press to the Zotero publication record in the A1 sync (2026-10-02). Citation and [paper] link come from the public CV export.",
+      "sourceAuthors": "Oh, YongKyung and Bui, Alex",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Alex Bui"
+      ],
+      "authorEvidence": {
+        "url": "https://doi.org/10.1145/3770855.3818661",
+        "reviewedOn": "2026-10-02",
+        "note": "Byline follows the Zotero BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_position_2026.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Published 2026; promoted from accepted/in-press to the Zotero publication record in the A1 sync (2026-10-02). Citation and [paper] link come from the public CV export.",
+      "sourceAuthors": "Oh, Yongkyung",
+      "displayAuthors": [
+        "YongKyung Oh"
+      ],
+      "authorEvidence": {
+        "url": "https://proceedings.mlr.press/v306/oh26d.html",
+        "reviewedOn": "2026-10-02",
+        "note": "Byline follows the Zotero BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_survey-aware_2026.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Published 2026; promoted from accepted/in-press to the Zotero publication record in the A1 sync (2026-10-02). Citation and [paper] link come from the public CV export.",
+      "sourceAuthors": "Oh, YongKyung and Zheng, Henry W and Feng, Jeffrey and Bui, Alex A T",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Henry W Zheng",
+        "Jeffrey Feng",
+        "Alex A T Bui"
+      ],
+      "authorEvidence": {
+        "url": "https://proceedings.mlr.press/v333/oh26a.html",
+        "reviewedOn": "2026-10-02",
+        "note": "Byline follows the Zotero BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh.",
+        "nameRule": "Achivement rule 2026-10-02: co-author names verbatim from BibTeX (public CV export / publisher BibTeX); only the owner's name is normalized to 'YongKyung Oh'.",
+        "bibtexSource": "https://proceedings.mlr.press/v333/oh26a.html (PMLR BibTeX: Oh, YongKyung and Zheng, Henry W and Feng, Jeffrey and Bui, Alex A T)"
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_flowpath_2026.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Public CV item with publisher URL and DOI. Only display-title case changes; preserve exported author roles.",
+      "sourceAuthors": "Oh, YongKyung and Lim, Dong-Young and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Dong-Young Lim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39643",
+        "reviewedOn": "2026-09-10",
+        "note": "Full author names and order match the official AAAI publisher record. Contribution markers stay attached to the original source names."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/lee_continuum_2026.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Lee, Jonghun and Oh, YongKyung and Kim, Sungil and Lim, Dong-Young",
+      "displayAuthors": [
+        "Jonghun Lee",
+        "YongKyung Oh",
+        "Sungil Kim",
+        "Dong-Young Lim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_tandem_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, Yongkyung and Lim, Dongyoung and Kim, Sungil and Bui, Alex A. T.",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Dongyoung Lim",
+        "Sungil Kim",
+        "Alex A. T. Bui"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Byline follows the BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh. Source APA initials and contribution markers are unchanged.",
+        "nameRule": "Achivement rule 2026-10-02: co-author names verbatim from BibTeX (public CV export / publisher BibTeX); only the owner's name is normalized to 'YongKyung Oh'."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_modeling_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, Yongkyung and Kam, Seungsu and Lim, Dongyoung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Seungsu Kam",
+        "Dongyoung Lim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Byline follows the BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh. Source APA initials and contribution markers are unchanged.",
+        "nameRule": "Achivement rule 2026-10-02: co-author names verbatim from BibTeX (public CV export / publisher BibTeX); only the owner's name is normalized to 'YongKyung Oh'."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_comprehensive_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kam, Seungsu and Lee, Jonghun and Lim, Dong-Young and Kim, Sungil and Bui, Alex A. T.",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Seungsu Kam",
+        "Jonghun Lee",
+        "Dong-Young Lim",
+        "Sungil Kim",
+        "Alex A. T. Bui"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_multi-view_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Public PMLR record selected; recognition is separately verified by sourcePath and award key.",
+      "sourceAuthors": "Oh, YongKyung and Bui, Alex",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Alex Bui"
+      ],
+      "authorEvidence": {
+        "url": "https://proceedings.mlr.press/v287/oh25a.html",
+        "reviewedOn": "2026-09-10",
+        "note": "Full author names and order match the PMLR record."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_deep_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kim, Sungil and Bui, Alex A. T.",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim",
+        "Alex A. T. Bui"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_dualdynamics_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Lim, Dong-Young and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Dong-Young Lim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_stable_2024.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Public OpenReview paper selected; retain equal-contribution attribution and distinguish spotlight from an award.",
+      "sourceAuthors": "Oh, YongKyung and Lim, Dongyoung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Dongyoung Lim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "url": "https://arxiv.org/abs/2402.14989",
+        "reviewedOn": "2026-09-10",
+        "note": "Byline follows the BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh. Source APA initials and contribution markers are unchanged.",
+        "nameRule": "Achivement rule 2026-10-02: co-author names verbatim from BibTeX (public CV export / publisher BibTeX); only the owner's name is normalized to 'YongKyung Oh'."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_multivariate_2022.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung",
+      "displayAuthors": [
+        "YongKyung Oh"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_multi-channel_2021.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/conference/oh_exploiting_2019.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_predicting_2026.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kwak, Jiin and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Jiin Kwak",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/xue_smokebert_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Xue, Yiming and Zhu, Yunzheng and Zhuang, Luoting and Oh, YongKyung and Taira, Ricky and Aberle, Denise R. and Prosper, Ashley Elizabeth and Hsu, William and Lin, Yannan",
+      "displayAuthors": [
+        "Yiming Xue",
+        "Yunzheng Zhu",
+        "Luoting Zhuang",
+        "YongKyung Oh",
+        "Ricky Taira",
+        "Denise R. Aberle",
+        "Ashley Elizabeth Prosper",
+        "William Hsu",
+        "Yannan Lin"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_tssi_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kim, Heeyoung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Heeyoung Kim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_taod-net_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Koh, Giheon and Kwak, Jiin and Shin, Kyubo and Kim, Gi-Soo and Lee, Min Joung and Choung, Hokyung and Kim, Namju and Moon, Jae Hoon and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Giheon Koh",
+        "Jiin Kwak",
+        "Kyubo Shin",
+        "Gi-Soo Kim",
+        "Min Joung Lee",
+        "Hokyung Choung",
+        "Namju Kim",
+        "Jae Hoon Moon",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_comparative_2025.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Yoon, Kwonin and Park, Jaemin and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Kwonin Yoon",
+        "Jaemin Park",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_multi-modal_2024.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_multichannel_2024.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Lim, Chiehyeon and Lee, Junghye and Kim, Sewon and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Chiehyeon Lim",
+        "Junghye Lee",
+        "Sewon Kim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_grid-based_2024.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_sensor_2023.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Lee, Juhui and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Juhui Lee",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_time_2023.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kwak, JiIn and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "JiIn Kwak",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/lee_quantifying_2023.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Lee, JuYeong and Kwak, JiIn and Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "JuYeong Lee",
+        "JiIn Kwak",
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_simulation-based_2021.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kim, Hanjoo and Lee, Deokjung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Hanjoo Kim",
+        "Deokjung Lee",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/publications/journal/oh_transfer_2021.yaml",
+      "recordType": "publication",
+      "verificationStatus": "partially_verified",
+      "warnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "sourceAuthors": "Oh, YongKyung and Kim, Namu and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Namu Kim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      }
+    },
+    {
+      "sourcePath": "records/career/pusan_bce_data_science_assistant_professor_2026.yaml",
+      "recordType": "career",
+      "verificationStatus": "official_public_partially_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/career/ucla_health_postdoctoral_researcher_2023.yaml",
+      "recordType": "career",
+      "verificationStatus": "evidence_partially_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/career/unist_industry_intelligentization_postdoctoral_researcher_2023.yaml",
+      "recordType": "career",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/career/unist_data_analytics_lab_graduate_researcher_2018_2023.yaml",
+      "recordType": "career",
+      "verificationStatus": "owner_confirmed_with_degree_context",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/career/cmu_intensive_ai_program_2020.yaml",
+      "recordType": "career",
+      "verificationStatus": "evidence_partially_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/career/general_motors_visiting_scientist_2017.yaml",
+      "recordType": "career",
+      "verificationStatus": "evidence_visual_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/career/accenture_korea_research_assistant_2016.yaml",
+      "recordType": "career",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/career/iaeste_kiel_research_internship_2014.yaml",
+      "recordType": "career",
+      "verificationStatus": "evidence_visual_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/education/unist_phd_industrial_engineering_2023.yaml",
+      "recordType": "education",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/education/unist_ms_technology_innovation_management_2017.yaml",
+      "recordType": "education",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/education/unist_bs_physics_2015.yaml",
+      "recordType": "education",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/grants/nvidia_academic_grant_program_2026.yaml",
+      "recordType": "grant",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/grants/nrf_postdoctoral_fellowship_2024.yaml",
+      "recordType": "grant",
+      "verificationStatus": "evidence_and_public_amount_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes. 2026-10-06: amount follows the personal NRF certificate (owner decision)."
+    },
+    {
+      "sourcePath": "records/grants/biomedical_unistar_khidi_training_program_2023.yaml",
+      "recordType": "grant",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Title and detail use the CV wording verbatim (PI direction 2026-10-02: CV is the source for all three surfaces; lab site already verbatim)."
+    },
+    {
+      "sourcePath": "records/grants/iitp_intensive_ai_training_program_2020.yaml",
+      "recordType": "grant",
+      "verificationStatus": "evidence_partially_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Title and detail use the CV wording verbatim (PI direction 2026-10-02: CV is the source for all three surfaces; lab site already verbatim)."
+    },
+    {
+      "sourcePath": "records/awards/award_cirtl_scholar_2026.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/awards/award_ucla_chancellors_2025_postdoctoral_research_nominee.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/awards/award_unist_valedictorian_2015.yaml",
+      "recordType": "award",
+      "verificationStatus": "owner_confirmed_with_degree_context",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "sourcePath": "records/awards/award_iise_esd_2026_energy_analytics_challenge_finalist.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "sourcePath": "records/awards/award_chil_2025_best_paper.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "sourcePath": "records/awards/award_iise_dais_2025_best_paper_finalist.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "User requested recent recognition. Replace 2017 FISITA in the web selection with this verified 2025 finalist record; retain nominee/finalist distinctions and do not repeat CHIL/ICLR paper honors."
+    },
+    {
+      "sourcePath": "records/awards/award_iise_dais_2024_best_paper_finalist.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle. 2026-10-06: official IISE DAIS listing title (owner decision)."
+    },
+    {
+      "sourcePath": "records/awards/award_kcc_2023_best_paper.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "sourcePath": "records/awards/award_kcc_2023_best_oral_presentation.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "sourcePath": "records/awards/award_iise_dais_2023_best_paper_finalist.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "sourcePath": "records/awards/award_iise_lsc_2021_best_paper.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "sourcePath": "records/awards/award_ulsan_development_institute_paper_competition_encouragement_2019.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_visual_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 Addendum 2 (2026-10-02): upstream wording corrected to match the certificate; moved out of recognitionsHeld. Text kept verbatim from the public CV bundle."
+    },
+    {
+      "sourcePath": "records/awards/award_dongseo_maritime_paper_competition_excellence_2019.yaml",
+      "recordType": "award",
+      "verificationStatus": "evidence_visual_user_confirmed",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 Addendum 2 (2026-10-02): upstream wording corrected to match the certificate; moved out of recognitionsHeld. Text kept verbatim from the public CV bundle."
+    },
+    {
+      "sourcePath": "records/service/service_pnu_instructor_machine_learning_2026.yaml",
+      "recordType": "service",
+      "verificationStatus": "owner_prepared_syllabus",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Owner decision 2026-10-02 (spec 022 Addendum 2): PNU teaching appears once registered upstream. Only the two PNU Instructor lines are selected; TA and other teaching/service lines stay out."
+    },
+    {
+      "sourcePath": "records/service/service_pnu_instructor_data_structure_2026.yaml",
+      "recordType": "service",
+      "verificationStatus": "owner_prepared_syllabus",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Owner decision 2026-10-02 (spec 022 Addendum 2): PNU teaching appears once registered upstream. Only the two PNU Instructor lines are selected; TA and other teaching/service lines stay out."
+    },
+    {
+      "sourcePath": "records/patents/human_activity_recognition_hybrid_fusion_2024.yaml",
+      "recordType": "patent",
+      "verificationStatus": "curated_workbook_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    },
+    {
+      "sourcePath": "records/patents/time_series_image_encoding_tssi_2022.yaml",
+      "recordType": "patent",
+      "verificationStatus": "curated_workbook_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line. 2026-10-06 owner decision: US 18/395,620 issued as US 12,725,326 B2 (USPTO Official Gazette 2026-09-01) and is now shown; the application number stays off the page. Prosecution-discontinued PCT/US filings remain excluded."
+    },
+    {
+      "sourcePath": "records/patents/road_congestion_pattern_matching_2021.yaml",
+      "recordType": "patent",
+      "verificationStatus": "curated_workbook_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    },
+    {
+      "sourcePath": "records/patents/road_congestion_transfer_entropy_2021.yaml",
+      "recordType": "patent",
+      "verificationStatus": "curated_workbook_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    },
+    {
+      "sourcePath": "records/patents/vessel_anomaly_detection_bayesian_bootstrap_2020.yaml",
+      "recordType": "patent",
+      "verificationStatus": "curated_workbook_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    },
+    {
+      "sourcePath": "records/patents/sensor_drift_compensation_2020.yaml",
+      "recordType": "patent",
+      "verificationStatus": "curated_workbook_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded. 2026-10-06: official English title (owner decision)."
+    },
+    {
+      "sourcePath": "records/patents/vessel_delay_possibility_2019.yaml",
+      "recordType": "patent",
+      "verificationStatus": "curated_workbook_verified",
+      "warnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    }
+  ]
+}

@@ -1,0 +1,1735 @@
+{
+  "schemaVersion": 2,
+  "reviewedOn": "2026-09-10",
+  "identityEvidence": {
+    "file": "CV.pdf",
+    "sha256": "40ef44baecb33692b657f86f23042cce0b0284a8cbeaedcfda7bcdf54546ce5f",
+    "note": "Public CV generated 2026-10-12 KST reviewed on 2026-10-23 for recovery publication: page 1 identity, institutional email, affiliation and profile-link annotations checked against the rendered PDF; Biography and current-appointment research interests now follow the Science -> Industrial -> Evidence -> Continuous SSOT order. Existing selected-record expectedText values remain present in the latest public bundle; no upstream records, CV or bibliography changed. Public CV recompiled 2026-10-06 (YAML audit, owner decisions): US 12,725,326 B2 granted (USPTO OG) on the TSSI patent; NRF amount now the certified KRW 57,143,000; sensor-drift patent uses its official English title; P09 and the DAIS 2024 finalist line use the official IISE title (no 'Neural CDE-Flow…' prefix); W14 and P18 status parentheticals removed. Page 1 unchanged. Earlier: Public CV recompiled 2026-10-06 (P12 DOI): [P12] Multi-Scale Transformer (IISE 2025 DAIS Best Track Paper Competition) gained a [paper] link to its IISE 2025 abstract DOI 10.21872/annual2025_6880; stays [P] (owner). Page 1 unchanged. Earlier: Public CV recompiled 2026-10-02 ([W] additions): three workshop papers added in date order and [W] renumbered — W13 NeurIPS 2025 Workshop on Generative AI in Finance, W15 SPIGM @ ICML 2026, W16 ICML 2026 Forecasting as a New Frontier of Intelligence; ProbML moved W13→W14 and AIED@KDD W14→W17 (owner decision). Workshop papers are not shown on the website. Page 1 unchanged. Earlier same day: Public CV recompiled 2026-10-02 (venue detail): C15 shows 'Blue Sky Ideas Track, Jeju Island, Republic of Korea', C14 'Position Paper Track, Seoul, Republic of Korea', C13 'Seattle, WA, USA', P17 '(2026, June) … Seoul, Republic of Korea' from evidence-backed venue_detail (official KDD/ICML/CHIL/AAAI-SS pages archived). Page 1 unchanged. Earlier same day: Public CV recompiled 2026-10-02 (A1 Zotero sync): KDD C15, ICML C14, CHIL C13 and AAAI Symposium P17 promoted from accepted/in-press to Zotero publication records (published citations, [paper] links); AAAI-26 C11/C12 keep the journal form under the Achivement AAAI venue rule. Page 1 identity text and links unchanged. Earlier same day: Public CV recompiled 2026-10-02 (W14 published): W14 now cites the CEUR proceedings (AI for Education Day at SIGKDD 2026, CEUR Workshop Proceedings Vol. 4277, published 2026-09-30) with a [paper] link; '(accepted, in press)' removed; classification stays [W] (owner). Page 1 unchanged. Earlier same day: Public CV recompiled 2026-10-02 (eighth): [P15] Singapore ACM SIGKDD Symposium 2026 poster (re-presentation of the CIKM 2025 TANDEM paper) inserted; former P15-P17 now P16-P18. Earlier: Public CV recompiled 2026-10-02 (seventh): PNU entry \"Principal Investigator, Scientific Inference Lab.\" and the tutorial subsection \"Organizer & Presenter\" (owner decisions). Earlier: Public CV recompiled 2026-10-02 (sixth): the CMU experience bullet pairs the IITP program with the English rendering of its funding line, \"Intensive Program in Artificial Intelligence (High-Potential Individuals Global Training Program)\" (owner decision). Earlier: Public CV recompiled 2026-10-02 (fifth): CMU career bullet now reads 'Recipient of a scholarship from the Intensive Program in Artificial Intelligence' — the IITP official program name; the unsourced 'Training Program' suffix was removed (Achivement program_names, owner rule: no institution-fused or expanded variants). Page 1 unchanged. Earlier same day: Public CV recompiled 2026-10-02 (fourth): Biography sentence now reads \"His earlier research experience includes General Motors (GM) and Carnegie Mellon University (CMU).\" (owner correction: Intensive AI Program is the IITP program name). Earlier: Public CV recompiled 2026-10-02 (second regeneration): degree wording aligned to the official UNIST English certificates — Bio 'a Master in Technology and Innovation Management' (was 'M.S.'), B.Sc. subtitle 'dual minors in …' (owner decision), honor 'Magna cum laude' (official transcript casing). Earlier same day: two Research Interests agenda sentences aligned to the lab programs.json agenda. Publications unchanged. Third regeneration 2026-10-02 (owner-approved): header link 'Scientific Inference Lab' and PNU experience bullet 'Leads the Scientific Inference Lab.' (href https://scientific-inference-lab.github.io/); W13 workshop title now 'Uncertainty-aware modeling of continuous-time interacting systems via relational flows' (not shown on the website); HR09 now 'Encouragement Award' and HR10 now 'Excellence Award' (were 'Distinguished Paper Award'); Teaching Experience gained two PNU Instructor lines (Fall 2026)."
+  },
+  "identity": {
+    "name": "YongKyung Oh",
+    "email": "yongkyung.oh@pusan.ac.kr",
+    "department": "School of BioMedical Convergence Engineering",
+    "major": "Data Science Major",
+    "location": "Yangsan, Korea",
+    "scholar": "https://scholar.google.com/citations?user=YJ1L50YAAAAJ",
+    "github": "https://github.com/yongkyung-oh",
+    "orcid": "https://orcid.org/0000-0002-8027-3433"
+  },
+  "publications": [
+    {
+      "id": "pub-c15",
+      "sourcePath": "records/publications/conference/oh_silent_2026.yaml",
+      "recordType": "publication",
+      "title": "Silent failures in federated personalization of foundation models",
+      "venue": "KDD · Blue Sky Ideas Track",
+      "venueEvidence": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+      "category": "Blue Sky Ideas Track",
+      "expectedYear": 2026,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Published 2026; promoted from accepted/in-press to the Zotero publication record in the A1 sync (2026-10-02). Citation and [paper] link come from the public CV export.",
+      "expectedAuthors": "Oh, YongKyung and Bui, Alex",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Alex Bui"
+      ],
+      "authorEvidence": {
+        "url": "https://doi.org/10.1145/3770855.3818661",
+        "reviewedOn": "2026-10-02",
+        "note": "Byline follows the Zotero BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2"
+      ]
+    },
+    {
+      "id": "sota-evidence",
+      "expectedAuthors": "Oh, Yongkyung",
+      "displayAuthors": [
+        "YongKyung Oh"
+      ],
+      "ownerAuthorIndex": 0,
+      "authorEvidence": {
+        "url": "https://proceedings.mlr.press/v306/oh26d.html",
+        "reviewedOn": "2026-10-02",
+        "note": "Byline follows the Zotero BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh."
+      },
+      "sourcePath": "records/publications/conference/oh_position_2026.yaml",
+      "recordType": "publication",
+      "title": "Position: State-of-the-art claims require state-of-the-art evidence",
+      "venue": "ICML",
+      "venueEvidence": "Proceedings of the 43rd International Conference on Machine Learning",
+      "category": "Position paper",
+      "expectedYear": 2026,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Published 2026; promoted from accepted/in-press to the Zotero publication record in the A1 sync (2026-10-02). Citation and [paper] link come from the public CV export.",
+      "citationItalics": [
+        "Proceedings of the 43rd International Conference on Machine Learning"
+      ]
+    },
+    {
+      "id": "pub-c13",
+      "sourcePath": "records/publications/conference/oh_survey-aware_2026.yaml",
+      "recordType": "publication",
+      "title": "Survey-aware machine learning: A guideline for valid population health inference based on scoping review",
+      "venue": "CHIL",
+      "venueEvidence": "Proceedings of the 7th Conference on Health, Inference, and Learning",
+      "category": "Conference paper",
+      "expectedYear": 2026,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Published 2026; promoted from accepted/in-press to the Zotero publication record in the A1 sync (2026-10-02). Citation and [paper] link come from the public CV export.",
+      "expectedAuthors": "Oh, YongKyung and Zheng, Henry W and Feng, Jeffrey and Bui, Alex A T",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Henry W Zheng",
+        "Jeffrey Feng",
+        "Alex A T Bui"
+      ],
+      "authorEvidence": {
+        "url": "https://proceedings.mlr.press/v333/oh26a.html",
+        "reviewedOn": "2026-10-02",
+        "note": "Byline follows the Zotero BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh.",
+        "nameRule": "Achivement rule 2026-10-02: co-author names verbatim from BibTeX (public CV export / publisher BibTeX); only the owner's name is normalized to 'YongKyung Oh'.",
+        "bibtexSource": "https://proceedings.mlr.press/v333/oh26a.html (PMLR BibTeX: Oh, YongKyung and Zheng, Henry W and Feng, Jeffrey and Bui, Alex A T)"
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Proceedings of the 7th Conference on Health, Inference, and Learning"
+      ]
+    },
+    {
+      "id": "flowpath",
+      "expectedAuthors": "Oh, YongKyung and Lim, Dong-Young and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Dong-Young Lim",
+        "Sungil Kim"
+      ],
+      "ownerAuthorIndex": 0,
+      "authorEvidence": {
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39643",
+        "reviewedOn": "2026-09-10",
+        "note": "Full author names and order match the official AAAI publisher record. Contribution markers stay attached to the original source names."
+      },
+      "sourcePath": "records/publications/conference/oh_flowpath_2026.yaml",
+      "recordType": "publication",
+      "title": "FlowPath: Learning data-driven manifolds with invertible flows for robust irregularly-sampled time series classification",
+      "venue": "AAAI",
+      "venueEvidence": "AAAI",
+      "category": "Conference paper",
+      "expectedYear": 2026,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Public CV item with publisher URL and DOI. Only display-title case changes; preserve exported author roles.",
+      "citationItalics": [
+        "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "40"
+      ]
+    },
+    {
+      "id": "pub-c11",
+      "sourcePath": "records/publications/conference/lee_continuum_2026.yaml",
+      "recordType": "publication",
+      "title": "Continuum dropout for neural differential equations",
+      "venue": "AAAI",
+      "venueEvidence": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "category": "Conference paper",
+      "expectedYear": 2026,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Lee, Jonghun and Oh, YongKyung and Kim, Sungil and Lim, Dong-Young",
+      "displayAuthors": [
+        "Jonghun Lee",
+        "YongKyung Oh",
+        "Sungil Kim",
+        "Dong-Young Lim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 1,
+      "citationItalics": [
+        "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "40"
+      ]
+    },
+    {
+      "id": "pub-c10",
+      "sourcePath": "records/publications/conference/oh_tandem_2025.yaml",
+      "recordType": "publication",
+      "title": "TANDEM: Temporal attention-guided neural differential equations for missingness in time series classification",
+      "venue": "CIKM",
+      "venueEvidence": "Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+      "category": "Conference paper",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, Yongkyung and Lim, Dongyoung and Kim, Sungil and Bui, Alex A. T.",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Dongyoung Lim",
+        "Sungil Kim",
+        "Alex A. T. Bui"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Byline follows the BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh. Source APA initials and contribution markers are unchanged.",
+        "nameRule": "Achivement rule 2026-10-02: co-author names verbatim from BibTeX (public CV export / publisher BibTeX); only the owner's name is normalized to 'YongKyung Oh'."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Proceedings of the 34th ACM International Conference on Information and Knowledge Management"
+      ]
+    },
+    {
+      "id": "pub-c09",
+      "sourcePath": "records/publications/conference/oh_modeling_2025.yaml",
+      "recordType": "publication",
+      "title": "Modeling irregular astronomical time series with neural stochastic delay differential equations",
+      "venue": "CIKM",
+      "venueEvidence": "Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+      "category": "Conference paper",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, Yongkyung and Kam, Seungsu and Lim, Dongyoung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Seungsu Kam",
+        "Dongyoung Lim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Byline follows the BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh. Source APA initials and contribution markers are unchanged.",
+        "nameRule": "Achivement rule 2026-10-02: co-author names verbatim from BibTeX (public CV export / publisher BibTeX); only the owner's name is normalized to 'YongKyung Oh'."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Proceedings of the 34th ACM International Conference on Information and Knowledge Management"
+      ]
+    },
+    {
+      "id": "pub-c08",
+      "sourcePath": "records/publications/conference/oh_comprehensive_2025.yaml",
+      "recordType": "publication",
+      "title": "Comprehensive review of neural differential equations for time series analysis",
+      "venue": "IJCAI",
+      "venueEvidence": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, IJCAI-25",
+      "category": "Conference paper",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kam, Seungsu and Lee, Jonghun and Lim, Dong-Young and Kim, Sungil and Bui, Alex A. T.",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Seungsu Kam",
+        "Jonghun Lee",
+        "Dong-Young Lim",
+        "Sungil Kim",
+        "Alex A. T. Bui"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, IJCAI-25"
+      ]
+    },
+    {
+      "id": "multi-view",
+      "expectedAuthors": "Oh, YongKyung and Bui, Alex",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Alex Bui"
+      ],
+      "ownerAuthorIndex": 0,
+      "authorEvidence": {
+        "url": "https://proceedings.mlr.press/v287/oh25a.html",
+        "reviewedOn": "2026-09-10",
+        "note": "Full author names and order match the PMLR record."
+      },
+      "sourcePath": "records/publications/conference/oh_multi-view_2025.yaml",
+      "recordType": "publication",
+      "title": "Multi-view contrastive learning for robust domain adaptation in medical time series analysis",
+      "venue": "CHIL",
+      "venueEvidence": "Conference on Health, Inference, and Learning",
+      "category": "Conference paper",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "recognition": {
+        "key": "award_chil_2025_best_paper",
+        "expectedText": "Best Paper Award",
+        "label": "Best Paper Award (Models & Methods Track)"
+      },
+      "reviewReason": "Public PMLR record selected; recognition is separately verified by sourcePath and award key.",
+      "citationItalics": [
+        "Proceedings of the sixth Conference on Health, Inference, and Learning"
+      ]
+    },
+    {
+      "id": "pub-c06",
+      "sourcePath": "records/publications/conference/oh_deep_2025.yaml",
+      "recordType": "publication",
+      "title": "Deep interaction feature fusion for robust human activity recognition",
+      "venue": "Human Activity Recognition and Anomaly Detection · Springer",
+      "venueEvidence": "Human Activity Recognition and Anomaly Detection",
+      "category": "Conference paper",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kim, Sungil and Bui, Alex A. T.",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim",
+        "Alex A. T. Bui"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Human Activity Recognition and Anomaly Detection"
+      ]
+    },
+    {
+      "id": "pub-c05",
+      "sourcePath": "records/publications/conference/oh_dualdynamics_2025.yaml",
+      "recordType": "publication",
+      "title": "DualDynamics: Synergizing implicit and explicit methods for robust irregular time series analysis",
+      "venue": "AAAI",
+      "venueEvidence": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "category": "Conference paper",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Lim, Dong-Young and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Dong-Young Lim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "39"
+      ]
+    },
+    {
+      "id": "stable-sdes",
+      "expectedAuthors": "Oh, YongKyung and Lim, Dongyoung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Dongyoung Lim",
+        "Sungil Kim"
+      ],
+      "ownerAuthorIndex": 0,
+      "authorEvidence": {
+        "url": "https://arxiv.org/abs/2402.14989",
+        "reviewedOn": "2026-09-10",
+        "note": "Byline follows the BibTeX author names verbatim (Achivement rule 2026-10-02); only the owner's name is normalized to YongKyung Oh. Source APA initials and contribution markers are unchanged.",
+        "nameRule": "Achivement rule 2026-10-02: co-author names verbatim from BibTeX (public CV export / publisher BibTeX); only the owner's name is normalized to 'YongKyung Oh'."
+      },
+      "sourcePath": "records/publications/conference/oh_stable_2024.yaml",
+      "recordType": "publication",
+      "title": "Stable neural stochastic differential equations in analyzing irregular time series data",
+      "venue": "ICLR",
+      "venueEvidence": "ICLR 2024",
+      "category": "Conference paper",
+      "expectedYear": 2024,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero"
+      ],
+      "recognition": {
+        "key": "award_iclr_2024_spotlight_poster",
+        "expectedText": "Spotlight Presentation (5%)",
+        "label": "Spotlight Presentation"
+      },
+      "reviewReason": "Public OpenReview paper selected; retain equal-contribution attribution and distinguish spotlight from an award.",
+      "citationItalics": [
+        "The Twelfth International Conference on Learning Representations"
+      ]
+    },
+    {
+      "id": "pub-c03",
+      "sourcePath": "records/publications/conference/oh_multivariate_2022.yaml",
+      "recordType": "publication",
+      "title": "Multivariate times series classification using multichannel CNN",
+      "venue": "IJCAI",
+      "venueEvidence": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI-22",
+      "category": "Conference paper",
+      "expectedYear": 2022,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung",
+      "displayAuthors": [
+        "YongKyung Oh"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI-22"
+      ]
+    },
+    {
+      "id": "pub-c02",
+      "sourcePath": "records/publications/conference/oh_multi-channel_2021.yaml",
+      "recordType": "publication",
+      "title": "Multi-channel convolution neural network for gas mixture classification",
+      "venue": "ICDM Workshops",
+      "venueEvidence": "2021 International Conference on Data Mining Workshops (ICDMW)",
+      "category": "Conference paper",
+      "expectedYear": 2021,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "2021 International Conference on Data Mining Workshops (ICDMW)"
+      ]
+    },
+    {
+      "id": "pub-c01",
+      "sourcePath": "records/publications/conference/oh_exploiting_2019.yaml",
+      "recordType": "publication",
+      "title": "Exploiting logistics anomaly detection using maritime big data",
+      "venue": "IISE Annual Conference",
+      "venueEvidence": "IISE Annual Conference. Proceedings",
+      "category": "Conference paper",
+      "expectedYear": 2019,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "IISE Annual Conference. Proceedings"
+      ]
+    },
+    {
+      "id": "pub-j13",
+      "sourcePath": "records/publications/journal/oh_predicting_2026.yaml",
+      "recordType": "publication",
+      "title": "Predicting non-recurrent congestion impact: A pattern-based approach for speed drop ratio prediction using weighted k-nearest neighbors",
+      "venue": "Computers & Industrial Engineering",
+      "venueEvidence": "Computers & Industrial Engineering",
+      "category": "Journal article",
+      "expectedYear": 2026,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kwak, Jiin and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Jiin Kwak",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Computers & Industrial Engineering",
+        "213"
+      ]
+    },
+    {
+      "id": "pub-j12",
+      "sourcePath": "records/publications/journal/xue_smokebert_2025.yaml",
+      "recordType": "publication",
+      "title": "SmokeBERT: A bidirectional encoder representations from transformers–based model for quantitative smoking history extraction from clinical narratives to improve lung cancer screening",
+      "venue": "JCO Clinical Cancer Informatics",
+      "venueEvidence": "JCO Clinical Cancer Informatics",
+      "category": "Journal article",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Xue, Yiming and Zhu, Yunzheng and Zhuang, Luoting and Oh, YongKyung and Taira, Ricky and Aberle, Denise R. and Prosper, Ashley Elizabeth and Hsu, William and Lin, Yannan",
+      "displayAuthors": [
+        "Yiming Xue",
+        "Yunzheng Zhu",
+        "Luoting Zhuang",
+        "YongKyung Oh",
+        "Ricky Taira",
+        "Denise R. Aberle",
+        "Ashley Elizabeth Prosper",
+        "William Hsu",
+        "Yannan Lin"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 3,
+      "citationItalics": [
+        "JCO Clinical Cancer Informatics",
+        "9"
+      ]
+    },
+    {
+      "id": "pub-j11",
+      "sourcePath": "records/publications/journal/oh_tssi_2025.yaml",
+      "recordType": "publication",
+      "title": "TSSI: Time series as screenshot images for multivariate time series classification using convolutional neural networks",
+      "venue": "Computers & Industrial Engineering",
+      "venueEvidence": "Computers & Industrial Engineering",
+      "category": "Journal article",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kim, Heeyoung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Heeyoung Kim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Computers & Industrial Engineering",
+        "209"
+      ]
+    },
+    {
+      "id": "pub-j10",
+      "sourcePath": "records/publications/journal/oh_taod-net_2025.yaml",
+      "recordType": "publication",
+      "title": "TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery",
+      "venue": "Computers & Industrial Engineering",
+      "venueEvidence": "Computers & Industrial Engineering",
+      "category": "Journal article",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Koh, Giheon and Kwak, Jiin and Shin, Kyubo and Kim, Gi-Soo and Lee, Min Joung and Choung, Hokyung and Kim, Namju and Moon, Jae Hoon and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Giheon Koh",
+        "Jiin Kwak",
+        "Kyubo Shin",
+        "Gi-Soo Kim",
+        "Min Joung Lee",
+        "Hokyung Choung",
+        "Namju Kim",
+        "Jae Hoon Moon",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Computers & Industrial Engineering",
+        "203"
+      ]
+    },
+    {
+      "id": "pub-j09",
+      "sourcePath": "records/publications/journal/oh_comparative_2025.yaml",
+      "recordType": "publication",
+      "title": "Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data",
+      "venue": "Maritime Policy & Management",
+      "venueEvidence": "Maritime Policy & Management",
+      "category": "Journal article",
+      "expectedYear": 2025,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Yoon, Kwonin and Park, Jaemin and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Kwonin Yoon",
+        "Jaemin Park",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Maritime Policy & Management",
+        "52"
+      ]
+    },
+    {
+      "id": "pub-j08",
+      "sourcePath": "records/publications/journal/oh_multi-modal_2024.yaml",
+      "recordType": "publication",
+      "title": "Multi-modal lifelog data fusion for improved human activity recognition: A hybrid approach",
+      "venue": "Information Fusion",
+      "venueEvidence": "Information Fusion",
+      "category": "Journal article",
+      "expectedYear": 2024,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Information Fusion",
+        "110"
+      ]
+    },
+    {
+      "id": "pub-j07",
+      "sourcePath": "records/publications/journal/oh_multichannel_2024.yaml",
+      "recordType": "publication",
+      "title": "Multichannel convolution neural network for gas mixture classification",
+      "venue": "Annals of Operations Research",
+      "venueEvidence": "Annals of Operations Research",
+      "category": "Journal article",
+      "expectedYear": 2024,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Lim, Chiehyeon and Lee, Junghye and Kim, Sewon and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Chiehyeon Lim",
+        "Junghye Lee",
+        "Sewon Kim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Annals of Operations Research",
+        "339"
+      ]
+    },
+    {
+      "id": "pub-j06",
+      "sourcePath": "records/publications/journal/oh_grid-based_2024.yaml",
+      "recordType": "publication",
+      "title": "Grid-based Bayesian bootstrap approach for real-time detection of abnormal vessel behaviors from AIS data in maritime logistics",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "venueEvidence": "IEEE Transactions on Automation Science and Engineering",
+      "category": "Journal article",
+      "expectedYear": 2024,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "IEEE Transactions on Automation Science and Engineering",
+        "21"
+      ]
+    },
+    {
+      "id": "pub-j05",
+      "sourcePath": "records/publications/journal/oh_sensor_2023.yaml",
+      "recordType": "publication",
+      "title": "Sensor drift compensation for gas mixture classification in batch experiments",
+      "venue": "Quality and Reliability Engineering International",
+      "venueEvidence": "Quality and Reliability Engineering International",
+      "category": "Journal article",
+      "expectedYear": 2023,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Lee, Juhui and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Juhui Lee",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Quality and Reliability Engineering International",
+        "39"
+      ]
+    },
+    {
+      "id": "pub-j04",
+      "sourcePath": "records/publications/journal/oh_time_2023.yaml",
+      "recordType": "publication",
+      "title": "Time delay estimation of traffic congestion propagation due to accidents based on statistical causality",
+      "venue": "Electronic Research Archive",
+      "venueEvidence": "Electronic Research Archive",
+      "category": "Journal article",
+      "expectedYear": 2023,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kwak, JiIn and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "JiIn Kwak",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Electronic Research Archive",
+        "31"
+      ]
+    },
+    {
+      "id": "pub-j03",
+      "sourcePath": "records/publications/journal/lee_quantifying_2023.yaml",
+      "recordType": "publication",
+      "title": "Quantifying incident impacts and identifying influential features in urban traffic networks",
+      "venue": "Transportmetrica B: Transport Dynamics",
+      "venueEvidence": "Transportmetrica B: Transport Dynamics",
+      "category": "Journal article",
+      "expectedYear": 2023,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Lee, JuYeong and Kwak, JiIn and Oh, YongKyung and Kim, Sungil",
+      "displayAuthors": [
+        "JuYeong Lee",
+        "JiIn Kwak",
+        "YongKyung Oh",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 2,
+      "citationItalics": [
+        "Transportmetrica B: Transport Dynamics",
+        "11"
+      ]
+    },
+    {
+      "id": "pub-j02",
+      "sourcePath": "records/publications/journal/oh_simulation-based_2021.yaml",
+      "recordType": "publication",
+      "title": "Simulation-based anomaly detection in nuclear reactors",
+      "venue": "Journal of the Korean Institute of Industrial Engineers",
+      "venueEvidence": "Journal of the Korean Institute of Industrial Engineers",
+      "category": "Journal article",
+      "expectedYear": 2021,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kim, Hanjoo and Lee, Deokjung and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Hanjoo Kim",
+        "Deokjung Lee",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Journal of the Korean Institute of Industrial Engineers",
+        "47"
+      ]
+    },
+    {
+      "id": "pub-j01",
+      "sourcePath": "records/publications/journal/oh_transfer_2021.yaml",
+      "recordType": "publication",
+      "title": "Transfer learning based approach for mixture gas classification",
+      "venue": "Journal of the Korean Institute of Industrial Engineers",
+      "venueEvidence": "Journal of the Korean Institute of Industrial Engineers",
+      "category": "Journal article",
+      "expectedYear": 2021,
+      "expectedVerification": "partially_verified",
+      "expectedWarnings": [
+        "title_sentence_case_applied_from_zotero",
+        "links_paper_overrides_source_url"
+      ],
+      "reviewReason": "Include this existing public CV item in the complete year-grouped bibliography. Preserve source publication state and warnings; no promotion of working papers or unexported records.",
+      "expectedAuthors": "Oh, YongKyung and Kim, Namu and Kim, Sungil",
+      "displayAuthors": [
+        "YongKyung Oh",
+        "Namu Kim",
+        "Sungil Kim"
+      ],
+      "authorEvidence": {
+        "source": "CV_publish/data/publications.json",
+        "reviewedOn": "2026-09-10",
+        "note": "Full given names and author order transcribed from the public export, not newly verified at each publisher. Owner capitalization uses YongKyung Oh. Dongyoung Lim, where present, uses the previously reviewed Dong-Young Lim spelling (CONTENT_AUDIT.md); source APA initials remain unchanged."
+      },
+      "ownerAuthorIndex": 0,
+      "citationItalics": [
+        "Journal of the Korean Institute of Industrial Engineers",
+        "47"
+      ]
+    }
+  ],
+  "career": [
+    {
+      "id": "pnu",
+      "sourcePath": "records/career/pusan_bce_data_science_assistant_professor_2026.yaml",
+      "recordType": "career",
+      "title": "Assistant Professor",
+      "organization": "Pusan National University",
+      "detail": "Data Science Major · School of BioMedical Convergence Engineering",
+      "date": "Current",
+      "note": "",
+      "expectedText": [
+        "Assistant Professor",
+        "Pusan National University",
+        "Data Science Major",
+        "School of BioMedical Convergence Engineering",
+        "Current appointment",
+        "Yangsan, Korea"
+      ],
+      "expectedVerification": "official_public_partially_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "ucla",
+      "sourcePath": "records/career/ucla_health_postdoctoral_researcher_2023.yaml",
+      "recordType": "career",
+      "title": "Postdoctoral Researcher",
+      "organization": "UCLA Health",
+      "detail": "David Geffen School of Medicine · Advisor: Alex Bui",
+      "date": "2023–2026",
+      "note": "Clinical and wearable time series research with the UCLA Depression Grand Challenge.",
+      "expectedText": [
+        "Postdoctoral Researcher",
+        "UCLA Health",
+        "David Geffen School of Medicine",
+        "Alex Bui",
+        "September 2023 to August 2026",
+        "UCLA Depression Grand Challenge"
+      ],
+      "expectedVerification": "evidence_partially_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "unist-postdoc",
+      "sourcePath": "records/career/unist_industry_intelligentization_postdoctoral_researcher_2023.yaml",
+      "recordType": "career",
+      "title": "Postdoctoral Researcher",
+      "organization": "UNIST",
+      "detail": "Industry Intelligentization Institute · Advisor: Sungil Kim",
+      "date": "2023–2024",
+      "note": "Concurrent UNIST–UCLA affiliation, September 2023–November 2024.",
+      "expectedText": [
+        "Postdoctoral Researcher",
+        "Industry Intelligentization Institute",
+        "UNIST",
+        "Sungil Kim",
+        "March 2023 to November 2024",
+        "dual affiliation with UNIST and UCLA from September 2023 to November 2024"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "unist-graduate",
+      "sourcePath": "records/career/unist_data_analytics_lab_graduate_researcher_2018_2023.yaml",
+      "recordType": "career",
+      "title": "Graduate Researcher",
+      "organization": "UNIST",
+      "detail": "Data Analytics Lab · Advisor: Sungil Kim",
+      "date": "2018–2023",
+      "note": "Founding member of the lab; time-series modeling and anomaly detection with industry partners.",
+      "expectedText": [
+        "Graduate Researcher",
+        "UNIST",
+        "Data Analytics Lab",
+        "Sungil Kim",
+        "March 2018 to February 2023",
+        "Founding member"
+      ],
+      "expectedVerification": "owner_confirmed_with_degree_context",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "cmu",
+      "sourcePath": "records/career/cmu_intensive_ai_program_2020.yaml",
+      "recordType": "career",
+      "title": "Visiting Student and Researcher",
+      "organization": "Carnegie Mellon University",
+      "detail": "Language Technologies Institute · Intensive AI Program (High-Potential Individuals Global Training Program)",
+      "date": "2020",
+      "note": "",
+      "expectedText": [
+        "Visiting Student and Researcher",
+        "Carnegie Mellon University",
+        "Language Technologies Institute",
+        "January 2020 to July 2020",
+        "Intensive Program in Artificial Intelligence",
+        "Intensive Program in Artificial Intelligence (High-Potential Individuals Global Training Program)"
+      ],
+      "expectedVerification": "evidence_partially_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "gm",
+      "sourcePath": "records/career/general_motors_visiting_scientist_2017.yaml",
+      "recordType": "career",
+      "title": "Visiting Scientist",
+      "organization": "General Motors",
+      "detail": "Global Research & Development Center · Manufacturing Systems Research Laboratory",
+      "date": "2017",
+      "note": "",
+      "expectedText": [
+        "Visiting Scientist",
+        "General Motors",
+        "Global Research and Development",
+        "Manufacturing Systems Research Laboratory",
+        "February 2017 to August 2017"
+      ],
+      "expectedVerification": "evidence_visual_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "accenture",
+      "sourcePath": "records/career/accenture_korea_research_assistant_2016.yaml",
+      "recordType": "career",
+      "title": "Research Assistant",
+      "organization": "Accenture Korea",
+      "detail": "Lotte Duty Free Shop New Generation System Integration Project",
+      "date": "2016–2017",
+      "note": "",
+      "expectedText": [
+        "Research Assistant",
+        "Accenture Korea",
+        "Lotte Duty Free Shop New Generation System Integration Project",
+        "October 2016 to January 2017"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "kiel",
+      "sourcePath": "records/career/iaeste_kiel_research_internship_2014.yaml",
+      "recordType": "career",
+      "title": "Research Intern",
+      "organization": "Institut für Theoretische Physik und Astrophysik",
+      "detail": "Kiel, Germany · IAESTE program · Advisor: Sebastian Wolf",
+      "date": "2014",
+      "note": "",
+      "expectedText": [
+        "Research Internship",
+        "Theoretische Physik und Astrophysik",
+        "Kiel, Germany",
+        "IAESTE",
+        "Sebastian Wolf",
+        "July 2014 to September 2014"
+      ],
+      "expectedVerification": "evidence_visual_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    }
+  ],
+  "education": [
+    {
+      "id": "unist-phd",
+      "sourcePath": "records/education/unist_phd_industrial_engineering_2023.yaml",
+      "recordType": "education",
+      "title": "Ph.D. in Industrial Engineering",
+      "organization": "UNIST",
+      "detail": "Advisor: Sungil Kim",
+      "date": "2023",
+      "note": "Dissertation: A Comprehensive Study of Deep Learning for Real-World Multivariate Time Series Classification.",
+      "expectedText": [
+        "Ph.D. in Industrial Engineering",
+        "UNIST",
+        "March 2017 to February 2023",
+        "Sungil Kim",
+        "A Comprehensive Study of Deep Learning for Real-World Multivariate Time Series Classification"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "unist-ms",
+      "sourcePath": "records/education/unist_ms_technology_innovation_management_2017.yaml",
+      "recordType": "education",
+      "title": "Master in Technology and Innovation Management",
+      "organization": "UNIST",
+      "detail": "Advisor: KwangWook Gang",
+      "date": "2017",
+      "note": "",
+      "expectedText": [
+        "Master in Technology and Innovation Management",
+        "UNIST",
+        "March 2015 to February 2017",
+        "KwangWook Gang"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "unist-bs",
+      "sourcePath": "records/education/unist_bs_physics_2015.yaml",
+      "recordType": "education",
+      "title": "B.Sc. in Physics",
+      "organization": "UNIST",
+      "detail": "Dual minors in Mechanical Engineering and Advanced Materials Science",
+      "date": "2015",
+      "note": "Valedictorian · Magna cum laude.",
+      "expectedText": [
+        "B.Sc. in Physics",
+        "UNIST",
+        "dual minors in Mechanical Engineering and Advanced Materials Science",
+        "March 2011 to February 2015",
+        "Valedictorian",
+        "Magna cum laude"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    }
+  ],
+  "funding": [
+    {
+      "id": "nvidia",
+      "sourcePath": "records/grants/nvidia_academic_grant_program_2026.yaml",
+      "recordType": "grant",
+      "title": "NVIDIA Academic Grant Program",
+      "organization": "NVIDIA",
+      "detail": "Lead Scientist · In-kind cloud computing grant",
+      "date": "2026",
+      "note": "Neural SDE-augmented pharmacokinetic simulation · 8×H100 cloud instance. PI: Alex A. T. Bui, UCLA.",
+      "expectedText": [
+        "NVIDIA Academic Grant Program",
+        "Lead Scientist on the project team",
+        "Principal Investigator: Alex A. T. Bui, UCLA",
+        "Neural SDE-Augmented GPU-Accelerated Pharmacokinetic Simulation Framework",
+        "dedicated 8xH100 cloud instance",
+        "July 1, 2026 to December 31, 2026"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "nrf",
+      "sourcePath": "records/grants/nrf_postdoctoral_fellowship_2024.yaml",
+      "recordType": "grant",
+      "title": "Postdoctoral Fellowship for Overseas Research",
+      "organization": "National Research Foundation of Korea (NRF)",
+      "detail": "Principal Investigator · KRW 57.1 million",
+      "date": "2024–2025",
+      "note": "Distribution shift and model trustworthiness in longitudinal medical data.",
+      "expectedText": [
+        "Postdoctoral Fellowship for Overseas Research",
+        "Principal Investigator",
+        "National Research Foundation of Korea",
+        "KRW 57,143,000",
+        "September 1, 2024 to August 31, 2025",
+        "Distribution Shifts Over Time",
+        "Longitudinal Medical Data",
+        "Model Trustworthy with Retraining"
+      ],
+      "expectedVerification": "evidence_and_public_amount_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes. 2026-10-06: amount follows the personal NRF certificate (owner decision)."
+    },
+    {
+      "id": "khidi",
+      "sourcePath": "records/grants/biomedical_unistar_khidi_training_program_2023.yaml",
+      "recordType": "grant",
+      "title": "Biomedical UniStar Training Program",
+      "organization": "Korea Health Industry Development Institute (KHIDI)",
+      "detail": "Selective program supporting collaborative research between UNIST and the UCLA David Geffen School of Medicine.",
+      "date": "2023–2024",
+      "note": "",
+      "expectedText": [
+        "Biomedical UniStar Training Program",
+        "Korea Health Industry Development Institute",
+        "September 1, 2023 to August 31, 2024",
+        "Selective program supporting collaborative research between UNIST and the UCLA David Geffen School of Medicine."
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Title and detail use the CV wording verbatim (PI direction 2026-10-02: CV is the source for all three surfaces; lab site already verbatim)."
+    },
+    {
+      "id": "iitp",
+      "sourcePath": "records/grants/iitp_intensive_ai_training_program_2020.yaml",
+      "recordType": "grant",
+      "title": "Intensive Program in Artificial Intelligence (High-Potential Individuals Global Training Program)",
+      "organization": "Institute for Information & Communication Technology Planning & Evaluation (IITP)",
+      "detail": "Competitive, fully funded program for intensive training at Carnegie Mellon University (CMU).",
+      "date": "2020",
+      "note": "",
+      "expectedText": [
+        "Intensive Program in Artificial Intelligence (High-Potential Individuals Global Training Program)",
+        "Institute for Information & Communication Technology Planning & Evaluation",
+        "Competitive, fully funded program for intensive training at Carnegie Mellon University (CMU).",
+        "January 13, 2020 to July 3, 2020"
+      ],
+      "expectedVerification": "evidence_partially_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Title and detail use the CV wording verbatim (PI direction 2026-10-02: CV is the source for all three surfaces; lab site already verbatim)."
+    }
+  ],
+  "recognitions": [
+    {
+      "id": "cirtl",
+      "sourcePath": "records/awards/award_cirtl_scholar_2026.yaml",
+      "recordType": "award",
+      "title": "CIRTL Scholar",
+      "organization": "UCLA",
+      "detail": "Center for the Integration of Research, Teaching and Learning",
+      "date": "2026",
+      "note": "",
+      "expectedText": [
+        "CIRTL Scholar",
+        "2026, March",
+        "UCLA",
+        "Center for the Integration of Research, Teaching and Learning"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "ucla-nomination",
+      "sourcePath": "records/awards/award_ucla_chancellors_2025_postdoctoral_research_nominee.yaml",
+      "recordType": "award",
+      "title": "Chancellor’s Award for Postdoctoral Research — Nominee",
+      "organization": "UCLA",
+      "detail": "Nominated for the 2025 Chancellor’s Award",
+      "date": "2025",
+      "note": "",
+      "expectedText": [
+        "Chancellor's Award for Postdoctoral Research Nominee",
+        "2025, November",
+        "UCLA"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "valedictorian",
+      "sourcePath": "records/awards/award_unist_valedictorian_2015.yaml",
+      "recordType": "award",
+      "title": "Valedictorian",
+      "organization": "UNIST",
+      "detail": "B.Sc. in Physics",
+      "date": "2015",
+      "note": "",
+      "expectedText": [
+        "Valedictorian",
+        "2015, February",
+        "B.Sc. in Physics, UNIST"
+      ],
+      "expectedVerification": "owner_confirmed_with_degree_context",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "id": "energy-finalist",
+      "sourcePath": "records/awards/award_iise_esd_2026_energy_analytics_challenge_finalist.yaml",
+      "recordType": "award",
+      "title": "Energy Analytics Challenge — Finalist",
+      "organization": "IISE Energy Systems Division",
+      "detail": "Transform-First Forecasting for County-Level Power Outages",
+      "date": "2026",
+      "note": "",
+      "expectedText": [
+        "Energy Analytics Challenge Finalist",
+        "2026, May",
+        "Transform-First Forecasting for County-Level Power Outages",
+        "Energy Systems Division"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields checked against the existing public CV PDF and exported plainText. Keep exact role, date range and recognition status; no upstream changes."
+    },
+    {
+      "id": "chil-best-paper",
+      "sourcePath": "records/awards/award_chil_2025_best_paper.yaml",
+      "recordType": "award",
+      "title": "Best Paper Award",
+      "organization": "Conference on Health, Inference, and Learning (CHIL)",
+      "detail": "Multi-View Contrastive Learning for Robust Domain Adaptation in Medical Time Series Analysis",
+      "date": "2025",
+      "note": "Models & Methods Track.",
+      "expectedText": [
+        "Best Paper Award",
+        "2025, June",
+        "Multi-View Contrastive Learning for Robust Domain Adaptation in Medical Time Series Analysis",
+        "Models & Methods Track",
+        "Health, Inference, and Learning (CHIL)"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "id": "dais-finalist",
+      "sourcePath": "records/awards/award_iise_dais_2025_best_paper_finalist.yaml",
+      "recordType": "award",
+      "title": "Best Paper Competition — Finalist",
+      "organization": "IISE Data Analytics and Information Systems Division",
+      "detail": "Multi-scale Transformer for Long-term Time Series Forecasting",
+      "date": "2025",
+      "note": "Finalist in three consecutive years: 2023, 2024, and 2025.",
+      "expectedText": [
+        "Best Paper Competition Finalist",
+        "2025, May",
+        "Multi-scale Transformer for Long-term Time Series Forecasting",
+        "Data Analytics and Information Systems",
+        "three consecutive years: 2023, 2024, and 2025"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "User requested recent recognition. Replace 2017 FISITA in the web selection with this verified 2025 finalist record; retain nominee/finalist distinctions and do not repeat CHIL/ICLR paper honors."
+    },
+    {
+      "id": "dais-finalist-2024",
+      "sourcePath": "records/awards/award_iise_dais_2024_best_paper_finalist.yaml",
+      "recordType": "award",
+      "title": "Best Paper Competition — Finalist",
+      "organization": "IISE Data Analytics and Information Systems Division",
+      "detail": "Integrating Neural Controlled Differential Equations and Neural Flow for Comprehensive Irregularly-sampled Time Series Analysis",
+      "date": "2024",
+      "note": "",
+      "expectedText": [
+        "Best Paper Competition Finalist",
+        "2024, May",
+        "Integrating Neural Controlled Differential Equations and Neural Flow for Comprehensive Irregularly-sampled Time Series Analysis",
+        "Data Analytics and Information Systems"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle. 2026-10-06: official IISE DAIS listing title (owner decision)."
+    },
+    {
+      "id": "kcc-best-paper",
+      "sourcePath": "records/awards/award_kcc_2023_best_paper.yaml",
+      "recordType": "award",
+      "title": "Best Paper Award",
+      "organization": "Korea Computer Congress (KCC), KIISE",
+      "detail": "Flow-based Neural Differential Equations for Time Series Analysis",
+      "date": "2023",
+      "note": "",
+      "expectedText": [
+        "Best Paper Award",
+        "2023, June",
+        "Flow-based Neural Differential Equations for Time Series Analysis",
+        "Korea Computer Congress (KCC), Korean Institute of Information Scientists and Engineers (KIISE)"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "id": "kcc-best-oral",
+      "sourcePath": "records/awards/award_kcc_2023_best_oral_presentation.yaml",
+      "recordType": "award",
+      "title": "Best Oral Presentation Award",
+      "organization": "Korea Computer Congress (KCC), KIISE",
+      "detail": "Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition",
+      "date": "2023",
+      "note": "AI Division.",
+      "expectedText": [
+        "Best Oral Presentation Award",
+        "2023, June",
+        "Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition",
+        "AI Division"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "id": "dais-finalist-2023",
+      "sourcePath": "records/awards/award_iise_dais_2023_best_paper_finalist.yaml",
+      "recordType": "award",
+      "title": "Best Paper Competition — Finalist",
+      "organization": "IISE Data Analytics and Information Systems Division",
+      "detail": "Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process",
+      "date": "2023",
+      "note": "",
+      "expectedText": [
+        "Best Paper Competition Finalist",
+        "2023, May",
+        "Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process",
+        "Data Analytics and Information Systems"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "id": "lsc-best-paper",
+      "sourcePath": "records/awards/award_iise_lsc_2021_best_paper.yaml",
+      "recordType": "award",
+      "title": "Best Paper Award",
+      "organization": "IISE Logistics & Supply Chain Division",
+      "detail": "Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach",
+      "date": "2021",
+      "note": "",
+      "expectedText": [
+        "Best Paper Award",
+        "2021, May",
+        "Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach",
+        "Logistics & Supply Chain (LSC) Division"
+      ],
+      "expectedVerification": "evidence_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 owner decision 2026-10-02: honors and research awards shown in full; status wording (Award/Finalist/Nominee/Distinguished Paper Award) kept verbatim from the public CV bundle."
+    },
+    {
+      "id": "ulsan-encouragement",
+      "sourcePath": "records/awards/award_ulsan_development_institute_paper_competition_encouragement_2019.yaml",
+      "recordType": "award",
+      "title": "Encouragement Award",
+      "organization": "Ulsan Development Institute",
+      "detail": "Strategies for Building a Startup Ecosystem for Port Smartization",
+      "date": "2019",
+      "note": "Graduate Student Academic Paper Competition.",
+      "expectedText": [
+        "Encouragement Award",
+        "2019, December",
+        "Strategies for Building a Startup Ecosystem for Port Smartization",
+        "Graduate Student Academic Paper Competition",
+        "Ulsan Development Institute"
+      ],
+      "expectedVerification": "evidence_visual_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 Addendum 2 (2026-10-02): upstream wording corrected to match the certificate; moved out of recognitionsHeld. Text kept verbatim from the public CV bundle."
+    },
+    {
+      "id": "dongseo-excellence",
+      "sourcePath": "records/awards/award_dongseo_maritime_paper_competition_excellence_2019.yaml",
+      "recordType": "award",
+      "title": "Excellence Award",
+      "organization": "Dongseo University & Ministry of Maritime Affairs and Fisheries",
+      "detail": "Suggestion for Smart Port in Industry 4.0",
+      "date": "2019",
+      "note": "International Conference on Maritime, Academic Paper Competition.",
+      "expectedText": [
+        "Excellence Award",
+        "2019, November",
+        "Suggestion for Smart Port in Industry 4.0",
+        "International Conference on Maritime, Academic Paper Competition",
+        "Dongseo University & Ministry of Maritime Affairs and Fisheries"
+      ],
+      "expectedVerification": "evidence_visual_user_confirmed",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Spec 022 Addendum 2 (2026-10-02): upstream wording corrected to match the certificate; moved out of recognitionsHeld. Text kept verbatim from the public CV bundle."
+    }
+  ],
+  "patents": [
+    {
+      "id": "hybrid-fusion-har",
+      "sourcePath": "records/patents/human_activity_recognition_hybrid_fusion_2024.yaml",
+      "recordType": "patent",
+      "title": "Apparatus and method for human activity recognition through hybrid fusion of dynamic and static data",
+      "organization": "",
+      "detail": "KR 10-2024-0033382 (application pending)",
+      "date": "2024",
+      "note": "",
+      "expectedText": [
+        "Apparatus and method for human activity recognition through hybrid fusion of dynamic and static data",
+        "KR 10-2024-0033382 (applied March 8, 2024; application pending)"
+      ],
+      "expectedVerification": "curated_workbook_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    },
+    {
+      "id": "tssi-encoding",
+      "sourcePath": "records/patents/time_series_image_encoding_tssi_2022.yaml",
+      "recordType": "patent",
+      "title": "Encoding apparatus and method for converting time series data into images",
+      "organization": "",
+      "detail": "KR 10-2754134 (granted 2025) · US 12,725,326 (granted 2026)",
+      "date": "2026",
+      "note": "",
+      "expectedText": [
+        "Encoding apparatus and method for converting time series data into images",
+        "KR 10-2754134 (granted January 8, 2025)",
+        "US 12,725,326 B2 (granted September 1, 2026"
+      ],
+      "expectedVerification": "curated_workbook_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line. 2026-10-06 owner decision: US 18/395,620 issued as US 12,725,326 B2 (USPTO Official Gazette 2026-09-01) and is now shown; the application number stays off the page. Prosecution-discontinued PCT/US filings remain excluded."
+    },
+    {
+      "id": "congestion-pattern-matching",
+      "sourcePath": "records/patents/road_congestion_pattern_matching_2021.yaml",
+      "recordType": "patent",
+      "title": "Method, computer device, and computer program to predict road congestion propagation using pattern matching",
+      "organization": "",
+      "detail": "KR 10-2608343 (granted 2023) · JP 7453296 (granted 2024)",
+      "date": "2024",
+      "note": "Joint applicants: Naver Corp. and UNIST.",
+      "expectedText": [
+        "Method, computer device, and computer program to predict road congestion propagation using pattern matching",
+        "KR 10-2608343 (granted November 27, 2023)",
+        "JP 7453296 (granted March 11, 2024)",
+        "Joint applicants: Naver Corp. and UNIST."
+      ],
+      "expectedVerification": "curated_workbook_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    },
+    {
+      "id": "congestion-transfer-entropy",
+      "sourcePath": "records/patents/road_congestion_transfer_entropy_2021.yaml",
+      "recordType": "patent",
+      "title": "Method, computer device, and computer program to predict propagation delay time of road congestion using transfer entropy",
+      "organization": "",
+      "detail": "KR 10-2604575 (granted 2023) · JP 7453297 (granted 2024)",
+      "date": "2024",
+      "note": "Joint applicants: Naver Corp. and UNIST.",
+      "expectedText": [
+        "Method, computer device, and computer program to predict propagation delay time of road congestion using transfer entropy",
+        "KR 10-2604575 (granted November 16, 2023)",
+        "JP 7453297 (granted March 11, 2024)",
+        "Joint applicants: Naver Corp. and UNIST."
+      ],
+      "expectedVerification": "curated_workbook_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    },
+    {
+      "id": "vessel-anomaly-bootstrap",
+      "sourcePath": "records/patents/vessel_anomaly_detection_bayesian_bootstrap_2020.yaml",
+      "recordType": "patent",
+      "title": "Method of anomaly detection of vessels applying Bayesian bootstrap",
+      "organization": "",
+      "detail": "KR 10-2534357 (granted 2023)",
+      "date": "2023",
+      "note": "",
+      "expectedText": [
+        "Method of anomaly detection of vessels applying Bayesian bootstrap",
+        "KR 10-2534357 (granted May 16, 2023)"
+      ],
+      "expectedVerification": "curated_workbook_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    },
+    {
+      "id": "enose-drift",
+      "sourcePath": "records/patents/sensor_drift_compensation_2020.yaml",
+      "recordType": "patent",
+      "title": "Method and device for compensating for sensor drift",
+      "organization": "",
+      "detail": "KR 10-2364019 (granted 2022)",
+      "date": "2022",
+      "note": "",
+      "expectedText": [
+        "Method and device for compensating for sensor drift",
+        "KR 10-2364019 (granted February 14, 2022)"
+      ],
+      "expectedVerification": "curated_workbook_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded. 2026-10-06: official English title (owner decision)."
+    },
+    {
+      "id": "shipment-delay",
+      "sourcePath": "records/patents/vessel_delay_possibility_2019.yaml",
+      "recordType": "patent",
+      "title": "Method and apparatus for determining delay possibility of shipment",
+      "organization": "",
+      "detail": "KR 10-2250354 (granted 2021)",
+      "date": "2021",
+      "note": "",
+      "expectedText": [
+        "Method and apparatus for determining delay possibility of shipment",
+        "KR 10-2250354 (granted May 4, 2021)"
+      ],
+      "expectedVerification": "curated_workbook_verified",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Display fields shortened from the public CV bundle patent line (registration numbers and grant dates verbatim in expectedText). Spec 022: valid filings only; US 18/395,620 (no issued number confirmed) and prosecution-discontinued PCT/US filings are excluded."
+    }
+  ],
+  "teaching": [
+    {
+      "id": "pnu-machine-learning",
+      "sourcePath": "records/service/service_pnu_instructor_machine_learning_2026.yaml",
+      "recordType": "service",
+      "title": "Machine Learning",
+      "organization": "Pusan National University",
+      "detail": "Instructor · BX3600087 / DS3600087 / AB3600087",
+      "date": "Fall 2026",
+      "note": "",
+      "expectedText": [
+        "BX3600087/DS3600087/AB3600087",
+        "Machine Learning",
+        "Instructor",
+        "Pusan National University",
+        "Fall 2026"
+      ],
+      "expectedVerification": "owner_prepared_syllabus",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Owner decision 2026-10-02 (spec 022 Addendum 2): PNU teaching appears once registered upstream. Only the two PNU Instructor lines are selected; TA and other teaching/service lines stay out."
+    },
+    {
+      "id": "pnu-data-structure",
+      "sourcePath": "records/service/service_pnu_instructor_data_structure_2026.yaml",
+      "recordType": "service",
+      "title": "Data Structure",
+      "organization": "Pusan National University",
+      "detail": "Instructor · DS3600082",
+      "date": "Fall 2026",
+      "note": "",
+      "expectedText": [
+        "DS3600082",
+        "Data Structure",
+        "Instructor",
+        "Pusan National University",
+        "Fall 2026"
+      ],
+      "expectedVerification": "owner_prepared_syllabus",
+      "expectedWarnings": [
+        "cv_render_verbatim"
+      ],
+      "reviewReason": "Owner decision 2026-10-02 (spec 022 Addendum 2): PNU teaching appears once registered upstream. Only the two PNU Instructor lines are selected; TA and other teaching/service lines stay out."
+    }
+  ]
+}

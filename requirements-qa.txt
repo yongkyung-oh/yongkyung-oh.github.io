@@ -1,0 +1,2 @@
+# Optional browser QA only; not required to build or serve the site.
+playwright==1.60.0
