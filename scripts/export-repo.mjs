@@ -28,6 +28,7 @@ if (within(root, target) || within(target, root)) throw new Error('Source and ta
 if (!existsSync(path.join(target, '.git')) || !lstatSync(path.join(target, '.git')).isDirectory()) throw new Error('Target must have its own .git directory.');
 
 const manifestName = 'export-manifest.json';
+const privateFiles = new Set(['data/curation.json', 'data/source-manifest.json']);
 const blocked = /^(?:\.git|\.claude|\.codex|\.cursor|\.gemini|docs|qc|dist|node_modules|\.astro|\.env(?:\..*)?|AGENTS\.md|CLAUDE(?:\.local)?\.md|\.mcp\.json|export-manifest\.json)(?:\/|$)/;
 const validFile = (file) => {
   if (typeof file !== 'string' || !file || file.includes('\\') || file.includes('\0') || path.posix.isAbsolute(file) || file.split('/').some((part) => !part || part === '.' || part === '..') || (file !== '.env.example' && blocked.test(file))) {
@@ -46,7 +47,7 @@ const noSymlinks = (base, file) => {
 };
 const sha = (file) => createHash('sha256').update(readFileSync(file)).digest('hex');
 const candidates = execFileSync('git', ['-C', root, 'ls-files', '--cached', '--others', '--exclude-standard', '-z'], { encoding: 'utf8' }).split('\0').filter(Boolean);
-const files = [...new Set(candidates)].filter((file) => !['README.md', 'DESIGN.md'].includes(file) && (() => {
+const files = [...new Set(candidates)].filter((file) => !['README.md', 'DESIGN.md'].includes(file) && !privateFiles.has(file) && (() => {
   try { lstatSync(path.join(root, file)); return true; }
   catch (error) { if (error.code === 'ENOENT') return false; throw error; }
 })()).sort();
@@ -56,7 +57,7 @@ for (const file of files) {
   noSymlinks(target, file);
   if (!lstatSync(path.join(root, file)).isFile()) throw new Error(`Not a regular source file: ${file}`);
 }
-for (const required of ['package.json', 'package-lock.json', '.nvmrc', 'src/data/design-tokens.json', 'src/pages/index.astro', 'src/data/cv.generated.json']) {
+for (const required of ['package.json', 'package-lock.json', '.nvmrc', 'src/data/design-tokens.json', 'src/data/build-integrity.json', 'src/pages/index.astro', 'src/data/cv.generated.json']) {
   if (!files.includes(required)) throw new Error(`Incomplete source selection: ${required}`);
 }
 noSymlinks(target, manifestName);
@@ -90,7 +91,7 @@ for (const file of files) {
 }
 for (const file of Object.keys(previous.files)) {
   const dest = path.join(target, file);
-  if (!(file in next) && existsSync(dest)) {
+  if (!privateFiles.has(file) && !(file in next) && existsSync(dest)) {
     if (!lstatSync(dest).isFile() || sha(dest) !== previous.files[file]) throw new Error(`Target changed outside export; refusing removal: ${file}`);
     report.removed.push(file);
   }

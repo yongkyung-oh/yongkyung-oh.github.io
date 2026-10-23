@@ -1,4 +1,4 @@
-// One-command verification chain. Mirrors AGENTS.md §Verification so the order and
+// One-command verification chain. Keeps the validation order and
 // the preview lifecycle are no longer hand-run:
 //   sync:cv --check  →  npm test  →  npm run build  →  preview  →  browser QC  →  preview:stop
 // The preview is always stopped, even when a stage fails. Pass --no-browser to stop

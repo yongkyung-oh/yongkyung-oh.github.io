@@ -7,17 +7,19 @@ import { editorial } from '../src/data/editorial.ts';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const hash = (buffer) => createHash('sha256').update(buffer).digest('hex');
-const manifest = JSON.parse(await readFile(path.join(root, 'data/source-manifest.json')));
+const integrity = JSON.parse(await readFile(path.join(root, 'src/data/build-integrity.json')));
+assert.equal(integrity.schemaVersion, 1, 'Unsupported public build integrity format');
+assert.deepEqual(Object.keys(integrity).sort(), ['cvPdfSha256', 'generatedDataSha256', 'schemaVersion'], 'Public integrity file must contain only hashes and its format version');
+for (const field of ['generatedDataSha256', 'cvPdfSha256']) assert.match(integrity[field], /^[a-f0-9]{64}$/, `Invalid integrity hash: ${field}`);
 const snapshot = await readFile(path.join(root, 'src/data/cv.generated.json'));
 const cv = JSON.parse(snapshot);
-assert.equal(hash(snapshot), manifest.generatedDataSha256, 'Generated CV data changed outside sync:cv');
-assert.equal(hash(await readFile(path.join(root, 'data/curation.json'))), manifest.curationSha256, 'Curation changed: run sync:cv');
-assert.equal(hash(await readFile(path.join(root, 'dist/cv/YongKyung-Oh-CV.pdf'))), manifest.sources['CV.pdf'].sha256, 'Public PDF must equal the reviewed source');
+assert.equal(hash(snapshot), integrity.generatedDataSha256, 'Generated CV data changed outside sync:cv');
+assert.equal(hash(await readFile(path.join(root, 'dist/cv/YongKyung-Oh-CV.pdf'))), integrity.cvPdfSha256, 'Public PDF must equal the reviewed source');
 const html = await readFile(path.join(root, 'dist/index.html'), 'utf8');
 assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, 'Page needs exactly one h1');
-// Owner decision 2026-10-02: the document title is the name alone, without the institution.
+// the document title is the name alone, without the institution.
 assert.equal(html.match(/<title>([^<]*)<\/title>/)?.[1], cv.identity.name, 'Page title must be the name only');
-// Owner decision 2026-10-02: a transparent favicon, served at the implicit /favicon.ico path as well.
+// a transparent favicon, served at the implicit /favicon.ico path as well.
 for (const icon of ['favicon.ico', 'favicon.png']) {
   assert(html.includes(`href="/${icon}"`), `Missing <link rel="icon"> for ${icon}`);
   await readFile(path.join(root, 'dist', icon));
@@ -36,6 +38,12 @@ for (const area of editorial.research) {
   assert(researchHtml.includes(`<strong>${escapeText(area.title)}.</strong>`) && researchHtml.includes(escapeText(area.description)), `Research title or summary differs from editorial: ${area.id}`);
 }
 assert(html.includes('Chancellor’s Award for Postdoctoral Research — Nominee') && html.includes('Lead Scientist'), 'Recognition status and funding role must be explicit');
+// Public display choices are separate from source evidence and the full CV.
+const fundingHtml = html.match(/id="funding"[\s\S]*?<\/section>/)?.[0] ?? '';
+const publicTeachingHtml = html.match(/id="teaching"[\s\S]*?<\/section>/)?.[0] ?? '';
+assert(fundingHtml && !/\b(?:KRW|USD|EUR|H100)\b|8×|PI:|Selective|Competitive|fully funded/.test(fundingHtml), 'Funding must omit amounts and project-level specifications');
+assert(publicTeachingHtml && !/\b(?:BX|DS|AB)\d{7}\b/.test(publicTeachingHtml), 'Teaching must omit administrative course codes');
+assert(!/<p class="career-detail"><\/p>/.test(html), 'Omitted details must not leave empty paragraphs');
 const internalPublicationStates = new Set([
   'Presented · proceedings pending',
   'proceedings pending',
@@ -53,7 +61,7 @@ const profileHtml = html.slice(profileStart, profileEnd);
 const publicCvUrl = 'https://drive.google.com/file/d/12kr_OViGjSfBox5_kUnpnpop87liNlyV/view?usp=sharing';
 const profileOrder = ['https://scientific-inference-lab.github.io/', cv.identity.orcid, cv.identity.scholar, cv.identity.github, 'https://www.linkedin.com/in/yongkyung-oh', publicCvUrl].map((url) => profileHtml.indexOf(`href="${url}"`));
 assert(profileOrder.every((position) => position >= 0) && profileOrder.every((position, index) => index === 0 || position > profileOrder[index - 1]), 'Text profile links must start with the lab and end with CV in the reviewed order');
-// Spec 022: the owner's CV link plus the Slides/Poster Drive files projected from the bundle are the only Drive URLs.
+// the owner's CV link plus the Slides/Poster Drive files projected from the bundle are the only Drive URLs.
 const materialLinks = cv.publications.flatMap((paper) => paper.links.filter((link) => link.label === 'Slides' || link.label === 'Poster'));
 assert.equal(materialLinks.filter((link) => link.label === 'Slides').length, 7, 'Expected exactly 7 Slides links');
 assert.equal(materialLinks.filter((link) => link.label === 'Poster').length, 5, 'Expected exactly 5 Poster links');
@@ -62,12 +70,12 @@ const driveUrls = [...html.matchAll(/https:\/\/drive\.google\.com\/[^"'\s<>]*/g)
 assert.deepEqual(driveUrls.slice().sort(), [publicCvUrl, ...materialLinks.map((link) => link.url)].sort(), 'Drive URLs must be exactly the owner-reviewed CV link plus the bundle-projected Slides/Poster links');
 assert.equal((html.match(/<a href="https:\/\/drive\.google\.com\/file\/d\/[\w-]+" aria-label="Slides: /g) || []).length, 7, 'Seven Slides links must be rendered in paper action rows');
 assert.equal((html.match(/<a href="https:\/\/drive\.google\.com\/file\/d\/[\w-]+" aria-label="Poster: /g) || []).length, 5, 'Five Poster links must be rendered in paper action rows');
-// Spec 022 patents: 7 valid filings; unregistered or discontinued filings must not leak.
+// 7 valid filings; unregistered or discontinued filings must not leak.
 assert.equal(cv.patents.length, 7, 'Expected 7 patent entries');
 assert.equal((html.match(/\bKR 10-\d/g) || []).length, 7, 'Expected one KR number per listed patent (7)');
 for (const number of ['KR 10-2608343', 'KR 10-2604575', 'JP 7453296', 'JP 7453297']) assert(html.includes(number), `Missing patent: ${number}`);
 for (const hidden of ['18/395,620', '18/012,626', 'PCT/KR', 'Notice of Allowance', 'prosecution discontinued']) assert(!html.includes(hidden), `Excluded patent text must not appear: ${hidden}`);
-// Spec 022 (+ Addendum 2): all 13 honors and research awards; HR09/HR10 carry the certificate wording.
+// all 13 honors and research awards; HR09/HR10 carry the certificate wording.
 assert.equal(cv.recognitions.length, 13, 'Expected 13 recognition entries');
 assert(!html.includes('Distinguished Paper Award'), 'The retired "Distinguished Paper Award" wording must not appear');
 assert(html.includes('Encouragement Award') && html.includes('Excellence Award'), 'HR09/HR10 must show Encouragement Award and Excellence Award');
@@ -76,9 +84,7 @@ assert.equal(cv.recognitions.filter((entry) => entry.group === 'honors').length,
 assert.equal(cv.recognitions.filter((entry) => entry.group === 'honors_research_awards').length, 10, 'Expected 10 research awards');
 assert(html.indexOf('>Honors</h3>') > 0 && html.indexOf('>Honors</h3>') < html.indexOf('>Research Awards</h3>'), 'Recognition subheadings must render Honors before Research Awards');
 for (const id of ['recognition', 'patents']) assert(new RegExp(`id="${id}"[\\s\\S]*?<details class="cv-disclosure [^"]*"(?![^>]*\\bopen)`).test(html), `${id} disclosure must be collapsed by default`);
-const curation = JSON.parse(await readFile(path.join(root, 'data/curation.json')));
-assert(!('recognitionsHeld' in curation), 'The held recognition list is retired');
-// Spec 022 Addendum 2: Teaching lists exactly the two PNU Instructor entries and no TA/other lines.
+// Teaching lists exactly the two PNU Instructor entries and no TA/other lines.
 assert.equal(cv.teaching.length, 2, 'Expected 2 teaching entries');
 const teachingHtml = html.match(/id="teaching"[\s\S]*?<\/section>/)?.[0] ?? '';
 assert((teachingHtml.match(/class="career-row/g) || []).length === 2 && teachingHtml.includes('Machine Learning') && teachingHtml.includes('Data Structure') && teachingHtml.includes('Fall 2026') && !/\bTA\b|UNIST|Catalyst/.test(teachingHtml), 'Teaching must show only the two PNU Instructor entries');
@@ -87,7 +93,7 @@ assert(headerOrder.every((position) => position >= 0) && headerOrder.every((posi
 assert(html.includes('https://scientific-inference-lab.github.io/'), 'Header and contact need the reviewed lab URL');
 const sectionOrder = ['id="bio"', 'id="research"', 'id="experience"', 'id="education"', 'id="work"', 'id="funding"', 'id="recognition"', 'id="teaching"', 'id="patents"', 'id="contact"'].map((marker) => html.indexOf(marker));
 assert(sectionOrder.every((position) => position >= 0) && sectionOrder.every((position, index) => index === 0 || position > sectionOrder[index - 1]), 'Page sections must follow the CV order');
-// No manual theme control: the device preference decides (spec 013; the 2026-09-22 toggle removal stands).
+// No manual theme control: the device preference decides.
 assert(!html.includes('id="theme-toggle"') && !html.includes('data-theme=') && !html.includes('localStorage'), 'Theme follows the device: no manual control or stored override');
 const css = await readFile(path.join(root, 'src/styles/global.css'), 'utf8');
 assert(html.includes('media="(prefers-color-scheme: dark)"') && html.includes('media="(prefers-color-scheme: light)"'), 'Both device colour schemes need theme-color metadata');
@@ -119,7 +125,7 @@ for (const scheme of ['dark', 'light']) {
 }
 assert(!/\/Users\/|(?:achievement_records|records)\/|CV_working\/|verificationStatus|sourceWarnings|astro-island/.test(html), 'Internal provenance or unexpected island/link leaked into HTML');
 const allFiles = await readdir(path.join(root, 'dist'), { recursive: true });
-// spec 021: the CV page plus 404.html are the only generated pages; the other .html files are search-console tokens.
+// the CV page plus 404.html are the only generated pages; the other .html files are search-console tokens.
 const verification = JSON.parse(await readFile(path.join(root, 'src/data/site-verification.json')));
 const tokenFiles = Object.keys(verification.files);
 assert.deepEqual(allFiles.filter((file) => file.endsWith('.html') && !tokenFiles.includes(file)).sort(), ['404.html', 'index.html'], 'Only the CV page and 404.html should be generated');

@@ -19,7 +19,7 @@ const recentPapers = cv.publications.filter((paper) => paper.year === latestYear
 const earlierYears = years.slice(1);
 if (identity.major !== editorial.affiliation.expectedOfficialMajor) throw new Error('Official major changed: review docs/AFFILIATION.md before updating the appointment.');
 const cvUrl = editorial.cv.url;
-// Recognition mirrors the CV subsections (owner decision 2026-10-02); `group` is the bundle sectionId carried by the adapter.
+// Recognition mirrors the CV subsections; `group` is the bundle sectionId carried by the adapter.
 const recognitionGroups = [{ group: 'honors', title: 'Honors' }, { group: 'honors_research_awards', title: 'Research Awards' }]
   .map((entry) => ({ ...entry, entries: cv.recognitions.filter((item) => item.group === entry.group) }));
 const yearRange = (entries: { date: string }[]) => { const y = entries.map((e) => Number(e.date.match(/\d{4}/)?.[0])).filter(Boolean); return `${Math.min(...y)}–${Math.max(...y)}`; };
@@ -59,11 +59,11 @@ const schema = {
     <meta name="color-scheme" content="dark light" />
     <link rel="preload" href={serif} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={sans} as="font" type="font/woff2" crossorigin />
-    <!-- Owner decision 2026-10-02: a fully transparent icon, so the tab shows no default globe and /favicon.ico is not a 404. -->
+    <!-- a fully transparent icon, so the tab shows no default globe and /favicon.ico is not a 404. -->
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="canonical" href={canonical} />
-    <!-- Search-console ownership carried over from the legacy site (spec 021); tokens must stay byte-identical. -->
+    <!-- Search-console ownership carried over from the legacy site; tokens must stay byte-identical. -->
     {verification.meta.map(({ name, content }) => <meta name={name} content={content} />)}
     <meta property="og:type" content="website" />
     <meta property="og:title" content={`${identity.name} — Academic CV`} />

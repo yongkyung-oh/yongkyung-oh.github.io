@@ -14,7 +14,7 @@ function fixture(t) {
   const target = path.join(dir, 'target');
   mkdirSync(source); mkdirSync(target);
   for (const root of [source, target]) execFileSync('git', ['init', '-q', root]);
-  for (const file of ['package.json', 'package-lock.json', '.nvmrc', 'DESIGN.md', 'src/pages/index.astro', 'src/data/cv.generated.json', 'src/data/design-tokens.json', '.env.example', 'README.md']) {
+  for (const file of ['package.json', 'package-lock.json', '.nvmrc', 'DESIGN.md', 'src/pages/index.astro', 'src/data/cv.generated.json', 'src/data/design-tokens.json', 'src/data/build-integrity.json', '.env.example', 'README.md']) {
     const dest = path.join(source, file);
     mkdirSync(path.dirname(dest), { recursive: true });
     writeFileSync(dest, 'fixture\n');
@@ -70,4 +70,34 @@ test('export refuses unmanaged collisions, target edits, traversal, symlinks, an
   assert.notEqual(run('--write').status, 0); rmSync(path.join(source, 'dangling'));
   assert.notEqual(run('--check', '--write').status, 0);
   assert.notEqual(run('--unknown').status, 0);
+});
+
+
+test('export excludes tracked private reviews and preserves local copies during migration', (t) => {
+  const { source, target, run } = fixture(t);
+  const privateFiles = ['data/curation.json', 'data/source-manifest.json'];
+  for (const file of privateFiles) {
+    mkdirSync(path.dirname(path.join(source, file)), { recursive: true });
+    writeFileSync(path.join(source, file), '{"reviewReason":"private reviewer notes"}\n');
+    execFileSync('git', ['-C', source, 'add', '--', file]);
+  }
+  writeFileSync(path.join(source, '.gitignore'), privateFiles.join('\n') + '\n');
+  const result = run('--write');
+  assert.equal(result.status, 0, result.stderr);
+  const manifestPath = path.join(target, 'export-manifest.json');
+  const legacy = JSON.parse(readFileSync(manifestPath, 'utf8'));
+  for (const file of privateFiles) {
+    assert.equal(existsSync(path.join(target, file)), false);
+    mkdirSync(path.dirname(path.join(target, file)), { recursive: true });
+    writeFileSync(path.join(target, file), 'private local copy');
+    legacy.files[file] = '0'.repeat(64);
+  }
+  writeFileSync(manifestPath, JSON.stringify(legacy));
+  const migrated = run('--write');
+  assert.equal(migrated.status, 0, migrated.stderr);
+  const current = JSON.parse(readFileSync(manifestPath, 'utf8'));
+  for (const file of privateFiles) {
+    assert.equal(readFileSync(path.join(target, file), 'utf8'), 'private local copy');
+    assert.equal(Object.hasOwn(current.files, file), false);
+  }
 });

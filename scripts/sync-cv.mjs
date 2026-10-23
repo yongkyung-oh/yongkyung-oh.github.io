@@ -45,6 +45,7 @@ const manifest = {
 };
 const outputs = {
   'src/data/cv.generated.json': dataBuffer,
+  'src/data/build-integrity.json': Buffer.from(JSON.stringify({ schemaVersion: 1, generatedDataSha256: hash(dataBuffer), cvPdfSha256: hash(buffers['CV.pdf']) }, null, 2) + '\n'),
   'data/source-manifest.json': Buffer.from(JSON.stringify(manifest, null, 2) + '\n'),
   'public/cv/YongKyung-Oh-CV.pdf': buffers['CV.pdf'],
 };

@@ -10,7 +10,7 @@ export function publicUrl(value) {
   return url.href;
 }
 
-// Owner decision 2026-10-02 (spec 022): slides and posters are Google Drive files the owner shared.
+// slides and posters are Google Drive files the owner shared.
 export function driveUrl(value) {
   const url = new URL(value);
   assert(url.protocol === 'https:' && !url.username && !url.password && !url.port && url.hostname === 'drive.google.com' && /^\/file\/d\/[\w-]+$/.test(url.pathname) && !url.search && !url.hash, `Unapproved Drive URL: ${value}`);
@@ -95,7 +95,7 @@ export function projectPublication(record, choice, recognitions) {
   if (preprint) links.push({ label: 'Preprint', url: publicUrl(preprint.url) });
   const code = record.recordLinks.find((link) => link.category === 'code');
   if (code) links.push({ label: 'Code', url: publicUrl(code.url) });
-  // Owner decision 2026-10-02 (spec 022): every slide/poster link, in source order, as in the lab site.
+  // every slide/poster link, in source order, as in the lab site.
   for (const link of record.recordLinks) {
     if (link.category === 'slide') links.push({ label: 'Slides', url: driveUrl(link.url) });
     else if (link.category === 'poster') links.push({ label: 'Poster', url: driveUrl(link.url) });
@@ -152,10 +152,10 @@ export function projectBundle(raw, curation) {
   const career = projectEntries(curation.career, 'career');
   const education = projectEntries(curation.education, 'education');
   const funding = projectEntries(curation.funding, 'grant');
-  // Owner decision 2026-10-02: Recognition mirrors the CV subsections. `group` is the bundle sectionId, never typed by hand.
+  // Recognition mirrors the CV subsections. `group` is the bundle sectionId, never typed by hand.
   const recognitions = projectEntries(curation.recognitions, 'award').map((entry, index) => ({ ...entry, group: items.get(curation.recognitions[index].sourcePath).sectionId }));
   const patents = projectEntries(curation.patents, 'patent');
-  // Owner decision 2026-10-02 (spec 022 Addendum 2): only the PNU Instructor lines of Teaching Experience; TA and other service lines stay out.
+  // only the PNU Instructor lines of Teaching Experience; TA and other service lines stay out.
   assert(Array.isArray(curation.teaching), 'Teaching selection is required');
   const teaching = projectEntries(curation.teaching, 'service');
   const teachingItems = curation.teaching.map((c) => items.get(c.sourcePath));
@@ -167,9 +167,9 @@ export function projectBundle(raw, curation) {
   for (const [type, choices] of [['education', curation.education], ['career', curation.career], ['grant', curation.funding]]) {
     assert.deepEqual(new Set(choices.map((c) => c.sourcePath)), new Set(raw.items.filter((item) => item.recordType === type).map((item) => item.sourcePath)), `${type} coverage changed: review before sync`);
   }
-  // Spec 022: honors + research awards only; scholarships and competitions stay out of the web selection.
+  // honors + research awards only; scholarships and competitions stay out of the web selection.
   const awardSections = new Map(raw.items.filter((item) => item.recordType === 'award').map((item) => [item.sourcePath, item.sectionId]));
-  assert(!('recognitionsHeld' in curation), 'The held recognition list was retired 2026-10-02 (spec 022 Addendum 2); select every honors/research award');
+  assert(!('recognitionsHeld' in curation), 'The held recognition list was retired 2026-10-02; select every honors/research award');
   const selectedPaths = curation.recognitions.map((c) => c.sourcePath);
   assert.equal(new Set(selectedPaths).size, selectedPaths.length, 'Duplicate recognition source');
   assert.deepEqual(new Set(selectedPaths), new Set([...awardSections].filter(([, section]) => ['honors', 'honors_research_awards'].includes(section)).map(([path]) => path)), 'Recognition coverage changed: review before sync');
@@ -179,7 +179,7 @@ export function projectBundle(raw, curation) {
   recognitions.forEach((entry, index) => assert.equal(entry.group, recognitionItems[index].sectionId, `Recognition group must equal its bundle sectionId: ${entry.id}`));
   assert(recognitions.every((entry, index) => index === 0 || groupOrder.indexOf(entry.group) >= groupOrder.indexOf(recognitions[index - 1].group)), 'Recognition must follow the CV subsection order: Honors, then Research Awards');
   assert(recognitionItems.every((item, index) => index === 0 || recognitionItems[index - 1].sectionId !== item.sectionId || recognitionItems[index - 1].label < item.label), 'Recognition order within a subsection must follow the CV item order');
-  // Spec 022: valid applications and grants only (no discontinued or unregistered filings).
+  // valid applications and grants only (no discontinued or unregistered filings).
   assert.deepEqual(new Set(curation.patents.map((c) => c.sourcePath)), new Set(raw.items.filter((item) => item.sectionId === 'patents').map((item) => item.sourcePath)), 'Patent coverage changed: review before sync');
   const current = career.find((entry) => entry.id === 'pnu');
   assert(current, 'Current appointment is required');

@@ -69,7 +69,8 @@ with sync_playwright() as p:
     check('Both undergraduate minors are included', 'Mechanical Engineering and Advanced Materials Science' in page.locator('#unist-bs').inner_text())
     check('Eight professional roles included', page.locator('#experience .career-row').count() == 8)
     check('All four grants and fellowships included', page.locator('#funding .career-row').count() == 4)
-    check('NVIDIA support and role are explicit', all(text in page.locator('#nvidia').inner_text() for text in ['Lead Scientist', 'In-kind', '8×H100', 'PI: Alex A. T. Bui']))
+    funding_text = page.locator('#funding').inner_text()
+    check('Funding keeps own roles without amounts or project-level specifications', all(text in page.locator('#nvidia').inner_text() for text in ['Lead Scientist', 'In-kind']) and 'Principal Investigator' in page.locator('#nrf').inner_text() and not re.search(r'\b(?:KRW|USD|EUR|H100)\b|8×|PI:|Selective|Competitive|fully funded', funding_text))
     recent = lambda entries: [entry['id'] for _, entry in sorted(enumerate(entries), key=lambda pair: (-int(re.search(r'\d{4}', pair[1]['date']).group()), pair[0]))[:3]]
     recent_recognition = recent(cv['recognitions'])
     recent_patents = recent(cv['patents'])
@@ -86,7 +87,7 @@ with sync_playwright() as p:
     recognition_text = page.locator('#recognition').inner_text()
     check('Recognition lists all 13 honors and research awards, with CHIL Best Paper, Encouragement and Excellence awards and no Distinguished Paper Award', page.locator('#recognition .career-row').count() == 13 and 'Best Paper Award' in recognition_text and 'Multi-View Contrastive Learning' in recognition_text and 'Encouragement Award' in recognition_text and 'Excellence Award' in recognition_text and 'Startup Ecosystem' in recognition_text and 'Suggestion for Smart Port' in recognition_text and all(text not in recognition_text for text in ['Distinguished Paper Award', 'Scholarship']) and 'Distinguished Paper Award' not in page.content())
     teaching_text = page.locator('#teaching').inner_text()
-    check('Teaching lists the two PNU Instructor entries, visible, and no TA lines', page.locator('#teaching h2').inner_text() == 'Teaching' and page.locator('#teaching .career-row').count() == 2 and page.locator('#teaching .career-row').first.is_visible() and 'Machine Learning' in teaching_text and 'Data Structure' in teaching_text and 'BX3600087 / DS3600087 / AB3600087' in teaching_text and 'DS3600082' in teaching_text and teaching_text.count('Fall 2026') == 2 and teaching_text.count('Pusan National University') == 2 and all(text not in teaching_text for text in ['TA', 'UNIST', 'Catalyst']) and page.locator('#teaching a').count() == 0)
+    check('Teaching lists the two PNU Instructor entries, visible, and no TA lines', page.locator('#teaching h2').inner_text() == 'Teaching' and page.locator('#teaching .career-row').count() == 2 and page.locator('#teaching .career-row').first.is_visible() and 'Machine Learning' in teaching_text and 'Data Structure' in teaching_text and teaching_text.count('Instructor') == 2 and not re.search(r'\b(?:BX|DS|AB)\d{7}\b', teaching_text) and teaching_text.count('Fall 2026') == 2 and teaching_text.count('Pusan National University') == 2 and all(text not in teaching_text for text in ['TA', 'UNIST', 'Catalyst']) and page.locator('#teaching a').count() == 0)
     patents_text = page.locator('#patents').inner_text()
     check('Patents section lists all 7 valid filings once and nothing excluded', page.locator('#patents .cv-disclosure .career-row').count() == 4 and page.locator('#patents .career-row').count() == 7 and len(set(page.locator('#patents .career-row').evaluate_all('items => items.map(item => item.id)'))) == 7 and page.locator('#patents h2').inner_text() == 'Patents' and 'Co-inventor across all listed filings.' in patents_text and all(text in patents_text for text in ['KR 10-2608343 (granted 2023)', 'JP 7453296 (granted 2024)', 'KR 10-2024-0033382 (application pending)']) and patents_text.count('Joint applicants: Naver Corp. and UNIST.') == 2 and all(text not in page.content() for text in ['18/395,620', '18/012,626', 'PCT/KR', 'prosecution discontinued', 'Notice of Allowance']))
     page.evaluate('document.querySelectorAll("#recognition .cv-disclosure, #patents .cv-disclosure").forEach(d => d.open = false)')
@@ -128,7 +129,7 @@ with sync_playwright() as p:
       const c = document.createElement('canvas'); c.width = img.naturalWidth; c.height = img.naturalHeight; const x = c.getContext('2d'); x.drawImage(img, 0, 0);
       const d = x.getImageData(0, 0, c.width, c.height).data; let m = 0; for (let i = 3; i < d.length; i += 4) m = Math.max(m, d[i]); return m; }''')
     check('Favicon is a served, fully transparent image', favicons['/favicon.ico']['status'] == 200 and favicons['/favicon.png']['status'] == 200 and favicons['alpha_max'] == 0 and page.locator('link[rel="icon"]').count() == 2, favicons)
-    # spec 021: search-console ownership, crawler files and the 404 page, as the preview serves them.
+    # search-console ownership, crawler files and the 404 page, as the preview serves them.
     base = args.url.rstrip('/')
     verification = json.loads((root / 'src/data/site-verification.json').read_text())
     tokens = {}
@@ -224,7 +225,7 @@ with sync_playwright() as p:
         check(f'Citation {index + 1} renders below its control', citation_box['y'] >= summary_box['y'] + summary_box['height'] - 1, {'summary': summary_box, 'citation': citation_box})
         page.keyboard.press('Space')
         check(f'Citation {index + 1} closes with Space', details.get_attribute('open') is None)
-    # The APA toggle shares the action row with the publication links (spec 017).
+    # The APA toggle shares the action row with the publication links.
     page.set_viewport_size({'width': 1440, 'height': 1000})
     toggle_rows = page.evaluate('''() => [...document.querySelectorAll('.paper')].map(paper => {
       const top = el => Math.round(el.getBoundingClientRect().top);
