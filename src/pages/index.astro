@@ -1,0 +1,207 @@
+---
+import { Copy, Check } from '@lucide/astro';
+import { Image } from 'astro:assets';
+import CVSection from '../components/CVSection.astro';
+import CVEntry from '../components/CVEntry.astro';
+import Paper from '../components/Paper.astro';
+import portrait from '../assets/portrait.jpg';
+import cv from '../data/cv.generated.json';
+import { editorial } from '../data/editorial';
+import verification from '../data/site-verification.json';
+import '../styles/global.css';
+import serif from '@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2?url';
+import sans from '@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2?url';
+
+const { identity } = cv;
+const years = [...new Set(cv.publications.map((paper) => paper.year))].sort((a, b) => b - a);
+const latestYear = years[0];
+const recentPapers = cv.publications.filter((paper) => paper.year === latestYear);
+const earlierYears = years.slice(1);
+if (identity.major !== editorial.affiliation.expectedOfficialMajor) throw new Error('Official major changed: review docs/AFFILIATION.md before updating the appointment.');
+const cvUrl = editorial.cv.url;
+// Recognition mirrors the CV subsections (owner decision 2026-10-02); `group` is the bundle sectionId carried by the adapter.
+const recognitionGroups = [{ group: 'honors', title: 'Honors' }, { group: 'honors_research_awards', title: 'Research Awards' }]
+  .map((entry) => ({ ...entry, entries: cv.recognitions.filter((item) => item.group === entry.group) }));
+const yearRange = (entries: { date: string }[]) => { const y = entries.map((e) => Number(e.date.match(/\d{4}/)?.[0])).filter(Boolean); return `${Math.min(...y)}–${Math.max(...y)}`; };
+const yearOf = (entry: { date: string }) => Number(entry.date.match(/\d{4}/)?.[0] ?? 0);
+const latestThree = <T extends { date: string }>(entries: T[]) => entries
+  .map((entry, index) => ({ entry, index }))
+  .sort((a, b) => yearOf(b.entry) - yearOf(a.entry) || a.index - b.index)
+  .slice(0, 3)
+  .map(({ entry }) => entry);
+const recentRecognition = latestThree(cv.recognitions);
+const recentRecognitionIds = new Set(recentRecognition.map(({ id }) => id));
+const remainingRecognition = cv.recognitions.filter(({ id }) => !recentRecognitionIds.has(id));
+const remainingRecognitionGroups = recognitionGroups.map(({ group, title }) => ({
+  group, title, entries: remainingRecognition.filter((item) => item.group === group),
+}));
+const recentPatents = latestThree(cv.patents);
+const recentPatentIds = new Set(recentPatents.map(({ id }) => id));
+const remainingPatents = cv.patents.filter(({ id }) => !recentPatentIds.has(id));
+const recognitionSummary = `${remainingRecognition.length} distinctions · ${yearRange(remainingRecognition)}`;
+const patentSummary = `${remainingPatents.length} patents · ${yearRange(remainingPatents)}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const schema = {
+  '@context': 'https://schema.org', '@type': 'Person', name: identity.name,
+  url: Astro.site?.href, jobTitle: identity.title,
+  worksFor: { '@type': 'CollegeOrUniversity', name: identity.organization },
+  sameAs: [identity.orcid, identity.scholar, identity.github, editorial.social.linkedin],
+};
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={editorial.description} />
+    <meta name="theme-color" content="#181b1a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafaf8" media="(prefers-color-scheme: light)" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="preload" href={serif} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={sans} as="font" type="font/woff2" crossorigin />
+    <!-- Owner decision 2026-10-02: a fully transparent icon, so the tab shows no default globe and /favicon.ico is not a 404. -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="canonical" href={canonical} />
+    <!-- Search-console ownership carried over from the legacy site (spec 021); tokens must stay byte-identical. -->
+    {verification.meta.map(({ name, content }) => <meta name={name} content={content} />)}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${identity.name} — Academic CV`} />
+    <meta property="og:description" content={editorial.description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <title>{identity.name}</title>
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="document">
+      <header class="cv-header">
+        <div class="identity-heading">
+          <h1>{identity.name}</h1>
+          <p class="appointment">{identity.title}</p>
+          <p class="affiliation">{identity.major}, {identity.department}<br />{identity.organization}</p>
+          <a class="header-email" href={`mailto:${identity.email}`}>{identity.email}</a>
+          <Image class="portrait" src={portrait} alt="YongKyung Oh speaking at a lectern" width={224} height={224} widths={[144, 224, 448]} sizes="(max-width: 760px) 144px, 224px" format="webp" loading="eager" />
+          <div class="profile-links">
+            <a href={editorial.lab.url}>Scientific Inference Lab</a>
+            <a href={identity.orcid} rel="me">ORCID</a>
+            <a href={identity.scholar}>Google Scholar</a>
+            <a href={identity.github} rel="me">GitHub</a>
+            <a href={editorial.social.linkedin} rel="me">LinkedIn</a>
+            <a href={cvUrl} class="header-cv"><span>CV <span class="file-type">PDF</span></span></a>
+          </div>
+        </div>
+        <nav aria-label="Main navigation" class="cv-nav flex flex-wrap gap-x-6">
+          <a href="#bio">Bio</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#work">Publications</a><a href="#funding">Funding</a><a href="#recognition">Recognition</a><a href="#teaching">Teaching</a><a href="#patents">Patents</a><a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="main" tabindex="-1">
+        <CVSection id="bio" title="Bio">
+          <div class="bio-copy"><p>{editorial.biography}</p></div>
+        </CVSection>
+        <CVSection id="research" title="Research interests">
+          <ul class="interest-list">
+            {editorial.research.map((area) => <li data-research-id={area.id}><strong>{area.title}.</strong> {area.description}</li>)}
+          </ul>
+        </CVSection>
+        <CVSection id="experience" title="Professional experience">
+          <ol class="career-list">{cv.career.slice(0, 3).map((entry) => <CVEntry entry={entry} />)}</ol>
+          <details class="cv-disclosure earlier-experience">
+            <summary><span class="disclosure-title">Earlier research & industry experience</span><span class="disclosure-count">{cv.career.length - 3} roles</span></summary>
+            <ol class="career-list">{cv.career.slice(3).map((entry) => <CVEntry entry={entry} />)}</ol>
+          </details>
+        </CVSection>
+        <CVSection id="education" title="Education">
+          <ol class="career-list">{cv.education.map((entry) => <CVEntry entry={entry} />)}</ol>
+        </CVSection>
+        <CVSection id="work" title="Publications">
+          <div class="publication-overview"><a href="#earlier-content">Earlier publications ↓</a></div>
+          <p class="author-key">* Equal contribution · † Corresponding author</p>
+          <section class="publication-year" id={`publications-${latestYear}`} aria-labelledby={`year-${latestYear}`}>
+            <h3 class="year-heading" id={`year-${latestYear}`}>{latestYear}</h3>
+            <ol class="publication-list">{recentPapers.map((paper) => <li><Paper paper={paper} /></li>)}</ol>
+          </section>
+          <details class="cv-disclosure earlier-publications" id="earlier-publications">
+            <summary><span class="disclosure-title">Earlier publications</span><span class="disclosure-count">{cv.publications.length - recentPapers.length} · {earlierYears.at(-1)}–{earlierYears[0]}</span></summary>
+            <div class="earlier-content" id="earlier-content">
+              <nav class="year-index" aria-label="Earlier publication years">{earlierYears.map((year) => <a href={`#publications-${year}`}>{year}</a>)}</nav>
+              {earlierYears.map((year) => <section class="publication-year" id={`publications-${year}`} aria-labelledby={`year-${year}`}>
+                <h3 class="year-heading" id={`year-${year}`}>{year}</h3>
+                <ol class="publication-list">{cv.publications.filter((paper) => paper.year === year).map((paper) => <li><Paper paper={paper} /></li>)}</ol>
+                <a href="#earlier-publications" class="back-to-years">Back to earlier years ↑</a>
+              </section>)}
+            </div>
+          </details>
+          <a href={identity.scholar} class="all-publications">Google Scholar ↗</a>
+        </CVSection>
+        <CVSection id="funding" title="Grants & fellowships">
+          <ol class="career-list">{cv.funding.map((entry) => <CVEntry entry={entry} />)}</ol>
+        </CVSection>
+        <CVSection id="recognition" title="Recognition">
+          <ul class="career-list recognition-list">{recentRecognition.map((entry) => <CVEntry entry={entry} />)}</ul>
+          <details class="cv-disclosure recognition-disclosure">
+            <summary><span class="disclosure-title">More honors &amp; research awards</span><span class="disclosure-count">{recognitionSummary}</span></summary>
+            <div class="recognition-groups">
+              {remainingRecognitionGroups.map(({ group, title, entries }) => <section class="recognition-group" aria-labelledby={`recognition-${group}`}>
+                <h3 class="year-heading" id={`recognition-${group}`}>{title}</h3>
+                <ul class="career-list recognition-list">{entries.map((entry) => <CVEntry entry={entry} />)}</ul>
+              </section>)}
+            </div>
+          </details>
+        </CVSection>
+        <CVSection id="teaching" title="Teaching">
+          <ol class="career-list">{cv.teaching.map((entry) => <CVEntry entry={entry} />)}</ol>
+        </CVSection>
+        <CVSection id="patents" title="Patents">
+          <p class="author-key">Co-inventor across all listed filings.</p>
+          <ol class="career-list">{recentPatents.map((entry) => <CVEntry entry={entry} />)}</ol>
+          <details class="cv-disclosure patents-disclosure">
+            <summary><span class="disclosure-title">More patent filings</span><span class="disclosure-count">{patentSummary}</span></summary>
+            <ol class="career-list">{remainingPatents.map((entry) => <CVEntry entry={entry} />)}</ol>
+          </details>
+        </CVSection>
+        <CVSection id="contact" title="Contact">
+          <p><a href={editorial.lab.url}>Scientific Inference Lab</a><br />{identity.organization}<br /><span class="text-muted">{identity.location}</span></p>
+          <div class="email-row">
+            <a class="email-link" href={`mailto:${identity.email}`}>{identity.email}</a>
+            <button id="copy-email" type="button" class="copy-button" hidden data-email={identity.email} aria-label="Copy email address"><Copy class="copy-icon" size={15} aria-hidden="true" /><Check class="check-icon" size={15} aria-hidden="true" /></button>
+          </div>
+          <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
+        </CVSection>
+      </main>
+      <footer class="cv-footer"><p>{identity.name} · CV updated <time datetime={cv.sourceDate}>{cv.sourceDate}</time></p><a href="#top">Back to top ↑</a></footer>
+    </div>
+    <script>
+      let printStates: [HTMLDetailsElement, boolean][] | undefined;
+      window.addEventListener('beforeprint', () => {
+        if (printStates) return;
+        printStates = [...document.querySelectorAll<HTMLDetailsElement>('details')].map((entry) => [entry, entry.open]);
+        printStates.forEach(([entry]) => { entry.open = true; });
+      });
+      window.addEventListener('afterprint', () => {
+        printStates?.forEach(([entry, open]) => { entry.open = open; });
+        printStates = undefined;
+      });
+      const button = document.querySelector<HTMLButtonElement>('#copy-email');
+      const status = document.querySelector<HTMLElement>('#copy-status');
+      if (button && status && navigator.clipboard) {
+        button.hidden = false;
+        let reset: ReturnType<typeof setTimeout>;
+        button.addEventListener('click', async () => {
+          clearTimeout(reset);
+          try {
+            await navigator.clipboard.writeText(button.dataset.email || '');
+            status.textContent = 'Email address copied.';
+            button.classList.add('copied');
+            reset = setTimeout(() => { button.classList.remove('copied'); status.textContent = ''; }, 3500);
+          } catch {
+            button.classList.remove('copied');
+            status.textContent = 'Copy unavailable. Select the email address above or use the email link.';
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+---
+import cv from '../data/cv.generated.json';
+import '../styles/global.css';
+
+// GitHub Pages serves this for every missing path, including the legacy Jekyll URLs (spec 021).
+const { identity } = cv;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <title>{identity.name}</title>
+  </head>
+  <body>
+    <main class="document not-found">
+      <h1>Page not found</h1>
+      <p>This address does not exist. The site was rebuilt as a single-page CV in 2026, so some earlier pages moved or were retired.</p>
+      <p><a href="/">{identity.name} — Academic CV</a></p>
+    </main>
+  </body>
+</html>

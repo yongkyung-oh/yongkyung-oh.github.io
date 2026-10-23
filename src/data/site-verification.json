@@ -1,0 +1,22 @@
+{
+  "_comment": "Search-console ownership carried over byte-for-byte from the legacy yongkyung-oh.github.io (owner decision 2026-10-02, spec 021). Do not edit: a changed token loses console ownership. The legacy short Google meta value USineeIkCthVeX8eGwqg was a truncated copy of the full token and is intentionally not carried over.",
+  "files": {
+    "googlecaa61bccf05b13d3.html": "f6a15586bd475c2c0cb80b67032dededae3236107f53a63128358ecc56fc1cca",
+    "naver03ab0a0915a448006fd4b0edcf5e781a.html": "8f20fe90bd4d0d45efd5c56ee0a3d8e3ce25a7f1a363c98d224b11ecea7dc735",
+    "BingSiteAuth.xml": "0d0d4c69d300b61e5402e661866d860b119fe876d407413bd0203637f6b5b4d0"
+  },
+  "meta": [
+    {
+      "name": "google-site-verification",
+      "content": "USineeIkCthVeX8eGwqg-5xhsPi4SgD5mcNZa_rSNAQ"
+    },
+    {
+      "name": "msvalidate.01",
+      "content": "693E71FE3B99D9DB66373DDACF6EBD2B"
+    },
+    {
+      "name": "naver-site-verification",
+      "content": "72a189117d510bf9a8ccd00844573423de53601b"
+    }
+  ]
+}

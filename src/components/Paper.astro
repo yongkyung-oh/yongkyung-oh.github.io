@@ -1,0 +1,24 @@
+---
+import data from '../data/cv.generated.json';
+import { publicationDisplay } from '../data/publication-updates';
+interface Props { paper: typeof data.publications[number]; }
+const paper = publicationDisplay(Astro.props.paper);
+---
+<article class="paper" id={paper.id} aria-labelledby={`${paper.id}-title`}>
+  <h4 class="paper-title" id={`${paper.id}-title`}>{paper.title}</h4>
+  <p class="authors">
+    {paper.authors.map((author, index) => <Fragment>
+      {index > 0 && ', '}
+      {author.owner ? <strong>{author.name}</strong> : <span>{author.name}</span>}
+      {author.marker && <sup aria-label={author.marker === '*' ? 'Equal contribution' : 'Corresponding author'}>{author.marker}</sup>}
+    </Fragment>)}
+  </p>
+  <p class="publication-meta"><i class="venue">{paper.venue}</i> {paper.year}{paper.category === 'Position paper' && <span> · Position paper</span>}{paper.recognition && <span class="publication-note"> · {paper.recognition}</span>}</p>
+  <div class="paper-actions">
+    {paper.links.map((link) => <a href={link.url} aria-label={`${link.label}: ${paper.title}`}>{link.label}</a>)}
+    <details class="citation">
+      <summary aria-label={`APA citation for ${paper.title}`}>APA citation</summary>
+      <div class="citation-content"><p>{paper.citationParts.map((part) => part.italic ? <i>{part.text}</i> : part.text)}{paper.citationDoi && <Fragment> <a href={paper.citationDoi}>{paper.citationDoi}</a></Fragment>}</p></div>
+    </details>
+  </div>
+</article>

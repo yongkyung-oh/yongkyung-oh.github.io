@@ -1,0 +1,23 @@
+{
+  "light": {
+    "--color-paper": "#fafaf8",
+    "--color-ink": "#171717",
+    "--color-muted": "#62625c",
+    "--color-rule": "#ddded6",
+    "--color-accent": "#0075b1"
+  },
+  "dark": {
+    "--color-paper": "#181b1a",
+    "--color-ink": "#e9e7e1",
+    "--color-muted": "#adb5af",
+    "--color-rule": "#3a433e",
+    "--color-accent": "#73b3d4"
+  },
+  "print": {
+    "--color-paper": "#fff",
+    "--color-ink": "#171717",
+    "--color-muted": "#444",
+    "--color-rule": "#ddd",
+    "--color-accent": "#171717"
+  }
+}

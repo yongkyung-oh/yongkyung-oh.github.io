@@ -1,0 +1,2034 @@
+{
+  "schemaVersion": 2,
+  "sourceDate": "2026-10-11",
+  "identity": {
+    "name": "YongKyung Oh",
+    "email": "yongkyung.oh@pusan.ac.kr",
+    "department": "School of BioMedical Convergence Engineering",
+    "major": "Data Science Major",
+    "location": "Yangsan, Korea",
+    "scholar": "https://scholar.google.com/citations?user=YJ1L50YAAAAJ",
+    "github": "https://github.com/yongkyung-oh",
+    "orcid": "https://orcid.org/0000-0002-8027-3433",
+    "title": "Assistant Professor",
+    "organization": "Pusan National University"
+  },
+  "publications": [
+    {
+      "id": "pub-c15",
+      "title": "Silent failures in federated personalization of foundation models",
+      "year": 2026,
+      "venue": "KDD · Blue Sky Ideas Track",
+      "category": "Blue Sky Ideas Track",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Alex Bui",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1145/3770855.3818661"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2606.00947"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/FedFMP"
+        }
+      ],
+      "citation": "Oh, Y., & Bui, A. (2026). Silent failures in federated personalization of foundation models. In Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (pp. 13199-13206). Association for Computing Machinery. Blue Sky Ideas Track, Jeju Island, Republic of Korea.",
+      "citationDoi": "https://doi.org/10.1145/3770855.3818661",
+      "citationParts": [
+        {
+          "text": "Oh, Y., & Bui, A. (2026). Silent failures in federated personalization of foundation models. In ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+          "italic": true
+        },
+        {
+          "text": " (pp. 13199-13206). Association for Computing Machinery. Blue Sky Ideas Track, Jeju Island, Republic of Korea.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "sota-evidence",
+      "title": "Position: State-of-the-art claims require state-of-the-art evidence",
+      "year": 2026,
+      "venue": "ICML",
+      "category": "Position paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v306/oh26d.html"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2605.17273"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/SOTA"
+        }
+      ],
+      "citation": "Oh, Y. (2026). Position: State-of-the-art claims require state-of-the-art evidence. In Proceedings of the 43rd International Conference on Machine Learning (pp. 171583-171601). PMLR. Position Paper Track, Seoul, Republic of Korea.",
+      "citationDoi": null,
+      "citationParts": [
+        {
+          "text": "Oh, Y. (2026). Position: State-of-the-art claims require state-of-the-art evidence. In ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the 43rd International Conference on Machine Learning",
+          "italic": true
+        },
+        {
+          "text": " (pp. 171583-171601). PMLR. Position Paper Track, Seoul, Republic of Korea.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c13",
+      "title": "Survey-aware machine learning: A guideline for valid population health inference based on scoping review",
+      "year": 2026,
+      "venue": "CHIL",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Henry W Zheng",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Jeffrey Feng",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Alex A T Bui",
+          "owner": false,
+          "marker": ""
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v333/oh26a.html"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2605.08963"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/SaML"
+        }
+      ],
+      "citation": "Oh, Y., Zheng, H. W., Feng, J., & Bui, A. A. T. (2026). Survey-aware machine learning: A guideline for valid population health inference based on scoping review. In Proceedings of the 7th Conference on Health, Inference, and Learning (pp. 198-220). PMLR. Seattle, WA, USA.",
+      "citationDoi": null,
+      "citationParts": [
+        {
+          "text": "Oh, Y., Zheng, H. W., Feng, J., & Bui, A. A. T. (2026). Survey-aware machine learning: A guideline for valid population health inference based on scoping review. In ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the 7th Conference on Health, Inference, and Learning",
+          "italic": true
+        },
+        {
+          "text": " (pp. 198-220). PMLR. Seattle, WA, USA.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "flowpath",
+      "title": "FlowPath: Learning data-driven manifolds with invertible flows for robust irregularly-sampled time series classification",
+      "year": 2026,
+      "venue": "AAAI",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Dong-Young Lim",
+          "owner": false,
+          "marker": "†"
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1609/aaai.v40i29.39643"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2511.10841"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/FlowPath"
+        }
+      ],
+      "citation": "Oh, Y., Lim, D.-Y., & Kim, S. (2026). FlowPath: Learning data-driven manifolds with invertible flows for robust irregularly-sampled time series classification. Proceedings of the AAAI Conference on Artificial Intelligence, 40(29), 24594-24603.",
+      "citationDoi": "https://doi.org/10.1609/aaai.v40i29.39643",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Lim, D.-Y., & Kim, S. (2026). FlowPath: Learning data-driven manifolds with invertible flows for robust irregularly-sampled time series classification. ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "40",
+          "italic": true
+        },
+        {
+          "text": "(29), 24594-24603.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c11",
+      "title": "Continuum dropout for neural differential equations",
+      "year": 2026,
+      "venue": "AAAI",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "Jonghun Lee",
+          "owner": false,
+          "marker": "*"
+        },
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": "*"
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        },
+        {
+          "name": "Dong-Young Lim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1609/aaai.v40i27.39442"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2511.10446"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/jonghun-lee0/Continuum-Dropout"
+        }
+      ],
+      "citation": "Lee, J., Oh, Y., Kim, S., & Lim, D.-Y. (2026). Continuum dropout for neural differential equations. Proceedings of the AAAI Conference on Artificial Intelligence, 40(27), 22796-22804.",
+      "citationDoi": "https://doi.org/10.1609/aaai.v40i27.39442",
+      "citationParts": [
+        {
+          "text": "Lee, J., Oh, Y., Kim, S., & Lim, D.-Y. (2026). Continuum dropout for neural differential equations. ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "40",
+          "italic": true
+        },
+        {
+          "text": "(27), 22796-22804.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c10",
+      "title": "TANDEM: Temporal attention-guided neural differential equations for missingness in time series classification",
+      "year": 2025,
+      "venue": "CIKM",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Dongyoung Lim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        },
+        {
+          "name": "Alex A. T. Bui",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1145/3746252.3760996"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/TANDEM"
+        }
+      ],
+      "citation": "Oh, Y., Lim, D., Kim, S., & Bui, A. A. T. (2025). TANDEM: Temporal attention-guided neural differential equations for missingness in time series classification. In Proceedings of the 34th ACM International Conference on Information and Knowledge Management (pp. 2232-2242). Association for Computing Machinery.",
+      "citationDoi": "https://doi.org/10.1145/3746252.3760996",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Lim, D., Kim, S., & Bui, A. A. T. (2025). TANDEM: Temporal attention-guided neural differential equations for missingness in time series classification. In ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+          "italic": true
+        },
+        {
+          "text": " (pp. 2232-2242). Association for Computing Machinery.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c09",
+      "title": "Modeling irregular astronomical time series with neural stochastic delay differential equations",
+      "year": 2025,
+      "venue": "CIKM",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Seungsu Kam",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Dongyoung Lim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1145/3746252.3760805"
+        }
+      ],
+      "citation": "Oh, Y., Kam, S., Lim, D., & Kim, S. (2025). Modeling irregular astronomical time series with neural stochastic delay differential equations. In Proceedings of the 34th ACM International Conference on Information and Knowledge Management (pp. 5068-5073). Association for Computing Machinery.",
+      "citationDoi": "https://doi.org/10.1145/3746252.3760805",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Kam, S., Lim, D., & Kim, S. (2025). Modeling irregular astronomical time series with neural stochastic delay differential equations. In ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+          "italic": true
+        },
+        {
+          "text": " (pp. 5068-5073). Association for Computing Machinery.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c08",
+      "title": "Comprehensive review of neural differential equations for time series analysis",
+      "year": 2025,
+      "venue": "IJCAI",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Seungsu Kam",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Jonghun Lee",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Dong-Young Lim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        },
+        {
+          "name": "Alex A. T. Bui",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.24963/ijcai.2025/1179"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2502.09885"
+        },
+        {
+          "label": "Slides",
+          "url": "https://drive.google.com/file/d/1qi_40JnzCsi70tvWdjJklN1j-54BQqzf"
+        },
+        {
+          "label": "Poster",
+          "url": "https://drive.google.com/file/d/155QTG5KPSz9zCpyCzRBUF7V6rnay2Z6r"
+        }
+      ],
+      "citation": "Oh, Y., Kam, S., Lee, J., Lim, D.-Y., Kim, S., & Bui, A. A. T. (2025). Comprehensive review of neural differential equations for time series analysis. In Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, IJCAI-25 (pp. 10621-10631). International Joint Conferences on Artificial Intelligence Organization.",
+      "citationDoi": "https://doi.org/10.24963/ijcai.2025/1179",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Kam, S., Lee, J., Lim, D.-Y., Kim, S., & Bui, A. A. T. (2025). Comprehensive review of neural differential equations for time series analysis. In ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, IJCAI-25",
+          "italic": true
+        },
+        {
+          "text": " (pp. 10621-10631). International Joint Conferences on Artificial Intelligence Organization.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "multi-view",
+      "title": "Multi-view contrastive learning for robust domain adaptation in medical time series analysis",
+      "year": 2025,
+      "venue": "CHIL",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Alex Bui",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": "Best Paper Award (Models & Methods Track)",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v287/oh25a.html"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2506.22393"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/Multi-View_Contrastive_Learning"
+        },
+        {
+          "label": "Poster",
+          "url": "https://drive.google.com/file/d/1jROcBGxbZ7dpzwBkzSl3VaoHUnL0LqhJ"
+        }
+      ],
+      "citation": "Oh, Y., & Bui, A. (2025). Multi-view contrastive learning for robust domain adaptation in medical time series analysis. In Proceedings of the sixth Conference on Health, Inference, and Learning (pp. 502-526). PMLR. Best Paper Award.",
+      "citationDoi": null,
+      "citationParts": [
+        {
+          "text": "Oh, Y., & Bui, A. (2025). Multi-view contrastive learning for robust domain adaptation in medical time series analysis. In ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the sixth Conference on Health, Inference, and Learning",
+          "italic": true
+        },
+        {
+          "text": " (pp. 502-526). PMLR.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c06",
+      "title": "Deep interaction feature fusion for robust human activity recognition",
+      "year": 2025,
+      "venue": "Human Activity Recognition and Anomaly Detection · Springer",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Alex A. T. Bui",
+          "owner": false,
+          "marker": ""
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1007/978-981-97-9003-6_7"
+        },
+        {
+          "label": "Slides",
+          "url": "https://drive.google.com/file/d/1Xl20xFrXKzZQyoQJZHxAKutLO3RbgUzn"
+        }
+      ],
+      "citation": "Oh, Y., Kim, S., & Bui, A. A. T. (2025). Deep interaction feature fusion for robust human activity recognition. In Human Activity Recognition and Anomaly Detection (pp. 99-116). Springer Nature.",
+      "citationDoi": "https://doi.org/10.1007/978-981-97-9003-6_7",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Kim, S., & Bui, A. A. T. (2025). Deep interaction feature fusion for robust human activity recognition. In ",
+          "italic": false
+        },
+        {
+          "text": "Human Activity Recognition and Anomaly Detection",
+          "italic": true
+        },
+        {
+          "text": " (pp. 99-116). Springer Nature.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c05",
+      "title": "DualDynamics: Synergizing implicit and explicit methods for robust irregular time series analysis",
+      "year": 2025,
+      "venue": "AAAI",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": "*"
+        },
+        {
+          "name": "Dong-Young Lim",
+          "owner": false,
+          "marker": "*"
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": ""
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1609/aaai.v39i18.34173"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2401.04979"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/DualDynamics"
+        },
+        {
+          "label": "Slides",
+          "url": "https://drive.google.com/file/d/1035VU__8r3bSeSNXBwXM3XMHcv7Kh-Jj"
+        },
+        {
+          "label": "Poster",
+          "url": "https://drive.google.com/file/d/1-iB9s5LZx9w8YIQXlr6hYHi60-pi-9X5"
+        }
+      ],
+      "citation": "Oh, Y., Lim, D.-Y., & Kim, S. (2025). DualDynamics: Synergizing implicit and explicit methods for robust irregular time series analysis. Proceedings of the AAAI Conference on Artificial Intelligence, 39(18), 19730-19739.",
+      "citationDoi": "https://doi.org/10.1609/aaai.v39i18.34173",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Lim, D.-Y., & Kim, S. (2025). DualDynamics: Synergizing implicit and explicit methods for robust irregular time series analysis. ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "39",
+          "italic": true
+        },
+        {
+          "text": "(18), 19730-19739.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "stable-sdes",
+      "title": "Stable neural stochastic differential equations in analyzing irregular time series data",
+      "year": 2024,
+      "venue": "ICLR",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": "*"
+        },
+        {
+          "name": "Dongyoung Lim",
+          "owner": false,
+          "marker": "*"
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": ""
+        }
+      ],
+      "recognition": "Spotlight Presentation",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://openreview.net/forum?id=4VIgNuQ1pY"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2402.14989"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/Stable-Neural-SDEs"
+        },
+        {
+          "label": "Slides",
+          "url": "https://drive.google.com/file/d/1Ci0FK_tJKtVNRQFa-Ck3oaiXvWgFHbV-"
+        },
+        {
+          "label": "Poster",
+          "url": "https://drive.google.com/file/d/1EC5gpnGXH7vYt8WV8gTF-iZWHbhcZXYp"
+        }
+      ],
+      "citation": "Oh, Y., Lim, D., & Kim, S. (2024). Stable neural stochastic differential equations in analyzing irregular time series data. In The Twelfth International Conference on Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024. Spotlight Presentation (5%).",
+      "citationDoi": null,
+      "citationParts": [
+        {
+          "text": "Oh, Y., Lim, D., & Kim, S. (2024). Stable neural stochastic differential equations in analyzing irregular time series data. In ",
+          "italic": false
+        },
+        {
+          "text": "The Twelfth International Conference on Learning Representations",
+          "italic": true
+        },
+        {
+          "text": ", ICLR 2024, Vienna, Austria, May 7-11, 2024.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c03",
+      "title": "Multivariate times series classification using multichannel CNN",
+      "year": 2022,
+      "venue": "IJCAI",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.24963/ijcai.2022/835"
+        },
+        {
+          "label": "Slides",
+          "url": "https://drive.google.com/file/d/1--DJHC2_03HOAWb0wv_ZDfHF5qBBm9vu"
+        }
+      ],
+      "citation": "Oh, Y. (2022). Multivariate times series classification using multichannel CNN. In L. D. Raedt (Ed.), Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI-22 (pp. 5865-5866). International Joint Conferences on Artificial Intelligence Organization.",
+      "citationDoi": "https://doi.org/10.24963/ijcai.2022/835",
+      "citationParts": [
+        {
+          "text": "Oh, Y. (2022). Multivariate times series classification using multichannel CNN. In L. D. Raedt (Ed.), ",
+          "italic": false
+        },
+        {
+          "text": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI-22",
+          "italic": true
+        },
+        {
+          "text": " (pp. 5865-5866). International Joint Conferences on Artificial Intelligence Organization.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c02",
+      "title": "Multi-channel convolution neural network for gas mixture classification",
+      "year": 2021,
+      "venue": "ICDM Workshops",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": ""
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/icdmw53433.2021.00143"
+        },
+        {
+          "label": "Poster",
+          "url": "https://drive.google.com/file/d/1gP2ZNwqFP0Ny0nPHBjrWr9u_W8hlatMN"
+        }
+      ],
+      "citation": "Oh, Y., & Kim, S. (2021). Multi-channel convolution neural network for gas mixture classification. In 2021 International Conference on Data Mining Workshops (ICDMW) (pp. 1094-1095).",
+      "citationDoi": "https://doi.org/10.1109/icdmw53433.2021.00143",
+      "citationParts": [
+        {
+          "text": "Oh, Y., & Kim, S. (2021). Multi-channel convolution neural network for gas mixture classification. In ",
+          "italic": false
+        },
+        {
+          "text": "2021 International Conference on Data Mining Workshops (ICDMW)",
+          "italic": true
+        },
+        {
+          "text": " (pp. 1094-1095).",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-c01",
+      "title": "Exploiting logistics anomaly detection using maritime big data",
+      "year": 2019,
+      "venue": "IISE Annual Conference",
+      "category": "Conference paper",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": ""
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://www.proquest.com/docview/2511385302"
+        },
+        {
+          "label": "Slides",
+          "url": "https://drive.google.com/file/d/1WodtFZjjVPItBeiiLtJV9_IzW0JGIEAC"
+        }
+      ],
+      "citation": "Oh, Y., & Kim, S. (2019). Exploiting logistics anomaly detection using maritime big data. IISE Annual Conference. Proceedings, 964-969.",
+      "citationDoi": null,
+      "citationParts": [
+        {
+          "text": "Oh, Y., & Kim, S. (2019). Exploiting logistics anomaly detection using maritime big data. ",
+          "italic": false
+        },
+        {
+          "text": "IISE Annual Conference. Proceedings",
+          "italic": true
+        },
+        {
+          "text": ", 964-969.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j13",
+      "title": "Predicting non-recurrent congestion impact: A pattern-based approach for speed drop ratio prediction using weighted k-nearest neighbors",
+      "year": 2026,
+      "venue": "Computers & Industrial Engineering",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Jiin Kwak",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.cie.2025.111769"
+        }
+      ],
+      "citation": "Oh, Y., Kwak, J., & Kim, S. (2026). Predicting non-recurrent congestion impact: A pattern-based approach for speed drop ratio prediction using weighted k-nearest neighbors. Computers & Industrial Engineering, 213, 111769.",
+      "citationDoi": "https://doi.org/10.1016/j.cie.2025.111769",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Kwak, J., & Kim, S. (2026). Predicting non-recurrent congestion impact: A pattern-based approach for speed drop ratio prediction using weighted k-nearest neighbors. ",
+          "italic": false
+        },
+        {
+          "text": "Computers & Industrial Engineering",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "213",
+          "italic": true
+        },
+        {
+          "text": ", 111769.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j12",
+      "title": "SmokeBERT: A bidirectional encoder representations from transformers–based model for quantitative smoking history extraction from clinical narratives to improve lung cancer screening",
+      "year": 2025,
+      "venue": "JCO Clinical Cancer Informatics",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "Yiming Xue",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Yunzheng Zhu",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Luoting Zhuang",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Ricky Taira",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Denise R. Aberle",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Ashley Elizabeth Prosper",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "William Hsu",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Yannan Lin",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1200/cci-25-00223"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Elena145/SmokeBERT"
+        }
+      ],
+      "citation": "Xue, Y., Zhu, Y., Zhuang, L., Oh, Y., Taira, R., Aberle, D. R., Prosper, A. E., Hsu, W., & Lin, Y. (2025). SmokeBERT: A bidirectional encoder representations from transformers-based model for quantitative smoking history extraction from clinical narratives to improve lung cancer screening. JCO Clinical Cancer Informatics, 9, e2500223.",
+      "citationDoi": "https://doi.org/10.1200/cci-25-00223",
+      "citationParts": [
+        {
+          "text": "Xue, Y., Zhu, Y., Zhuang, L., Oh, Y., Taira, R., Aberle, D. R., Prosper, A. E., Hsu, W., & Lin, Y. (2025). SmokeBERT: A bidirectional encoder representations from transformers-based model for quantitative smoking history extraction from clinical narratives to improve lung cancer screening. ",
+          "italic": false
+        },
+        {
+          "text": "JCO Clinical Cancer Informatics",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "9",
+          "italic": true
+        },
+        {
+          "text": ", e2500223.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j11",
+      "title": "TSSI: Time series as screenshot images for multivariate time series classification using convolutional neural networks",
+      "year": 2025,
+      "venue": "Computers & Industrial Engineering",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Heeyoung Kim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.cie.2025.111393"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/TSSI"
+        }
+      ],
+      "citation": "Oh, Y., Kim, H., & Kim, S. (2025). TSSI: Time series as screenshot images for multivariate time series classification using convolutional neural networks. Computers & Industrial Engineering, 209, 111393.",
+      "citationDoi": "https://doi.org/10.1016/j.cie.2025.111393",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Kim, H., & Kim, S. (2025). TSSI: Time series as screenshot images for multivariate time series classification using convolutional neural networks. ",
+          "italic": false
+        },
+        {
+          "text": "Computers & Industrial Engineering",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "209",
+          "italic": true
+        },
+        {
+          "text": ", 111393.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j10",
+      "title": "TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery",
+      "year": 2025,
+      "venue": "Computers & Industrial Engineering",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Giheon Koh",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Jiin Kwak",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Kyubo Shin",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Gi-Soo Kim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Min Joung Lee",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Hokyung Choung",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Namju Kim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Jae Hoon Moon",
+          "owner": false,
+          "marker": "†"
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.cie.2025.111024"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/TAOD-Net"
+        }
+      ],
+      "citation": "Oh, Y., Koh, G., Kwak, J., Shin, K., Kim, G.-S., Lee, M. J., Choung, H., Kim, N., Moon, J. H., & Kim, S. (2025). TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery. Computers & Industrial Engineering, 203, 111024.",
+      "citationDoi": "https://doi.org/10.1016/j.cie.2025.111024",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Koh, G., Kwak, J., Shin, K., Kim, G.-S., Lee, M. J., Choung, H., Kim, N., Moon, J. H., & Kim, S. (2025). TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery. ",
+          "italic": false
+        },
+        {
+          "text": "Computers & Industrial Engineering",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "203",
+          "italic": true
+        },
+        {
+          "text": ", 111024.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j09",
+      "title": "Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data",
+      "year": 2025,
+      "venue": "Maritime Policy & Management",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Kwonin Yoon",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Jaemin Park",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1080/03088839.2024.2388177"
+        }
+      ],
+      "citation": "Oh, Y., Yoon, K., Park, J., & Kim, S. (2025). Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data. Maritime Policy & Management, 52(4), 609-626.",
+      "citationDoi": "https://doi.org/10.1080/03088839.2024.2388177",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Yoon, K., Park, J., & Kim, S. (2025). Comparative evaluation of VAE-based monitoring statistics for real-time anomaly detection in AIS data. ",
+          "italic": false
+        },
+        {
+          "text": "Maritime Policy & Management",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "52",
+          "italic": true
+        },
+        {
+          "text": "(4), 609-626.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j08",
+      "title": "Multi-modal lifelog data fusion for improved human activity recognition: A hybrid approach",
+      "year": 2024,
+      "venue": "Information Fusion",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.inffus.2024.102464"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/Hybrid-Data-Fusion"
+        }
+      ],
+      "citation": "Oh, Y., & Kim, S. (2024). Multi-modal lifelog data fusion for improved human activity recognition: A hybrid approach. Information Fusion, 110, 102464.",
+      "citationDoi": "https://doi.org/10.1016/j.inffus.2024.102464",
+      "citationParts": [
+        {
+          "text": "Oh, Y., & Kim, S. (2024). Multi-modal lifelog data fusion for improved human activity recognition: A hybrid approach. ",
+          "italic": false
+        },
+        {
+          "text": "Information Fusion",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "110",
+          "italic": true
+        },
+        {
+          "text": ", 102464.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j07",
+      "title": "Multichannel convolution neural network for gas mixture classification",
+      "year": 2024,
+      "venue": "Annals of Operations Research",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Chiehyeon Lim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Junghye Lee",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sewon Kim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1007/s10479-022-04715-2"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/Multichannel-CNN"
+        }
+      ],
+      "citation": "Oh, Y., Lim, C., Lee, J., Kim, S., & Kim, S. (2024). Multichannel convolution neural network for gas mixture classification. Annals of Operations Research, 339(1-2), 261-295.",
+      "citationDoi": "https://doi.org/10.1007/s10479-022-04715-2",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Lim, C., Lee, J., Kim, S., & Kim, S. (2024). Multichannel convolution neural network for gas mixture classification. ",
+          "italic": false
+        },
+        {
+          "text": "Annals of Operations Research",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "339",
+          "italic": true
+        },
+        {
+          "text": "(1-2), 261-295.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j06",
+      "title": "Grid-based Bayesian bootstrap approach for real-time detection of abnormal vessel behaviors from AIS data in maritime logistics",
+      "year": 2024,
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": ""
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/tase.2023.3329041"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/Bayesian_Bootstrap_for_AIS"
+        },
+        {
+          "label": "Slides",
+          "url": "https://drive.google.com/file/d/12jJqyOQY7AgHHR1hexcE7W-tmmxcQ82J"
+        }
+      ],
+      "citation": "Oh, Y., & Kim, S. (2024). Grid-based bayesian bootstrap approach for real-time detection of abnormal vessel behaviors from AIS data in maritime logistics. IEEE Transactions on Automation Science and Engineering, 21(4), 6680-6692.",
+      "citationDoi": "https://doi.org/10.1109/tase.2023.3329041",
+      "citationParts": [
+        {
+          "text": "Oh, Y., & Kim, S. (2024). Grid-based bayesian bootstrap approach for real-time detection of abnormal vessel behaviors from AIS data in maritime logistics. ",
+          "italic": false
+        },
+        {
+          "text": "IEEE Transactions on Automation Science and Engineering",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "21",
+          "italic": true
+        },
+        {
+          "text": "(4), 6680-6692.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j05",
+      "title": "Sensor drift compensation for gas mixture classification in batch experiments",
+      "year": 2023,
+      "venue": "Quality and Reliability Engineering International",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Juhui Lee",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1002/qre.3354"
+        }
+      ],
+      "citation": "Oh, Y., Lee, J., & Kim, S. (2023). Sensor drift compensation for gas mixture classification in batch experiments. Quality and Reliability Engineering International, 39(6), 2422-2437.",
+      "citationDoi": "https://doi.org/10.1002/qre.3354",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Lee, J., & Kim, S. (2023). Sensor drift compensation for gas mixture classification in batch experiments. ",
+          "italic": false
+        },
+        {
+          "text": "Quality and Reliability Engineering International",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "39",
+          "italic": true
+        },
+        {
+          "text": "(6), 2422-2437.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j04",
+      "title": "Time delay estimation of traffic congestion propagation due to accidents based on statistical causality",
+      "year": 2023,
+      "venue": "Electronic Research Archive",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "JiIn Kwak",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.3934/era.2023034"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yongkyung-oh/TransferEntropy-Propagation"
+        }
+      ],
+      "citation": "Oh, Y., Kwak, J., & Kim, S. (2023). Time delay estimation of traffic congestion propagation due to accidents based on statistical causality. Electronic Research Archive, 31(2), 691-707.",
+      "citationDoi": "https://doi.org/10.3934/era.2023034",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Kwak, J., & Kim, S. (2023). Time delay estimation of traffic congestion propagation due to accidents based on statistical causality. ",
+          "italic": false
+        },
+        {
+          "text": "Electronic Research Archive",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "31",
+          "italic": true
+        },
+        {
+          "text": "(2), 691-707.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j03",
+      "title": "Quantifying incident impacts and identifying influential features in urban traffic networks",
+      "year": 2023,
+      "venue": "Transportmetrica B: Transport Dynamics",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "JuYeong Lee",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "JiIn Kwak",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1080/21680566.2022.2063205"
+        }
+      ],
+      "citation": "Lee, J., Kwak, J., Oh, Y., & Kim, S. (2023). Quantifying incident impacts and identifying influential features in urban traffic networks. Transportmetrica B: Transport Dynamics, 11(1), 279-300.",
+      "citationDoi": "https://doi.org/10.1080/21680566.2022.2063205",
+      "citationParts": [
+        {
+          "text": "Lee, J., Kwak, J., Oh, Y., & Kim, S. (2023). Quantifying incident impacts and identifying influential features in urban traffic networks. ",
+          "italic": false
+        },
+        {
+          "text": "Transportmetrica B: Transport Dynamics",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "11",
+          "italic": true
+        },
+        {
+          "text": "(1), 279-300.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j02",
+      "title": "Simulation-based anomaly detection in nuclear reactors",
+      "year": 2021,
+      "venue": "Journal of the Korean Institute of Industrial Engineers",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Hanjoo Kim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Deokjung Lee",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.7232/jkiie.2021.47.2.130"
+        }
+      ],
+      "citation": "Oh, Y., Kim, H., Lee, D., & Kim, S. (2021). Simulation-based anomaly detection in nuclear reactors. Journal of the Korean Institute of Industrial Engineers, 47(2), 130-143.",
+      "citationDoi": "https://doi.org/10.7232/jkiie.2021.47.2.130",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Kim, H., Lee, D., & Kim, S. (2021). Simulation-based anomaly detection in nuclear reactors. ",
+          "italic": false
+        },
+        {
+          "text": "Journal of the Korean Institute of Industrial Engineers",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "47",
+          "italic": true
+        },
+        {
+          "text": "(2), 130-143.",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "id": "pub-j01",
+      "title": "Transfer learning based approach for mixture gas classification",
+      "year": 2021,
+      "venue": "Journal of the Korean Institute of Industrial Engineers",
+      "category": "Journal article",
+      "status": null,
+      "authors": [
+        {
+          "name": "YongKyung Oh",
+          "owner": true,
+          "marker": ""
+        },
+        {
+          "name": "Namu Kim",
+          "owner": false,
+          "marker": ""
+        },
+        {
+          "name": "Sungil Kim",
+          "owner": false,
+          "marker": "†"
+        }
+      ],
+      "recognition": null,
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.7232/jkiie.2021.47.2.144"
+        }
+      ],
+      "citation": "Oh, Y., Kim, N., & Kim, S. (2021). Transfer learning based approach for mixture gas classification. Journal of the Korean Institute of Industrial Engineers, 47(2), 144-159.",
+      "citationDoi": "https://doi.org/10.7232/jkiie.2021.47.2.144",
+      "citationParts": [
+        {
+          "text": "Oh, Y., Kim, N., & Kim, S. (2021). Transfer learning based approach for mixture gas classification. ",
+          "italic": false
+        },
+        {
+          "text": "Journal of the Korean Institute of Industrial Engineers",
+          "italic": true
+        },
+        {
+          "text": ", ",
+          "italic": false
+        },
+        {
+          "text": "47",
+          "italic": true
+        },
+        {
+          "text": "(2), 144-159.",
+          "italic": false
+        }
+      ]
+    }
+  ],
+  "career": [
+    {
+      "id": "pnu",
+      "title": "Assistant Professor",
+      "organization": "Pusan National University",
+      "detail": "Data Science Major · School of BioMedical Convergence Engineering",
+      "date": "Current",
+      "note": ""
+    },
+    {
+      "id": "ucla",
+      "title": "Postdoctoral Researcher",
+      "organization": "UCLA Health",
+      "detail": "David Geffen School of Medicine · Advisor: Alex Bui",
+      "date": "2023–2026",
+      "note": "Clinical and wearable time series research with the UCLA Depression Grand Challenge."
+    },
+    {
+      "id": "unist-postdoc",
+      "title": "Postdoctoral Researcher",
+      "organization": "UNIST",
+      "detail": "Industry Intelligentization Institute · Advisor: Sungil Kim",
+      "date": "2023–2024",
+      "note": "Concurrent UNIST–UCLA affiliation, September 2023–November 2024."
+    },
+    {
+      "id": "unist-graduate",
+      "title": "Graduate Researcher",
+      "organization": "UNIST",
+      "detail": "Data Analytics Lab · Advisor: Sungil Kim",
+      "date": "2018–2023",
+      "note": "Founding member of the lab; time-series modeling and anomaly detection with industry partners."
+    },
+    {
+      "id": "cmu",
+      "title": "Visiting Student and Researcher",
+      "organization": "Carnegie Mellon University",
+      "detail": "Language Technologies Institute · Intensive AI Program (High-Potential Individuals Global Training Program)",
+      "date": "2020",
+      "note": ""
+    },
+    {
+      "id": "gm",
+      "title": "Visiting Scientist",
+      "organization": "General Motors",
+      "detail": "Global Research & Development Center · Manufacturing Systems Research Laboratory",
+      "date": "2017",
+      "note": ""
+    },
+    {
+      "id": "accenture",
+      "title": "Research Assistant",
+      "organization": "Accenture Korea",
+      "detail": "Lotte Duty Free Shop New Generation System Integration Project",
+      "date": "2016–2017",
+      "note": ""
+    },
+    {
+      "id": "kiel",
+      "title": "Research Intern",
+      "organization": "Institut für Theoretische Physik und Astrophysik",
+      "detail": "Kiel, Germany · IAESTE program · Advisor: Sebastian Wolf",
+      "date": "2014",
+      "note": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "unist-phd",
+      "title": "Ph.D. in Industrial Engineering",
+      "organization": "UNIST",
+      "detail": "Advisor: Sungil Kim",
+      "date": "2023",
+      "note": "Dissertation: A Comprehensive Study of Deep Learning for Real-World Multivariate Time Series Classification."
+    },
+    {
+      "id": "unist-ms",
+      "title": "Master in Technology and Innovation Management",
+      "organization": "UNIST",
+      "detail": "Advisor: KwangWook Gang",
+      "date": "2017",
+      "note": ""
+    },
+    {
+      "id": "unist-bs",
+      "title": "B.Sc. in Physics",
+      "organization": "UNIST",
+      "detail": "Dual minors in Mechanical Engineering and Advanced Materials Science",
+      "date": "2015",
+      "note": "Valedictorian · Magna cum laude."
+    }
+  ],
+  "funding": [
+    {
+      "id": "nvidia",
+      "title": "NVIDIA Academic Grant Program",
+      "organization": "NVIDIA",
+      "detail": "Lead Scientist · In-kind cloud computing grant",
+      "date": "2026",
+      "note": "Neural SDE-augmented pharmacokinetic simulation · 8×H100 cloud instance. PI: Alex A. T. Bui, UCLA."
+    },
+    {
+      "id": "nrf",
+      "title": "Postdoctoral Fellowship for Overseas Research",
+      "organization": "National Research Foundation of Korea (NRF)",
+      "detail": "Principal Investigator · KRW 57.1 million",
+      "date": "2024–2025",
+      "note": "Distribution shift and model trustworthiness in longitudinal medical data."
+    },
+    {
+      "id": "khidi",
+      "title": "Biomedical UniStar Training Program",
+      "organization": "Korea Health Industry Development Institute (KHIDI)",
+      "detail": "Selective program supporting collaborative research between UNIST and the UCLA David Geffen School of Medicine.",
+      "date": "2023–2024",
+      "note": ""
+    },
+    {
+      "id": "iitp",
+      "title": "Intensive Program in Artificial Intelligence (High-Potential Individuals Global Training Program)",
+      "organization": "Institute for Information & Communication Technology Planning & Evaluation (IITP)",
+      "detail": "Competitive, fully funded program for intensive training at Carnegie Mellon University (CMU).",
+      "date": "2020",
+      "note": ""
+    }
+  ],
+  "recognitions": [
+    {
+      "id": "cirtl",
+      "title": "CIRTL Scholar",
+      "organization": "UCLA",
+      "detail": "Center for the Integration of Research, Teaching and Learning",
+      "date": "2026",
+      "note": "",
+      "group": "honors"
+    },
+    {
+      "id": "ucla-nomination",
+      "title": "Chancellor’s Award for Postdoctoral Research — Nominee",
+      "organization": "UCLA",
+      "detail": "Nominated for the 2025 Chancellor’s Award",
+      "date": "2025",
+      "note": "",
+      "group": "honors"
+    },
+    {
+      "id": "valedictorian",
+      "title": "Valedictorian",
+      "organization": "UNIST",
+      "detail": "B.Sc. in Physics",
+      "date": "2015",
+      "note": "",
+      "group": "honors"
+    },
+    {
+      "id": "energy-finalist",
+      "title": "Energy Analytics Challenge — Finalist",
+      "organization": "IISE Energy Systems Division",
+      "detail": "Transform-First Forecasting for County-Level Power Outages",
+      "date": "2026",
+      "note": "",
+      "group": "honors_research_awards"
+    },
+    {
+      "id": "chil-best-paper",
+      "title": "Best Paper Award",
+      "organization": "Conference on Health, Inference, and Learning (CHIL)",
+      "detail": "Multi-View Contrastive Learning for Robust Domain Adaptation in Medical Time Series Analysis",
+      "date": "2025",
+      "note": "Models & Methods Track.",
+      "group": "honors_research_awards"
+    },
+    {
+      "id": "dais-finalist",
+      "title": "Best Paper Competition — Finalist",
+      "organization": "IISE Data Analytics and Information Systems Division",
+      "detail": "Multi-scale Transformer for Long-term Time Series Forecasting",
+      "date": "2025",
+      "note": "Finalist in three consecutive years: 2023, 2024, and 2025.",
+      "group": "honors_research_awards"
+    },
+    {
+      "id": "dais-finalist-2024",
+      "title": "Best Paper Competition — Finalist",
+      "organization": "IISE Data Analytics and Information Systems Division",
+      "detail": "Integrating Neural Controlled Differential Equations and Neural Flow for Comprehensive Irregularly-sampled Time Series Analysis",
+      "date": "2024",
+      "note": "",
+      "group": "honors_research_awards"
+    },
+    {
+      "id": "kcc-best-paper",
+      "title": "Best Paper Award",
+      "organization": "Korea Computer Congress (KCC), KIISE",
+      "detail": "Flow-based Neural Differential Equations for Time Series Analysis",
+      "date": "2023",
+      "note": "",
+      "group": "honors_research_awards"
+    },
+    {
+      "id": "kcc-best-oral",
+      "title": "Best Oral Presentation Award",
+      "organization": "Korea Computer Congress (KCC), KIISE",
+      "detail": "Heterogeneous Model Fusion for Enhanced Sensor-Based Human Activity Recognition",
+      "date": "2023",
+      "note": "AI Division.",
+      "group": "honors_research_awards"
+    },
+    {
+      "id": "dais-finalist-2023",
+      "title": "Best Paper Competition — Finalist",
+      "organization": "IISE Data Analytics and Information Systems Division",
+      "detail": "Neural Stochastic Differential Equations Based on the Ornstein-Uhlenbeck Process",
+      "date": "2023",
+      "note": "",
+      "group": "honors_research_awards"
+    },
+    {
+      "id": "lsc-best-paper",
+      "title": "Best Paper Award",
+      "organization": "IISE Logistics & Supply Chain Division",
+      "detail": "Logistics Anomaly Detection with Maritime Big Data: A Bootstrap Approach",
+      "date": "2021",
+      "note": "",
+      "group": "honors_research_awards"
+    },
+    {
+      "id": "ulsan-encouragement",
+      "title": "Encouragement Award",
+      "organization": "Ulsan Development Institute",
+      "detail": "Strategies for Building a Startup Ecosystem for Port Smartization",
+      "date": "2019",
+      "note": "Graduate Student Academic Paper Competition.",
+      "group": "honors_research_awards"
+    },
+    {
+      "id": "dongseo-excellence",
+      "title": "Excellence Award",
+      "organization": "Dongseo University & Ministry of Maritime Affairs and Fisheries",
+      "detail": "Suggestion for Smart Port in Industry 4.0",
+      "date": "2019",
+      "note": "International Conference on Maritime, Academic Paper Competition.",
+      "group": "honors_research_awards"
+    }
+  ],
+  "teaching": [
+    {
+      "id": "pnu-machine-learning",
+      "title": "Machine Learning",
+      "organization": "Pusan National University",
+      "detail": "Instructor · BX3600087 / DS3600087 / AB3600087",
+      "date": "Fall 2026",
+      "note": ""
+    },
+    {
+      "id": "pnu-data-structure",
+      "title": "Data Structure",
+      "organization": "Pusan National University",
+      "detail": "Instructor · DS3600082",
+      "date": "Fall 2026",
+      "note": ""
+    }
+  ],
+  "patents": [
+    {
+      "id": "hybrid-fusion-har",
+      "title": "Apparatus and method for human activity recognition through hybrid fusion of dynamic and static data",
+      "organization": "",
+      "detail": "KR 10-2024-0033382 (application pending)",
+      "date": "2024",
+      "note": ""
+    },
+    {
+      "id": "tssi-encoding",
+      "title": "Encoding apparatus and method for converting time series data into images",
+      "organization": "",
+      "detail": "KR 10-2754134 (granted 2025) · US 12,725,326 (granted 2026)",
+      "date": "2026",
+      "note": ""
+    },
+    {
+      "id": "congestion-pattern-matching",
+      "title": "Method, computer device, and computer program to predict road congestion propagation using pattern matching",
+      "organization": "",
+      "detail": "KR 10-2608343 (granted 2023) · JP 7453296 (granted 2024)",
+      "date": "2024",
+      "note": "Joint applicants: Naver Corp. and UNIST."
+    },
+    {
+      "id": "congestion-transfer-entropy",
+      "title": "Method, computer device, and computer program to predict propagation delay time of road congestion using transfer entropy",
+      "organization": "",
+      "detail": "KR 10-2604575 (granted 2023) · JP 7453297 (granted 2024)",
+      "date": "2024",
+      "note": "Joint applicants: Naver Corp. and UNIST."
+    },
+    {
+      "id": "vessel-anomaly-bootstrap",
+      "title": "Method of anomaly detection of vessels applying Bayesian bootstrap",
+      "organization": "",
+      "detail": "KR 10-2534357 (granted 2023)",
+      "date": "2023",
+      "note": ""
+    },
+    {
+      "id": "enose-drift",
+      "title": "Method and device for compensating for sensor drift",
+      "organization": "",
+      "detail": "KR 10-2364019 (granted 2022)",
+      "date": "2022",
+      "note": ""
+    },
+    {
+      "id": "shipment-delay",
+      "title": "Method and apparatus for determining delay possibility of shipment",
+      "organization": "",
+      "detail": "KR 10-2250354 (granted 2021)",
+      "date": "2021",
+      "note": ""
+    }
+  ]
+}
