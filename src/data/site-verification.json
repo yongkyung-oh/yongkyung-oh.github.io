@@ -1,5 +1,5 @@
 {
-  "_comment": "Search-console ownership carried over byte-for-byte from the legacy yongkyung-oh.github.io (owner decision 2026-10-02, spec 021). Do not edit: a changed token loses console ownership. The legacy short Google meta value USineeIkCthVeX8eGwqg was a truncated copy of the full token and is intentionally not carried over.",
+  "_comment": "Search-console ownership tokens must remain byte-identical.",
   "files": {
     "googlecaa61bccf05b13d3.html": "f6a15586bd475c2c0cb80b67032dededae3236107f53a63128358ecc56fc1cca",
     "naver03ab0a0915a448006fd4b0edcf5e781a.html": "8f20fe90bd4d0d45efd5c56ee0a3d8e3ce25a7f1a363c98d224b11ecea7dc735",

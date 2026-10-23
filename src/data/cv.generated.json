@@ -1807,23 +1807,23 @@
       "id": "nvidia",
       "title": "NVIDIA Academic Grant Program",
       "organization": "NVIDIA",
-      "detail": "Lead Scientist · In-kind cloud computing grant",
+      "detail": "Lead Scientist · In-kind support",
       "date": "2026",
-      "note": "Neural SDE-augmented pharmacokinetic simulation · 8×H100 cloud instance. PI: Alex A. T. Bui, UCLA."
+      "note": ""
     },
     {
       "id": "nrf",
       "title": "Postdoctoral Fellowship for Overseas Research",
       "organization": "National Research Foundation of Korea (NRF)",
-      "detail": "Principal Investigator · KRW 57.1 million",
+      "detail": "Principal Investigator",
       "date": "2024–2025",
-      "note": "Distribution shift and model trustworthiness in longitudinal medical data."
+      "note": ""
     },
     {
       "id": "khidi",
       "title": "Biomedical UniStar Training Program",
       "organization": "Korea Health Industry Development Institute (KHIDI)",
-      "detail": "Selective program supporting collaborative research between UNIST and the UCLA David Geffen School of Medicine.",
+      "detail": "UNIST–UCLA collaborative research",
       "date": "2023–2024",
       "note": ""
     },
@@ -1831,7 +1831,7 @@
       "id": "iitp",
       "title": "Intensive Program in Artificial Intelligence (High-Potential Individuals Global Training Program)",
       "organization": "Institute for Information & Communication Technology Planning & Evaluation (IITP)",
-      "detail": "Competitive, fully funded program for intensive training at Carnegie Mellon University (CMU).",
+      "detail": "Training at Carnegie Mellon University (CMU)",
       "date": "2020",
       "note": ""
     }
@@ -1850,7 +1850,7 @@
       "id": "ucla-nomination",
       "title": "Chancellor’s Award for Postdoctoral Research — Nominee",
       "organization": "UCLA",
-      "detail": "Nominated for the 2025 Chancellor’s Award",
+      "detail": "",
       "date": "2025",
       "note": "",
       "group": "honors"
@@ -1888,7 +1888,7 @@
       "organization": "IISE Data Analytics and Information Systems Division",
       "detail": "Multi-scale Transformer for Long-term Time Series Forecasting",
       "date": "2025",
-      "note": "Finalist in three consecutive years: 2023, 2024, and 2025.",
+      "note": "",
       "group": "honors_research_awards"
     },
     {
@@ -1960,7 +1960,7 @@
       "id": "pnu-machine-learning",
       "title": "Machine Learning",
       "organization": "Pusan National University",
-      "detail": "Instructor · BX3600087 / DS3600087 / AB3600087",
+      "detail": "Instructor",
       "date": "Fall 2026",
       "note": ""
     },
@@ -1968,7 +1968,7 @@
       "id": "pnu-data-structure",
       "title": "Data Structure",
       "organization": "Pusan National University",
-      "detail": "Instructor · DS3600082",
+      "detail": "Instructor",
       "date": "Fall 2026",
       "note": ""
     }

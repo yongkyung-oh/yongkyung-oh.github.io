@@ -7,6 +7,6 @@ const { entry } = Astro.props;
 <li class="career-row" id={entry.id}>
   <div class="career-heading"><h3>{entry.title}</h3><span class="career-date">{entry.date}</span></div>
   {entry.organization && <p class="career-organization">{entry.organization}</p>}
-  <p class="career-detail">{entry.detail}</p>
+  {entry.detail && <p class="career-detail">{entry.detail}</p>}
   {entry.note && <p class="career-note">{entry.note}</p>}
 </li>

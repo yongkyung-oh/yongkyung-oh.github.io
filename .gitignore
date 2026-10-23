@@ -25,3 +25,7 @@ docs/
 
 # Internal design decisions stay local; only machine-readable palette values are published.
 /DESIGN.md
+
+# Private curation and review provenance stay local, including in source exports.
+/data/curation.json
+/data/source-manifest.json
