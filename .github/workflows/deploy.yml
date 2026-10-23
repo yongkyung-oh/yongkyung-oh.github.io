@@ -1,0 +1,77 @@
+name: Deploy personal CV
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Configure Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-qa.txt
+      - name: Install locked site dependencies
+        run: npm ci
+      - name: Install browser QA dependencies
+        run: |
+          python3 -m pip install -r requirements-qa.txt
+          python3 -m playwright install --with-deps chrome
+      - name: Verify production site
+        env:
+          QA_PYTHON: python3
+        run: npm run verify -- --ci
+      - name: Keep browser reports
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: browser-qc
+          path: qc/
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Upload verified site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist/
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified site
+        id: deployment
+        uses: actions/deploy-pages@v5
