@@ -19,7 +19,7 @@
     "scripts/browser-qc.py": "750abfd108c7b1cf4a65a6afbd67a934294981852fe1d723e33f5b763b11e49f",
     "scripts/check-build.mjs": "909ae447a230ca5ec8da880d0e35a925d614592a5ca56f24845d943d9440a7be",
     "scripts/cv-adapter.mjs": "0e4ae63a49cbf1614a394d3d72c2ab77177b1bed00de2725773bb405b65dc5e0",
-    "scripts/export-repo.mjs": "e9470c1ea998b87db91ce8978959332f86af5da60d4b6625bca43fc1a5161fe0",
+    "scripts/export-repo.mjs": "0b0964f31f465125f938329348e70c81dbb497e9d07df3d93ff4c33271ec35d8",
     "scripts/measure-layout.py": "34cd9bf36f35b66e8639660d63a30b8754620e9eae04fa3328deb43a9f0382aa",
     "scripts/sync-cv.mjs": "392a0ce7a3579f8f1f418ba378cb1e760e322acbc6585c62014afb75e0f609dd",
     "scripts/verify.mjs": "48d9c020787b2fda46ae6c3fe59b4483d20a0b6c0532ca2da5b82a48a4303940",
@@ -30,16 +30,16 @@
     "src/data/build-integrity.json": "8a7688576b841a139e8bdab48c60087ae42708675c57e43bde336e68303fd3a8",
     "src/data/cv.generated.json": "c1fd53d5da37c48571750caba5b6855ecbf07401e7a698fbb74c3b487ba5426b",
     "src/data/design-tokens.json": "f05c36c68a4aafe45f1666cb98c4c41a29a05934485856fa51ac32f69e99c96f",
-    "src/data/editorial.ts": "5d33b40f82ed7e75d4af665e2219f765968026d78f7c0787e531ed37bf170771",
+    "src/data/editorial.ts": "f35b8f0399d55af828aef67398a791074df49b74802a659b65ff90e2b424271b",
     "src/data/publication-updates.ts": "fcb3c9b42535c176a322d24471d437b0a33094212cf119d6155def34d9503c2c",
     "src/data/site-verification.json": "c0d1053a6a6e35b613c8f29e8e9a66850fa37eb697d231bde47c16082cfbf8bb",
     "src/pages/404.astro": "29c98592804e6ee93eb36062d62d9c1d8e82052a2e5639bc10410e90b8baa495",
-    "src/pages/index.astro": "a08a8117580cc15cc718513ce0f9b9a053766854db9717c2bf5bb598dea314d5",
+    "src/pages/index.astro": "8e76490bd372a0fb0539ec85fcd013088d962674e957f5be79eea2c5beb588ac",
     "src/pages/sitemap.xml.ts": "4d43f9703c5cb3d2014cd8a389187a446aa7cd1965b6f99e3ae50462fdce3caa",
     "src/styles/global.css": "cc0f2556e168aa31b1a3e9af9429be8685f85d22c6daae6c6ec3a16f080807e0",
     "tests/cv-adapter.test.mjs": "c9cabef6049b3c08333596e46e52337c1df4ca3d42127af1dc98af0369a67706",
     "tests/editorial.test.mjs": "98ea8f7fc07b2a9da19161cee9ef2457c835e48e2890fd851eca8fac02b7b03a",
-    "tests/export-repo.test.mjs": "24ef1b45b85c8f2bdf8fcd8d811eac4f703997b4e33559a368a1b976d8e1c7d5",
+    "tests/export-repo.test.mjs": "74836a75a0c46b381164e141fbed2e0fc232c72dcc13aaf11c59e18dbc69b79e",
     "tsconfig.json": "dc9ab377cf2b9561b35f615a8fc674d7bf5fd4d6781a90d09e169344a501641e"
   }
 }

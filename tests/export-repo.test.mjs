@@ -115,6 +115,8 @@ test('export rejects internal notes and paths before mutating the target', (t) =
     ['records', 'education/item.yaml'].join('/'),
     ['records', 'awards/item.yaml'].join('/'),
     ['records', 'service/item.yaml'].join('/'),
+    ['docs', 'AFFILIATION.md'].join('/'),
+    ['..', 'docs', 'ssot', 'RESEARCH_FIELDS_SSOT.md'].join('/'),
     'update/' + 'REQUESTS.md',
     'audit' + ' 14',
     '/Users' + '/example/private-input',
