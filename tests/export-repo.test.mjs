@@ -101,3 +101,38 @@ test('export excludes tracked private reviews and preserves local copies during 
     assert.equal(Object.hasOwn(current.files, file), false);
   }
 });
+
+
+test('export rejects internal notes and paths before mutating the target', (t) => {
+  const { source, target, run } = fixture(t);
+  const file = path.join(source, 'src/pages/index.astro');
+  const rejected = [
+    'Owner' + ' decision 2026-10-02',
+    'spec' + ' 021',
+    ['records', 'publications/item.yaml'].join('/'),
+    ['achievement_records', 'grants/item.yaml'].join('/'),
+    ['records', 'career/item.yaml'].join('/'),
+    ['records', 'education/item.yaml'].join('/'),
+    ['records', 'awards/item.yaml'].join('/'),
+    ['records', 'service/item.yaml'].join('/'),
+    'update/' + 'REQUESTS.md',
+    'audit' + ' 14',
+    '/Users' + '/example/private-input',
+  ];
+  for (const text of rejected) {
+    writeFileSync(file, `<!-- ${text} -->`);
+    for (const mode of ['--check', '--write']) {
+      const result = run(mode);
+      assert.notEqual(result.status, 0);
+      assert.match(result.stderr, /Internal review content/);
+      assert.equal(existsSync(path.join(target, 'package.json')), false);
+      assert.equal(existsSync(path.join(target, 'export-manifest.json')), false);
+    }
+  }
+  writeFileSync(file, 'Public academic CV');
+  assert.equal(run('--write').status, 0);
+  const manifest = readFileSync(path.join(target, 'export-manifest.json'), 'utf8');
+  writeFileSync(path.join(target, 'README.md'), rejected[0]);
+  assert.notEqual(run('--write').status, 0);
+  assert.equal(readFileSync(path.join(target, 'export-manifest.json'), 'utf8'), manifest);
+});

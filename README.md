@@ -32,7 +32,7 @@ npm run verify -- --ci
 
 ## Maintenance and publication
 
-Site content is exported one way from the maintained local `Achivement/webpage` working copy. Public CV snapshots are reviewed there before import. Curation decisions and provenance records stay local and are excluded from Git and source exports. The standalone build verifies the exported snapshot and PDF using the hash-only `src/data/build-integrity.json`. Keep content changes in that working copy, then run its `scripts/export-repo.mjs` with `--check` before `--write` against this repository.
+Site content is exported one way from a maintained local working copy. Public CV snapshots are reviewed there before import. Curation decisions and provenance records stay local and are excluded from Git and source exports. The standalone build verifies the exported snapshot and PDF using the hash-only `src/data/build-integrity.json`. Keep content changes in that working copy, then run its `scripts/export-repo.mjs` with `--check` before `--write` against this repository. The export rejects internal review notes and personal source paths in publishable text before writing any files.
 
 `export-manifest.json` identifies files managed by that export. Repository-specific README and deployment workflow are maintained here and preserved by subsequent exports. GitHub Actions verifies the production artifact before deploying it to GitHub Pages.
 

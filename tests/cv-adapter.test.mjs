@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { byPath, publicUrl, driveUrl, projectPublication, citationText, projectEntry, projectBundle, formatCitation } from '../scripts/cv-adapter.mjs';
 
 function fixture() {
-  const sourcePath = 'achievement_records/accepted_in_press/conference/example.yaml';
+  const sourcePath = ['achievement_records', 'accepted_in_press/conference/example.yaml'].join('/');
   const choice = { id: 'example', sourcePath, recordType: 'accepted_in_press', title: 'A study of evidence', venue: 'ICML', venueEvidence: 'ICML', expectedYear: 2026, expectedVerification: 'partially_verified', expectedWarnings: ['accepted_in_press_local_metadata'], reviewReason: 'Keep accepted status visible.', category: 'Position paper', citationItalics: ['ICML 2026'] };
   Object.assign(choice, { expectedAuthors: 'Oh, Y.', displayAuthors: ['YongKyung Oh'], ownerAuthorIndex: 0, authorEvidence: { url: 'https://arxiv.org/abs/2605.17273', reviewedOn: '2026-09-10', note: 'Verified full name for this selected record.' } });
   const record = { sourcePath, key: 'shared-key', recordType: choice.recordType, verificationStatus: choice.expectedVerification, sourceWarnings: choice.expectedWarnings, record: { title: 'A Study of Evidence.', authors: 'Oh, Y.', venue: 'ICML 2026', year: 2026 }, plainText: '[C14] Oh, Y. (2026). A study of evidence. In ICML 2026. (accepted, in press) [arxiv]', authorRoles: [], recordLinks: [{ type: 'arxiv', category: 'arxiv', url: 'https://arxiv.org/abs/2605.17273' }, { category: 'poster', url: 'https://drive.google.com/file/d/private-poster_1' }, { category: 'slide', url: 'https://drive.google.com/file/d/private-slide' }] };
@@ -11,11 +11,11 @@ function fixture() {
 }
 
 test('work-level keys can repeat across record paths; duplicate paths cannot', () => {
-  const a = { sourcePath: 'achievement_records/publications/a.yaml', key: 'same' };
-  const b = { sourcePath: 'achievement_records/presentations/a.yaml', key: 'same' };
+  const a = { sourcePath: ['records', 'example/a.yaml'].join('/'), key: 'same' };
+  const b = { sourcePath: ['achievement_records', 'presentations/a.yaml'].join('/'), key: 'same' };
   assert.equal(byPath([a, b]).size, 2);
   assert.throws(() => byPath([a, { ...a }]), /Duplicate/);
-  assert.throws(() => byPath([{ sourcePath: 'achievement_records/../private.yaml' }]), /Invalid/);
+  assert.throws(() => byPath([{ sourcePath: ['achievement_records', '../private.yaml'].join('/') }]), /Invalid/);
 });
 
 test('accepted paper keeps its status; slides and posters are projected in source order after the other links', () => {
@@ -133,7 +133,7 @@ test('a malformed poster now fails closed; selected preprints still fail closed'
 });
 
 test('grant roles and award nominations stop import when their source wording or status changes', () => {
-  const item = { sourcePath: 'records/awards/ucla.yaml', recordType: 'award', verificationStatus: 'evidence_verified', sourceWarnings: [], plainText: "Chancellor's Award for Postdoctoral Research Nominee (2025). UCLA." };
+  const item = { sourcePath: ['records', 'awards/ucla.yaml'].join('/'), recordType: 'award', verificationStatus: 'evidence_verified', sourceWarnings: [], plainText: "Chancellor's Award for Postdoctoral Research Nominee (2025). UCLA." };
   const choice = { ...item, id: 'nominee', expectedText: ['Nominee', '2025', 'UCLA'], expectedVerification: item.verificationStatus, expectedWarnings: [], reviewReason: 'Nomination, not a win.', title: 'Chancellor’s Award — Nominee', organization: 'UCLA', detail: 'Nomination', date: '2025' };
   assert.equal(projectEntry(item, choice, 'award').title, 'Chancellor’s Award — Nominee');
   assert.throws(() => projectEntry({ ...item, plainText: item.plainText.replace('Nominee', 'Winner') }, choice, 'award'), /evidence changed/);
@@ -143,11 +143,11 @@ test('grant roles and award nominations stop import when their source wording or
 
 test('complete publication coverage requires review when the public export gains a paper', () => {
   const { record, choice } = fixture();
-  const pnu = { sourcePath: 'records/career/pnu.yaml', recordType: 'career', verificationStatus: 'verified', sourceWarnings: [], plainText: 'Assistant Professor at PNU' };
+  const pnu = { sourcePath: ['records', 'career/pnu.yaml'].join('/'), recordType: 'career', verificationStatus: 'verified', sourceWarnings: [], plainText: 'Assistant Professor at PNU' };
   const curation = { identity: { name: 'YongKyung Oh' }, publications: [choice], career: [{ id: 'pnu', sourcePath: pnu.sourcePath, recordType: 'career', expectedVerification: 'verified', expectedWarnings: [], expectedText: ['Assistant Professor'], reviewReason: 'Current appointment', title: 'Assistant Professor', organization: 'PNU', detail: '', date: 'Current' }], education: [], funding: [], recognitions: [], teaching: [], patents: [] };
   const raw = { publications: [record], items: [pnu], recognitions: [], generatedAt: '2026-09-08' };
   assert.equal(projectBundle(raw, curation).publications.length, 1);
-  raw.publications.push({ ...record, sourcePath: 'records/publications/new.yaml' });
+  raw.publications.push({ ...record, sourcePath: ['records', 'example/new.yaml'].join('/') });
   assert.throws(() => projectBundle(raw, curation), /coverage changed/);
 });
 
@@ -163,8 +163,8 @@ test('citation italics distinguish journal and volume from article title and iss
 
 test('recognition group is the bundle sectionId and keeps the CV subsection order', () => {
   const { record, choice } = fixture();
-  const mk = (id, sectionId, label) => ({ sourcePath: `records/awards/${id}.yaml`, recordType: 'award', sectionId, label, verificationStatus: 'verified', sourceWarnings: [], plainText: id });
-  const pnu = { sourcePath: 'records/career/pnu.yaml', recordType: 'career', verificationStatus: 'verified', sourceWarnings: [], plainText: 'Assistant Professor at PNU' };
+  const mk = (id, sectionId, label) => ({ sourcePath: ['records', `awards/${id}.yaml`].join('/'), recordType: 'award', sectionId, label, verificationStatus: 'verified', sourceWarnings: [], plainText: id });
+  const pnu = { sourcePath: ['records', 'career/pnu.yaml'].join('/'), recordType: 'career', verificationStatus: 'verified', sourceWarnings: [], plainText: 'Assistant Professor at PNU' };
   const h1 = mk('h1', 'honors', 'H01'); const r1 = mk('r1', 'honors_research_awards', 'HR01');
   const pick = (item) => ({ id: item.label, sourcePath: item.sourcePath, recordType: 'award', expectedVerification: 'verified', expectedWarnings: [], expectedText: [item.plainText], reviewReason: 'test', title: item.label, organization: '', detail: '', date: '2026' });
   const career = [{ id: 'pnu', sourcePath: pnu.sourcePath, recordType: 'career', expectedVerification: 'verified', expectedWarnings: [], expectedText: ['Assistant Professor'], reviewReason: 'Current appointment', title: 'Assistant Professor', organization: 'PNU', detail: '', date: 'Current' }];
@@ -176,8 +176,8 @@ test('recognition group is the bundle sectionId and keeps the CV subsection orde
 
 test('teaching selects only PNU Instructor lines and requires review when another appears', () => {
   const { record, choice } = fixture();
-  const mk = (id, label, title, organization) => ({ sourcePath: `records/service/${id}.yaml`, recordType: 'service', sectionId: 'services_teaching', label, verificationStatus: 'owner_prepared_syllabus', sourceWarnings: [], plainText: title, record: { title, organization } });
-  const pnu = { sourcePath: 'records/career/pnu.yaml', recordType: 'career', verificationStatus: 'verified', sourceWarnings: [], plainText: 'Assistant Professor at PNU' };
+  const mk = (id, label, title, organization) => ({ sourcePath: ['records', `service/${id}.yaml`].join('/'), recordType: 'service', sectionId: 'services_teaching', label, verificationStatus: 'owner_prepared_syllabus', sourceWarnings: [], plainText: title, record: { title, organization } });
+  const pnu = { sourcePath: ['records', 'career/pnu.yaml'].join('/'), recordType: 'career', verificationStatus: 'verified', sourceWarnings: [], plainText: 'Assistant Professor at PNU' };
   const ml = mk('ml', 'ST01', 'Machine Learning, Instructor', 'Pusan National University');
   const ta = mk('ta', 'ST05', 'MGT205 Financial Accounting, TA', 'UNIST');
   const pick = (item) => ({ id: item.label, sourcePath: item.sourcePath, recordType: 'service', expectedVerification: 'owner_prepared_syllabus', expectedWarnings: [], expectedText: [item.plainText], reviewReason: 'test', title: item.label, organization: 'Pusan National University', detail: '', date: 'Fall 2026' });

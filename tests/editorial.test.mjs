@@ -3,7 +3,6 @@ import assert from 'node:assert/strict';
 import { editorial } from '../src/data/editorial.ts';
 
 test('research display copy keeps the owner-approved SSOT order and stable IDs', () => {
-  // Owner decision 2026-10-08; this is a regression expectation, not a new source of truth.
   assert.deepEqual(editorial.research.map(({ id }) => id), [
     'ai-for-science',
     'industrial-ai-and-decision-making',

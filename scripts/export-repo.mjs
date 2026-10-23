@@ -57,6 +57,21 @@ for (const file of files) {
   noSymlinks(target, file);
   if (!lstatSync(path.join(root, file)).isFile()) throw new Error(`Not a regular source file: ${file}`);
 }
+// Reject internal review notes before either a dry run or a write can proceed.
+const textFile = /\.(?:mjs|js|ts|json|astro|css|svelte|py|txt|md|html|xml|ya?ml)$|(?:^|\/)\.env\.example$/i;
+const internalContent = /\bOwner\s+decision\b|\bspec\s+\d{3}\b|(?:achievement_records|records)\/|update\/REQUESTS\.md|\baudit\s+14\b|\/Users\/[^/\s]+/i;
+const checkPublicText = (base, file) => {
+  if (textFile.test(file) && internalContent.test(readFileSync(path.join(base, file), 'utf8'))) {
+    throw new Error(`Internal review content in publishable text: ${file}`);
+  }
+};
+for (const file of files) checkPublicText(root, file);
+for (const file of ['README.md', '.github/workflows/deploy.yml']) {
+  if (existsSync(path.join(target, file))) {
+    noSymlinks(target, file);
+    checkPublicText(target, file);
+  }
+}
 for (const required of ['package.json', 'package-lock.json', '.nvmrc', 'src/data/design-tokens.json', 'src/data/build-integrity.json', 'src/pages/index.astro', 'src/data/cv.generated.json']) {
   if (!files.includes(required)) throw new Error(`Incomplete source selection: ${required}`);
 }
