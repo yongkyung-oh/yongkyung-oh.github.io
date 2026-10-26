@@ -17,6 +17,17 @@ assert.equal(hash(snapshot), integrity.generatedDataSha256, 'Generated CV data c
 assert.equal(hash(await readFile(path.join(root, 'dist/cv/YongKyung-Oh-CV.pdf'))), integrity.cvPdfSha256, 'Public PDF must equal the reviewed source');
 const html = await readFile(path.join(root, 'dist/index.html'), 'utf8');
 assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, 'Page needs exactly one h1');
+const analytics = JSON.parse(await readFile(path.join(root, 'src/data/analytics.json')));
+assert.equal(analytics.measurementId, 'G-GFFVQGX42E', 'Keep the existing GA4 destination');
+assert.equal(analytics.hostname, 'yongkyung-oh.github.io', 'Analytics must target only the production hostname');
+const analyticsTags = [...html.matchAll(/<script[^>]*\bdata-analytics(?=[\s=>])[^>]*>([\s\S]*?)<\/script>/g)];
+const productionSite = new URL(process.env.SITE_URL || 'https://yongkyung-oh.github.io').hostname === analytics.hostname;
+assert.equal(analyticsTags.length, productionSite ? 1 : 0, 'Production needs exactly one Analytics bootstrap; alternate builds need none');
+if (productionSite) {
+  assert(analyticsTags[0][1].includes(analytics.measurementId), 'Built Analytics bootstrap must contain the configured destination');
+  assert.equal((html.match(/googletagmanager\.com\/gtag\/js/g) || []).length, 1, 'The Google loader must appear once');
+}
+
 // the document title is the name alone, without the institution.
 assert.equal(html.match(/<title>([^<]*)<\/title>/)?.[1], cv.identity.name, 'Page title must be the name only');
 // a transparent favicon, served at the implicit /favicon.ico path as well.
