@@ -1,0 +1,19 @@
+---
+import analytics from '../data/analytics.json';
+const enabled = import.meta.env.PROD && Astro.site?.hostname === analytics.hostname;
+---
+{enabled && (
+  <script is:inline data-analytics define:vars={analytics}>
+    if (window.location.hostname === hostname && !document.getElementById('google-analytics')) {
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      const tag = document.createElement('script');
+      tag.id = 'google-analytics';
+      tag.async = true;
+      tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+      document.head.appendChild(tag);
+    }
+  </script>
+)}

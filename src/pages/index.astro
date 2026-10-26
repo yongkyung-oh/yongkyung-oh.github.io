@@ -2,6 +2,7 @@
 import { Copy, Check } from '@lucide/astro';
 import { Image } from 'astro:assets';
 import CVSection from '../components/CVSection.astro';
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import CVEntry from '../components/CVEntry.astro';
 import Paper from '../components/Paper.astro';
 import portrait from '../assets/portrait.jpg';
@@ -52,6 +53,7 @@ const schema = {
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <GoogleAnalytics />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={editorial.description} />
     <meta name="theme-color" content="#181b1a" media="(prefers-color-scheme: dark)" />
