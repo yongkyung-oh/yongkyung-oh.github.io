@@ -137,8 +137,11 @@ with sync_playwright() as p:
         token = page.request.get(f'{base}/{file}')
         tokens[file] = {'status': token.status, 'identical': hashlib.sha256(token.body()).hexdigest() == sha256}
     check('Search-console token files are served byte-identical to the legacy site', all(item['status'] == 200 and item['identical'] for item in tokens.values()), tokens)
-    metas = {item['name']: page.locator(f'meta[name="{item["name"]}"]').evaluate_all('items => items.map(item => item.content)') for item in verification['meta']}
-    check('Search-console meta tags appear once with the legacy values', all(metas[item['name']] == [item['content']] for item in verification['meta']), metas)
+    expected_metas = {}
+    for item in verification['meta']:
+        expected_metas.setdefault(item['name'], []).append(item['content'])
+    metas = {name: page.locator(f'meta[name="{name}"]').evaluate_all('items => items.map(item => item.content)') for name in expected_metas}
+    check('Search-console meta tokens appear once with their configured values', metas == expected_metas, metas)
     robots, sitemap = page.request.get(f'{base}/robots.txt'), page.request.get(f'{base}/sitemap.xml')
     canonical_url = page.locator('link[rel="canonical"]').get_attribute('href')
     check('robots.txt and sitemap.xml are served and point at the canonical page', robots.status == 200 and f'Sitemap: {canonical_url}sitemap.xml' in robots.text() and sitemap.status == 200 and f'<loc>{canonical_url}</loc>' in sitemap.text(), {'robots': robots.status, 'sitemap': sitemap.status, 'canonical': canonical_url})
