@@ -4,6 +4,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { editorial } from '../src/data/editorial.ts';
+import { renderLlms } from '../src/data/llms.ts';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const hash = (buffer) => createHash('sha256').update(buffer).digest('hex');
@@ -144,6 +145,27 @@ for (const [file, sha256] of Object.entries(verification.files)) assert.equal(ha
 for (const { name, content } of verification.meta) assert.equal((html.match(new RegExp(`<meta name="${name.replace('.', '\\.')}" content="${content}">`, 'g')) || []).length, 1, `Missing or duplicated ${name} meta tag`);
 const canonicalUrl = html.match(/<link rel="canonical" href="([^"]+)">/)?.[1];
 assert(canonicalUrl, 'Missing canonical URL');
+const descriptions = [...html.matchAll(/<meta name="description" content="([^"]*)">/g)];
+const ogDescriptions = [...html.matchAll(/<meta property="og:description" content="([^"]*)">/g)];
+for (const [label, matches] of [['description', descriptions], ['og:description', ogDescriptions]]) {
+  assert.equal(matches.length, 1, `Expected one ${label} meta tag`);
+  assert.equal(matches[0][1], editorial.description, `${label} must use the shared description`);
+  assert(matches[0][1].length > 0 && matches[0][1].length <= 80, `${label} must be at most 80 characters`);
+}
+const describedby = [...html.matchAll(/<link\b[^>]*\brel="describedby"[^>]*>/g)];
+assert.equal(describedby.length, 1, 'Expected one llms.txt discovery link');
+assert(/\btype="text\/plain"/.test(describedby[0][0]) && /\bhref="\/llms\.txt"/.test(describedby[0][0]), 'The describedby link must point to /llms.txt as text/plain');
+const llms = await readFile(path.join(root, 'dist/llms.txt'), 'utf8');
+assert.equal(llms, renderLlms(cv, editorial, canonicalUrl), 'llms.txt must equal the public-field projection');
+const allowedLlmsLinks = new Set([
+  canonicalUrl, `${canonicalUrl}#research`, editorial.cv.url, editorial.lab.url,
+  cv.identity.orcid, cv.identity.scholar, cv.identity.github, editorial.social.linkedin,
+  ...cv.publications.flatMap((paper) => paper.links.filter(({ label }) => label === 'Paper').map(({ url }) => url)),
+]);
+const llmsLinks = [...llms.matchAll(/\]\(([^)\s]+)\)/g)].map((match) => match[1]);
+assert.equal(llmsLinks.length, 7 + editorial.research.length + cv.publications.length, 'llms.txt must link the profile, research and each listed paper');
+for (const url of llmsLinks) assert(allowedLlmsLinks.has(url), `Unexpected llms.txt destination: ${url}`);
+assert(!/\/Users\/|(?:achievement_records|records)\/|CV_(?:working|publish)|\.claude|sourcePath|verificationStatus|sourceWarnings|expectedText|\bspec\s+\d{3}\b|\bKRW\b|\bH100\b/i.test(llms), 'Private metadata or omitted funding detail leaked into llms.txt');
 const robots = await readFile(path.join(root, 'dist/robots.txt'), 'utf8');
 assert(/^User-agent: \*$/m.test(robots) && /^Allow: \/$/m.test(robots) && robots.includes(`Sitemap: ${canonicalUrl}sitemap.xml`), 'robots.txt must allow crawling and point at the sitemap');
 const sitemapLocs = [...(await readFile(path.join(root, 'dist/sitemap.xml'), 'utf8')).matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);

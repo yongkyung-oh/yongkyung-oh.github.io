@@ -65,6 +65,7 @@ const schema = {
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="canonical" href={canonical} />
+    <link rel="describedby" type="text/plain" href="/llms.txt" />
     <!-- Search-console ownership carried over from the legacy site; tokens must stay byte-identical. -->
     {verification.meta.map(({ name, content }) => <meta name={name} content={content} />)}
     <meta property="og:type" content="website" />
