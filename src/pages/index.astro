@@ -99,7 +99,7 @@ const schema = {
 
       <main id="main" tabindex="-1">
         <CVSection id="bio" title="Bio">
-          <div class="bio-copy"><p>{editorial.biography}</p></div>
+          <div class="bio-copy">{editorial.biography.split('\n\n').map((paragraph) => <p>{paragraph}</p>)}</div>
         </CVSection>
         <CVSection id="research" title="Research interests">
           <ul class="interest-list">
