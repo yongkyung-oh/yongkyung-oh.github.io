@@ -8,6 +8,7 @@ import Paper from '../components/Paper.astro';
 import portrait from '../assets/portrait.jpg';
 import cv from '../data/cv.generated.json';
 import { editorial } from '../data/editorial';
+import { profileLinks, personProfileUrls } from '../data/profile-links';
 import verification from '../data/site-verification.json';
 import '../styles/global.css';
 import serif from '@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2?url';
@@ -19,7 +20,6 @@ const latestYear = years[0];
 const recentPapers = cv.publications.filter((paper) => paper.year === latestYear);
 const earlierYears = years.slice(1);
 if (identity.major !== editorial.affiliation.expectedOfficialMajor) throw new Error('Official major changed: review the appointment before updating the profile.');
-const cvUrl = editorial.cv.url;
 // Recognition mirrors the CV subsections; `group` is the bundle sectionId carried by the adapter.
 const recognitionGroups = [{ group: 'honors', title: 'Honors' }, { group: 'honors_research_awards', title: 'Research Awards' }]
   .map((entry) => ({ ...entry, entries: cv.recognitions.filter((item) => item.group === entry.group) }));
@@ -46,7 +46,7 @@ const schema = {
   '@context': 'https://schema.org', '@type': 'Person', name: identity.name,
   url: Astro.site?.href, jobTitle: identity.title,
   worksFor: { '@type': 'CollegeOrUniversity', name: identity.organization },
-  sameAs: [identity.orcid, identity.scholar, identity.github, editorial.social.linkedin],
+  sameAs: personProfileUrls,
 };
 ---
 <!doctype html>
@@ -84,12 +84,13 @@ const schema = {
           <a class="header-email" href={`mailto:${identity.email}`}>{identity.email}</a>
           <Image class="portrait" src={portrait} alt="YongKyung Oh speaking at a lectern" width={224} height={224} widths={[144, 224, 448]} sizes="(max-width: 760px) 144px, 224px" format="webp" loading="eager" />
           <div class="profile-links">
-            <a href={editorial.lab.url}>Scientific Inference Lab</a>
-            <a href={identity.orcid} rel="me">ORCID</a>
-            <a href={identity.scholar}>Google Scholar</a>
-            <a href={identity.github} rel="me">GitHub</a>
-            <a href={editorial.social.linkedin} rel="me">LinkedIn</a>
-            <a href={cvUrl} class="header-cv"><span>CV <span class="file-type">PDF</span></span></a>
+            {profileLinks.filter((link) => link.group === 'primary').map((link) => (
+              <a href={link.url} rel={['lab', 'cv'].includes(link.id) ? undefined : 'me'} class:list={{ 'header-cv': link.id === 'cv' }}>
+                {link.id === 'cv' ? <span>CV <span class="file-type">PDF</span></span> : link.label}
+              </a>
+            ))}
+            <span class="profile-links-break" aria-hidden="true"></span>
+            {profileLinks.filter((link) => link.group === 'academic').map((link) => <a href={link.url} rel="me">{link.label}</a>)}
           </div>
         </div>
         <nav aria-label="Main navigation" class="cv-nav flex flex-wrap gap-x-6">

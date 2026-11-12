@@ -1,3 +1,5 @@
+import { profileLinks } from './profile-links.ts';
+
 type PublicCV = {
   identity: {
     name: string;
@@ -26,15 +28,6 @@ const link = (label: string, url: string) => `[${inline(label)}](${url.replace(/
 
 export function renderLlms(cv: PublicCV, editorial: PublicEditorial, site: string | URL): string {
   const home = new URL('/', site).href;
-  const profileLinks = [
-    ['Academic website', home],
-    ['CV PDF', editorial.cv.url],
-    ['Scientific Inference Lab', editorial.lab.url],
-    ['ORCID', cv.identity.orcid],
-    ['Google Scholar', cv.identity.scholar],
-    ['GitHub', cv.identity.github],
-    ['LinkedIn', editorial.social.linkedin],
-  ];
   const research = editorial.research.map((area) => `- ${link(area.title, new URL('#research', home).href)}: ${inline(area.description)}`);
   const publications = cv.publications.map((paper) => {
     const url = paper.links.find(({ label }) => label === 'Paper')?.url;
@@ -48,7 +41,7 @@ export function renderLlms(cv: PublicCV, editorial: PublicEditorial, site: strin
     '',
     '## Profile',
     '',
-    ...profileLinks.map(([label, url]) => `- ${link(label, url)}`),
+    ...profileLinks.map(({ label, url }) => `- ${link(label, url)}`),
     '',
     '## Research',
     '',

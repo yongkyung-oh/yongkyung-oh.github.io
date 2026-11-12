@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "links": [
+    {
+      "id": "lab",
+      "label": "Scientific Inference Lab",
+      "url": "https://scientific-inference-lab.github.io/",
+      "group": "primary",
+      "omitOn": [
+        "lab"
+      ]
+    },
+    {
+      "id": "personal",
+      "label": "Personal Webpage",
+      "url": "https://yongkyung-oh.github.io/",
+      "group": "primary",
+      "omitOn": [
+        "personal"
+      ]
+    },
+    {
+      "id": "scholar",
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=YJ1L50YAAAAJ",
+      "group": "primary",
+      "omitOn": []
+    },
+    {
+      "id": "orcid",
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-8027-3433",
+      "group": "primary",
+      "omitOn": []
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/yongkyung-oh",
+      "group": "primary",
+      "omitOn": []
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yongkyung-oh",
+      "group": "primary",
+      "omitOn": []
+    },
+    {
+      "id": "cv",
+      "label": "CV PDF",
+      "url": "https://drive.google.com/file/d/12kr_OViGjSfBox5_kUnpnpop87liNlyV/view?usp=sharing",
+      "group": "primary",
+      "omitOn": [
+        "cv"
+      ]
+    },
+    {
+      "id": "semantic-scholar",
+      "label": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/author/YongKyung-Oh/2147251317",
+      "group": "academic",
+      "omitOn": []
+    },
+    {
+      "id": "web-of-science",
+      "label": "Web of Science",
+      "url": "https://www.webofscience.com/wos/author/record/JJE-4937-2023",
+      "group": "academic",
+      "omitOn": []
+    },
+    {
+      "id": "scopus",
+      "label": "Scopus",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=57219780668",
+      "group": "academic",
+      "omitOn": []
+    },
+    {
+      "id": "dblp",
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/299/8416.html",
+      "group": "academic",
+      "omitOn": []
+    }
+  ]
+}
