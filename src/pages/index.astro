@@ -19,8 +19,8 @@ const years = [...new Set(cv.publications.map((paper) => paper.year))].sort((a, 
 const latestYear = years[0];
 const recentPapers = cv.publications.filter((paper) => paper.year === latestYear);
 const earlierYears = years.slice(1);
-if (identity.major !== editorial.affiliation.expectedOfficialMajor) throw new Error('Official major changed: review the appointment before updating the profile.');
-// Recognition mirrors the CV subsections; `group` is the bundle sectionId carried by the adapter.
+if (identity.major !== editorial.affiliation.expectedOfficialMajor) throw new Error('Invalid affiliation data.');
+// Group recognitions by category.
 const recognitionGroups = [{ group: 'honors', title: 'Honors' }, { group: 'honors_research_awards', title: 'Research Awards' }]
   .map((entry) => ({ ...entry, entries: cv.recognitions.filter((item) => item.group === entry.group) }));
 const yearRange = (entries: { date: string }[]) => { const y = entries.map((e) => Number(e.date.match(/\d{4}/)?.[0])).filter(Boolean); return `${Math.min(...y)}–${Math.max(...y)}`; };
@@ -63,7 +63,7 @@ const schema = {
     <link rel="preload" href={sans} as="font" type="font/woff2" crossorigin />
     <link rel="canonical" href={canonical} />
     <link rel="describedby" type="text/plain" href="/llms.txt" />
-    <!-- Search-console ownership carried over from the legacy site; tokens must stay byte-identical. -->
+    <!-- Search engine verification. -->
     {verification.meta.map(({ name, content }) => <meta name={name} content={content} />)}
     <meta property="og:type" content="website" />
     <meta property="og:title" content={`${identity.name} — Academic CV`} />
