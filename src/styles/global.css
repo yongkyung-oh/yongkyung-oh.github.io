@@ -72,12 +72,24 @@ svg { flex-shrink: 0; }
 h1 { font-size: 3rem; font-size: min(3rem, calc((100cqi - 224px - 2rem) * .18)); line-height: 1.15; font-weight: 550; letter-spacing: -.04em; overflow-wrap: anywhere; }
 .appointment { grid-area: appointment; font-family: var(--font-sans); font-size: .95rem; line-height: 1.7; margin-top: .8rem; }
 .header-cv { font-family: var(--font-sans); display: inline-flex; align-items: center; font-size: .8125rem; min-height: 44px; }
-.file-type { font-size: .75rem; color: var(--color-muted); margin-left: .3rem; }
 .affiliation { grid-area: affiliation; color: var(--color-muted); font-size: .98rem; line-height: 1.5; margin-top: .65rem; }
 .header-email { grid-area: email; width: fit-content; margin-top: .2rem; font: .8125rem/1.6 var(--font-sans); overflow-wrap: anywhere; }
 .profile-links { grid-area: links; display: flex; flex-wrap: wrap; align-items: center; column-gap: 1.25rem; font-family: var(--font-sans); margin-top: .45rem; font-size: .8125rem; }
 .profile-links a { display: inline-flex; align-items: center; min-height: 44px; overflow-wrap: anywhere; }
-.profile-links-break { flex-basis: 100%; height: 0; }
+/* Only the featured links stay in the row. The rest keep their order inside a closed
+   "More profiles" toggle whose opened list spans the next row, the same inline pattern as the APA
+   citation toggle below. Browsers without ::details-content keep the stacked fallback. */
+.profile-more { flex: 0 0 100%; min-width: 0; }
+@supports selector(::details-content) {
+  .profile-more { display: contents; }
+  .profile-more::details-content { flex: 0 0 100%; min-width: 0; }
+}
+.profile-more > summary { cursor: pointer; display: inline-flex; align-items: center; gap: .3rem; min-height: 44px; list-style: none; color: var(--color-accent); }
+.profile-more > summary::before { content: '+'; display: inline-block; width: .65rem; }
+.profile-more[open] > summary::before { content: '−'; }
+.profile-more > summary::-webkit-details-marker { display: none; }
+.profile-more > summary:hover { text-decoration: underline; }
+.profile-more-links { display: flex; flex-wrap: wrap; align-items: center; column-gap: 1.25rem; }
 .cv-nav { border-top: 1px solid var(--color-rule); border-bottom: 1px solid var(--color-rule); margin-top: 1.1rem; font: .8125rem/1.5 var(--font-sans); padding-block: .2rem; }
 .cv-nav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--color-muted); }
 .cv-nav a:hover { color: var(--color-accent); }
@@ -209,11 +221,11 @@ h1 { font-size: 3rem; font-size: min(3rem, calc((100cqi - 224px - 2rem) * .18));
   html { --color-paper: #fff; --color-ink: #171717; --color-muted: #444; --color-rule: #ddd; --color-accent: #171717; color-scheme: light; }
   body { background: white; font-size: 10pt; }
   .document { width: 100%; padding: 0; }
-  .cv-nav, .header-cv, .copy-button, .copy-status, .cv-footer a, .paper-actions > a, .citation summary, .publication-overview > a, .year-index, .back-to-years { display: none !important; }
+  .cv-nav, .header-cv, .copy-button, .copy-status, .cv-footer a, .paper-actions > a, .citation summary, .profile-more > summary, .publication-overview > a, .year-index, .back-to-years { display: none !important; }
   h1 { font-size: 28pt; }
   .cv-section { grid-template-columns: 8rem minmax(0, 1fr); gap: 1.5rem; padding-block: 1rem; }
   .paper, .career-row { break-inside: avoid; }
-  .cv-disclosure::details-content, .citation::details-content { content-visibility: visible; }
+  .cv-disclosure::details-content, .citation::details-content, .profile-more::details-content { content-visibility: visible; }
   .citation-content { padding-left: 0; border-left: 0; }
   .cv-disclosure > summary::before { display: none; }
   a { color: inherit !important; }

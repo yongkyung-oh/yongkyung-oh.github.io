@@ -8,7 +8,8 @@
       "group": "primary",
       "omitOn": [
         "lab"
-      ]
+      ],
+      "webFeatured": true
     },
     {
       "id": "personal",
@@ -17,14 +18,16 @@
       "group": "primary",
       "omitOn": [
         "personal"
-      ]
+      ],
+      "webFeatured": true
     },
     {
       "id": "scholar",
       "label": "Google Scholar",
       "url": "https://scholar.google.com/citations?user=YJ1L50YAAAAJ",
       "group": "primary",
-      "omitOn": []
+      "omitOn": [],
+      "webFeatured": true
     },
     {
       "id": "orcid",
@@ -38,7 +41,8 @@
       "label": "GitHub",
       "url": "https://github.com/yongkyung-oh",
       "group": "primary",
-      "omitOn": []
+      "omitOn": [],
+      "webFeatured": true
     },
     {
       "id": "linkedin",
@@ -49,12 +53,13 @@
     },
     {
       "id": "cv",
-      "label": "CV PDF",
+      "label": "CV",
       "url": "https://drive.google.com/file/d/12kr_OViGjSfBox5_kUnpnpop87liNlyV/view?usp=sharing",
       "group": "primary",
       "omitOn": [
         "cv"
-      ]
+      ],
+      "webFeatured": true
     },
     {
       "id": "semantic-scholar",

@@ -8,7 +8,7 @@ import Paper from '../components/Paper.astro';
 import portrait from '../assets/portrait.jpg';
 import cv from '../data/cv.generated.json';
 import { editorial } from '../data/editorial';
-import { profileLinks, personProfileUrls } from '../data/profile-links';
+import { featuredProfileLinks, moreProfileLinks, personProfileUrls } from '../data/profile-links';
 import verification from '../data/site-verification.json';
 import '../styles/global.css';
 import serif from '@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2?url';
@@ -84,13 +84,15 @@ const schema = {
           <a class="header-email" href={`mailto:${identity.email}`}>{identity.email}</a>
           <Image class="portrait" src={portrait} alt="YongKyung Oh speaking at a lectern" width={224} height={224} widths={[144, 224, 448]} sizes="(max-width: 760px) 144px, 224px" format="webp" loading="eager" />
           <div class="profile-links">
-            {profileLinks.filter((link) => link.group === 'primary').map((link) => (
-              <a href={link.url} rel={['lab', 'cv'].includes(link.id) ? undefined : 'me'} class:list={{ 'header-cv': link.id === 'cv' }}>
-                {link.id === 'cv' ? <span>CV <span class="file-type">PDF</span></span> : link.label}
-              </a>
+            {featuredProfileLinks.map((link) => (
+              <a href={link.url} rel={['lab', 'cv'].includes(link.id) ? undefined : 'me'} class:list={{ 'header-cv': link.id === 'cv' }}>{link.label}</a>
             ))}
-            <span class="profile-links-break" aria-hidden="true"></span>
-            {profileLinks.filter((link) => link.group === 'academic').map((link) => <a href={link.url} rel="me">{link.label}</a>)}
+            <details class="profile-more">
+              <summary>More profiles</summary>
+              <span class="profile-more-links">
+                {moreProfileLinks.map((link) => <a href={link.url} rel={['lab', 'cv'].includes(link.id) ? undefined : 'me'}>{link.label}</a>)}
+              </span>
+            </details>
           </div>
         </div>
         <nav aria-label="Main navigation" class="cv-nav flex flex-wrap gap-x-6">

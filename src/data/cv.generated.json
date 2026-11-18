@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "sourceDate": "2026-11-11",
+  "sourceDate": "2026-11-17",
   "identity": {
     "name": "YongKyung Oh",
     "email": "yongkyung.oh@pusan.ac.kr",
@@ -1863,6 +1863,15 @@
       "date": "2015",
       "note": "",
       "group": "honors"
+    },
+    {
+      "id": "kiie-2026-selection",
+      "title": "Selected for the Wooheon early-career researcher award",
+      "organization": "Korean Institute of Industrial Engineers (KIIE)",
+      "detail": "",
+      "date": "2026",
+      "note": "Selection notified in November 2026.",
+      "group": "honors_research_awards"
     },
     {
       "id": "energy-finalist",
