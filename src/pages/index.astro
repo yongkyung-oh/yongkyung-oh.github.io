@@ -15,6 +15,14 @@ import serif from '@fontsource-variable/source-serif-4/files/source-serif-4-lati
 import sans from '@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2?url';
 
 const { identity } = cv;
+const career = cv.career.map((entry) => entry.id === 'ucla' ? { ...entry, note: editorial.uclaResearchNote } : entry);
+const tpuSupport = editorial.googleTpuResearchCloud;
+const funding = [
+  tpuSupport,
+  ...cv.funding
+    .filter((entry) => entry.id !== tpuSupport.id && entry.title !== tpuSupport.title)
+    .map((entry) => entry.id === 'nvidia' ? { ...entry, date: editorial.nvidiaPeriod } : entry),
+];
 const years = [...new Set(cv.publications.map((paper) => paper.year))].sort((a, b) => b - a);
 const latestYear = years[0];
 const recentPapers = cv.publications.filter((paper) => paper.year === latestYear);
@@ -110,10 +118,10 @@ const schema = {
           </ul>
         </CVSection>
         <CVSection id="experience" title="Professional experience">
-          <ol class="career-list">{cv.career.slice(0, 3).map((entry) => <CVEntry entry={entry} />)}</ol>
+          <ol class="career-list">{career.slice(0, 3).map((entry) => <CVEntry entry={entry} />)}</ol>
           <details class="cv-disclosure earlier-experience">
             <summary><span class="disclosure-title">Earlier research & industry experience</span><span class="disclosure-count">{cv.career.length - 3} roles</span></summary>
-            <ol class="career-list">{cv.career.slice(3).map((entry) => <CVEntry entry={entry} />)}</ol>
+            <ol class="career-list">{career.slice(3).map((entry) => <CVEntry entry={entry} />)}</ol>
           </details>
         </CVSection>
         <CVSection id="education" title="Education">
@@ -140,7 +148,7 @@ const schema = {
           <a href={identity.scholar} class="all-publications">Google Scholar ↗</a>
         </CVSection>
         <CVSection id="funding" title="Grants & fellowships">
-          <ol class="career-list">{cv.funding.map((entry) => <CVEntry entry={entry} />)}</ol>
+          <ol class="career-list">{funding.map((entry) => <CVEntry entry={entry} />)}</ol>
         </CVSection>
         <CVSection id="recognition" title="Recognition">
           <ul class="career-list recognition-list">{recentRecognition.map((entry) => <CVEntry entry={entry} />)}</ul>
