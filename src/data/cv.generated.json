@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "sourceDate": "2026-11-18",
+  "sourceDate": "2026-11-19",
   "identity": {
     "name": "YongKyung Oh",
     "email": "yongkyung.oh@pusan.ac.kr",
@@ -1803,6 +1803,14 @@
     }
   ],
   "funding": [
+    {
+      "id": "google-tpu-research-cloud",
+      "title": "Google TPU Research Cloud",
+      "organization": "Google",
+      "detail": "Principal Investigator · In-kind access to Cloud TPUs",
+      "date": "November 2026–May 2027 (expected end)",
+      "note": ""
+    },
     {
       "id": "nvidia",
       "title": "NVIDIA Academic Grant Program",
