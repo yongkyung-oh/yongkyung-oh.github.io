@@ -16,6 +16,9 @@ import sans from '@fontsource-variable/public-sans/files/public-sans-latin-wght-
 
 const { identity } = cv;
 const career = cv.career.map((entry) => entry.id === 'ucla' ? { ...entry, note: editorial.uclaResearchNote } : entry);
+const funding = cv.funding.some(({ id }) => id === editorial.hangangAllocation.id)
+  ? cv.funding
+  : [editorial.hangangAllocation, ...cv.funding];
 const years = [...new Set(cv.publications.map((paper) => paper.year))].sort((a, b) => b - a);
 const latestYear = years[0];
 const recentPapers = cv.publications.filter((paper) => paper.year === latestYear);
@@ -141,7 +144,7 @@ const schema = {
           <a href={identity.scholar} class="all-publications">Google Scholar ↗</a>
         </CVSection>
         <CVSection id="funding" title="Grants & fellowships">
-          <ol class="career-list">{cv.funding.map((entry) => <CVEntry entry={entry} />)}</ol>
+          <ol class="career-list">{funding.map((entry) => <CVEntry entry={entry} />)}</ol>
         </CVSection>
         <CVSection id="recognition" title="Recognition">
           <ul class="career-list recognition-list">{recentRecognition.map((entry) => <CVEntry entry={entry} />)}</ul>
