@@ -13,12 +13,12 @@ const paper = publicationDisplay(Astro.props.paper);
       {author.marker && <sup aria-label={author.marker === '*' ? 'Equal contribution' : 'Corresponding author'}>{author.marker}</sup>}
     </Fragment>)}
   </p>
-  <p class="publication-meta"><i class="venue">{paper.venue}</i> {paper.year}{paper.category === 'Position paper' && <span> · Position paper</span>}{paper.recognition && <span class="publication-note"> · {paper.recognition}</span>}</p>
+  <p class="publication-meta"><i class="venue">{paper.venue}</i> {paper.year}{['Position paper', 'Book chapter'].includes(paper.category) && <span> · {paper.category}</span>}{paper.recognition && <span class="publication-note"> · {paper.recognition}</span>}</p>
   <div class="paper-actions">
     {paper.links.map((link) => <a href={link.url} aria-label={`${link.label}: ${paper.title}`}>{link.label}</a>)}
     <details class="citation">
       <summary aria-label={`APA citation for ${paper.title}`}>APA citation</summary>
-      <div class="citation-content"><p>{paper.citationParts.map((part) => part.italic ? <i>{part.text}</i> : part.text)}{paper.citationDoi && <Fragment> <a href={paper.citationDoi}>{paper.citationDoi}</a></Fragment>}</p></div>
+      <div class="citation-content"><p>{paper.citationParts.map((part) => 'href' in part ? <a href={part.href}>{part.text}</a> : part.italic ? <i>{part.text}</i> : part.text)}</p></div>
     </details>
   </div>
 </article>
