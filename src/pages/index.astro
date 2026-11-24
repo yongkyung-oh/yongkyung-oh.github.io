@@ -16,13 +16,10 @@ import sans from '@fontsource-variable/public-sans/files/public-sans-latin-wght-
 
 const { identity } = cv;
 const career = cv.career.map((entry) => entry.id === 'ucla' ? { ...entry, note: editorial.uclaResearchNote } : entry);
-const funding = new Map([
-  ...cv.funding.map(entry => ({
-    ...entry,
-    ...editorial.fundingDetails[entry.id as keyof typeof editorial.fundingDetails],
-  })),
-  editorial.researchToolAccess,
-].map(entry => [entry.id, entry] as const));
+const funding = new Map(cv.funding.map(entry => [
+  entry.id,
+  { ...entry, ...editorial.fundingDetails[entry.id as keyof typeof editorial.fundingDetails] },
+] as const));
 const years = [...new Set(cv.publications.map((paper) => paper.year))].sort((a, b) => b - a);
 const latestYear = years[0];
 const recentPapers = cv.publications.filter((paper) => paper.year === latestYear);
@@ -34,10 +31,14 @@ const recognitionGroups = [{ group: 'honors', title: 'Honors' }, { group: 'honor
 const yearRange = (entries: { date: string }[]) => { const y = entries.map((e) => Number(e.date.match(/\d{4}/)?.[0])).filter(Boolean); return `${Math.min(...y)}–${Math.max(...y)}`; };
 const yearOf = (entry: { date: string }) => Number(entry.date.match(/\d{4}/)?.[0] ?? 0);
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-const yearMonthOf = (entry: { date: string }) => yearOf(entry) * 100 + months.indexOf(entry.date.split(' ', 1)[0]) + 1;
+const dateOrder = (entry: { date: string }) => {
+  const month = months.indexOf(entry.date.split(' ', 1)[0]) + 1;
+  const day = Number(entry.date.match(/^[A-Z][a-z]{2} (\d{1,2}), /)?.[1] ?? 0);
+  return yearOf(entry) * 10000 + month * 100 + day;
+};
 const latestThree = <T extends { date: string }>(entries: T[]) => entries
   .map((entry, index) => ({ entry, index }))
-  .sort((a, b) => yearMonthOf(b.entry) - yearMonthOf(a.entry) || a.index - b.index)
+  .sort((a, b) => dateOrder(b.entry) - dateOrder(a.entry) || a.index - b.index)
   .slice(0, 3)
   .map(({ entry }) => entry);
 const recentRecognition = latestThree(cv.recognitions);

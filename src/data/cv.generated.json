@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "sourceDate": "2026-11-23",
+  "sourceDate": "2026-11-25",
   "identity": {
     "name": "YongKyung Oh",
     "email": "yongkyung.oh@pusan.ac.kr",
@@ -2017,19 +2017,27 @@
   ],
   "funding": [
     {
+      "id": "openai-academic-researchers",
+      "title": "ChatGPT for Academic Researchers",
+      "organization": "OpenAI",
+      "detail": "Individual research tool access approved for YongKyung Oh",
+      "date": "Nov 24, 2026 · 12 months",
+      "note": ""
+    },
+    {
       "id": "kisti-hangang-allocation",
       "title": "KISTI HANGANG Supercomputing Allocation",
       "organization": "Korea Institute of Science and Technology Information (KISTI)",
       "detail": "Principal Investigator · In-kind computing support · R&D Innovation Program (Exploratory Research)",
-      "date": "Dec 2026–Mar 2027",
-      "note": ""
+      "date": "Nov 23, 2026",
+      "note": "Allocation Dec 14, 2026–Mar 31, 2027."
     },
     {
       "id": "google-tpu-research-cloud",
       "title": "Google TPU Research Cloud",
       "organization": "Google",
       "detail": "Principal Investigator · In-kind access to Cloud TPUs",
-      "date": "Nov 2026–May 2027",
+      "date": "Nov 17, 2026 · 180 days",
       "note": ""
     },
     {
@@ -2097,14 +2105,14 @@
       "id": "kiie-2026-selection",
       "title": "Wooheon early-career researcher award",
       "organization": "Korean Institute of Industrial Engineers (KIIE)",
-      "detail": "",
-      "date": "Dec 2026",
+      "detail": "Presentation scheduled",
+      "date": "Dec 3, 2026",
       "note": "",
       "group": "honors_research_awards"
     },
     {
       "id": "energy-finalist",
-      "title": "Energy Analytics Challenge — Finalist",
+      "title": "Energy Data Competition — Finalist",
       "organization": "IISE Energy Systems Division",
       "detail": "Transform-First Forecasting for County-Level Power Outages",
       "date": "May 2026",
@@ -2131,7 +2139,7 @@
     },
     {
       "id": "dais-finalist-2024",
-      "title": "Best Paper Competition — Finalist",
+      "title": "Best Track Paper Competition — Finalist",
       "organization": "IISE Data Analytics and Information Systems Division",
       "detail": "Integrating Neural Controlled Differential Equations and Neural Flow for Comprehensive Irregularly-sampled Time Series Analysis",
       "date": "May 2024",

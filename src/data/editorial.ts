@@ -10,7 +10,7 @@ export const editorial = {
   uclaResearchNote: 'Contributed to clinical and wearable time series research with the UCLA Depression Grand Challenge, September 2023–August 2026.',
   fundingGroups: [
     { title: 'Research grants & fellowships', ids: ['nrf'] },
-    { title: 'Computing & research tools', ids: ['kisti-hangang-allocation', 'google-tpu-research-cloud', 'openai-academic-researchers', 'nvidia'] },
+    { title: 'Computing & research tools', ids: ['openai-academic-researchers', 'kisti-hangang-allocation', 'google-tpu-research-cloud', 'nvidia'] },
     { title: 'Research training', ids: ['khidi', 'iitp'] },
   ],
   fundingDetails: {
@@ -20,7 +20,6 @@ export const editorial = {
     },
     'google-tpu-research-cloud': {
       title: 'TPU Research Cloud',
-      date: 'Nov 2026 · 180 days',
       detail: 'Principal Investigator, Pusan National University · In-kind access to Cloud TPUs',
     },
     nvidia: {
@@ -31,21 +30,13 @@ export const editorial = {
     khidi: { detail: 'Visiting Postdoctoral Researcher, UNIST–UCLA' },
     iitp: { detail: 'Trainee, Carnegie Mellon University' },
   },
-  researchToolAccess: {
-    id: 'openai-academic-researchers',
-    organization: 'OpenAI',
-    title: 'ChatGPT for Academic Researchers',
-    detail: 'Individual research tool access approved for YongKyung Oh',
-    date: 'Nov 2026 · 12 months',
-    note: '',
-  },
   tutorials: [
     {
       id: 'ksc-2026',
       venue: 'KIISE KSC 2026',
       title: 'A Practical Guide to Neural Differential Equations',
-      date: 'Dec 2026',
-      detail: 'Scheduled for December 23 · Tutorial speaker, Pusan National University',
+      date: 'Dec 23, 2026',
+      detail: 'Scheduled · Tutorial speaker, Pusan National University',
       links: [
         { label: 'KSC program', url: 'https://www.kiise.or.kr/conference/main/getContent.do?CC=KSC&CS=2026&content_no=2596&PARENT_ID=011100' },
       ],
@@ -54,7 +45,7 @@ export const editorial = {
       id: 'cikm-2025',
       venue: 'ACM CIKM 2025',
       title: 'Neural Differential Equations for Continuous-Time Analysis',
-      date: 'Nov 2025',
+      date: 'Nov 10, 2025',
       detail: 'Co-organizer and presenter, UCLA · With Dong-Young Lim and Sungil Kim',
       links: [
         { label: 'CIKM program', url: 'https://cikm2025.org/program/tutorials' },
