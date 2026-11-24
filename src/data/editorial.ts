@@ -20,6 +20,7 @@ export const editorial = {
     },
     'google-tpu-research-cloud': {
       title: 'TPU Research Cloud',
+      date: 'Nov 2026 · 180 days',
       detail: 'Principal Investigator, Pusan National University · In-kind access to Cloud TPUs',
     },
     nvidia: {
@@ -35,7 +36,7 @@ export const editorial = {
     organization: 'OpenAI',
     title: 'ChatGPT for Academic Researchers',
     detail: 'Individual research tool access approved for YongKyung Oh',
-    date: 'Nov 2026',
+    date: 'Nov 2026 · 12 months',
     note: '',
   },
   tutorials: [
