@@ -209,7 +209,7 @@ h1 { font-size: 3rem; font-size: min(3rem, calc((100cqi - 224px - 2rem) * .18));
   .publication-meta { font-size: .9rem; }
   .career-detail { font-size: .92rem; }
   .career-heading { grid-template-columns: minmax(0, 1fr); row-gap: .2rem; }
-  .career-date { justify-self: start; }
+  .career-date { justify-self: start; white-space: normal; }
 }
 /* Narrow layouts put the portrait on its own row and retain its size and crop. */
 @media (max-width: 25em) {
