@@ -160,11 +160,15 @@ h1 { font-size: 3rem; font-size: min(3rem, calc((100cqi - 224px - 2rem) * .18));
 .career-list { list-style: none; padding: 0; margin: 0; }
 .career-list > li + li { margin-top: 1.5rem; }
 .career-heading { display: grid; grid-template-columns: minmax(0, 1fr) max-content; align-items: start; column-gap: 1.5rem; }
-.career-heading h3 { font-size: 1.08rem; line-height: 1.5; font-weight: 550; }
+.career-heading :is(h3, h4) { font-size: 1.08rem; line-height: 1.5; font-weight: 550; }
 .career-date { justify-self: end; font: .8125rem/1.7 var(--font-sans); color: var(--color-muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .career-organization { font-size: 1rem; margin-top: .2rem; }
 .career-detail { color: var(--color-muted); font-size: .93rem; margin-top: .2rem; }
 .career-note { font-size: .93rem; margin-top: .35rem; }
+.cv-entry-group + .cv-entry-group,
+.career-list + .cv-entry-group { margin-top: 1.75rem; }
+.tutorial-links { display: flex; flex-wrap: wrap; gap: 0 1rem; }
+.tutorial-links a { display: inline-flex; align-items: center; min-height: 44px; font-size: .93rem; }
 .recognition-list { list-style: none; padding: 0; margin: 0; }
 .email-row { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin-top: .4rem; }
 .email-link { font-size: 1rem; overflow-wrap: anywhere; min-height: 44px; display: inline-flex; align-items: center; }

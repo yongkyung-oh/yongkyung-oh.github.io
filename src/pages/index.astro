@@ -16,7 +16,13 @@ import sans from '@fontsource-variable/public-sans/files/public-sans-latin-wght-
 
 const { identity } = cv;
 const career = cv.career.map((entry) => entry.id === 'ucla' ? { ...entry, note: editorial.uclaResearchNote } : entry);
-const funding = cv.funding;
+const funding = new Map([
+  ...cv.funding.map(entry => ({
+    ...entry,
+    ...editorial.fundingDetails[entry.id as keyof typeof editorial.fundingDetails],
+  })),
+  editorial.researchToolAccess,
+].map(entry => [entry.id, entry] as const));
 const years = [...new Set(cv.publications.map((paper) => paper.year))].sort((a, b) => b - a);
 const latestYear = years[0];
 const recentPapers = cv.publications.filter((paper) => paper.year === latestYear);
@@ -143,8 +149,13 @@ const schema = {
           </details>
           <a href={identity.scholar} class="all-publications">Google Scholar ↗</a>
         </CVSection>
-        <CVSection id="funding" title="Grants & fellowships">
-          <ol class="career-list">{funding.map((entry) => <CVEntry entry={entry} />)}</ol>
+        <CVSection id="funding" title="Grants & research support">
+          {editorial.fundingGroups.map(group => (
+            <div class="cv-entry-group">
+              <h3 class="year-heading">{group.title}</h3>
+              <ol class="career-list">{group.ids.map(id => <CVEntry entry={funding.get(id)!} heading="h4" organizationFirst />)}</ol>
+            </div>
+          ))}
         </CVSection>
         <CVSection id="recognition" title="Recognition">
           <ul class="career-list recognition-list">{recentRecognition.map((entry) => <CVEntry entry={entry} />)}</ul>
@@ -160,6 +171,24 @@ const schema = {
         </CVSection>
         <CVSection id="teaching" title="Teaching">
           <ol class="career-list">{cv.teaching.map((entry) => <CVEntry entry={entry} />)}</ol>
+          <div class="cv-entry-group">
+            <h3 class="year-heading">Conference tutorials</h3>
+            <ol class="career-list">
+              {editorial.tutorials.map(tutorial => (
+                <li id={tutorial.id}>
+                  <div class="career-heading">
+                    <h4>{tutorial.title}</h4>
+                    <span class="career-date">{tutorial.date}</span>
+                  </div>
+                  <p class="career-organization">{tutorial.venue}</p>
+                  <p class="career-detail">{tutorial.detail}</p>
+                  <div class="tutorial-links">
+                    {tutorial.links.map(link => <a href={link.url}>{link.label} ↗</a>)}
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </div>
         </CVSection>
         <CVSection id="patents" title="Patents">
           <p class="author-key">Co-inventor across all listed filings.</p>

@@ -1,12 +1,17 @@
 ---
 interface Props {
   entry: { id: string; title: string; organization: string; detail: string; date: string; note: string };
+  heading?: 'h3' | 'h4';
+  organizationFirst?: boolean;
 }
-const { entry } = Astro.props;
+const { entry, heading: Heading = 'h3', organizationFirst = false } = Astro.props;
 ---
 <li class="career-row" id={entry.id}>
-  <div class="career-heading"><h3>{entry.title}</h3><span class="career-date">{entry.date}</span></div>
-  {entry.organization && <p class="career-organization">{entry.organization}</p>}
+  <div class="career-heading">
+    <Heading>{organizationFirst && <><strong>{entry.organization}</strong>{' · '}</>}{entry.title}</Heading>
+    <span class="career-date">{entry.date}</span>
+  </div>
+  {!organizationFirst && entry.organization && <p class="career-organization">{entry.organization}</p>}
   {entry.detail && <p class="career-detail">{entry.detail}</p>}
   {entry.note && <p class="career-note">{entry.note}</p>}
 </li>
