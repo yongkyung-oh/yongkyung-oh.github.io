@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22.19.0"
+    "node": ">=22.23.4"
   },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1 --port 4400",
@@ -17,11 +17,15 @@
     "@fontsource-variable/source-serif-4": "^5.3.0",
     "@lucide/astro": "1.42.0",
     "@tailwindcss/vite": "4.3.3",
-    "astro": "7.3.6",
+    "astro": "7.4.7",
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
     "typescript": "6.0.3"
+  },
+  "overrides": {
+    "undici": "8.12.4",
+    "fast-uri": "3.1.9"
   }
 }
