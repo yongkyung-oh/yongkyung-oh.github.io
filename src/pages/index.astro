@@ -7,7 +7,7 @@ import CVEntry from '../components/CVEntry.astro';
 import Paper from '../components/Paper.astro';
 import portrait from '../assets/portrait.jpg';
 import cv from '../data/cv.generated.json';
-import { editorial } from '../data/editorial';
+import { editorial, recognitionLinks } from '../data/editorial';
 import { featuredProfileLinks, moreProfileLinks, personProfileUrls } from '../data/profile-links';
 import verification from '../data/site-verification.json';
 import '../styles/global.css';
@@ -159,13 +159,13 @@ const schema = {
           ))}
         </CVSection>
         <CVSection id="recognition" title="Recognition">
-          <ul class="career-list recognition-list">{recentRecognition.map((entry) => <CVEntry entry={entry} />)}</ul>
+          <ul class="career-list recognition-list">{recentRecognition.map((entry) => <CVEntry entry={entry} links={recognitionLinks[entry.id]} />)}</ul>
           <details class="cv-disclosure recognition-disclosure">
             <summary><span class="disclosure-title">More honors &amp; research awards</span><span class="disclosure-count">{recognitionSummary}</span></summary>
             <div class="recognition-groups">
               {remainingRecognitionGroups.map(({ group, title, entries }) => <section class="recognition-group" aria-labelledby={`recognition-${group}`}>
                 <h3 class="year-heading" id={`recognition-${group}`}>{title}</h3>
-                <ul class="career-list recognition-list">{entries.map((entry) => <CVEntry entry={entry} />)}</ul>
+                <ul class="career-list recognition-list">{entries.map((entry) => <CVEntry entry={entry} links={recognitionLinks[entry.id]} />)}</ul>
               </section>)}
             </div>
           </details>

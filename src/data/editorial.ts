@@ -1,5 +1,12 @@
 import { profileUrl } from './profile-links.ts';
 
+export const recognitionLinks: Partial<Record<string, { label: string; url: string }[]>> = {
+  'kiie-2026-selection': [
+    { label: 'KIIE award announcement', url: 'https://kiie.org/board/board.asp?Action=content&B_CATE=BBS1&GotoPage=1&b_code=10391' },
+    { label: 'Pusan National University news', url: 'https://www.pusan.ac.kr/kor/CMS/Board/Board.do?board_seq=1512431&mCode=MN109&mode=view' },
+  ],
+};
+
 export const editorial = {
   affiliation: { expectedOfficialMajor: 'Data Science Major' },
   lab: { url: profileUrl('lab') },
@@ -39,6 +46,7 @@ export const editorial = {
       detail: 'Scheduled · Tutorial speaker, Pusan National University',
       links: [
         { label: 'KSC program', url: 'https://www.kiise.or.kr/conference/main/getContent.do?CC=KSC&CS=2026&content_no=2596&PARENT_ID=011100' },
+        { label: 'Tutorial materials', url: 'https://nde-for-ts.github.io/ksc-2026/' },
       ],
     },
     {
@@ -49,7 +57,7 @@ export const editorial = {
       detail: 'Co-organizer and presenter, UCLA · With Dong-Young Lim and Sungil Kim',
       links: [
         { label: 'CIKM program', url: 'https://cikm2025.org/program/tutorials' },
-        { label: 'Tutorial materials', url: 'https://nde-for-ts.github.io/tutorial/' },
+        { label: 'Tutorial materials', url: 'https://nde-for-ts.github.io/cikm-2025/' },
       ],
     },
   ],

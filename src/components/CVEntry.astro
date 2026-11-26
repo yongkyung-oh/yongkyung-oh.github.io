@@ -3,8 +3,9 @@ interface Props {
   entry: { id: string; title: string; organization: string; detail: string; date: string; note: string };
   heading?: 'h3' | 'h4';
   organizationFirst?: boolean;
+  links?: { label: string; url: string }[];
 }
-const { entry, heading: Heading = 'h3', organizationFirst = false } = Astro.props;
+const { entry, heading: Heading = 'h3', organizationFirst = false, links } = Astro.props;
 ---
 <li class="career-row" id={entry.id}>
   <div class="career-heading">
@@ -14,4 +15,9 @@ const { entry, heading: Heading = 'h3', organizationFirst = false } = Astro.prop
   {!organizationFirst && entry.organization && <p class="career-organization">{entry.organization}</p>}
   {entry.detail && <p class="career-detail">{entry.detail}</p>}
   {entry.note && <p class="career-note">{entry.note}</p>}
+  {links && links.length > 0 && (
+    <div class="tutorial-links">
+      {links.map(link => <a href={link.url}>{link.label} ↗</a>)}
+    </div>
+  )}
 </li>
